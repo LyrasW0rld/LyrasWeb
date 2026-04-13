@@ -7,11 +7,6 @@ const appState = {
   currentResearchNodeId: null,
   navigationStack: [],
   activeEntry: null,
-  speechPlayback: {
-    isActive: false,
-    queue: [],
-    index: 0,
-  },
 };
 
 const elements = {
@@ -65,8 +60,7 @@ function bindEvents() {
   elements.articleCopy.addEventListener("click", copyActiveEntryContent);
   elements.articleDownload.addEventListener("click", downloadActiveEntry);
   elements.articleShare.addEventListener("click", copyArticleShareLink);
-  elements.articleWebPlay.addEventListener("click", toggleArticleWebPlayback);
-  window.addEventListener("beforeunload", () => stopArticleWebPlayback({ silent: true }));
+  elements.articleWebPlay.addEventListener("click", toggleArticleAudioPlayback);
 }
 
 async function loadArchive() {
@@ -283,7 +277,7 @@ function createArticleCard(entry, options = {}) {
     <p class="card-kicker">${escapeHtml(contextLabel)}</p>
     <p class="card-category">${escapeHtml(entry.category_path || "Ohne Kategorie")}</p>
     <h3>${escapeHtml(entry.title)}</h3>
-    <p>${escapeHtml(entry.description || "Artikel öffnen")}</p>
+    <p class="card-summary">${escapeHtml(entry.description || "Artikel öffnen")}</p>
     <div class="card-meta">
       <span>${escapeHtml(entry.source_filename)}</span>
       <span>${escapeHtml(formatDateTime(entry.modified_at))}</span>
@@ -389,7 +383,7 @@ function openArticle(entry, options = {}) {
 }
 
 function renderArticle(entry) {
-  stopArticleWebPlayback({ silent: true });
+  stopArticleMediaPlayback({ silent: true });
   const kindLabel = entry.content_kind === "template" ? "AI-Vorlage" : "Recherche-Artikel";
   elements.articleKicker.textContent = kindLabel;
   elements.articleTitle.textContent = entry.title;
@@ -397,8 +391,8 @@ function renderArticle(entry) {
     `${entry.category_path} | Zuletzt geändert ${formatDateTime(entry.modified_at)} | ${formatAge(entry.modified_ts)}`;
   elements.articleStatus.textContent = "Artikelansicht geladen.";
   elements.articleCopy.disabled = entry.preview_type !== "markdown";
-  elements.articleWebPlay.disabled = entry.preview_type !== "markdown";
-  elements.articleWebPlay.textContent = "Web-Wiedergabe starten";
+  elements.articleWebPlay.disabled = !entry.audio;
+  elements.articleWebPlay.textContent = entry.audio ? "Audio abspielen" : "Keine Audio-Datei";
   elements.articleContent.innerHTML = "";
 
   const mediaInfo = document.createElement("section");
@@ -420,6 +414,7 @@ function renderArticle(entry) {
     const articleBody = document.createElement("article");
     articleBody.className = "article-body";
     articleBody.innerHTML = entry.content_html;
+    prepareArticleBody(articleBody);
     elements.articleContent.appendChild(articleBody);
   }
 
@@ -427,8 +422,8 @@ function renderArticle(entry) {
     const audioBox = document.createElement("section");
     audioBox.className = "audio-box";
     audioBox.innerHTML = `
-      <h3>Vorleseoption</h3>
-      <p>Diese Datei hat eine passende TTS-Aufnahme (${escapeHtml(entry.audio.filename)}).</p>
+      <h3>Audio-Datei</h3>
+      <p>Diese Datei ist verfügbar: ${escapeHtml(entry.audio.filename)}</p>
     `;
     const mediaExtension = (entry.audio.extension || "").toLowerCase();
     const mediaType = getMediaMimeType(mediaExtension);
@@ -437,6 +432,10 @@ function renderArticle(entry) {
       player.controls = true;
       player.preload = "metadata";
       player.className = "article-media";
+      player.setAttribute("data-article-media-player", "true");
+      player.addEventListener("play", syncArticleAudioButtonState);
+      player.addEventListener("pause", syncArticleAudioButtonState);
+      player.addEventListener("ended", syncArticleAudioButtonState);
       const source = document.createElement("source");
       source.src = entry.audio.url;
       source.type = mediaType;
@@ -446,6 +445,10 @@ function renderArticle(entry) {
       const player = document.createElement("audio");
       player.controls = true;
       player.preload = "metadata";
+      player.setAttribute("data-article-media-player", "true");
+      player.addEventListener("play", syncArticleAudioButtonState);
+      player.addEventListener("pause", syncArticleAudioButtonState);
+      player.addEventListener("ended", syncArticleAudioButtonState);
       const source = document.createElement("source");
       source.src = entry.audio.url;
       source.type = mediaType;
@@ -453,6 +456,21 @@ function renderArticle(entry) {
       audioBox.appendChild(player);
     }
     elements.articleContent.appendChild(audioBox);
+  }
+
+  syncArticleAudioButtonState();
+}
+
+function prepareArticleBody(articleBody) {
+  const tables = articleBody.querySelectorAll("table");
+  for (const table of tables) {
+    if (table.parentElement?.classList.contains("table-wrap")) {
+      continue;
+    }
+    const wrapper = document.createElement("div");
+    wrapper.className = "table-wrap";
+    table.parentNode.insertBefore(wrapper, table);
+    wrapper.appendChild(table);
   }
 }
 
@@ -471,8 +489,8 @@ function returnToArticleCategory() {
 
 function goToHomeScreen(options = {}) {
   const { syncUrl = true } = options;
+  stopArticleMediaPlayback({ silent: true });
   appState.activeEntry = null;
-  stopArticleWebPlayback({ silent: true });
   document.body.classList.remove("article-open");
   elements.articleView.hidden = true;
   if (syncUrl) {
@@ -505,124 +523,60 @@ async function copyArticleShareLink() {
   elements.articleStatus.textContent = copied ? "Teillink wurde kopiert." : "Teillink konnte nicht kopiert werden.";
 }
 
-function toggleArticleWebPlayback() {
-  if (appState.speechPlayback.isActive) {
-    stopArticleWebPlayback();
-    return;
-  }
-  startArticleWebPlayback();
+function getArticleMediaPlayer() {
+  return elements.articleContent.querySelector("[data-article-media-player]");
 }
 
-function startArticleWebPlayback() {
-  if (!appState.activeEntry || appState.activeEntry.preview_type !== "markdown") {
-    return;
-  }
-  if (!("speechSynthesis" in window) || typeof SpeechSynthesisUtterance === "undefined") {
-    elements.articleStatus.textContent = "Web-Wiedergabe wird in diesem Browser nicht unterstützt.";
-    return;
-  }
-
-  const speechText = (appState.activeEntry.content || "").replace(/\s+/g, " ").trim();
-  if (!speechText) {
-    elements.articleStatus.textContent = "Für diesen Artikel ist kein vorlesbarer Text vorhanden.";
+function syncArticleAudioButtonState() {
+  const player = getArticleMediaPlayer();
+  if (!appState.activeEntry?.audio || !player) {
+    elements.articleWebPlay.disabled = true;
+    elements.articleWebPlay.textContent = "Keine Audio-Datei";
     return;
   }
 
-  stopArticleWebPlayback({ silent: true });
-  appState.speechPlayback.queue = splitTextForSpeech(speechText);
-  appState.speechPlayback.index = 0;
-  appState.speechPlayback.isActive = true;
-  elements.articleWebPlay.textContent = "Wiedergabe stoppen";
-  elements.articleStatus.textContent = "Web-Wiedergabe gestartet.";
-  speakNextArticleSpeechChunk();
+  elements.articleWebPlay.disabled = false;
+  elements.articleWebPlay.textContent = player.paused ? "Audio abspielen" : "Audio pausieren";
 }
 
-function speakNextArticleSpeechChunk() {
-  if (!appState.speechPlayback.isActive) {
+async function toggleArticleAudioPlayback() {
+  const player = getArticleMediaPlayer();
+  if (!appState.activeEntry?.audio || !player) {
+    elements.articleStatus.textContent = "Für diesen Artikel ist keine Audio-Datei vorhanden.";
+    syncArticleAudioButtonState();
     return;
   }
 
-  if (appState.speechPlayback.index >= appState.speechPlayback.queue.length) {
-    stopArticleWebPlayback({ silent: true });
-    elements.articleStatus.textContent = "Web-Wiedergabe beendet.";
-    return;
-  }
-
-  const utterance = new SpeechSynthesisUtterance(appState.speechPlayback.queue[appState.speechPlayback.index]);
-  utterance.lang = "de-DE";
-  utterance.rate = 1;
-  utterance.pitch = 1;
-  utterance.onend = () => {
-    if (!appState.speechPlayback.isActive) {
-      return;
+  if (player.paused) {
+    try {
+      await player.play();
+      elements.articleStatus.textContent = "Audio-Wiedergabe gestartet.";
+    } catch (error) {
+      console.error(error);
+      elements.articleStatus.textContent = "Audio-Wiedergabe konnte nicht gestartet werden.";
     }
-    appState.speechPlayback.index += 1;
-    speakNextArticleSpeechChunk();
-  };
-  utterance.onerror = (event) => {
-    console.error(event.error);
-    stopArticleWebPlayback({ silent: true });
-    elements.articleStatus.textContent = "Web-Wiedergabe konnte nicht gestartet werden.";
-  };
-  window.speechSynthesis.speak(utterance);
+  } else {
+    player.pause();
+    elements.articleStatus.textContent = "Audio-Wiedergabe pausiert.";
+  }
+
+  syncArticleAudioButtonState();
 }
 
-function stopArticleWebPlayback(options = {}) {
+function stopArticleMediaPlayback(options = {}) {
   const { silent = false } = options;
-  const wasActive = appState.speechPlayback.isActive;
-  appState.speechPlayback.isActive = false;
-  appState.speechPlayback.queue = [];
-  appState.speechPlayback.index = 0;
-  elements.articleWebPlay.textContent = "Web-Wiedergabe starten";
-
-  if ("speechSynthesis" in window) {
-    window.speechSynthesis.cancel();
+  const player = getArticleMediaPlayer();
+  if (!player) {
+    return;
   }
 
-  if (!silent && wasActive) {
-    elements.articleStatus.textContent = "Web-Wiedergabe gestoppt.";
+  const wasPlaying = !player.paused;
+  player.pause();
+  syncArticleAudioButtonState();
+
+  if (!silent && wasPlaying) {
+    elements.articleStatus.textContent = "Audio-Wiedergabe gestoppt.";
   }
-}
-
-function splitTextForSpeech(value, maxChunkSize = 260) {
-  const chunks = [];
-  const sentences = value.split(/(?:[.!?]+)\s+/u);
-  let current = "";
-
-  for (const sentence of sentences) {
-    if (!sentence) {
-      continue;
-    }
-    if (!current) {
-      current = sentence;
-      continue;
-    }
-    if ((current.length + sentence.length + 1) <= maxChunkSize) {
-      current += ` ${sentence}`;
-      continue;
-    }
-    chunks.push(current);
-    current = sentence;
-  }
-
-  if (current) {
-    chunks.push(current);
-  }
-
-  if (!chunks.length) {
-    return [value];
-  }
-
-  return chunks.flatMap((chunk) => {
-    if (chunk.length <= maxChunkSize) {
-      return [chunk];
-    }
-    const forcedChunks = [];
-    for (let start = 0; start < chunk.length; start += maxChunkSize) {
-      forcedChunks.push(chunk.slice(start, start + maxChunkSize));
-    }
-    return forcedChunks;
-  });
 }
 
 function findSharedEntryFromUrl() {

@@ -219,10 +219,14 @@ body.article-open {
   line-height: 1.12;
 }
 
-.news-card > p {
+.card-summary {
   margin: 0;
   color: var(--ink-soft);
   line-height: 1.55;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 .card-meta {
@@ -599,14 +603,21 @@ body.article-open {
   font-weight: 700;
 }
 
-.article-body table {
-  display: block;
+.article-body .table-wrap {
+  margin: 0 0 1.2em;
   width: 100%;
   overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.article-body table {
+  width: max-content;
+  min-width: 0;
   border-collapse: collapse;
   border: 1px solid rgba(16, 16, 16, 0.16);
   border-radius: 10px;
   background: #fffdf5;
+  margin: 0;
 }
 
 .article-body thead {
@@ -623,7 +634,7 @@ body.article-open {
   border: 1px solid rgba(16, 16, 16, 0.12);
   padding: 11px 12px;
   text-align: left;
-  white-space: nowrap;
+  white-space: normal;
   font-size: 0.95rem;
 }
 

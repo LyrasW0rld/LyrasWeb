@@ -71,12 +71,27 @@ def normalize_matching_path(value: str) -> str:
     return "/".join(token for token in tokens if token)
 
 
-def build_excerpt(markdown_text: str, limit: int = 180) -> str:
-    first_line = next((line.strip() for line in markdown_text.splitlines() if line.strip()), "")
-    compact = re.sub(r"\s+", " ", first_line)
-    if len(compact) <= limit:
-        return compact
-    return f"{compact[: limit - 1].rstrip()}..."
+def strip_markdown_for_preview(value: str) -> str:
+    text = value.replace("\r\n", "\n").replace("\r", "\n")
+    text = re.sub(r"!\[([^\]]*)\]\([^)]*\)", r"\1", text)
+    text = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", text)
+    text = re.sub(r"`{1,3}([^`]*)`{1,3}", r"\1", text)
+    text = re.sub(r"^\s{0,3}#{1,6}\s*", "", text, flags=re.MULTILINE)
+    text = re.sub(r"^\s{0,3}>\s*", "", text, flags=re.MULTILINE)
+    text = re.sub(r"^\s{0,3}[-*+]\s+", "", text, flags=re.MULTILINE)
+    text = re.sub(r"^\s{0,3}\d+\.\s+", "", text, flags=re.MULTILINE)
+    text = re.sub(r"[*_~#>`|]+", "", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def build_excerpt(markdown_text: str, limit: int = 120) -> str:
+    cleaned = strip_markdown_for_preview(markdown_text)
+    if not cleaned:
+        return ""
+    if len(cleaned) <= limit:
+        return cleaned
+    return f"{cleaned[: limit - 1].rstrip()}..."
 
 
 def improve_markdown_display(content: str, extension: str) -> str:

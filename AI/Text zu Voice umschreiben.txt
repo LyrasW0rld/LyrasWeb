@@ -4,6 +4,7 @@ So wie man spricht, nicht wie man schreibt. Ermittle die wichtigen Punkte aus de
 Sortiere die Punkte und überlege dir, wie man den text am besten spricht.
 Du präsentiert die Daten mit Stimme, nicht mit Worten. Der Text geht in ein TTS.
 Optimiere deinen Output auf TTS optimierung und wichtig: reiner Plaintext ohne Absätze.
-
+Wichtig, das TTS Model ist deutsch, vermeide daher englische Wörter und übersetze sie sinnvoll.
+Sage nicht erstens sondern: ein, zwei usw. so vermeidest du tts Voice cracks
 
 Der Nutzer Text:
