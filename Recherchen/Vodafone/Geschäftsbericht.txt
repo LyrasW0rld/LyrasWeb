@@ -1,0 +1,137 @@
+
+# Vodafone Group Plc – Annual Report 2025: Forensische Bilanzanalyse
+
+## Die Leichen im Keller
+
+Sehr geehrter Kollege, nach eingehender Durchsicht des vorliegenden Berichts identifiziere ich folgende wesentliche Red Flags, die hinter der sorgfältig kuratierten Investor-Narrative verborgen werden:
+
+---
+
+## 1. Der „Adjusted"-Schleier: €11,3 Mrd. Differenz zwischen Schein und Sein
+
+Die wohl gravierendste Verschleierungstaktik im gesamten Report: Vodafone präsentiert ein **Adjusted EBITDAaL von €10,9 Mrd.** als zentrale Kennzahl, während das **tatsächliche Operating Result ein Verlust von €411 Mio.** ist . Die Differenz von über **€11,3 Mrd.** zwischen der „bereinigten" Kennzahl und der tatsächlichen operativen Performance wird durch folgende Posten überbrückt:
+
+- Impairments: €4.515 Mio.
+- Depreciation & Amortisation (owned assets): €7.569 Mio.
+- Depreciation on leased assets: €3.205 Mio. (in EBITDAaL enthalten)
+- Restructuring: €164 Mio.
+- Lease-Zinsen: €488 Mio. (reklassifiziert)
+
+Die Hervorhebung von „organic Adjusted EBITDAaL growth +2,5%" auf Seite 1 des Reports, während der operative Swing von **+€3,665 Mio. auf -€411 Mio.** (ein Delta von über €4 Mrd.) erst auf Seite 19 granular aufgeschlüsselt wird, ist klassische **narrative Steuerung** .
+
+---
+
+## 2. Steuerexplosion bei Vorsteuerverlust: Das toxische Steuersignal
+
+Dies ist die auffälligste Anomalie im gesamten Zahlenwerk: Bei einem **Vorsteuerverlust von -€1.478 Mio.** weist Vodafone eine **Income Tax Expense von €2.246 Mio.** aus . Eine effektive Steuerquote von **-152%** bei einem Verlust ist ein massives Warnsignal. Das deutet auf:
+
+- **Nicht aktivierbare steuerliche Verluste** in Schlüsselmärkten (wahrscheinlich Deutschland, wo die operativen Verluste anfallen)
+- **Deferred Tax Asset Write-Downs**, die im Report nicht separat hervorgehoben werden
+- **Strukturelle steuerliche Ineffizienzen** in der Post-Disposal-Gruppenstruktur
+
+Der Bericht schweigt sich hierzu nahezu vollständig aus. Eine Steuerbelastung dieser Dimension in einem Verlustjahr legt nahe, dass die Profitabilität einzelner Jurisdiktionen erheblich divergiert und steuerliche Verlustvorträge als nicht werthaltig eingestuft wurden.
+
+---
+
+## 3. Goodwill-Impairment €4,5 Mrd.: Die verspätete Wahrheitskorrektur
+
+Das Impairment auf Deutschland und Rumänien in Höhe von **€4,5 Mrd.**  ist in mehrfacher Hinsicht problematisch:
+
+- **Timing-Frage**: Warum erst jetzt? Die MDU-Gesetzesänderung war seit 2021 absehbar. Die Wettbewerbsintensität in Deutschland war kein Overnight-Event. Hier wurde offensichtlich über mehrere Perioden an zu hohen Buchwerten festgehalten.
+- **Restrisiko**: Wie hoch ist der verbleibende Goodwill für Deutschland nach dem Impairment? Der Report gibt hierzu keine Transparenz. Bei einer anhaltend negativen Service Revenue-Entwicklung von **-5,0%** und Adjusted EBITDAaL-Rückgang von **-12,6%**  stellt sich die Frage, ob weitere Abschreibungen im FY26 drohen.
+- **Bilanzoptische Funktion**: Die Impairments werden als Einmaleffekt dargestellt und bei der „Adjusted"-Betrachtung vollständig eliminiert – der Investor, der nur die Headline-KPIs liest, bekommt davon nichts mit.
+
+---
+
+## 4. Deutschland: Die Kernmarkt-Erosion hinter der „Turnaround"-Narrative
+
+Deutschland ist mit **€12,2 Mrd. Revenue** (~33% des Konzernumsatzes) der mit Abstand größte Markt. Die Zahlen sind alarmierend :
+
+| Kennzahl | FY25 | FY24 | Trend |
+|---|---|---|---|
+| Service Revenue | -5,0% | +0,2% | **Drastische Verschlechterung** |
+| Adj. EBITDAaL | -12,6% | – | **Erheblich** |
+| EBITDAaL-Marge | 36,0% | 38,7% | **-270 bps** |
+| Broadband-Kunden | -102.000 | – | **Kundenerosion** |
+
+Die Narrative „MDU hat 3,0/7,5 Prozentpunkte Impact" dient als Erklärungsrahmen, verschleiert aber die **strukturelle Schwäche**: Auch die Mobile Service Revenue fiel um **-1,2%**, Vodafone Business Deutschland um **-2,3%** . Das sind keine MDU-Effekte. Der Verlust von 43.000 Kunden auf dem eigenen Gigabit-Netz ist besonders besorgniserregend – hier verliert man Kunden auf der eigenen Premium-Infrastruktur.
+
+Die positive Formulierung „Turnaround continuing through challenging market conditions" kaschiert: Der Turnaround ist de facto noch gar nicht sichtbar.
+
+---
+
+## 5. Dividendenkürzung als „Rebase" getarnt
+
+Die Dividende wurde von **9,0 Eurocent auf 4,5 Eurocent halbiert** – im Bericht als „re-based the FY25 dividend to 4.5 eurocents per share to reflect the reshaped Group, with the intention to grow over time" formuliert . Das Wort „Kürzung" oder „reduction" wird konsequent vermieden. Ein klassisches Beispiel für **euphemistische Finanzsprache**. Die Halbierung wird durch den Verweis auf das verkleinerte Portfolio legitimiert – aber die Frage, ob die Kürzung proportional zum Substanzverlust ist oder überproportional erfolgte, wird nicht adressiert.
+
+---
+
+## 6. Cash Flow: Die operative Leistungsfähigkeit bröckelt
+
+| Kennzahl | FY25 | FY24 | FY23 | Trend |
+|---|---|---|---|---|
+| Operating Cash Flow | €15,4 Mrd. | €16,6 Mrd. | €18,1 Mrd. | **↓↓** |
+| Adj. Free Cash Flow | €2,5 Mrd. | €2,6 Mrd. | €4,1 Mrd. | **↓↓** |
+
+Der Adjusted Free Cash Flow ist in zwei Jahren von **€4,1 Mrd. auf €2,5 Mrd.** geschmolzen – ein Rückgang von **39%** . Der Net Cash Inflow von €4,9 Mrd. (vs. -€5,4 Mrd. im Vorjahr) ist ausschließlich durch die Disposals von Spanien und Italien getrieben – **kein operativer Effekt**. Ohne Einmalerlöse aus Portfoliobereinigungen wäre die Cash-Generierung des Konzerns erheblich schwächer.
+
+---
+
+## 7. Share Buyback: Substanzrückgabe statt organische Wertschöpfung
+
+Das **€4 Mrd. Buyback-Programm** wird aus den Disposal-Erlösen von Spanien, Italien und Vantage finanziert . Das ist keine Rückgabe von organisch erwirtschaftetem Kapital, sondern eine **Ausschüttung von Desinvestitions-Erlösen**. Der EPS-steigernde Effekt des Buybacks wird die negative EPS-Entwicklung in künftigen Perioden optisch kompensieren – ein klassischer Financial-Engineering-Mechanismus. Der Adjusted Basic EPS von **7,87c** wäre ohne Buyback-bedingte Aktienreduktion niedriger.
+
+---
+
+## 8. CFO-Abgang mitten in der Transformation
+
+Luka Mucic tritt „no later than early 2026" ab, um „an external opportunity in Germany" zu verfolgen . Ein CFO, der mitten in einer laufenden Konzern-Transformation mit unabgeschlossenem UK-Merger, laufendem Deutschland-Turnaround und €22,4 Mrd. Nettoverschuldung abgeht, ist ein **erhebliches Governance-Warnsignal**. Der Zeitpunkt ist ungünstig und wirft Fragen auf, ob interne Divergenzen zur strategischen Ausrichtung bestehen.
+
+---
+
+## 9. Türkiye: Hyperinflations-Blendung
+
+Das organische Service Revenue-Wachstum von **+83,4%** in der Türkei  wird prominent als Wachstumstreiber dargestellt. Auf reported Basis sind es **+42,3%** – die Differenz ist rein inflations- und FX-getrieben. Bei einer türkischen Inflationsrate von ~50-60% im Berichtszeitraum und dem Lira-Verfall ist das **reale Wachstum marginal bis negativ**. Die EBITDAaL-Marge stieg zwar von 21,6% auf 27,3%, aber die absolute Bedeutung (€842 Mio.) ist begrenzt. Die Türkei-Zahlen dienen primär der **Aufblähung der organischen Gruppenwachstumsrate**.
+
+---
+
+## 10. Leverage-Zielband: Geplante Re-Leveraging
+
+Die aktuelle Leverage von **2,0x** liegt unter dem neuen Zielband von **2,25x-2,75x** . Was als konservative Bilanzführung dargestellt wird, bedeutet de facto: Management plant, die Verschuldung wieder zu erhöhen. Die „built-in flexibility" ist ein Euphemismus für künftige Schuldenaufnahme. In Kombination mit dem UK-Merger (Integration kostet Geld) und dem Deutschland-Turnaround (erfordert Investment) ist eine Re-Leveraging-Phase in FY26/27 sehr wahrscheinlich.
+
+---
+
+## 11. Safety-Deterioration: Vergraben in der People-Section
+
+Die Sicherheitskennzahlen zeigen eine **besorgniserregende Verschlechterung** :
+
+- **Mitarbeiter-Fatalities**: 2 (FY24: 0) – erstmals seit 2015
+- **Supplier incidents**: 22 (FY24: 8) – fast **verdreifacht**
+- **Employee LTIs**: 23 (FY24: 18) – +28%
+
+Dies wird im People-Kapitel auf Seite 17-18 vergraben und nicht als materielles Risiko hervorgehoben. Die Verdreifachung der Supplier-Incidents bei gleichzeitiger Betonung des „10-jährigen Safety-Journeys" ist ein Widerspruch.
+
+---
+
+## 12. Frauen in Führungspositionen: Rückwärtstrend trotz Ziel-Kommunikation
+
+| Kennzahl | FY25 | FY24 | FY23 |
+|---|---|---|---|
+| Women on Board | 38% | 42% | 54% |
+
+Ein Rückgang von 54% auf 38% in zwei Jahren  – während gleichzeitig ein 40%-Ziel für 2030 kommuniziert wird. Auf Board-Ebene bewegt man sich in die falsche Richtung.
+
+---
+
+## Zusammenfassendes Urteil
+
+Der Vodafone Annual Report 2025 ist ein Lehrstück in **professioneller Bilanzoptik**:
+
+1. **Adjusted Metrics dominieren die Narrative** und verschleiern einen operativen Verlust.
+2. **Deutschland als Kernmarkt erodiert strukturell**, nicht nur durch den MDU-Effekt.
+3. **€4,5 Mrd. Goodwill-Impairment signalisiert historisch überhöhte Akquisitionspreise** mit potenziellem Restrisiko.
+4. **Die Steueranomalie** (€2,2 Mrd. Tax bei Vorsteuerverlust) ist unzureichend erläutert und deutet auf erhebliche latente Steuerrisiken hin.
+5. **Die Cash-Generierung schrumpft organisch**, während Einmalerlöse die Bilanz kosmetisch stärken.
+6. **Der CFO-Abgang und die Dividendenhalbierung** sind reale Warnsignale, die narrativ heruntergespielt werden.
+
+Als Bankdirektor würde ich bei einer Kreditentscheidung auf Basis dieses Reports erhebliche Rückfragen stellen – insbesondere zur Steuerposition, zur Goodwill-Restbewertung Deutschland, zur organischen Cash-Conversion und zur tatsächlichen Profitabilität nach IFRS ohne "Adjustments".

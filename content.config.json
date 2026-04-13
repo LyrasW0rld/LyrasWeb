@@ -1,0 +1,49 @@
+{
+  "site": {
+    "title": "Lyra Archiv",
+    "tagline": "Ein statisches Webarchiv fuer Markdown-basierte Vorlagen.",
+    "intro": "Das Archiv sammelt Inhalte aus lokalen Ordnern, gruppiert sie in Rubriken und oeffnet jeden Eintrag in einem modernen Lesefenster."
+  },
+  "sections": [
+    {
+      "id": "ai-vorlagen",
+      "label": "AI Vorlagen",
+      "directory": "AI",
+      "group_label": "Vorlagen",
+      "content_kind": "template",
+      "extensions": [
+        ".txt",
+        ".md"
+      ],
+      "description": "Prompt- und Instruction-Vorlagen aus dem lokalen AI-Ordner."
+    }
+  ],
+  "folder_groups": [
+    {
+      "id": "recherchen",
+      "label": "Recherchen",
+      "directory": "Recherchen",
+      "mode": "nested-categories",
+      "group_label": "Artikelarchiv",
+      "content_kind": "article",
+      "tts_directory": "tts",
+      "exclude_directories": [
+        "tts"
+      ],
+      "article_extensions": [
+        ".txt",
+        ".md",
+        ".pdf"
+      ],
+      "audio_extensions": [
+        ".mp3",
+        ".mp4",
+        ".m4a",
+        ".mp4a",
+        ".wav",
+        ".ogg"
+      ],
+      "description": "Themenrubriken aus dem Hauptordner Recherchen. Alle Unterordner und Unter-Unterordner werden automatisch als Kategorien behandelt."
+    }
+  ]
+}
