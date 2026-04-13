@@ -1,13 +1,13 @@
 {
   "site": {
     "title": "Lyra Archiv",
-    "tagline": "Ein statisches Webarchiv fuer Markdown-basierte Vorlagen.",
-    "intro": "Das Archiv sammelt Inhalte aus lokalen Ordnern, gruppiert sie in Rubriken und oeffnet jeden Eintrag in einem modernen Lesefenster."
+    "tagline": "Ein statisches Webarchiv für markdown-basierte Vorlagen.",
+    "intro": "Das Archiv sammelt Inhalte aus lokalen Ordnern, gruppiert sie in Rubriken und öffnet jeden Eintrag in einem modernen Lesefenster."
   },
   "sections": [
     {
       "id": "ai-vorlagen",
-      "label": "AI Vorlagen",
+      "label": "AI-Vorlagen",
       "directory": "AI",
       "group_label": "Vorlagen",
       "content_kind": "template",

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
@@ -37,13 +38,37 @@ def normalize_text(value: str) -> str:
 
 
 def slugify(value: str) -> str:
-    value = value.lower().strip()
+    value = normalize_slug_text(value)
     value = re.sub(r"[^a-z0-9]+", "-", value)
     return value.strip("-") or "eintrag"
 
 
 def encode_path(path: str) -> str:
     return quote(path, safe="/")
+
+
+def normalize_slug_text(value: str) -> str:
+    normalized = value.lower().strip()
+    normalized = (
+        normalized.replace("ä", "ae")
+        .replace("ö", "oe")
+        .replace("ü", "ue")
+        .replace("ß", "ss")
+    )
+    normalized = unicodedata.normalize("NFKD", normalized)
+    normalized = "".join(char for char in normalized if not unicodedata.combining(char))
+    return normalized
+
+
+def normalize_matching_token(value: str) -> str:
+    normalized = normalize_slug_text(value)
+    return re.sub(r"[^a-z0-9]+", "", normalized)
+
+
+def normalize_matching_path(value: str) -> str:
+    raw_parts = value.replace("\\", "/").split("/")
+    tokens = [normalize_matching_token(part) for part in raw_parts if part.strip()]
+    return "/".join(token for token in tokens if token)
 
 
 def build_excerpt(markdown_text: str, limit: int = 180) -> str:
@@ -91,8 +116,11 @@ def build_audio_index(tts_directory: Path, audio_extensions: set[str]) -> dict[s
         if path.suffix.lower() not in audio_extensions:
             continue
 
-        relative_stem = path.relative_to(tts_directory).with_suffix("").as_posix().lower()
-        filename_stem = path.stem.lower()
+        relative_stem = normalize_matching_path(path.relative_to(tts_directory).with_suffix("").as_posix())
+        filename_stem = normalize_matching_token(path.stem)
+
+        if not relative_stem or not filename_stem:
+            continue
 
         by_relative_stem.setdefault(relative_stem, path)
         if filename_stem in by_filename_stem and by_filename_stem[filename_stem] != path:
@@ -112,14 +140,15 @@ def resolve_audio_file(
     base_directory: Path,
     audio_index: dict[str, dict[str, Path | None]],
 ) -> Path | None:
-    relative_stem = article_path.relative_to(base_directory).with_suffix("").as_posix().lower()
+    relative_stem = normalize_matching_path(article_path.relative_to(base_directory).with_suffix("").as_posix())
+    filename_stem = normalize_matching_token(article_path.stem)
     by_relative_stem = audio_index["by_relative_stem"]
     by_filename_stem = audio_index["by_filename_stem"]
 
     if relative_stem in by_relative_stem:
         return by_relative_stem[relative_stem]
 
-    return by_filename_stem.get(article_path.stem.lower())
+    return by_filename_stem.get(filename_stem)
 
 
 def build_ai_share_key(section_id: str, file_path: Path) -> str:
@@ -253,6 +282,39 @@ def is_excluded_path(path: Path, base_directory: Path, excluded_names: set[str])
     return any(part.lower() in excluded_names for part in relative_parts)
 
 
+def prune_empty_nodes(nodes: list[dict], root_node_id: str) -> list[dict]:
+    node_by_id = {node["id"]: dict(node) for node in nodes}
+    has_content_cache: dict[str, bool] = {}
+
+    def has_content(node_id: str) -> bool:
+        if node_id in has_content_cache:
+            return has_content_cache[node_id]
+
+        node = node_by_id.get(node_id)
+        if not node:
+            has_content_cache[node_id] = False
+            return False
+
+        if node["entry_share_keys"]:
+            has_content_cache[node_id] = True
+            return True
+
+        result = any(has_content(child_id) for child_id in node["child_node_ids"])
+        has_content_cache[node_id] = result
+        return result
+
+    keep_ids = {node_id for node_id in node_by_id if node_id == root_node_id or has_content(node_id)}
+    pruned_nodes: list[dict] = []
+    for node in nodes:
+        if node["id"] not in keep_ids:
+            continue
+        next_node = dict(node)
+        next_node["child_node_ids"] = [child_id for child_id in node["child_node_ids"] if child_id in keep_ids]
+        next_node["folder_count"] = len(next_node["child_node_ids"])
+        pruned_nodes.append(next_node)
+    return pruned_nodes
+
+
 def collect_research_tree(group_config: dict, renderer: MarkdownIt) -> tuple[dict, list[dict]]:
     base_directory = ROOT / group_config["directory"]
     article_extensions = {extension.lower() for extension in group_config.get("article_extensions", [])}
@@ -378,6 +440,7 @@ def collect_research_tree(group_config: dict, renderer: MarkdownIt) -> tuple[dic
             }
         )
 
+    nodes = prune_empty_nodes(nodes, root_node_id)
     nodes.sort(key=lambda item: (item["path"] != "", item["path"].lower()))
     return (
         {
@@ -402,6 +465,7 @@ def build_latest_entries(entries: list[dict], limit: int = MAX_LATEST_ENTRIES) -
             "title": entry["title"],
             "description": entry["description"],
             "category_path": entry["category_path"],
+            "node_id": entry["node_id"],
             "content_kind": entry["content_kind"],
             "preview_type": entry["preview_type"],
             "has_audio": entry["has_audio"],
@@ -445,7 +509,7 @@ def build_archive() -> dict:
 def main() -> None:
     OUTPUT_JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
     archive = build_archive()
-    archive_json = json.dumps(archive, indent=2, ensure_ascii=True)
+    archive_json = json.dumps(archive, indent=2, ensure_ascii=False)
     OUTPUT_JSON_PATH.write_text(archive_json, encoding="utf-8")
     OUTPUT_JS_PATH.write_text(f"window.__LYRA_ARCHIVE_DATA__ = {archive_json};\n", encoding="utf-8")
     print(f"Archive generated: {OUTPUT_JSON_PATH}")

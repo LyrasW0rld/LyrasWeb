@@ -6,7 +6,7 @@
     <title>Lyra Recherche Archiv</title>
     <meta
       name="description"
-      content="Explorer-basiertes statisches Archiv fuer AI Vorlagen und Recherchen mit Vollseiten-Artikelansicht."
+      content="Explorer-basiertes statisches Archiv für AI-Vorlagen und Recherchen mit Vollseiten-Artikelansicht."
     />
     <link rel="stylesheet" href="./assets/styles.css" />
     <script src="./data/archive.js"></script>
@@ -17,27 +17,27 @@
       <section class="home-view" data-home-view>
         <header class="hero">
           <p class="hero-kicker">LYRA ARCHIVE</p>
-          <h1 data-site-title>Recherche Archiv</h1>
+          <h1 data-site-title>Recherche-Archiv</h1>
           <p class="hero-tagline" data-site-tagline></p>
           <p class="hero-intro" data-site-intro></p>
           <div class="hero-meta">
             <span class="meta-pill" data-section-count>0 Rubriken</span>
-            <span class="meta-pill" data-entry-count>0 Eintraege</span>
+            <span class="meta-pill" data-entry-count>0 Einträge</span>
             <span class="meta-pill" data-generated-at>Generiert: -</span>
           </div>
         </header>
 
         <section class="panel panel-latest">
           <div class="panel-headline">
-            <h2>Neu Im Archiv</h2>
-            <p>Top 8 zuletzt geaenderte Inhalte ueber alle Rubriken.</p>
+            <h2>Neu im Archiv</h2>
+            <p>Top 8 zuletzt geänderte Inhalte über alle Rubriken, jeweils mit Kategorie.</p>
           </div>
           <div class="news-grid" data-latest-grid></div>
         </section>
 
         <section class="panel panel-ai">
           <div class="panel-headline">
-            <h2>AI Vorlagen</h2>
+            <h2>AI-Vorlagen</h2>
             <p data-ai-summary>Archivierte Prompts und Instructions.</p>
           </div>
           <div class="news-grid" data-ai-grid></div>
@@ -46,12 +46,11 @@
         <section class="panel panel-research">
           <div class="panel-headline">
             <h2>Recherchen Explorer</h2>
-            <p>Ordner zuerst, Artikel darunter. Klick auf einen Ordner fuehrt tiefer in den Tree.</p>
+            <p>Ordner zuerst, Artikel darunter. Klick auf einen Ordner führt tiefer in den Tree.</p>
           </div>
           <div class="explorer-controls">
-            <button type="button" class="ctrl-button" data-research-back>Zurueck</button>
-            <button type="button" class="ctrl-button" data-research-up>Eine Ebene hoch</button>
-            <button type="button" class="ctrl-button primary" data-research-home>Zum Hauptbildschirm</button>
+            <button type="button" class="ctrl-button" data-research-back>Zurück</button>
+            <button type="button" class="ctrl-button primary" data-research-home>Startseite</button>
           </div>
           <nav class="breadcrumb" data-breadcrumb></nav>
           <p class="research-meta" data-research-meta></p>
@@ -64,9 +63,8 @@
         <div class="article-shell">
           <header class="article-hero">
             <div class="article-nav">
-              <button type="button" class="ctrl-button" data-article-back>Zur Kategorie</button>
-              <button type="button" class="ctrl-button" data-article-up>Eine Ebene hoch</button>
-              <button type="button" class="ctrl-button primary" data-article-home>Zum Hauptbildschirm</button>
+              <button type="button" class="ctrl-button" data-article-back>Zurück</button>
+              <button type="button" class="ctrl-button primary" data-article-home>Startseite</button>
             </div>
             <p class="article-kicker" data-article-kicker>Artikel</p>
             <h2 data-article-title>Eintrag</h2>
@@ -75,6 +73,7 @@
               <button class="action-button primary" type="button" data-article-copy>Inhalt kopieren</button>
               <button class="action-button secondary" type="button" data-article-download>Original herunterladen</button>
               <button class="action-button secondary" type="button" data-article-share>Teillink kopieren</button>
+              <button class="action-button secondary" type="button" data-article-web-play>Web-Wiedergabe starten</button>
             </div>
             <p class="article-status" data-article-status></p>
           </header>

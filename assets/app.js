@@ -7,6 +7,11 @@ const appState = {
   currentResearchNodeId: null,
   navigationStack: [],
   activeEntry: null,
+  speechPlayback: {
+    isActive: false,
+    queue: [],
+    index: 0,
+  },
 };
 
 const elements = {
@@ -25,7 +30,6 @@ const elements = {
   breadcrumb: document.querySelector("[data-breadcrumb]"),
   researchMeta: document.querySelector("[data-research-meta]"),
   researchBack: document.querySelector("[data-research-back]"),
-  researchUp: document.querySelector("[data-research-up]"),
   researchHome: document.querySelector("[data-research-home]"),
   homeView: document.querySelector("[data-home-view]"),
   articleView: document.querySelector("[data-article-view]"),
@@ -35,11 +39,11 @@ const elements = {
   articleContent: document.querySelector("[data-article-content]"),
   articleStatus: document.querySelector("[data-article-status]"),
   articleBack: document.querySelector("[data-article-back]"),
-  articleUp: document.querySelector("[data-article-up]"),
   articleHome: document.querySelector("[data-article-home]"),
   articleCopy: document.querySelector("[data-article-copy]"),
   articleDownload: document.querySelector("[data-article-download]"),
   articleShare: document.querySelector("[data-article-share]"),
+  articleWebPlay: document.querySelector("[data-article-web-play]"),
 };
 
 const dateTimeFormatter = new Intl.DateTimeFormat("de-DE", {
@@ -55,14 +59,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function bindEvents() {
   elements.researchBack.addEventListener("click", navigateBackInResearchTree);
-  elements.researchUp.addEventListener("click", navigateUpInResearchTree);
   elements.researchHome.addEventListener("click", navigateResearchHome);
   elements.articleBack.addEventListener("click", returnToArticleCategory);
-  elements.articleUp.addEventListener("click", jumpToArticleParentCategory);
   elements.articleHome.addEventListener("click", goToHomeScreen);
   elements.articleCopy.addEventListener("click", copyActiveEntryContent);
   elements.articleDownload.addEventListener("click", downloadActiveEntry);
   elements.articleShare.addEventListener("click", copyArticleShareLink);
+  elements.articleWebPlay.addEventListener("click", toggleArticleWebPlayback);
+  window.addEventListener("beforeunload", () => stopArticleWebPlayback({ silent: true }));
 }
 
 async function loadArchive() {
@@ -114,13 +118,13 @@ function bootstrapState() {
   const aiCount = appState.archive.ai_templates?.entry_count || 0;
   const researchNodeCount = research?.node_count || 0;
   elements.sectionCount.textContent = `${2 + researchNodeCount} Bereiche`;
-  elements.entryCount.textContent = `${appState.archive.entry_count || 0} Eintraege`;
+  elements.entryCount.textContent = `${appState.archive.entry_count || 0} Einträge`;
   elements.generatedAt.textContent = `Generiert: ${formatDateTime(appState.archive.generated_at)}`;
   elements.footerTimestamp.textContent = formatDateTime(appState.archive.generated_at);
   elements.siteTitle.textContent = appState.archive.site?.title || "Archiv";
   elements.siteTagline.textContent = appState.archive.site?.tagline || "";
   elements.siteIntro.textContent = appState.archive.site?.intro || "";
-  elements.aiSummary.textContent = `Aktuell ${aiCount} AI Vorlagen verfuegbar.`;
+  elements.aiSummary.textContent = `Aktuell ${aiCount} AI-Vorlagen verfügbar.`;
 }
 
 function renderHome() {
@@ -138,12 +142,20 @@ function renderLatestSection() {
     return;
   }
 
-  for (const latestItem of latestEntries) {
+  for (let index = 0; index < latestEntries.length; index += 1) {
+    const latestItem = latestEntries[index];
     const entry = appState.entryByShare.get(latestItem.share_key);
     if (!entry) {
       continue;
     }
-    elements.latestGrid.appendChild(createArticleCard(entry, { contextLabel: "Neu", compact: true }));
+    elements.latestGrid.appendChild(
+      createArticleCard(entry, {
+        contextLabel: "Neu",
+        compact: index > 0,
+        featured: index === 0,
+        includeCategoryJump: true,
+      }),
+    );
   }
 }
 
@@ -152,7 +164,7 @@ function renderAiSection() {
   const shareKeys = appState.archive.ai_templates?.entry_share_keys || [];
 
   if (!shareKeys.length) {
-    elements.aiGrid.appendChild(createStateCard("Im AI-Bereich sind noch keine Eintraege."));
+    elements.aiGrid.appendChild(createStateCard("Im AI-Bereich sind noch keine Einträge."));
     return;
   }
 
@@ -161,7 +173,7 @@ function renderAiSection() {
     if (!entry) {
       continue;
     }
-    elements.aiGrid.appendChild(createArticleCard(entry, { contextLabel: "AI Vorlage" }));
+    elements.aiGrid.appendChild(createArticleCard(entry, { contextLabel: "AI-Vorlage" }));
   }
 }
 
@@ -185,7 +197,7 @@ function renderResearchNode() {
 function renderResearchMeta(node) {
   const parentInfo = node.parent_id ? "Unterkategorie" : "Hauptkategorie";
   elements.researchMeta.textContent =
-    `${parentInfo} | ${node.folder_count} Ordner | ${node.entry_count} Dateien | Zuletzt geaendert ${formatDateTime(node.modified_at)}`;
+    `${parentInfo} | ${node.folder_count} Ordner | ${node.entry_count} Dateien | Zuletzt geändert ${formatDateTime(node.modified_at)}`;
 }
 
 function renderBreadcrumb(node) {
@@ -222,7 +234,7 @@ function renderResearchFolders(node) {
       <p class="folder-kicker">Ordner</p>
       <h3>${escapeHtml(childNode.label)}</h3>
       <p>${childNode.folder_count} Unterordner | ${childNode.entry_count} Dateien</p>
-      <p>Zuletzt geaendert ${escapeHtml(formatDateTime(childNode.modified_at))}</p>
+      <p>Zuletzt geändert ${escapeHtml(formatDateTime(childNode.modified_at))}</p>
     `;
     card.addEventListener("click", () => openResearchNode(childNode.id, { pushHistory: true }));
     elements.folderGrid.appendChild(card);
@@ -246,18 +258,32 @@ function renderResearchEntries(node) {
 
 function updateResearchControlState(node) {
   elements.researchBack.disabled = appState.navigationStack.length === 0;
-  elements.researchUp.disabled = !node.parent_id;
   elements.researchHome.disabled = node.id === appState.archive.research?.root_node_id;
 }
 
+function openCategoryForEntry(entry) {
+  if (!entry?.node_id) {
+    return;
+  }
+  appState.currentResearchNodeId = entry.node_id;
+  renderResearchNode();
+  goToHomeScreen({ syncUrl: true });
+}
+
 function createArticleCard(entry, options = {}) {
-  const { contextLabel = "Eintrag", compact = false } = options;
+  const {
+    contextLabel = "Eintrag",
+    compact = false,
+    featured = false,
+    includeCategoryJump = false,
+  } = options;
   const card = document.createElement("article");
-  card.className = `news-card${compact ? " compact" : ""}`;
+  card.className = `news-card${compact ? " compact" : ""}${featured ? " featured" : ""}`;
   card.innerHTML = `
     <p class="card-kicker">${escapeHtml(contextLabel)}</p>
+    <p class="card-category">${escapeHtml(entry.category_path || "Ohne Kategorie")}</p>
     <h3>${escapeHtml(entry.title)}</h3>
-    <p>${escapeHtml(entry.description || "Artikel oeffnen")}</p>
+    <p>${escapeHtml(entry.description || "Artikel öffnen")}</p>
     <div class="card-meta">
       <span>${escapeHtml(entry.source_filename)}</span>
       <span>${escapeHtml(formatDateTime(entry.modified_at))}</span>
@@ -265,12 +291,26 @@ function createArticleCard(entry, options = {}) {
     </div>
   `;
 
+  const actionRow = document.createElement("div");
+  actionRow.className = "card-actions";
+
   const openButton = document.createElement("button");
   openButton.type = "button";
   openButton.className = "card-open";
-  openButton.textContent = "Oeffnen";
+  openButton.textContent = "Öffnen";
   openButton.addEventListener("click", () => openArticle(entry, { syncUrl: true }));
-  card.appendChild(openButton);
+  actionRow.appendChild(openButton);
+
+  if (includeCategoryJump && entry.node_id) {
+    const categoryButton = document.createElement("button");
+    categoryButton.type = "button";
+    categoryButton.className = "card-open secondary";
+    categoryButton.textContent = "Kategorie öffnen";
+    categoryButton.addEventListener("click", () => openCategoryForEntry(entry));
+    actionRow.appendChild(categoryButton);
+  }
+
+  card.appendChild(actionRow);
   return card;
 }
 
@@ -305,19 +345,6 @@ function navigateBackInResearchTree() {
   renderResearchNode();
 }
 
-function navigateUpInResearchTree() {
-  const currentNode = getCurrentResearchNode();
-  if (!currentNode?.parent_id) {
-    return;
-  }
-
-  if (appState.currentResearchNodeId !== currentNode.parent_id) {
-    appState.navigationStack.push(appState.currentResearchNodeId);
-  }
-  appState.currentResearchNodeId = currentNode.parent_id;
-  renderResearchNode();
-}
-
 function navigateResearchHome() {
   const rootNodeId = appState.archive.research?.root_node_id;
   if (!rootNodeId) {
@@ -345,7 +372,9 @@ function openArticle(entry, options = {}) {
   appState.activeEntry = entry;
 
   if (entry.node_id && appState.currentResearchNodeId !== entry.node_id) {
-    appState.navigationStack.push(appState.currentResearchNodeId);
+    if (appState.currentResearchNodeId) {
+      appState.navigationStack.push(appState.currentResearchNodeId);
+    }
     appState.currentResearchNodeId = entry.node_id;
     renderResearchNode();
   }
@@ -360,21 +389,24 @@ function openArticle(entry, options = {}) {
 }
 
 function renderArticle(entry) {
-  const kindLabel = entry.content_kind === "template" ? "AI Vorlage" : "Recherche Artikel";
+  stopArticleWebPlayback({ silent: true });
+  const kindLabel = entry.content_kind === "template" ? "AI-Vorlage" : "Recherche-Artikel";
   elements.articleKicker.textContent = kindLabel;
   elements.articleTitle.textContent = entry.title;
   elements.articleMeta.textContent =
-    `${entry.category_path} | Zuletzt geaendert ${formatDateTime(entry.modified_at)} | ${formatAge(entry.modified_ts)}`;
+    `${entry.category_path} | Zuletzt geändert ${formatDateTime(entry.modified_at)} | ${formatAge(entry.modified_ts)}`;
   elements.articleStatus.textContent = "Artikelansicht geladen.";
   elements.articleCopy.disabled = entry.preview_type !== "markdown";
+  elements.articleWebPlay.disabled = entry.preview_type !== "markdown";
+  elements.articleWebPlay.textContent = "Web-Wiedergabe starten";
   elements.articleContent.innerHTML = "";
 
   const mediaInfo = document.createElement("section");
   mediaInfo.className = "article-info";
   mediaInfo.innerHTML = `
-    <span>${escapeHtml(entry.preview_type === "pdf" ? "PDF Originalansicht" : "Markdown Darstellung")}</span>
+    <span>${escapeHtml(entry.preview_type === "pdf" ? "PDF-Originalansicht" : "Markdown-Darstellung")}</span>
     <span>${escapeHtml(entry.source_filename)}</span>
-    <span>${entry.has_audio ? "Audio verfuegbar" : "Ohne Audio"}</span>
+    <span>${entry.has_audio ? "Audio verfügbar" : "Ohne Audio"}</span>
   `;
   elements.articleContent.appendChild(mediaInfo);
 
@@ -398,11 +430,28 @@ function renderArticle(entry) {
       <h3>Vorleseoption</h3>
       <p>Diese Datei hat eine passende TTS-Aufnahme (${escapeHtml(entry.audio.filename)}).</p>
     `;
-    const player = document.createElement("audio");
-    player.controls = true;
-    player.preload = "none";
-    player.src = entry.audio.url;
-    audioBox.appendChild(player);
+    const mediaExtension = (entry.audio.extension || "").toLowerCase();
+    const mediaType = getMediaMimeType(mediaExtension);
+    if (mediaExtension === ".mp4") {
+      const player = document.createElement("video");
+      player.controls = true;
+      player.preload = "metadata";
+      player.className = "article-media";
+      const source = document.createElement("source");
+      source.src = entry.audio.url;
+      source.type = mediaType;
+      player.appendChild(source);
+      audioBox.appendChild(player);
+    } else {
+      const player = document.createElement("audio");
+      player.controls = true;
+      player.preload = "metadata";
+      const source = document.createElement("source");
+      source.src = entry.audio.url;
+      source.type = mediaType;
+      player.appendChild(source);
+      audioBox.appendChild(player);
+    }
     elements.articleContent.appendChild(audioBox);
   }
 }
@@ -420,25 +469,10 @@ function returnToArticleCategory() {
   goToHomeScreen({ syncUrl: true });
 }
 
-function jumpToArticleParentCategory() {
-  if (!appState.activeEntry?.node_id) {
-    goToHomeScreen({ syncUrl: true });
-    return;
-  }
-
-  const node = appState.nodeById.get(appState.activeEntry.node_id);
-  if (!node?.parent_id) {
-    goToHomeScreen({ syncUrl: true });
-    return;
-  }
-  appState.currentResearchNodeId = node.parent_id;
-  renderResearchNode();
-  goToHomeScreen({ syncUrl: true });
-}
-
 function goToHomeScreen(options = {}) {
   const { syncUrl = true } = options;
   appState.activeEntry = null;
+  stopArticleWebPlayback({ silent: true });
   document.body.classList.remove("article-open");
   elements.articleView.hidden = true;
   if (syncUrl) {
@@ -451,7 +485,7 @@ async function copyActiveEntryContent() {
     return;
   }
   const copied = await copyText(appState.activeEntry.content || "");
-  elements.articleStatus.textContent = copied ? "Inhalt wurde kopiert." : "Kopieren war nicht moeglich.";
+  elements.articleStatus.textContent = copied ? "Inhalt wurde kopiert." : "Kopieren war nicht möglich.";
 }
 
 function downloadActiveEntry() {
@@ -469,6 +503,126 @@ async function copyArticleShareLink() {
   const link = buildShareLink(appState.activeEntry.share_key);
   const copied = await copyText(link);
   elements.articleStatus.textContent = copied ? "Teillink wurde kopiert." : "Teillink konnte nicht kopiert werden.";
+}
+
+function toggleArticleWebPlayback() {
+  if (appState.speechPlayback.isActive) {
+    stopArticleWebPlayback();
+    return;
+  }
+  startArticleWebPlayback();
+}
+
+function startArticleWebPlayback() {
+  if (!appState.activeEntry || appState.activeEntry.preview_type !== "markdown") {
+    return;
+  }
+  if (!("speechSynthesis" in window) || typeof SpeechSynthesisUtterance === "undefined") {
+    elements.articleStatus.textContent = "Web-Wiedergabe wird in diesem Browser nicht unterstützt.";
+    return;
+  }
+
+  const speechText = (appState.activeEntry.content || "").replace(/\s+/g, " ").trim();
+  if (!speechText) {
+    elements.articleStatus.textContent = "Für diesen Artikel ist kein vorlesbarer Text vorhanden.";
+    return;
+  }
+
+  stopArticleWebPlayback({ silent: true });
+  appState.speechPlayback.queue = splitTextForSpeech(speechText);
+  appState.speechPlayback.index = 0;
+  appState.speechPlayback.isActive = true;
+  elements.articleWebPlay.textContent = "Wiedergabe stoppen";
+  elements.articleStatus.textContent = "Web-Wiedergabe gestartet.";
+  speakNextArticleSpeechChunk();
+}
+
+function speakNextArticleSpeechChunk() {
+  if (!appState.speechPlayback.isActive) {
+    return;
+  }
+
+  if (appState.speechPlayback.index >= appState.speechPlayback.queue.length) {
+    stopArticleWebPlayback({ silent: true });
+    elements.articleStatus.textContent = "Web-Wiedergabe beendet.";
+    return;
+  }
+
+  const utterance = new SpeechSynthesisUtterance(appState.speechPlayback.queue[appState.speechPlayback.index]);
+  utterance.lang = "de-DE";
+  utterance.rate = 1;
+  utterance.pitch = 1;
+  utterance.onend = () => {
+    if (!appState.speechPlayback.isActive) {
+      return;
+    }
+    appState.speechPlayback.index += 1;
+    speakNextArticleSpeechChunk();
+  };
+  utterance.onerror = (event) => {
+    console.error(event.error);
+    stopArticleWebPlayback({ silent: true });
+    elements.articleStatus.textContent = "Web-Wiedergabe konnte nicht gestartet werden.";
+  };
+  window.speechSynthesis.speak(utterance);
+}
+
+function stopArticleWebPlayback(options = {}) {
+  const { silent = false } = options;
+  const wasActive = appState.speechPlayback.isActive;
+  appState.speechPlayback.isActive = false;
+  appState.speechPlayback.queue = [];
+  appState.speechPlayback.index = 0;
+  elements.articleWebPlay.textContent = "Web-Wiedergabe starten";
+
+  if ("speechSynthesis" in window) {
+    window.speechSynthesis.cancel();
+  }
+
+  if (!silent && wasActive) {
+    elements.articleStatus.textContent = "Web-Wiedergabe gestoppt.";
+  }
+}
+
+function splitTextForSpeech(value, maxChunkSize = 260) {
+  const chunks = [];
+  const sentences = value.split(/(?:[.!?]+)\s+/u);
+  let current = "";
+
+  for (const sentence of sentences) {
+    if (!sentence) {
+      continue;
+    }
+    if (!current) {
+      current = sentence;
+      continue;
+    }
+    if ((current.length + sentence.length + 1) <= maxChunkSize) {
+      current += ` ${sentence}`;
+      continue;
+    }
+    chunks.push(current);
+    current = sentence;
+  }
+
+  if (current) {
+    chunks.push(current);
+  }
+
+  if (!chunks.length) {
+    return [value];
+  }
+
+  return chunks.flatMap((chunk) => {
+    if (chunk.length <= maxChunkSize) {
+      return [chunk];
+    }
+    const forcedChunks = [];
+    for (let start = 0; start < chunk.length; start += maxChunkSize) {
+      forcedChunks.push(chunk.slice(start, start + maxChunkSize));
+    }
+    return forcedChunks;
+  });
 }
 
 function findSharedEntryFromUrl() {
@@ -554,6 +708,24 @@ function triggerDownload(url, filename) {
   document.body.appendChild(link);
   link.click();
   link.remove();
+}
+
+function getMediaMimeType(extension) {
+  switch ((extension || "").toLowerCase()) {
+    case ".mp3":
+      return "audio/mpeg";
+    case ".wav":
+      return "audio/wav";
+    case ".m4a":
+    case ".mp4a":
+      return "audio/mp4";
+    case ".ogg":
+      return "audio/ogg";
+    case ".mp4":
+      return "video/mp4";
+    default:
+      return "application/octet-stream";
+  }
 }
 
 async function copyText(value) {
