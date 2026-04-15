@@ -4,7 +4,7 @@
     "tagline": "Ein statisches Webarchiv für markdown-basierte Vorlagen.",
     "intro": "Das Archiv sammelt Inhalte aus lokalen Ordnern, gruppiert sie in Rubriken und öffnet jeden Eintrag in einem modernen Lesefenster."
   },
-  "generated_at": "2026-04-13T19:56:41.229785+00:00",
+  "generated_at": "2026-04-13T20:07:24.130722+00:00",
   "section_count": 2,
   "entry_count": 6,
   "ai_templates": {
@@ -44,7 +44,7 @@
         "entry_share_keys": [],
         "folder_count": 1,
         "entry_count": 0,
-        "modified_at": "2026-04-13T18:42:25.811841+00:00",
+        "modified_at": "2026-04-13T20:07:21.174790+00:00",
         "modified_ts": 0
       },
       {
@@ -60,8 +60,8 @@
         ],
         "folder_count": 0,
         "entry_count": 1,
-        "modified_at": "2026-04-13T18:43:02+00:00",
-        "modified_ts": 1776105782
+        "modified_at": "2026-04-13T20:07:21+00:00",
+        "modified_ts": 1776110841
       }
     ]
   },
@@ -77,9 +77,9 @@
       "content_kind": "template",
       "category_path": "AI-Vorlagen",
       "node_id": null,
-      "updated_at": "2026-04-13T17:12:27.386136+00:00",
-      "modified_at": "2026-04-13T17:12:27.386136+00:00",
-      "modified_ts": 1776100347,
+      "updated_at": "2026-04-13T20:07:21.174243+00:00",
+      "modified_at": "2026-04-13T20:07:21.174243+00:00",
+      "modified_ts": 1776110841,
       "is_new_candidate": true,
       "audio": null,
       "has_audio": false,
@@ -101,9 +101,9 @@
       "content_kind": "template",
       "category_path": "AI-Vorlagen",
       "node_id": null,
-      "updated_at": "2026-04-13T17:13:09.369530+00:00",
-      "modified_at": "2026-04-13T17:13:09.369530+00:00",
-      "modified_ts": 1776100389,
+      "updated_at": "2026-04-13T20:07:21.174428+00:00",
+      "modified_at": "2026-04-13T20:07:21.174428+00:00",
+      "modified_ts": 1776110841,
       "is_new_candidate": true,
       "audio": null,
       "has_audio": false,
@@ -125,9 +125,9 @@
       "content_kind": "template",
       "category_path": "AI-Vorlagen",
       "node_id": null,
-      "updated_at": "2026-04-13T19:03:11.335432+00:00",
-      "modified_at": "2026-04-13T19:03:11.335432+00:00",
-      "modified_ts": 1776106991,
+      "updated_at": "2026-04-13T20:07:21.174428+00:00",
+      "modified_at": "2026-04-13T20:07:21.174428+00:00",
+      "modified_ts": 1776110841,
       "is_new_candidate": true,
       "audio": null,
       "has_audio": false,
@@ -149,9 +149,9 @@
       "content_kind": "template",
       "category_path": "AI-Vorlagen",
       "node_id": null,
-      "updated_at": "2026-04-13T18:48:29.399199+00:00",
-      "modified_at": "2026-04-13T18:48:29.399199+00:00",
-      "modified_ts": 1776106109,
+      "updated_at": "2026-04-13T20:07:21.174428+00:00",
+      "modified_at": "2026-04-13T20:07:21.174428+00:00",
+      "modified_ts": 1776110841,
       "is_new_candidate": true,
       "audio": null,
       "has_audio": false,
@@ -173,9 +173,9 @@
       "content_kind": "template",
       "category_path": "AI-Vorlagen",
       "node_id": null,
-      "updated_at": "2026-04-13T19:55:20.889500+00:00",
-      "modified_at": "2026-04-13T19:55:20.889500+00:00",
-      "modified_ts": 1776110120,
+      "updated_at": "2026-04-13T20:07:21.174428+00:00",
+      "modified_at": "2026-04-13T20:07:21.174428+00:00",
+      "modified_ts": 1776110841,
       "is_new_candidate": true,
       "audio": null,
       "has_audio": false,
@@ -197,16 +197,16 @@
       "content_kind": "article",
       "category_path": "Vodafone",
       "node_id": "recherchen--vodafone",
-      "updated_at": "2026-04-13T18:43:02.955894+00:00",
-      "modified_at": "2026-04-13T18:43:02.955894+00:00",
-      "modified_ts": 1776105782,
+      "updated_at": "2026-04-13T20:07:21.174790+00:00",
+      "modified_at": "2026-04-13T20:07:21.174790+00:00",
+      "modified_ts": 1776110841,
       "is_new_candidate": true,
       "audio": {
         "filename": "Geschäftsbericht.mp3",
         "path": "Recherchen/tts/Geschäftsbericht.mp3",
         "url": "Recherchen/tts/Gesch%C3%A4ftsbericht.mp3",
         "extension": ".mp3",
-        "updated_at": "2026-04-13T19:19:46.031928+00:00"
+        "updated_at": "2026-04-13T20:07:21.190487+00:00"
       },
       "has_audio": true,
       "preview_type": "markdown",
@@ -219,17 +219,30 @@
   ],
   "latest_entries": [
     {
-      "share_key": "ai-vorlagen--text-zu-voice-umschreiben",
-      "title": "Text zu Voice umschreiben",
-      "description": "DU bist ein professioneller Text to Voice Experte mit 10 Jahren Erfahrung. Deine Aufgabe ist es, den Nutzertext sinnvol...",
+      "share_key": "ai-vorlagen--bankdirektor",
+      "title": "Bankdirektor",
+      "description": "du bist ein professioneller Bankdirektor mit über 20 Jahren Erfahrungen im lesen von geschönten Bilanzen, Geschäftsberi...",
       "category_path": "AI-Vorlagen",
       "node_id": null,
       "content_kind": "template",
       "preview_type": "markdown",
       "has_audio": false,
-      "modified_at": "2026-04-13T19:55:20.889500+00:00",
-      "modified_ts": 1776110120,
-      "source_filename": "Text zu Voice umschreiben.txt"
+      "modified_at": "2026-04-13T20:07:21.174243+00:00",
+      "modified_ts": 1776110841,
+      "source_filename": "Bankdirektor.txt"
+    },
+    {
+      "share_key": "ai-vorlagen--finanzberater",
+      "title": "Finanzberater",
+      "description": "Persona & RolleIdentität: Du bist ein hochkarätiger Finanzberater mit über 20 Jahren Erfahrung im Asset Management, Inv...",
+      "category_path": "AI-Vorlagen",
+      "node_id": null,
+      "content_kind": "template",
+      "preview_type": "markdown",
+      "has_audio": false,
+      "modified_at": "2026-04-13T20:07:21.174428+00:00",
+      "modified_ts": 1776110841,
+      "source_filename": "Finanzberater.txt"
     },
     {
       "share_key": "ai-vorlagen--fondmanager",
@@ -240,8 +253,8 @@
       "content_kind": "template",
       "preview_type": "markdown",
       "has_audio": false,
-      "modified_at": "2026-04-13T19:03:11.335432+00:00",
-      "modified_ts": 1776106991,
+      "modified_at": "2026-04-13T20:07:21.174428+00:00",
+      "modified_ts": 1776110841,
       "source_filename": "Fondmanager.txt"
     },
     {
@@ -253,9 +266,22 @@
       "content_kind": "template",
       "preview_type": "markdown",
       "has_audio": false,
-      "modified_at": "2026-04-13T18:48:29.399199+00:00",
-      "modified_ts": 1776106109,
+      "modified_at": "2026-04-13T20:07:21.174428+00:00",
+      "modified_ts": 1776110841,
       "source_filename": "Stock Entrypoint Calc.txt"
+    },
+    {
+      "share_key": "ai-vorlagen--text-zu-voice-umschreiben",
+      "title": "Text zu Voice umschreiben",
+      "description": "DU bist ein professioneller Text to Voice Experte mit 10 Jahren Erfahrung. Deine Aufgabe ist es, den Nutzertext sinnvol...",
+      "category_path": "AI-Vorlagen",
+      "node_id": null,
+      "content_kind": "template",
+      "preview_type": "markdown",
+      "has_audio": false,
+      "modified_at": "2026-04-13T20:07:21.174428+00:00",
+      "modified_ts": 1776110841,
+      "source_filename": "Text zu Voice umschreiben.txt"
     },
     {
       "share_key": "recherchen--vodafone--geschaeftsbericht",
@@ -266,35 +292,9 @@
       "content_kind": "article",
       "preview_type": "markdown",
       "has_audio": true,
-      "modified_at": "2026-04-13T18:43:02.955894+00:00",
-      "modified_ts": 1776105782,
+      "modified_at": "2026-04-13T20:07:21.174790+00:00",
+      "modified_ts": 1776110841,
       "source_filename": "Geschäftsbericht.txt"
-    },
-    {
-      "share_key": "ai-vorlagen--finanzberater",
-      "title": "Finanzberater",
-      "description": "Persona & RolleIdentität: Du bist ein hochkarätiger Finanzberater mit über 20 Jahren Erfahrung im Asset Management, Inv...",
-      "category_path": "AI-Vorlagen",
-      "node_id": null,
-      "content_kind": "template",
-      "preview_type": "markdown",
-      "has_audio": false,
-      "modified_at": "2026-04-13T17:13:09.369530+00:00",
-      "modified_ts": 1776100389,
-      "source_filename": "Finanzberater.txt"
-    },
-    {
-      "share_key": "ai-vorlagen--bankdirektor",
-      "title": "Bankdirektor",
-      "description": "du bist ein professioneller Bankdirektor mit über 20 Jahren Erfahrungen im lesen von geschönten Bilanzen, Geschäftsberi...",
-      "category_path": "AI-Vorlagen",
-      "node_id": null,
-      "content_kind": "template",
-      "preview_type": "markdown",
-      "has_audio": false,
-      "modified_at": "2026-04-13T17:12:27.386136+00:00",
-      "modified_ts": 1776100347,
-      "source_filename": "Bankdirektor.txt"
     }
   ]
 }
