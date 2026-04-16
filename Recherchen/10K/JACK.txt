@@ -1,0 +1,377 @@
+
+# JACK IN THE BOX (JACK) – Analyse des 10-K (Fiscal Year 2025) – Teil 1
+
+## Zusammenfassung: Ein Unternehmen in tiefer Schieflage mit Turnaround-Ambition
+
+---
+
+## I. DIE LEICHEN IM KELLER
+
+### 1. Katastrophale Wertvernichtung – Der Performance Graph sagt alles
+
+Die brutalste Wahrheit steht auf Seite 26 und wird von vielen Analysten überblättert: **$100 investiert im September 2020 sind bis September 2025 auf $28 geschrumpft** – ein Verlust von **72%** . Im gleichen Zeitraum stieg der S&P 500 auf $214 (+114%), und selbst die eigene Peer Group liegt bei $128-$137. Das ist keine Underperformance – das ist **systematische Kapitalvernichtung** über fünf Jahre.
+
+### 2. Del Taco: Die ~460 Mio. Dollar Fehlallokation
+
+Die Del Taco-Akquisition 2021 wurde für ca. **$575 Mio.** abgeschlossen. Jetzt wird das Geschäft an Yadav Enterprises für **$115 Mio.** verkauft – „subject to certain closing cash, working capital, debt and transaction expense adjustments" . Das entspricht rund **$200.000 pro Restaurant** und einem Verlust von geschätzt **$460 Mio.** auf die ursprüngliche Investition. Das ist keine „strategische Alternative" – das ist eine **Fire Sale**, verpackt in positiver Sprache.
+
+> **Beachte für Teil 2**: Die Goodwill-Behandlung und Impairment-Charges für Del Taco sind entscheidend. Wurde der Goodwill bereits ausreichend abgeschrieben, oder stehen noch massive Write-Downs bevor?
+
+### 3. Die Transaktionslücke – Das eigentliche Alarmsignal
+
+Die Same-Store-Sales-Zerlegung offenbart das wahre Problem:
+
+| Brand | Preiserhöhung | Transaktionsrückgang | Netto SSS |
+|-------|--------------|---------------------|-----------|
+| **JBX Company** | +3,5% | **-5,7%** | -3,7% |
+| **Del Taco Company** | +5,5% | **-6,9%** | -2,4% |
+
+
+
+Die Kunden laufen weg. Del Taco verliert fast **7% der Gäste**, Jack in the Box fast **6%**. Preiserhöhungen kaschieren das Problem in der SSS-Headline, aber das zugrunde liegende Demand-Problem ist gravierend. Wer Transaktionen so schnell verliert, kann nicht unendlich über Preise kompensieren – irgendwann bricht die Nachfrage völlig weg.
+
+### 4. Schuldenstruktur: $1,7 Mrd. Damoklesschwert
+
+Unter dem Indenture lastet eine **Verschuldung von ca. $1,7 Mrd.** auf dem Unternehmen . Die Marktkapitalisierung lag per April 2025 bei nur **$459 Mio.** (die per September 2025 vermutlich noch deutlich tiefer lag, wenn man den Kurs von ~$28 gegen ~$64 ein Jahr zuvor ansetzt). Das Unternehmen ist also **massiv fremdfinanziert** mit einem geschätzten Debt/Equity-Verhältnis, das weit jenseits gesunder Relationen liegt.
+
+Besonders brisant: Die Schulden liegen in einer **Whole Business Securitization** (WBS). Diese Struktur enthält Rapid Amortization Events, die bei Verletzung von Debt Service Coverage Ratios oder bei Umsatzrückgängen ausgelöst werden können . Bei fallenden Systemumsätzen – und die fallen gerade erheblich – ist das Risiko eines **Cash Trap** oder gar eines **Default Events** real.
+
+> **Kritisch für Teil 2**: DSCR-Ratios, aktuelle Headroom-Analyse, Fälligkeitenprofil der Series 2019-1 und 2022-1 Notes.
+
+### 5. Kalifornien-Klumpenrisiko + AB 1228 = Marginenkiller
+
+~**70% aller Systemrestaurants** stehen in Kalifornien und Texas . Kalifornien allein hat 941 JBX + 351 Del Taco = **1.292 Restaurants** – das sind **47,6% des Gesamtsystems**.
+
+Die Lohnkostensteigerung durch AB 1228 (Kalifornien Fast-Food-Mindestlohn, ab April 2024 auf $20/Stunde) trifft dieses Unternehmen **überproportional**:
+- JBX Lohninflation: **7,6%**, Payroll als % vom Umsatz: 31,5% → **33,8%** 
+- Del Taco: **7,1%**, Payroll: 36,7% → **38,6%** 
+
+Del Taco Company-Restaurants haben eine **Restaurant-Level-Kostenquote von ~89%** (Food 25,9% + Payroll 38,6% + Occupancy 24,4%). Da bleibt kaum etwas für Corporate Overhead, Depreciation, Zinsen, oder gar Gewinn.
+
+### 6. Massive Restaurantschließungen
+
+**Jack in the Box**: 86 Schließungen bei nur 31 Neueröffnungen = **Netto -55 Restaurants** . Das „Block Closure Program" klingt proaktiv, bedeutet aber, dass **3,9% des JBX-Systems in einem Jahr eliminiert wurden**. 75 davon waren Franchise-Restaurants – das signalisiert, dass Franchisenehmer aufgeben.
+
+**Del Taco**: 32 Schließungen bei 14 Neueröffnungen = **Netto -18** .
+
+**Systemweit**: 118 Schließungen in einem Geschäftsjahr. Das ist kein „Pruning" – das ist **Schrumpfung**.
+
+### 7. Franchise-Gesundheit unter Druck
+
+Bei Del Taco stieg der **Bad Debt Expense um 42,6%** (innerhalb der Franchise Support Costs) . Wenn Franchisenehmer ihre Rechnungen nicht mehr bezahlen können, ist das ein Frühindikator für eine Welle von Franchise-Insolvenzen und weiteren Closures.
+
+Bei JBX sind die Franchise AUVs von $1.949 auf **$1.874** gefallen (-3,8%) . Bei Del Taco von $1.573 auf **$1.549** . Sinkende Durchschnittsumsätze bei steigenden Kosten drücken die Franchisee-Profitabilität ins Negative.
+
+### 8. Dividende gestrichen, Buybacks eingestellt
+
+Die Dividende wurde **komplett eingestellt** . Im gesamten Q4 2025 wurde **kein einziger Share-Buyback durchgeführt**, obwohl ein Programm über $175 Mio. autorisiert ist . Das Unternehmen hat weder die Mittel noch den Spielraum, Kapital an Aktionäre zurückzugeben. Sämtliche freie Cashflows müssen in den Schuldendienst fließen.
+
+### 9. Aktivist am Tor – Proxy Contest
+
+Ein Aktivistenaktionär hat **zwei Board-Kandidaten nominiert** . Das ist kein Zeichen des Vertrauens in das Management. Es signalisiert Governance-Unzufriedenheit und bindet Management-Ressourcen in einer Phase, in der operative Exzellenz gefragt wäre.
+
+### 10. Management-Karussell an der Spitze
+
+- **CEO Lance Tucker**: Seit März 2025 (7 Monate zum Stichtag). War vorher CFO – seit Januar 2025. Vorher bei Davidson Hotel Company, davor bei CKE Restaurants. Es ist sein **zweiter Anlauf** bei JACK (war schon 2018-2020 CFO). Die Frage lautet: Warum ist er 2020 gegangen, und was hat sich seitdem verbessert? 
+- **CFO Dawn Hooper**: Seit Mai 2025, interne Beförderung von Controller. 25 Jahre im Unternehmen – kennt das Haus, aber keine M&A/Restrukturierungserfahrung von außen .
+
+---
+
+## II. WAS GUT IST – FAIRNESS HALBER
+
+### 1. Das Asset-Light-Modell
+**93% der JBX-Restaurants sind franchisiert** . Das bedeutet: Die Umsatzrückgänge schlagen sich vor allem bei den Franchisenehmern in der GuV nieder, während JACK Royalty-basierte Einnahmen (5% vom Umsatz) mit höherer Marge erzielt. Das Franchise-Modell ist in Stressphasen ein Puffer.
+
+### 2. Food Cost Improvement bei JBX
+Die Food & Packaging-Quote bei JBX sank von **29,5% auf 28,0%**  – getrieben durch einen neuen Beverage-Vertrag mit retroaktiver Vergütung. Das ist ein realer, messbarer Fortschritt, auch wenn 1,8 Prozentpunkte davon ein Einmaleffekt sind.
+
+### 3. „Jack on Track" – Zumindest gibt es einen Plan
+Das Management hat die Probleme **anerkannt** und einen strukturierten Plan vorgelegt: Closures unprofitabler Standorte, Del Taco-Verkauf, Dividendeneinstellung, Fokus auf Debt Paydown . Das ist die richtige strategische Richtung – die Frage ist nur, ob es rechtzeitig genug kommt.
+
+### 4. Branding und Dayparts
+Fünf Dayparts (Breakfast, Lunch, Snack, Dinner, Late Night) und die Möglichkeit, Frühstück nachts zu bestellen, sind **echte Differenzierungsmerkmale** im QSR-Segment . Die Marke hat kulturelle Relevanz, insbesondere im Western/Southwest-Markt.
+
+### 5. Neue Restaurant-Prototypen
+Die neuen CRAVED-Prototypen (~1.372 sq ft, Y-Lane Drive-Thru, Mobile Pick-Up Window) sind **kostenoptimiert und flexibel** . Das senkt die Entwicklungskosten und erhöht die Standortflexibilität – wichtig für künftiges Wachstum, falls es dazu kommt.
+
+### 6. Neuentwicklung läuft noch
+31 neue JBX-Restaurants in FY2025 (12 Company, 19 Franchise)  zeigen, dass trotz der Krise noch Franchisenehmer bereit sind zu investieren. Das ist ein gewisses Vertrauenssignal.
+
+---
+
+## III. DER TURNAROUND – REALITÄT ODER WUNSCHDENKEN?
+
+### Die Bull-Thesis:
+| Argument | Bewertung |
+|----------|-----------|
+| Hochfranchisiertes Modell = resilient | ✅ Stimmt grundsätzlich, aber Franchise-Bad Debts steigen |
+| Del Taco-Verkauf vereinfacht die Story | ✅ Richtig, aber zu welchem Preis |
+| Closures verbessern System Health | ✅ Kurzfristig ja, mittelfristig muss organisches Wachstum kommen |
+| Debt Paydown als Priorität | ✅ Richtiger Fokus, aber $1,7 Mrd. ist ein langer Weg |
+| Aktie -72%, also „günstig" | ⚠️ Optisch ja, aber günstig relativ zu was? |
+
+### Die Bear-Thesis:
+| Argument | Bewertung |
+|----------|-----------|
+| $1,7 Mrd. Schulden bei schrumpfenden Cashflows | 🔴 Existenzbedrohend wenn DSCR bricht |
+| Struktureller Transaktionsrückgang | 🔴 Kein Quick Fix |
+| Kalifornien-Exposure + AB 1228 | 🔴 Dauerhaft margenschädigend |
+| Wettbewerb mit kapitalkräftigeren Chains | 🔴 Marketing-Budget zu klein |
+| Del Taco = $460 Mio. Wertvernichtung als Vertrauensbeweis für Management? | 🔴 Schwer |
+
+**Mein Urteil zum Turnaround**: Die Richtung stimmt (Vereinfachung, Schuldenabbau, Closures), aber **das Zeitfenster ist eng**. Wenn die Same-Store-Sales-Trends sich nicht innerhalb von 2-3 Quartalen stabilisieren, gerät die Securitization unter Druck. Ein Turnaround ist **möglich, aber keineswegs wahrscheinlich**. Die Execution-Risiken sind enorm.
+
+---
+
+## IV. INVESTORENPROFIL – WER GEHT HIER REIN?
+
+Dies ist **kein Investment für einen konservativen Anleger**. Der typische JACK-Investor ist:
+
+- **Distressed/Deep-Value-Spezialist**: Sucht asymmetrische Chancen in Unternehmen nahe dem Tipping Point
+- **Hochrisikoaffin**: Akzeptiert das Totalverlustrisiko durch die Leverage-Struktur
+- **Contrarian/Aktivistisch orientiert**: Glaubt, dass der Markt überreagiert hat und das Management zu viel Pessimismus eingepreist bekommt
+- **Kurzer bis mittlerer Zeithorizont**: Turnaround oder Bust innerhalb von 12-24 Monaten
+- **Kein Einkommensinvestor**: Dividende gestrichen, kein Buyback-Support
+- **Vermutlich Hedge Funds**, die auf Credit/Equity-Arbitrage spekulieren oder auf einen Take-Private-Event warten
+
+**Typischer Fehlanleger**: Retail-Investoren, die „Fallen Angel" spielen wollen, ohne die Securitization-Struktur und das DSCR-Risiko zu verstehen.
+
+---
+
+## V. OFFENE POSTEN FÜR TEIL 2 DES FILINGS
+
+📌 **Dringend benötigt aus der zweiten Hälfte:**
+
+1. **Vollständige Bilanz**: Goodwill-Position (Del Taco), Total Assets vs. Total Liabilities, Equity (vermutlich negativ?)
+2. **Cash Flow Statement**: Free Cash Flow, Operating Cash Flow Trend, CapEx-Detail
+3. **Schuldendetails**: Fälligkeiten, aktuelle DSCR-Werte, Headroom zu Covenant-Grenzen
+4. **Impairment Charges**: Wurden Abschreibungen auf Del Taco Goodwill/Intangibles vorgenommen?
+5. **Operating Lease Obligations**: Gesamtvolumen, Off-Balance-Sheet-Effekte (unter ASC 842 jetzt bilanziert)
+6. **Steuerposition**: Deferred Tax Assets, Valuation Allowances
+7. **Auditor Opinion**: Clean opinion oder qualifiziert? Going Concern?
+8. **Depreciation-Trend** (der Text wurde bei „decreased $1.5 million" abgeschnitten) 
+9. **SG&A / Corporate Overhead**: Wie viel frisst die Zentrale?
+10. **Restructuring Charges**: Kosten der Closures und der Del Taco-Transaktion
+
+---
+
+## GESAMTEINSCHÄTZUNG (vorläufig, Teil 1)
+
+**Rating: Hochspekulativ / Distressed**
+
+Das Unternehmen befindet sich in einer **akuten Restrukturierungsphase**. Die strategische Richtung (Vereinfachung, Entschuldung) ist korrekt, aber die Ausgangslage ist schwer: massive Schulden, schrumpfende Umsätze, wegbrechende Transaktionen, Kalifornien-Kostenexplosion und eine gescheiterte Akquisition. Die Securitization-Struktur macht dies zu einem **binären Bet**: Entweder der Turnaround gelingt und die Aktie vervielfacht sich – oder die Covenants brechen und der Equity-Wert tendiert gegen Null.
+
+**Bitte Teil 2 senden – insbesondere Bilanz, Cash Flow, Schuldendetails und Auditor Opinion sind entscheidend für das Endurteil.**
+
+
+**Note:** Due to model limitations, the response may not account for all data in the uploaded file(s). For better results, consider using fewer or smaller file(s) with essential excerpts. [Learn more](https://support.you.com/kb/s/article/LLM-Context-windows)
+
+# JACK IN THE BOX (JACK) – TEIL 2 ANALYSE & ENDBEWERTUNG
+
+## Als erfahrener Bankdirektor: Die vollständige Obduktion
+
+---
+
+## I. NEUE LEICHEN AUS TEIL 2
+
+### 1. 🔴 DIE REFINANZIERUNGSMAUER – Das Existenzrisiko Nr. 1
+
+Dies ist der **wichtigste Fund im gesamten Filing** und wird von vielen Retail-Investoren übersehen:
+
+| Fälligkeit | Betrag | Tranche |
+|-----------|--------|---------|
+| **FY2026** | **$289,4 Mio.** | Primär Series 2019-1 A-2-II ($262,6M) + Amortisation |
+| **FY2027** | **$516,0 Mio.** | Primär Series 2022-1 A-2-I ($511,5M) + Amortisation |
+| FY2029 | $427,3 Mio. | Series 2019-1 A-2-III |
+| FY2030+ | $467,6 Mio. | Series 2022-1 A-2-II + Rest |
+
+**$805 Mio. werden in den nächsten ~24 Monaten fällig.** 
+
+Dem stehen gegenüber:
+- Cash: $51,5 Mio.
+- Verfügbare Revolver-Kapazität: $96,8 Mio. (nach $53,2 Mio. Letters of Credit) 
+- Geschätzter Free Cash Flow: ~$65 Mio./Jahr (optimistisch)
+- **Summe verfügbarer Mittel: ~$213 Mio.**
+- **Shortfall allein für FY2026: ~$76 Mio.**
+
+Zwar ist die *Legal Final Maturity* erst 2049/2052, und ein Verpassen der *Anticipated Repayment Date* löst „nur" erhöhte Zinsen aus  – aber in der Praxis bedeutet das: Das Unternehmen **muss** refinanzieren. Mit einem Leverage Ratio **über 5,0x** (vom Unternehmen selbst bestätigt ), sinkenden Revenues und negativem Eigenkapital wird diese Refinanzierung **deutlich teurer** als die aktuellen Kupons (3,45%–4,97%). Jeder Prozentpunkt mehr auf $1,7 Mrd. kostet **$17 Mio. zusätzliche jährliche Zinsen** – bei einem FCF von ~$65 Mio. ist das existenzbedrohend.
+
+### 2. 🔴 Negatives Eigenkapital: -$938 Mio. – Technische Insolvenz
+
+Die Bilanz zeigt ein **Stockholders' Deficit von -$938,3 Mio.** (verschlechtert von -$851,8 Mio.) . Der Haupttreiber: **$3,2 Mrd. in Treasury Stock** – das Ergebnis jahrelanger Aktienrückkäufe zu Kursen von $60–$120+, die heute bei ~$28 stehen.
+
+Die Gesamtbilanz:
+| Position | Betrag |
+|----------|--------|
+| Total Assets | $2.593 Mio. |
+| Total Liabilities | $3.532 Mio. |
+| **Bilanzielles Defizit** | **-$938 Mio.** |
+| Davon: Operating Lease Liabilities | $1.419 Mio. |
+| Davon: Debt | $1.716 Mio. |
+| **Gesamtverpflichtungen (Debt + Leases)** | **$3.135 Mio.** |
+
+Das Unternehmen hat **keine Eigenkapitalpolster mehr**. Jede weitere Wertberichtigung oder jedes schlechte Quartal vertieft das Defizit. Für eine Refinanzierung am Kapitalmarkt ist negatives Eigenkapital ein erhebliches Stigma.
+
+### 3. 🔴 Del Taco: $372 Mio. Impairment in nur 2 Jahren – jetzt komplett abgeschrieben
+
+Die vollständige Zerstörungschronik des Del Taco Goodwill :
+
+| Zeitraum | Goodwill-Impairment | Trademark-Impairment | Summe |
+|----------|-------------------|---------------------|-------|
+| FY2024 (Q3) | $162,6 Mio. | — | $162,6 Mio. |
+| FY2025 (Q2) | $25,3 Mio. | $177,9 Mio. | $203,2 Mio. |
+| FY2025 (Q3) – Franchisee-Akquisition | $6,3 Mio. | — | $6,3 Mio. |
+| **Gesamt** | **$194,3 Mio.** | **$177,9 Mio.** | **$372,2 Mio.** |
+
+Del Taco Goodwill steht jetzt bei **exakt $0** . Der Trademark ist von $283,5 Mio. auf $105,6 Mio. gefallen. Das Management hat im Q2 2025 selbst die Trigger identifiziert: *„continued negative trend in same store sales, unfavorable economic environment, potential for divestment, sustained lower share price"* .
+
+**Der brisante Punkt**: Im Q3 2025 hat JACK **18 Del Taco Franchise-Restaurants für $7,2 Mio. zurückgekauft** und dabei $6,3 Mio. Goodwill gebucht – der sofort **vollständig impaired** wurde . Man hat also Restaurants akquiriert und den dabei entstehenden Goodwill *im selben Quartal* abgeschrieben. Das wirft Fragen auf: Warum kauft man Restaurants einer Marke zurück, die man im nächsten Quartal verkauft? Die Antwort liegt vermutlich darin, dass man notleidende Franchisenehmer auffangen musste, um das Del Taco-System für den Verkauf an Yadav Enterprises präsentabel zu halten.
+
+### 4. 🔴 Revenue-Erosion: 13,4% in zwei Jahren
+
+| Jahr | Revenue | Δ YoY |
+|------|---------|-------|
+| FY2023 | $1.692 Mio. | — |
+| FY2024 | $1.571 Mio. | -7,2% |
+| FY2025 | $1.465 Mio. | -6,7% |
+
+Del Taco allein: **von $497 Mio. auf $311 Mio. in zwei Jahren (-37,4%)** . Teilweise refranchising-getrieben, aber das ist dennoch ein massiver Ertragsschwund für das Gesamtunternehmen.
+
+JBX-Segment ist stabiler ($1.195M → $1.197M → $1.154M), aber auch hier: **-3,6% Rückgang** in FY2025 .
+
+### 5. 🔴 Kreditverluste explodieren – Franchisee-Distress bestätigt
+
+| Kennzahl | FY2024 | FY2025 | Δ |
+|----------|--------|--------|---|
+| Allowance for Doubtful Accounts | $4,5 Mio. | **$6,6 Mio.** | **+45,6%** |
+| Provision for Expected Credit Losses | $0,4 Mio. | **$3,3 Mio.** | **+789%** |
+
+Die Kreditverlust-Vorsorge hat sich **verachtfacht** . Das ist kein statistisches Rauschen – das ist ein Frühwarnsignal für eine **Welle von Franchisee-Ausfällen**. Wenn Franchisenehmer ihre Royalties und Mieten nicht mehr bezahlen können, bricht nicht nur der Ertragsstrom weg, sondern JACK muss auch die Lease-Verpflichtungen auf den zugehörigen Standorten weitertragen.
+
+### 6. 🟡 SG&A steigt trotz schrumpfendem Geschäft
+
+| Jahr | SG&A | % vom Revenue |
+|------|------|---------------|
+| FY2023 | $172,9 Mio. | 10,2% |
+| FY2024 | $143,2 Mio. | 9,1% |
+| FY2025 | **$149,6 Mio.** | **10,2%** |
+
+Der FY2024-Rückgang war vermutlich durch Einmaleffekte (geringere Incentive Comp) getrieben. In FY2025 steigt SG&A wieder auf **$149,6 Mio.**, obwohl Revenue um $106 Mio. fällt . Das Corporate Overhead frisst einen wachsenden Anteil. In einem Turnaround müsste SG&A radikal sinken – hier steigt es.
+
+### 7. 🟡 Deferred Tax Asset: $41,3 Mio. – Werthaltig?
+
+Das Unternehmen weist plötzlich eine Deferred Tax Asset von **$41,3 Mio.** aus (Vorjahr: Deferred Tax Liability von $13,6 Mio.) . Die Verschiebung von $57,7 Mio. Deferred Income Taxes in der Cash Flow-Rechnung bestätigt dies .
+
+Die kritische Frage: **Wird es zukünftig genügend steuerpflichtiges Einkommen geben, um diesen DTA zu realisieren?** Bei zwei konsekutiven Verlustjahren und einer schrumpfenden Geschäftsbasis ist das keineswegs sicher. Dass **keine Valuation Allowance** gebucht wurde, ist ein Managementurteil, das man als aggressiv bewerten kann. Sollte in der Zukunft eine VA notwendig werden, wäre das eine weitere Ergebnisbelastung.
+
+### 8. 🟡 Cash Flow-Qualität: Optisch gut, substanziell fragil
+
+Die Operating Cash Flows von **$162,4 Mio.** sehen auf den ersten Blick stark aus – fast doppelt so viel wie FY2024 ($68,8 Mio.) . Aber die Zusammensetzung:
+
+| Position | Betrag |
+|----------|--------|
+| Net Loss | -$80,7 Mio. |
+| Impairment-Add-Backs (non-cash) | +$214,0 Mio. |
+| Deferred Income Taxes | +$57,7 Mio. |
+| D&A | +$58,3 Mio. |
+| Sonstige Adjustments | -$86,9 Mio. |
+| **Operating Cash Flow** | **$162,4 Mio.** |
+
+**Ohne die Impairments und Deferred Tax-Effekte** (die rein bilanztechnisch und nicht cash-generierend sind) liegt der bereinigte OCF bei unter **$100 Mio.** Dem steht ein jährlicher Schuldendienst von ~$109 Mio. (Zinsen $79 Mio. + Tilgung $30 Mio.) und CapEx von ~$97 Mio. gegenüber . **Der tatsächliche freie Cashflow nach Schuldendienst und CapEx ist nahezu Null.**
+
+### 9. 🟡 Marktbewertung der Schulden – Kreditmarkt skeptisch
+
+| Tranche | Carrying Value | Fair Value | Discount |
+|---------|---------------|-----------|----------|
+| Series 2019 A-2 | $692,4 Mio. | $675,5 Mio. | -2,4% |
+| Series 2022 A-2 | $1.023,0 Mio. | $952,7 Mio. | -6,9% |
+| **Gesamt** | **$1.715,4 Mio.** | **$1.628,2 Mio.** | **-$87,2 Mio.** |
+
+Die **2022er Notes handeln mit fast 7% Abschlag** . Der Kreditmarkt preist signifikantes Refinanzierungsrisiko ein. Wenn die Notes unter Par handeln, wird eine Neuemission umso schwieriger.
+
+### 10. 🟡 Poison Pill aktiviert – Defensive Governance
+
+Die **Stockholder Protection Rights Agreement** (Juli 2025, geändert September 2025)  in Kombination mit dem **Nomination and Cooperation Agreement** mit GreenWood Investors (November 2025)  zeigt: Das Management steht unter Druck von Aktivisten und hat eine Giftpille aktiviert. Das bindet Managementressourcen, kostet Anwaltsgebühren und signalisiert Governance-Unsicherheit.
+
+---
+
+## II. POSITIVES AUS TEIL 2 – FAIRNESS HALBER
+
+### 1. ✅ KPMG: Uneingeschränktes Testat, KEIN Going Concern
+
+KPMG gibt ein **unqualified opinion** ohne Going-Concern-Hinweis . Das ist ein wichtiges Signal: Der Wirtschaftsprüfer (seit 1986 beim Unternehmen) sieht trotz aller Probleme **keine unmittelbare Existenzgefährdung** innerhalb der nächsten 12 Monate. Das bedeutet nicht, dass alles in Ordnung ist – aber es bedeutet, dass ein sofortiger Zusammenbruch nicht erwartet wird.
+
+### 2. ✅ JBX Goodwill: $136 Mio. unimpaired
+
+Während Del Taco komplett abgeschrieben wurde, sieht das Management **keinen Trigger für eine JBX-Impairment-Analyse** . Das impliziert, dass die JBX-Marke allein noch ausreichend Wert generiert, um den verbliebenen Goodwill zu rechtfertigen. Das ist das Kernargument der Bull-These: Die JBX-Marke als Standalone ist ein funktionierendes Franchise-Modell.
+
+### 3. ✅ Cash-Position verbessert
+
+Cash stieg von $24,7 Mio. auf **$51,5 Mio.** , Restricted Cash blieb stabil bei $30,3 Mio. Die kurzfristige Liquidität ist zumindest besser als im Vorjahr, was angesichts der Dividendenkürzung und des Buyback-Stopps logisch ist.
+
+### 4. ✅ COLI-Reserven als stille Reserve
+
+$135,5 Mio. in Company-Owned Life Insurance-Policen  sind eine oft übersehene Rücklage. Diese Policen generierten $9,1 Mio. an Gewinnen in FY2025. Zwar sind sie vertraglich für Benefit-Pläne gebunden, aber sie bieten einen gewissen Substanzwert.
+
+### 5. ✅ Operating Cash Flow trotz Verlust positiv
+
+Trotz eines Nettoverlusts von $80,7 Mio. generiert das Unternehmen **positiven operativen Cash Flow**. Das zeigt, dass das Grundgeschäft – trotz aller Probleme – noch cash-generativ ist. Das ist der Unterschied zwischen einem Distressed-Turnaround und einem Terminal Case.
+
+---
+
+## III. ENDBEWERTUNG
+
+### A. Die Bilanz in einem Satz
+
+**Ein Unternehmen mit $1,7 Mrd. Schulden, negativem Eigenkapital von fast $1 Mrd., einer $805-Mio.-Refinanzierungsmauer in 24 Monaten, schrumpfenden Umsätzen, explodierenden Kreditverlusten und einem gescheiterten $575-Mio.-M&A-Deal – das versucht, sich auf ein einziges, noch funktionierendes Franchise-Modell zu konzentrieren.**
+
+### B. Szenario-Analyse
+
+| Szenario | Wahrscheinlichkeit | Equity-Outcome |
+|----------|-------------------|----------------|
+| **Bull Case**: Refinanzierung gelingt, SSS stabilisieren sich, Del Taco-Verkauf schließt, JBX generiert $200M+ EBITDA | ~20% | $50-80/Aktie (2-3x) |
+| **Base Case**: Refinanzierung gelingt zu höheren Kosten, SSS bleiben negativ, langsame Erholung | ~40% | $20-40/Aktie (flach bis moderat positiv) |
+| **Bear Case**: Refinanzierung gelingt nur teilweise, Covenant-Stress, weitere Closures, erzwungenes Equity-Raising | ~30% | $5-15/Aktie (-50% bis -80%) |
+| **Worst Case**: Refinanzierung scheitert, Rapid Amortization Event, Restrukturierung/Chapter 11 | ~10% | **$0** (Totalverlust für Equity) |
+
+### C. Was macht den Turnaround schwer?
+
+1. **Timing**: Die Refinanzierungsmauer ($289 Mio. in FY2026) kommt **bevor** die Turnaround-Maßnahmen Wirkung zeigen können. Man muss am Kapitalmarkt refinanzieren, während die Zahlen noch schlecht aussehen.
+
+2. **Kreislauf-Problem**: Sinkende SSS → geringere Franchisee-Profitabilität → mehr Closures/Bad Debts → weniger Systemumsatz → niedrigerer DSCR → teurere Refinanzierung → höhere Zinsbelastung → weniger Investitionskapital → schlechtere Stores → sinkende SSS.
+
+3. **Strukturelle Nachteile**: 70% Kalifornien/Texas-Exposure bei AB 1228, kein nationaler Footprint wie McDonald's oder Wendy's, Marketing-Budget zu klein für nationale Kampagnen.
+
+4. **Management ohne Track Record**: CEO Tucker (7 Monate), CFO Hooper (4 Monate). Kein bewiesener Turnaround-Track-Record. Tucker's erste Amtszeit (2018-2020) hat die Probleme nicht verhindert.
+
+### D. Was macht den Turnaround möglich?
+
+1. **93% Franchise-Modell**: Die JBX-Franchise-Royalty-Ströme sind relativ resilient und margenstart. Wenn man Del Taco los ist und das JBX-System stabilisiert, generiert man $200M+ an Franchise-basierten Revenues mit hoher Marge.
+
+2. **KPMG sieht kein Going Concern**: Der Auditor – seit 39 Jahren dabei – glaubt an die kurzfristige Überlebensfähigkeit.
+
+3. **Asset-Monetarisierung**: $82 Mio. in Land, $135 Mio. in COLI, $105,6 Mio. Trademark-Wert. Es gibt verbliebene Substanz.
+
+4. **Richtige strategische Richtung**: Vereinfachung (Del Taco weg), Schuldendienst-Fokus (Dividende/Buyback gestrichen), Closures unprofitabler Standorte. Die Richtung stimmt – die Frage ist nur: Reicht die Zeit?
+
+### E. Meine Bewertung als Bankdirektor
+
+> **Credit-Sicht (als Kreditgeber):** Ich würde eine Refinanzierung der 2026er Tranche **nur zu signifikant höheren Spreads** (150-250 bps Aufschlag) und mit zusätzlichen Covenant-Verschärfungen bewilligen. Der Leverage >5x, negative Equity und fallende Coverage-Ratios sind nicht kreditwürdig im klassischen Sinne. Die WBS-Struktur bietet zwar Asset-Sicherheit, aber die zugrunde liegenden Cashflows erodieren. **Rating-Einschätzung: tief BB- bis B+, Tendenz negativ.**
+
+> **Equity-Sicht (als Anlageberater):** Dies ist ein **binäres Bet mit asymmetrischem Risiko-/Ertragsprofil.** Wenn der Turnaround gelingt UND die Refinanzierung funktioniert, ist die Aktie bei $28 deutlich unterbewertet – ein stabilisiertes JBX-Standalone könnte $250M+ EBITDA generieren, was bei 8-10x EV/EBITDA eine deutlich höhere Bewertung rechtfertigt. Wenn er scheitert, ist der Equity-Wert Null. Die Wahrscheinlichkeitsgewichtung ergibt einen **Expected Value, der nahe am aktuellen Kurs liegt** – d.h. der Markt preist die Situation ungefähr fair ein.
+
+### F. Was ist das für ein Anleger?
+
+Der typische JACK-Investor im April 2026 ist:
+
+| Typ | Profil |
+|-----|--------|
+| **Hedge Fund (Event-Driven/Distressed)** | Spielt die Refinanzierung als Katalysator – long Equity / short Credit oder umgekehrt |
+| **Deep Value Contrarian** | Glaubt, dass $28 für eine Marke mit 2.136 Systemrestaurants zu wenig ist |
+| **Turnaround-Spekulant** | Wettet auf Tucker als „Fixer" und den Simplicty-Play nach Del Taco |
+| **Aktivist (GreenWood)** | Will Board-Kontrolle, um Strategie/Execution zu verbessern |
+| ⛔ **NICHT**: Einkommensanleger | Keine Dividende, kein Buyback |
+| ⛔ **NICHT**: Konservativer Langfristanleger | Zu viel Leverage, zu viel Unsicherheit |
+| ⛔ **NICHT**: Indexfondskäufer | Zu klein für S&P 500, rausgeflogen aus vielen Screens |
+
+> **Mein persönliches Urteil:** Ein Investment in JACK ist wie der Kauf eines heruntergekommenen Hotels mit massiver Hypothek, bei dem das Dach undicht ist und die Bank in 12 Monaten die Anschlussfinanzierung verhandeln will. Das Fundament (die JBX-Marke, das Franchise-Modell) ist solide – aber die finanzielle Überstruktur ist toxisch. Wer hier einsteigt, sollte bereit sein, seinen gesamten Einsatz zu verlieren, und darf **maximal eine Positionsgröße wählen, die einem Totalverlust standhält** – ich würde sagen: nicht mehr als 1-3% des Portfolios. Die Refinanzierung der 2026er Tranche wird das **Make-or-Break-Event** sein. Bis dahin: **Watch-List, kein voller Einstieg.**
