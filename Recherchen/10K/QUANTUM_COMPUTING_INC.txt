@@ -1,0 +1,339 @@
+# Quantum Computing Inc. (QUBT) – 10-K FY2025: Kritische Erstanalyse (Teil 1/2)
+
+## Vorbemerkung
+
+Wir haben hier ein 10-K Filing eines Nasdaq-notierten Unternehmens im **Pre-Revenue Quantum Computing Bereich** mit einer Market Cap von rund **$2,55 Mrd.** (per 30.06.2025) . Das muss man sich auf der Zunge zergehen lassen. Gehen wir systematisch durch.
+
+---
+
+## I. Die guten Nachrichten zuerst – was funktioniert
+
+### 1. Technologischer Differentiator: Raumtemperatur-Betrieb
+Der EQC (Entropy Quantum Computer) arbeitet bei **Raumtemperatur** und mit sehr niedrigem Stromverbrauch. Das ist im Quantum-Sektor ein **echter Wettbewerbsvorteil** gegenüber den kryogenen Ansätzen (Superconducting, Trapped-Ion) von IBM, Google, IonQ & Co. . Kein Bedarf an Dilution-Refrigeratoren, keine Helium-3-Abhängigkeit – das reduziert CAPEX und Betriebskosten beim Endkunden signifikant. **Fair gesagt: Das ist kein Marketing-Fluff, das ist physikalisch fundiert.**
+
+### 2. TFLN-Plattform und Vertikale Integration
+Die Strategie, sich über **Thin Film Lithium Niobate (TFLN)** als Chipplattform zu positionieren, ist intelligent. TFLN hat hervorragende elektro-optische Eigenschaften und ist kompatibel mit bestehenden Silizium-Fab-Methoden. Der **TFLN-Markt** wird von $190 Mio. (2022) auf geschätzte **$1,9 Mrd. bis 2029** (CAGR 39%) prognostiziert . Die eigene **AZ Chips Facility in Tempe, Arizona** (im März 2025 im Wesentlichen fertiggestellt) gibt dem Unternehmen zumindest theoretisch die Möglichkeit, nicht nur für eigene Produkte, sondern auch als Foundry-Dienstleister für Dritte zu fungieren. Das ist ein strategisch kluger Dual-Use-Ansatz.
+
+### 3. Luminar Semiconductor Akquisition (Feb 2026)
+Der Zukauf von **Luminar Semiconductor Inc. (LSI)** bringt etwas, das QCi dringend brauchte: **Echte Fertigungskapazitäten, echte Kunden, echte Umsätze.** LSI verfügt über eine III-V Semiconductor Fab, fortgeschrittenes photonisches Packaging, und bedient bereits Kunden in **Aerospace & Defense, Sensing, und optischer Kommunikation** . Plus: 23 erteilte Patente und 16 US-Patentanmeldungen. Das ist der substanziellste strategische Schritt, den ich in diesem Filing sehe.
+
+### 4. Breites Produktportfolio
+Vom EQC über Reservoir Computing (Emucore/Neurawave), LiDAR, Quantum Photonic Vibrometer bis zur Quantum Authentication – die **Produktdiversifikation auf Basis einer gemeinsamen Core Photonics Technology** ist strategisch sinnvoll und reduziert die Abhängigkeit von einem einzigen Use Case .
+
+---
+
+## II. Die Leichen im Keller – und davon gibt es einige
+
+### 🔴 1. $2,55 Mrd. Market Cap bei KEINEN materiellen Umsätzen
+
+Das Filing sagt es schwarz auf weiß:
+
+> *"We are an early-stage company and we have not generated any material revenues to offset our operating expenses."* 
+
+Das ist ein Unternehmen, das per Ende 2025 einen **Accumulated Deficit von $219,2 Mio.** aufweist (Vorjahr: $200,5 Mio.) . Der Nettoverlust 2025 lag damit bei rund **$18,7 Mio.** – und das ist vermutlich noch relativ moderate Burn Rate für das, was kommen wird, wenn FAB 2 und die LSI-Integration anlaufen.
+
+**Zur Einordnung:** Wir reden hier über ein **Price-to-Sales-Ratio von praktisch ∞**, da es keine materiellen Sales gibt. Die Bewertung ist rein narrativ getrieben – Quantum-Hype, Photonics-Story, AI-Adjacency.
+
+### 🔴 2. Material Weaknesses in Internal Controls – Seit ZWEI Jahren
+
+> *"We have identified material weaknesses in our internal controls over financial reporting as of December 31, 2024 and 2023."* 
+
+Das ist kein einmaliger Ausrutscher. Das sind **zwei konsekutive Jahre mit Material Weaknesses**. Bei einem Unternehmen mit $2,5 Mrd. Market Cap ist das ein erhebliches Governance-Risiko. Das bedeutet: Die Zahlen, die Sie im zweiten Teil des Filings sehen werden, wurden unter Bedingungen erstellt, bei denen das Unternehmen **selbst einräumt**, dass wesentliche Fehler möglicherweise nicht rechtzeitig erkannt werden.
+
+### 🔴 3. Der „Astra"-Fehler – Copy-Paste aus einem fremden Filing
+
+Und jetzt wird es richtig unangenehm. Im Abschnitt zu Internal Controls steht wörtlich:
+
+> *"Additionally, **Astra** may not be able to complete our evaluation, testing and any required remediation in a timely fashion."* 
+
+**„Astra"** – nicht „QCi", nicht „the Company", nicht „we". Das ist ein **Copy-Paste-Fehler aus einem anderen Filing**. Das ist in einem SEC-Filing, das vom CEO und CFO unterzeichnet wird, absolut inakzeptabel. Es wirft fundamentale Fragen auf:
+- Wer hat das Filing reviewed?
+- Wenn sie bei der **Selbstbeschreibung** schon Fehler machen, wie sorgfältig sind dann die Finanzzahlen?
+- Es untermauert exakt die Material Weakness, die sie selbst deklarieren.
+
+Für mich als Kreditprüfer wäre das ein **gelber Stempel auf dem gesamten Dokument**.
+
+### 🔴 4. 72 Mitarbeiter für ein $2,5 Mrd. Unternehmen
+
+72 Vollzeit-Mitarbeiter plus 5 Teilzeit-Contractor . Davon 55 in der Produktentwicklung. Das heißt: **~17 Personen für alles andere** – Finance, Legal, HR, Sales, Marketing, Management. Bei einem börsennotierten Unternehmen mit Material Weaknesses in den Internen Kontrollen und einer massiven Akquisition (Luminar), die integriert werden muss.
+
+Das ist extrem dünn besetzt. Die Frage ist nicht ob, sondern **wann** die operative Überlastung zu Fehlern führt – sei es in der Rechnungslegung, der Compliance, oder der Integration.
+
+### 🔴 5. Well-Known Seasoned Issuer (WKSI) Status – Die Dilution-Maschine
+
+Das Filing kreuzt **„Well-known seasoned issuer: Yes"** an . Das bedeutet: QCi kann über ein automatisches Shelf Registration quasi **on demand** neue Aktien emittieren, ohne langwierige SEC-Prüfung. Bei einem Unternehmen ohne materielle Umsätze, mit hoher Cash Burn Rate, und einer Geschichte von Kapitalerhöhungen ist das ein **permanentes Dilution-Damoklesschwert** über den bestehenden Aktionären.
+
+Die Formulierung im Risk-Factor-Abschnitt lässt keinen Zweifel:
+
+> *"Such financings may result in dilution to stockholders..."* 
+
+### 🔴 6. China-Abhängigkeit bei TFLN-Chips
+
+Trotz der eigenen AZ Chips Facility räumt das Unternehmen ein, dass die **TFLN-Chip- und Wafer-Fertigung global primär in China und Ostasien konzentriert** ist . In einem Sektor, der zunehmend als **national security-relevant** eingestuft wird, ist diese Abhängigkeit bei der derzeitigen geopolitischen Lage (US-China Tarife, Export Controls) ein erhebliches operatives Risiko. Die eigene Fab ist ein guter Anfang, aber für Volume Production noch nicht ausreichend – FAB 2 ist noch in der **Planungsphase**.
+
+### 🟡 7. Stevens Institute Lizenz – 3,5% Royalty auf Kernpatente
+
+Die exklusive Lizenz auf 7 Patente des Stevens Institute of Technology kostet **3,5% Royalty auf Net Sales** plus $28.000 jährlich . Solange keine materiellen Umsätze da sind, ist das irrelevant. Aber wenn QCi jemals Skalierung erreicht, frisst das an der Marge. Und es ist **geistiges Eigentum, das ihnen nicht gehört** – Abhängigkeit von einem Lizenzgeber.
+
+### 🟡 8. Akquisitionsintegration Luminar – Hohe Komplexität, unklare Synergien
+
+Der Zukauf von LSI ist strategisch nachvollziehbar, aber die **Integration eines Unternehmens mit eigener III-V Fab, eigenen Kunden, eigener Kultur** in eine 72-Mann-Organisation mit Material Weaknesses in den Kontrollen ist ein **Hochseilakt ohne Netz**. Das Filing selbst listet die üblichen Risiken (Diversion of Management Attention, Failure to Integrate, Unexpected Liabilities), aber die spezifische Kombination – kleine Organisation, schwache Kontrollen, komplexe Akquisition – macht das besonders riskant .
+
+---
+
+## III. Branchenspezifische Einordnung
+
+Im Quantum Computing Sektor muss man fair sein: **Kein einziges Pure-Play Quantum Unternehmen ist profitabel.** IonQ, Rigetti, D-Wave – alle verbrennen Cash. Die Frage ist nicht „ob Verluste", sondern **„wie qualitativ ist die Technologie und wie realistisch ist der Pfad zur Kommerzialisierung?"**
+
+QCi hat mit dem Raumtemperatur-Ansatz und der Photonics-Plattform einen **technologisch differenzierten Ansatz**. Die Luminar-Akquisition bringt erstmals **reale Assets und reale Kundenbeziehungen** ins Portfolio. Das ist positiv.
+
+**ABER:** Die Bewertung ($2,55 Mrd.) preist bereits eine **erfolgreiche Kommerzialisierung und Skalierung ein**, die noch nicht ansatzweise bewiesen ist. Der Markt zahlt hier für eine Geschichte – eine potenziell gute Geschichte, aber eben eine Geschichte.
+
+---
+
+## IV. Was ist das für ein Anleger?
+
+Wer hier investiert, ist entweder:
+
+1. **Spekulativer Retail-Investor** – getrieben vom Quantum/AI-Narrativ, Momentum-Trader, der auf den nächsten Hype-Zyklus setzt. Position Size vermutlich klein im Portfolio, aber emotional stark engagiert.
+
+2. **Thematischer Institutioneller Investor** – Quantum/Photonics-Basket, kleine Position als asymmetrische Wette. Weiß, dass 80% dieser Firmen scheitern, aber die 20% die es schaffen, liefern 10x+.
+
+3. **FOMO-Investor** – sieht die Kursentwicklung, den Nasdaq-Listing, den „Well-Known Seasoned Issuer"-Status und denkt, hier sei etwas Substanzielles. **Dieser Anlegertyp ist am meisten gefährdet.**
+
+**Das ist KEIN Value-Investment. Das ist KEIN Income-Investment. Das ist eine Venture-Capital-Wette im Public-Market-Mantel.** Man muss bereit sein, den **Totalverlust** zu akzeptieren.
+
+
+# Quantum Computing Inc. (QUBT) – 10-K FY2025: Finale Gesamtanalyse (Teil 2/2)
+
+---
+
+## VI. Die Finanzstatements – Das Herz des Filings
+
+### A. Bilanz: Die $1,5 Mrd. Fata Morgana
+
+Auf den ersten Blick sieht die Bilanz per 31.12.2025 beeindruckend aus :
+
+| Position | 31.12.2025 | 31.12.2024 | Δ |
+|---|---|---|---|
+| Cash & Equivalents | $737,9 Mio. | $78,9 Mio. | +835% |
+| Short-term Investments | $379,4 Mio. | $0 | neu |
+| Long-term Investments | $403,1 Mio. | $0 | neu |
+| Total Assets | $1.618,9 Mio. | $153,6 Mio. | +955% |
+| Total Liabilities | $20,7 Mio. | $46,3 Mio. | -55% |
+| Stockholders' Equity | $1.598,3 Mio. | $107,3 Mio. | +1.390% |
+
+**Das sieht phänomenal aus – bis man versteht, WOHER das Geld kommt.**
+
+Die gesamte Bilanztransformation wird durch **eine einzige Zeile** erklärt:
+
+> **Issuance of shares for cash: 86.250.000 neue Aktien für $1.475,1 Mio. Netto-Erlöse** 
+
+Das Unternehmen hat seine Aktienzahl von **129 Mio. auf 224 Mio.** erhöht – eine **Verwässerung von 73,7%** in einem einzigen Geschäftsjahr. Durchschnittlicher Emissionspreis: ca. **$17,10/Aktie**.
+
+Was haben sie mit dem Geld gemacht? Primär: **US Treasuries und Corporate Bonds gekauft.** 
+
+- $426,4 Mio. in US Treasuries
+- $356,1 Mio. in Corporate Debt Securities
+- $720,6 Mio. in Money Market/Mutual Funds
+
+**Das ist keine operative Firma. Das ist ein $1,5 Mrd. Anleihenfonds mit einer Quantum-Computing-Geschichte drumherum.** Als Bankdirektor muss ich hier ganz deutlich sagen: Das Unternehmen hat die euphoriebedingten Aktienkurse genutzt, um massiv Cash zu generieren. Das ist betriebswirtschaftlich rational – aber es verlagert das Risiko vollständig auf die Altaktionäre.
+
+---
+
+### B. GuV: Die Wahrheit über das „Geschäft"
+
+Hier wird es wirklich schmerzhaft :
+
+| Position | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| **Revenue** | **$682K** | **$373K** | **$358K** |
+| Cost of Revenue | $615K | $261K | $196K |
+| **Gross Profit** | **$67K** | **$112K** | **$162K** |
+| **Gross Margin** | **9,8%** | **30,0%** | **45,3%** |
+| Total OpEx | $51,1 Mio. | $26,0 Mio. | $26,4 Mio. |
+| **Operating Loss** | **$(51,1 Mio.)** | **$(25,9 Mio.)** | **$(26,2 Mio.)** |
+| Net Loss | $(18,7 Mio.) | $(68,5 Mio.) | $(27,0 Mio.) |
+
+#### Die drei brutalen Wahrheiten:
+
+**1. Die Gross Margin kollabiert:** Von 45,3% auf 9,8%. Das ist **das Gegenteil von Skalierung.** In einem Technologieunternehmen sollte die Marge mit wachsendem Umsatz steigen, nicht fallen. Hier wird der Umsatz teurer, je mehr man davon hat. Das deutet auf Pricing-Probleme oder nicht-skalierbare Kostenstrukturen hin.
+
+**2. Der „verbesserte" Nettoverlust ist eine Illusion:** Der Nettoverlust sank von $68,5 Mio. auf $18,7 Mio. – das sieht nach Fortschritt aus. Ist es aber nicht:
+- **$11,75 Mio.** kamen aus der Mark-to-Market Bewertung der Warrant-Liability (nicht-cash, nicht-operativ, volatil, nächstes Jahr kann das umkippen) 
+- **$20,7 Mio.** kamen aus Zinserträgen – weil sie $1,5 Mrd. in Bonds geparkt haben 
+
+Ohne diese beiden Posten wäre der operative Verlust **$51,1 Mio.** – also eine **Verdopplung** gegenüber dem Vorjahr.
+
+**3. Die OpEx-Explosion:** Die Betriebskosten haben sich fast verdoppelt:
+- R&D: $20,5 Mio. (+81%) – das ist akzeptabel, hier investiert man in die Zukunft
+- G&A: $27,2 Mio. (+111%) – das ist **alarmierend**
+- Davon **Professional Services & Legal: $14,5 Mio.** vs. $3,0 Mio. im Vorjahr (+383%) 
+
+Dieser Anstieg bei Professional Services & Legal ist mit hoher Wahrscheinlichkeit getrieben durch die **Securities Class Action, die drei Derivative Actions, die BV Advisory Settlements** und die Kosten der massiven Kapitalmarktaktivitäten. $14,5 Mio. für Legal & Professional bei $682K Revenue – **das Unternehmen gibt 21x mehr für Anwälte aus als es einnimmt.**
+
+---
+
+### C. Cash Flow: Die operative Realität
+
+| Position | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| **Operating CF** | **$(30,3 Mio.)** | **$(16,2 Mio.)** | **$(18,3 Mio.)** |
+| Investing CF | $(788,3 Mio.) | $(6,0 Mio.) | $(2,6 Mio.) |
+| Financing CF | $1.477,6 Mio. | $99,1 Mio. | $17,7 Mio. |
+
+Der operative Cash Burn hat sich fast **verdoppelt**. Investitionen sind primär Wertpapierkäufe ($1,2 Mrd. gekauft, ~$416 Mio. zurückverkauft/fällig) . Die gesamte Finanzierung kommt aus Aktienemission.
+
+**Runway-Rechnung:**
+- Cash + Investments: ~$1,53 Mrd.
+- Operative Burn Rate (FY2025): ~$30 Mio./Jahr
+- Plus CAPEX: ~$7 Mio./Jahr
+- **Theoretischer Runway: ~41 Jahre**
+
+**Cash ist NICHT das Problem.** Das ist fairerweise anzuerkennen. QCi hat sich eine massive finanzielle Kriegskasse gesichert. Die Frage ist nur: **Zu welchem Preis für die Aktionäre?**
+
+---
+
+## VII. Weitere Leichen im Keller
+
+### 🔴 1. Auditor: BPM LLP – Adverse Opinion on ICFR
+
+Der Wirtschaftsprüfer ist **BPM LLP** (PCAOB ID 207), eine mittelständische Firma aus San Jose . **Nicht Big 4. Nicht einmal Second-Tier** (Grant Thornton, BDO, RSM). Für ein $2,5 Mrd. Market Cap Unternehmen ist das ungewöhnlich. BPM ist erst **seit 2024** Auditor – also relativ frisch.
+
+Entscheidend: BPM hat ein **Unqualified Opinion** auf die Finanzstatements ausgestellt (die Zahlen stimmen), aber ein **Adverse Opinion** auf die Internal Controls . Eine Adverse Opinion ist **die schlechteste mögliche Beurteilung** – schlimmer als „Disclaimer" oder „Qualified". Sie sagt: Die internen Kontrollen sind nicht nur mangelhaft, sie sind **systematisch unwirksam**.
+
+### 🔴 2. Die drei Material Weaknesses im Detail
+
+Jetzt haben wir Klarheit über die Material Weaknesses :
+
+1. **Control Environment:** Zu wenige qualifizierte Accounting-Mitarbeiter, keine Segregation of Duties
+2. **Risk Assessment:** Keine ausreichenden Prozesse zur Identifizierung neuer Risiken
+3. **IT General Controls:** Keine angemessenen User Access Controls, keine Change Management Controls, keine Backup-Kontrollen, keine Prüfung von Third-Party IT
+
+Das ist ein **Totalausfall der internen Kontrollen auf drei von fünf COSO-Ebenen**. In 2025 haben sie zwar 5 Accounting-Mitarbeiter eingestellt (Controller, Manager of Technical Accounting), aber das sind Maßnahmen die **Jahre** brauchen, um Wirkung zu zeigen.
+
+### 🔴 3. Securities Class Action + Drei Derivative Actions
+
+Das ist eine **juristische Vierfrontenbelagerung** :
+
+- **Securities Class Action** (Feb 2025): Sammelklage wegen angeblich falscher/irreführender Aussagen zu Kunden, Verträgen und Geschäftsbetrieb. Klagezeitraum: März 2020 bis Januar 2025. **Die Klage wurde bereits zweimal nachgebessert** – das zeigt, dass die Klägeranwälte Material haben und nicht aufgeben.
+
+- **Drei Shareholder Derivative Actions** (März, Mai, Juni 2025): Vorwürfe von Breach of Fiduciary Duty, Unjust Enrichment, Waste of Corporate Assets gegen Officers und Directors.
+
+Das Unternehmen bildet **keine Rückstellung** für diese Klagen – sie glauben, die Verteidigung wird erfolgreich sein. Das ist Standard-Formulierung, aber bei **vier parallelen Klagen** ist das Risiko real. Die Legal Fees (Teil der $14,5 Mio. Professional Services) werden weiter steigen.
+
+### 🔴 4. Die §162(m) Bombe in der Steuerüberleitung
+
+In der Tax Reconciliation steht :
+
+> **Section 162(m) officer compensation limitation: $6,46 Mio. (non-deductible)**
+
+Das bedeutet: Die Vorstandsvergütung ist so hoch, dass **$6,46 Mio. steuerlich nicht absetzbar** sind (§162(m) begrenzt die Absetzbarkeit auf $1 Mio. pro Executive). Bei einem Pre-Revenue-Unternehmen mit $682K Umsatz zahlt man den Executives **Millionen** – und das ist kein Geheimnis, aber die Steuererklärung macht es glasklar.
+
+Noch interessanter: **Stock-based compensation windfall: $(9,09 Mio.)** – das ist ein steuerlicher Windfall-Benefit aus Aktienoptionen, die beim Ausüben mehr wert waren als beim Grant. Die Executives profitieren massiv vom aufgeblähten Aktienkurs.
+
+### 🔴 5. Der SBC-zu-Revenue-Ratio: 15:1
+
+Stock-based Compensation FY2025: **$10,2 Mio.** (Equity Statement) bei $682K Revenue . Das ist ein Verhältnis von **15:1**. Für jeden Dollar Umsatz verschenkt das Unternehmen $15 an Aktien an Management und Mitarbeiter. Im Quantum-Sektor ist SBC normal – aber dieses Verhältnis ist extrem. Die SBC hat sich gegenüber 2024 ($4,3 Mio.) mehr als verdoppelt.
+
+### 🔴 6. Goodwill: Die $55,6 Mio. Zeitbombe
+
+$55,6 Mio. Goodwill aus der QPhoton-Merger 2022 – **unverändert, keine Impairment** . Das Unternehmen nutzt den **Market Approach** für den Impairment Test – solange der Aktienkurs hoch bleibt, muss kein Goodwill abgeschrieben werden. Aber sie warnen selbst:
+
+> *"If the Company's stock price continues to experience significant price and volume fluctuations, this will impact the fair value of the reporting unit and can lead to potential impairment in future periods."* 
+
+Bei einem Kursrückgang von 50%+ wäre ein Goodwill Impairment wahrscheinlich – das wäre ein weiterer Multimillionen-Verlust in der GuV.
+
+### 🔴 7. Noch ein Copy-Paste-Fehler
+
+Im Abschnitt "Changes in Internal Control" steht :
+
+> *"...during the fiscal quarter ended **December 31, 2024**..."*
+
+Das ist ein **FY2025 10-K**. Es müsste "December 31, **2025**" heißen. Zusammen mit dem "Astra"-Fehler aus Teil 1 ist das jetzt der **zweite Textfehler** in einem CEO/CFO-zertifizierten SEC-Filing. Das ist kein Zufall mehr – das ist **systemisches Qualitätsversagen** in der Dokumentenerstellung. Und es bestätigt exakt die Material Weaknesses.
+
+### 🟡 8. Der BV Advisory Settlement: Bezahlt mit Aktien
+
+Die Beilegung der BV Advisory Klagen kostete **1,9 Mio. neue Aktien** an Keith Barksdale . Bei $11/Aktie sind das ~$21 Mio. in Aktien. Zusätzlich wurde die $536K Note zurückgezahlt. Das ist teuer, aber besser als ein langwieriger Appraisal-Prozess.
+
+### 🟡 9. Die Shell-Company-DNA
+
+Die Corporate History ist aufschlussreich :
+- 2001: Gegründet als **Ticketcart, Inc.** 
+- 2009: Umbenannt in **Innovative Beverage Group Holdings, Inc.**
+- 2018: Umbenannt in **Quantum Computing Inc.**
+
+Von Tickets über Getränke zu Quantencomputing. Das ist eine klassische **Shell-Company-Metamorphose**. Das heißt nicht automatisch, dass das Geschäft schlecht ist – aber es erklärt die DNA der Governance-Probleme. Diese Firma wurde nicht als Quantum-Unternehmen geboren.
+
+### 🟡 10. Director Trading Plan: Carl Weimer verkauft
+
+Vorstandsmitglied Dr. Carl Weimer hat im November 2025 einen 10b5-1 Plan eingerichtet, um **bis zu 100.000 Aktien bis September 2026** zu verkaufen . Offiziell zur Ausübung auslaufender Optionen. Aber ein Director, der verkauft, während das Unternehmen angeblich vor dem Durchbruch steht? Das ist kein positives Signal.
+
+### 🟡 11. Executive Comp Plan: $30 Mio. Revenue-Ziel
+
+Das 2026 Executive Compensation Framework setzt **$30 Mio. Revenue** als Performance-Target für Cash-Bonuses . Sie haben FY2025 $682K gemacht. Das bedeutet: Management muss den Revenue um **4.300%** steigern, um den Bonus zu triggern. Entweder ist das extrem ambitioniert (gut, die Latte liegt hoch) – oder es ist bewusst so gesetzt, dass der Board volle Diskretion behält, Bonuses trotzdem zu zahlen (das Filing sagt ausdrücklich: *"Our Board retains full discretion to modify or deviate"*).
+
+### 🟡 12. NOLs und §382-Risiko
+
+$118,9 Mio. Federal NOL Carryforwards, $39,2 Mio. State NOLs . Aber mit der **73,7% Aktienverwässerung in 2025** ist ein Section 382 Ownership Change sehr wahrscheinlich. Das würde die jährliche Nutzung der NOLs **massiv limitieren** – genau dann, wenn das Unternehmen irgendwann profitabel werden sollte.
+
+---
+
+## VIII. Was positiv anzumerken ist (Fairness!)
+
+Ich muss als Bankdirektor fair bleiben:
+
+1. **Cash Runway ist hervorragend:** ~41 Jahre bei aktuellem Burn. Kein Going Concern. Das ist mehr als die meisten Quantum-Peers haben. IonQ hat weniger absolut.
+
+2. **Keine Verschuldung mehr:** Streeterville Notes vollständig zurückgezahlt. Die Bilanz ist quasi schuldenfrei (Liabilities sind primär Operating Lease und Derivative Warrant Liability) .
+
+3. **Revenue wächst – wenn auch von winziger Basis:** +83% YoY auf $682K. Erste Produktumsätze ($314K) neben Services ($368K). Erste Kunden in Europa ($65K) und Asien ($25K) . Das ist nicht nichts.
+
+4. **R&D-Investment ist substanziell:** $20,5 Mio. in R&D bei 72 Mitarbeitern zeigt, dass das Geld tatsächlich in Technologie fließt, nicht nur in Verwaltung.
+
+5. **Vorherige Material Weakness remediiert:** Die Revenue-Recognition und Written-Policies Weakness wurde behoben . Das zeigt, dass Remediation möglich ist, wenn auch langsam.
+
+6. **Anleihenportfolio konservativ:** Die Investments sind primär US Treasuries und Investment-Grade Corporate Bonds mit 1-3 Jahren Laufzeit . Kein spekulativer Unsinn mit dem Cash.
+
+---
+
+## IX. Endbewertung
+
+### Das Gesamtbild:
+
+| Kategorie | Bewertung | Kommentar |
+|---|---|---|
+| **Technologie** | ⭐⭐⭐⭐ | Raumtemperatur-Photonics ist real differenziert |
+| **Revenue-Traktion** | ⭐ | $682K ist de facto Null |
+| **Gross Margin Trend** | 🔴 | Kollabierende Marge ist ein Warnsignal |
+| **Cash Position** | ⭐⭐⭐⭐⭐ | $1,5 Mrd. – bombensicher |
+| **Governance/Controls** | 🔴🔴 | Adverse ICFR, drei Material Weaknesses, Copy-Paste-Fehler |
+| **Bewertung vs. Substanz** | 🔴🔴🔴 | $2,55 Mrd. MCap auf $682K Revenue |
+| **Litigation Risk** | 🔴🔴 | 4+ aktive Klagen inkl. Securities Class Action |
+| **Management Alignment** | 🟡 | Hohe SBC, Director verkauft, aber hohe Revenue-Targets |
+| **Dilution Risk** | 🔴🔴 | 73,7% Verwässerung in 2025, WKSI-Status |
+| **Auditor-Qualität** | 🟡 | Mid-Tier Firm, erst seit 2024, aber unqualified opinion auf Financials |
+
+### Das Urteil als Bankdirektor:
+
+**Quantum Computing Inc. ist ein technologisch interessantes Pre-Revenue-Unternehmen, das den Meme-Stock/Quantum-Hype von 2024/25 perfekt kapitalisiert hat, um sich eine massive Cash-Position aufzubauen.** Das war aus Sicht des Managements der richtige Move – wenn der Markt bereit ist, $17/Aktie für eine Pre-Revenue-Story zu zahlen, dann nimmt man das Geld.
+
+**ABER:** Die Firma hat fundamentale Governance-Probleme (Adverse ICFR, Shell-Company-DNA, Multiple Filing Errors), eine juristische Umzingelung (Securities Class Action + drei Derivative Actions), eine kollabierende Gross Margin, und eine Bewertung die selbst für den Quantum-Sektor ambitioniert ist.
+
+Die $1,5 Mrd. Cash stellen sicher, dass die Firma **nicht pleitegeht** – aber sie stellen nicht sicher, dass sie **jemals die Bewertung rechtfertigt**. Im schlimmsten Fall wird QCi zum "Zombie": Technologisch zu spät, kommerziell zu schwach, aber mit genug Cash, um jahrelang vor sich hin zu existieren, während die Aktionäre langsam ausbluten.
+
+### Wer ist der typische Anleger?
+
+**Mein finales Anlegerprofil:**
+
+Der Kernanleger ist der **technologieaffine Retail-Spekulant**, der zwischen FOMO und Überzeugung schwankt. Er hat die Quantum-Computing-These verstanden, findet den Raumtemperatur-Ansatz überzeugend, und sieht die $1,5 Mrd. Cash als Sicherheitsnetz. Was er **unterschätzt**: Die Governance-Risiken, die Bedeutung einer Adverse ICFR Opinion, die strukturelle Dilution, und dass die Gross Margin in die falsche Richtung geht.
+
+**Institutionelle Investoren** mit Due-Diligence-Prozessen würden bei der Adverse ICFR Opinion und der Securities Class Action typischerweise **aussteigen oder deutlich reduzieren**. Die verbleibende institutionelle Basis sind wahrscheinlich Quant-Fonds und ETFs mit Quantum/AI-Themen-Exposure, die nicht aktienspezifisch analysieren.
+
+### Meine Empfehlung als Bankdirektor:
+
+**Kreditvergabe:** Nein. Trotz der Cash-Position. Die Governance-Risiken und die fehlende operative Substanz disqualifizieren dieses Unternehmen für jede Form von Kreditengagement.
+
+**Als Investment:** Nur für Anleger mit **Venture-Capital-Mentalität**, die bereit sind, den Totalverlust zu akzeptieren und eine **Position Size von max. 1-2% des Portfolios** einhalten. Die Cash-Position kauft Zeit, aber nicht Gewissheit.
+
+---

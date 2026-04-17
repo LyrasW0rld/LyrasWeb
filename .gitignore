@@ -1,3 +1,5 @@
 __pycache__/
 .pytest_cache/
 scripts/__pycache__/
+.github/desktop.ini
+.github/workflows/desktop.ini
