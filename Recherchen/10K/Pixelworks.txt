@@ -1,0 +1,419 @@
+
+# Pixelworks (PXLW) – Forensische Analyse des 10-K FY2025 (Teil 1/2)
+## Perspektive: Erfahrener Kreditanalyst / Bankdirektor
+
+---
+
+## I. Executive Summary – Erste Einordnung
+Was hier vorliegt, ist **kein klassischer Turnaround**, sondern eine **radikale Transformation einer ehemaligen Halbleiterfirma in eine IP/Lizenz-Shell** mit einer einzigen, bisher kommerziell nicht validierten Technologie (TrueCut Motion). Das Unternehmen hat sein operatives Kerngeschäft komplett veräußert und steht mit Cash, einem Patentportfolio und einer Hoffnung da. Die Story, die den Anlegern verkauft wird, ist elegant formuliert – aber unter der Oberfläche liegen erhebliche Risiken.
+
+---
+
+## II. Die Leichen im Keller – Systematisch
+
+### 1. Revenue-Situation: Das Herzstück des Problems
+
+> *"Sales in the Cinematic market were not material in 2025 or 2024."* 
+
+Das ist **der** kritische Satz im gesamten Filing. TrueCut Motion ist nach dem Sale das **einzige** verbleibende Produkt – und es generiert **$693K Revenue** in 2025, praktisch identisch mit $690K in 2024 . **Null Wachstum.** Kein Backlog (*"Sales in the Cinematic market do not have a backlog"*) . Keine Saisonalität, weil es schlicht nichts zu saisonalisieren gibt.
+
+Dem stehen gegenüber:
+- **R&D: $3,7 Mio.** 
+- **SGA: $8,45 Mio.** 
+- **Continuing Operations OpEx total: ~$12,1 Mio.**
+
+Das ergibt einen **OpEx-zu-Revenue-Ratio von ~17,5x**. Für jede eingenommene Dollar-Einheit werden 17,50 Dollar verbrannt. Das ist selbst für ein Pre-Revenue-Tech-Startup aggressiv – und Pixelworks ist kein Startup, sondern wurde **1997 gegründet** .
+
+### 2. Accumulated Deficit: $528 Millionen
+
+> *"We have incurred operating losses each fiscal year since 2010 and have an accumulated deficit of $528 million as of December 31, 2025."* 
+
+**15 Jahre** ununterbrochene Verluste. Ein Accumulated Deficit von über einer halben Milliarde Dollar bei einer aktuellen Market Cap von ~$38 Mio. Das Management formuliert es freundlich als *"If and when we achieve profitability depends upon a number of factors"* – aber die historische Evidenz spricht eine brutale Sprache. Kein einziges profitables Jahr in anderthalb Dekaden.
+
+### 3. Reverse Stock Split 1:12 – Das Warnsignal
+
+Am 6. Juni 2025 wurde ein **1:12 Reverse Split** durchgeführt , explizit weil der Kurs unter der Nasdaq-Mindestanforderung von $1,00 lag. Das ist in der Branche ein bekanntes **Delisting-Vermeidungsmanöver**. Reverse Splits korrelieren statistisch mit fortgesetzter Underperformance – sie ändern nichts am Fundamentalwert, sondern nur an der optischen Darstellung.
+
+Die Aktienanzahl schrumpfte auf **~6,36 Mio. Stück** . Bei nur **97 Shareholders of Record** per 6. März 2026  ist die Aktionärsstruktur **extrem dünn**. Nasdaq verlangt mindestens 300 Total Shareholders – hier stellt sich die Frage, ob über Beneficial Ownership (Street Name) dieser Schwellenwert sicher gehalten wird.
+
+### 4. Nasdaq-Compliance: Am seidenen Faden
+
+Das Filing listet die Nasdaq-Continued-Listing-Standards detailliert auf  – das allein ist schon ein Red Flag, denn Unternehmen, die hier komfortabel sind, erwähnen das nicht mit dieser Akribie. Die drei Standards:
+
+- **Standard 1** (Net Income ≥$500K): **Nicht erfüllt** – seit 2010 keine Profitabilität
+- **Standard 2** (Market Value Listed Securities ≥$35 Mio.): Market Cap per 30.06.2025 war $35,6 Mio.  – **gerade so drüber**, mit minimalem Puffer
+- **Standard 3** (Shareholders' Equity ≥$2,5 Mio.): Muss im Teil 2 verifiziert werden
+
+Die Firma hängt also an Standard 2, und der Kurs notierte am 06.03.2026 bei $6,07 , was bei ~6,36 Mio. Aktien eine Market Cap von ~$38,6 Mio. ergibt. **Ein Kursrückgang von ~10% würde das Delisting-Risiko akut machen.**
+
+### 5. Der Sale: Schön verpackt, aber was bleibt?
+
+Der Verkauf von PWSH für ~$51 Mio. netto  klingt zunächst positiv. Aber:
+
+- Es wurden **~29% der PWSH-Anteile an die Minority Shareholders übertragen** (nicht verkauft!)  – das waren offenbar Pre-Sale-Verpflichtungen, die den effektiven Verkaufserlös verwässern.
+- **$1,2 Mio. in Escrow** für ungelöste Steuerfragen in China  – klingt klein, aber bei einem 23-Mann-Unternehmen ist jede Unsicherheit materiell.
+- **$1,0 Mio. weitere Transaktionskosten** exklusive Executive Compensation  – die Management-Vergütung für den Deal ist separat und wird im Proxy offengelegt. Man darf hier „goldene Handschläge" vermuten.
+- Was nach dem Cash-Zufluss bleibt: Eine **leere Hülle mit einer unvalidierten Technologie** und einem rapide schrumpfenden Mitarbeiterstamm.
+
+### 6. Mitarbeiter-Exodus: Von 163 auf 23
+
+> *"As of December 31, 2025, we had a total of 163 employees [...] Following the Sale and the restructuring related to the Sale, we will have a total of approximately 23 full-time employees."* 
+
+**Drei Restrukturierungen** innerhalb eines Jahres (Juni 2024, Februar 2025, Mai 2025) . Der Rückgang von 196 (2024) auf 163 (2025) und dann auf 23 nach dem Sale ist ein **Einbruch von ~88%**. Das verbleibende Team soll:
+- R&D fortführen (China R&D Center in Shanghai bleibt)
+- Die TrueCut-Plattform vermarkten
+- Compliance/SEC-Reporting sicherstellen
+- IP verwalten und verteidigen
+
+**23 Leute für all das, gegen Konkurrenten wie Dolby, Adobe, Epic Games, Autodesk, ILM**  – Firmen mit Tausenden Mitarbeitern und Milliarden-Budgets. Das ist ein erhebliches Klumpenrisiko beim Personal.
+
+### 7. Patent-Verkauf als Ergebnis-Kosmetik
+
+> *"On October 22, 2025, the Company [...] sold 37 patents and related rights [...] for $3.0 million."* 
+
+Dieser **einmalige Gain von $3 Mio.** lässt das Other Income auf $3,123K aufblähen (vs. $354K in 2024) . Ohne diesen Einmaleffekt wäre das Ergebnis aus Continuing Operations deutlich schlechter. Die verkauften Patente stammten aus der ViXS-Akquisition 2017 und betrafen Märkte, die Pixelworks *"no longer pursues"*. Das ist IP-Verwertung unter Zwang – man monetarisiert den Restbestand.
+
+### 8. NOL-Carryforwards: Die stille Optionalität – und ihr Verfall
+
+**$157,9 Mio. federal + $18,3 Mio. state NOLs**, die ab **2026 zu verfallen beginnen** . Nur $44,6 Mio. haben indefinite life. Das ist ein theoretisch wertvolles Tax-Asset – **ABER:**
+
+- Section 382 kann bei einem Ownership Change (>50% Equity Shift in 3 Jahren) die jährliche Nutzung drastisch limitieren 
+- Die Firma braucht dazu erst einmal **steuerpflichtiges Einkommen** – bei 15 Jahren Verlusten ein optimistisches Szenario
+- Der PWSH-Sale könnte selbst einen Ownership-Change-Event ausgelöst haben oder die Dynamik dafür verstärken
+
+Die NOLs sind der **stille Attraktor für Reverse-Merger-Spekulanten** und aktivistische Investoren. Mehr dazu unter Anleger-Profil.
+
+### 9. Keine 404(b)-Attestation
+
+> *"Indicate by check mark whether the registrant has filed a report on and attestation to its management's assessment of the effectiveness of its internal control over financial reporting under Section 404(b) [...] ☐"* 
+
+Als Smaller Reporting Company / Non-Accelerated Filer ist das legal – aber es bedeutet, dass die **internen Kontrollen NICHT durch den externen Auditor geprüft** werden. Bei einer Firma, die gerade ihr operatives Geschäft verkauft hat und massive Restrukturierungen durchführt, ist das ein Governance-Risiko.
+
+---
+
+## III. Fairness-Check: Was ist positiv?
+
+### ✅ Cash-Position nach dem Sale
+~$51 Mio. netto aus dem PWSH-Verkauf plus bestehende Cash-Bestände geben Runway. Bei 23 Mitarbeitern und reduzierten OpEx (geschätzt $5–7 Mio. p.a. post-Restrukturierung) reicht das Cash für **mehrere Jahre** – selbst ohne einen Dollar Umsatz. Das nimmt den unmittelbaren Existenzdruck.
+
+### ✅ Asset-Light Modell
+Kein Manufacturing, keine Inventory-Risiken, keine CapEx-Verpflichtungen. Nur IP, Software, Services. Das reduziert die Downside-Risiken auf der Bilanz erheblich.
+
+### ✅ Bruttomargen von 85%
+Auf den mageren $693K Revenue beträgt die Bruttomarge 85% . Das ist für ein IP/Service-Modell konsistent und zeigt, dass – **wenn** Volumen kommt – die Unit Economics grundsätzlich funktionieren.
+
+### ✅ First Mover in Motion Grading
+TrueCut Motion ist nach eigenen Angaben die **erste Motion-Grading-Lösung für den Cinematic-Markt** . Die Technologie adressiert ein reales Problem (Judder, Motion Blur auf modernen Displays). Die Beschreibung ist technisch fundiert und nicht bloß Marketing-Floskeln.
+
+### ✅ IP-Portfolio
+56 erteilte Patente + 6 pending  mit Restlaufzeiten von 1–16 Jahren. Das ist für eine Firma dieser Größe ein **nicht trivialer Bestand**, der sowohl defensiven als auch offensiven Wert hat (Lizenzierung, Verkauf, Akquisitions-Attraktor).
+
+### ✅ Kein erkennbarer Debt Load
+Im vorliegenden Teil gibt es keine Hinweise auf signifikante Verschuldung. Die Bilanz muss im Teil 2 bestätigt werden, aber eine schuldenfreie Struktur mit $50+ Mio. Cash ist per se solide.
+
+---
+
+## IV. Der "Turnaround" – Realistische Einschätzung
+
+Die Turnaround-These basiert auf folgender Logik:
+1. Halbleitergeschäft verkauft → Verlustbringer eliminiert
+2. Cash-Zufluss ~$51 Mio. → Runway gesichert
+3. Fokus auf TrueCut Motion → High-Margin-IP-Geschäft
+4. NOLs als stiller Wert → Steuerliche Optionalität
+
+**Das Problem:** Es gibt nach 2+ Jahren **keinen Beweis**, dass TrueCut Motion kommerziell skaliert. $0,7 Mio. Revenue ohne Wachstum ist kein Turnaround-Signal, sondern eine **Stagnation auf Mikro-Niveau**. Die Competitive-Landscape-Analyse im Filing selbst listet Dolby, Adobe, Epic, Autodesk, ILM, Wētā FX, DNEG etc.  – alles Firmen mit um Größenordnungen mehr Ressourcen.
+
+Die realistische Lesart: **Pixelworks ist eine Cash-Shell mit IP-Optionalität.** Der Turnaround ist weniger ein operativer Turnaround als eine **Wette auf einen von drei Ausgängen:**
+1. TrueCut gewinnt unerwartet Traktion (unwahrscheinlich basierend auf aktueller Evidenz)
+2. Das gesamte Unternehmen wird akquiriert (IP + Cash + NOLs als Attraktor)
+3. Reverse Merger / strategische Alternative (NOL-Shell-Spiel)
+
+---
+
+## V. Anleger-Profil: Wer geht hier rein?
+
+Das ist **kein institutionelles Investment**. Die Market Cap von ~$38 Mio., der Micro-Cap-Status, das geringe Handelsvolumen und die dünne Aktionärsbasis schließen die meisten Fonds aus (Mindestmarktkapitalisierung, Liquiditätsanforderungen). Wer hier investiert:
+
+| Anlegertyp | Motivation | Risikoprofil |
+|---|---|---|
+| **Retail-Spekulanten** | "Turnaround-Story", optisch günstiger Kurs nach Reverse Split | Hoch, oft ohne tiefes Verständnis der Bilanz |
+| **NOL-Jäger / Reverse-Merger-Spekulanten** | $157,9 Mio. Tax Shield als "versteckter Wert" | Hoch, kalkulierte Spekulation |
+| **Aktivistische Investoren** | Cash on Balance Sheet > Market Cap (nach Sale) als Katalysator | Mittel-hoch, event-driven |
+| **Deep-Value / Special-Situation Funds** | Sum-of-Parts: Cash + IP + NOLs vs. Market Cap | Mittel, mit Exit-Strategie |
+| **Insider / Management** | Stock-Based Comp, Eigeninteresse | Asymmetrisch |
+
+Der typische Anleger hier ist ein **spekulativer Retail-Investor oder ein Small-Cap Special-Situation-Spieler**, der auf einen Katalysator wettet (Akquisition, Major Licensing Deal, strategische Alternative). Es ist **kein Investment für konservative Anleger, Pensionsfonds oder risikobewusste Privatanleger**.
+
+---
+
+## VII. Vorläufiges Gesamturteil 
+
+**Rating-Analogie:** Wäre dies ein Kreditantrag, würde die Akte auf meinem Schreibtisch mit **"Hochspekulativ / Nicht kreditwürdig für konventionelle Finanzierung"** gestempelt werden. Die Firma hat kein tragfähiges operatives Geschäft, keine Profitabilitäts-Historie und basiert auf einer einzigen, kommerziell unvalidierten Technologie.
+
+**Als Equity-Investment** ist es eine **binäre Wette**: Entweder TrueCut gewinnt Traktion oder ein strategischer Exit (Übernahme/Merger) realisiert den Asset-Wert – oder die Firma brennt über Jahre den Cash-Bestand herunter und endet als Penny Stock. Die NOLs sind der interessanteste versteckte Wert, aber nur unter spezifischen Bedingungen realisierbar.
+
+**Fairness-Gesamturteil:** Das Management hat mit dem PWSH-Sale das Richtige getan – das Halbleitergeschäft war ein Verlustbringer in einem brutal kompetitiven Markt. Die Frage ist, ob die verbleibende TrueCut-Plattform ein eigenständiges Geschäft aufbauen kann oder ob Pixelworks letztlich als **NOL-Shell mit Cash** sein Dasein fristet. Die nächsten 12–18 Monate werden das zeigen.
+
+---
+
+
+# Pixelworks (PXLW) – Forensische Analyse Teil 2/2 & Endbewertung
+## Perspektive: Erfahrener Kreditanalyst / Bankdirektor
+
+---
+
+## I. Neue Leichen aus Teil 2
+
+### 🔴 1. Shareholders' Equity: $1.806K – **UNTER Nasdaq-Minimum**
+
+Dies ist die **gravierendste Neuentdeckung** in Teil 2. Aus dem Equity Statement :
+
+| Position | 31.12.2025 |
+|---|---|
+| Common Stock / APIC | $504.405K |
+| AOCI | $2.882K |
+| Accumulated Deficit | $(528.379)K |
+| NCI (PWSH) | $22.898K |
+| **Total Shareholders' Equity** | **$1.806K** |
+
+Nasdaq Continued Listing Standard 3 verlangt **$2.500K Shareholders' Equity**. Pixelworks liegt mit $1.806K **$694K darunter**. In meiner Teil-1-Analyse hatte ich markiert, dass Standard 2 (Market Value ≥$35 Mio.) hauchdünn erfüllt war – nun zeigt sich, dass **auch Standard 3 gerissen ist**.
+
+Noch toxischer: Die $22.898K NCI werden bei Closing des PWSH-Sale (06.01.2026) **derecognized** . Ohne NCI wäre das Equity **attributable to Pixelworks**:
+
+> $504.405 + $2.882 - $528.379 = **-$21.092K (negativ!)**
+
+Das wird nur durch den noch nicht realisierten Gain on Sale kompensiert. Zwischen dem Bilanzstichtag (31.12.2025) und dem Closing (06.01.2026) gab es also ein **6-Tage-Fenster negativen Eigenkapitals** – ein Alptraum für jeden Compliance Officer.
+
+---
+
+### 🔴 2. Cash Burn: Verschlechtert trotz Schrumpfkurs
+
+Aus dem Cash Flow Statement :
+
+| Position | 2025 | 2024 |
+|---|---|---|
+| Operating Cash Flow | **$(20.606)K** | $(19.807)K |
+| Investing CF | $3.306K | $(3.119)K |
+| Financing CF | $11.720K | $(971)K |
+| **Net Cash Change** | **$(5.580)K** | $(23.897)K |
+
+Der **operative Cash Burn hat sich von -$19,8 Mio. auf -$20,6 Mio. verschlechtert** – trotz drei Restrukturierungen und Personalabbau. Das konsolidierte Cash Flow Statement enthält Continuing **und** Discontinued Operations (explizit vermerkt) , was die Trennung erschwert. Aber die Richtung ist eindeutig: Mehr Geld verbrannt, nicht weniger.
+
+**Die kritische Erkenntnis:** Ohne die $10,8 Mio. aus Equity-Emissionen (ATM + Registered Direct) und $2,1 Mio. Line of Credit wäre die Firma Ende 2025 auf **$4,2 Mio. Cash** geschrumpft – ein akutes Liquiditätsproblem.
+
+---
+
+### 🔴 3. 27% Verwässerung in einem einzigen Jahr
+
+Die Aktienzahl stieg von 4.977.228 auf 6.336.957  – ein **Plus von 1.359.729 Aktien oder ~27%**:
+
+| Emission | Stück | Erlös (netto) | Kurs |
+|---|---|---|---|
+| Registered Direct (März 2025) | 164.176 | $1.341K | $8,83 |
+| Registered Direct (Okt 2025) | 666.667 | $6.541K | $10,50 |
+| ATM Programm | 347.559 | $2.952K | ~$8,85 |
+| Employee Plans | ~181.327 | $48K | Minimal |
+
+Die Firma hat in einem Jahr **$10,9 Mio. durch Aktienverwässerung** eingenommen  – bei einem Unternehmen, das $693K Umsatz macht. Das ist kein Turnaround-Finanzierung, das ist **Überlebens-Dilution**. Die ATM-Facility wurde am 11.03.2026 gekündigt  – vermutlich weil nach dem PWSH-Sale genug Cash vorhanden ist, aber das Signal der vergangenen Nutzung bleibt.
+
+---
+
+### 🔴 4. Discontinued Operations: Das verkaufte Geschäft verfiel rapide
+
+| PWSH (Discontinued) | 2025 | 2024 | Δ |
+|---|---|---|---|
+| Revenue | $31.587K | $42.516K | **-26%** |
+| Gross Profit | $15.217K | $21.724K | -30% |
+| Operating Expenses | $31.537K | $40.117K | -21% |
+| Net Loss | $(15.009)K | $(16.883)K | -11% |
+
+
+
+Die PWSH-Einheit, die **$51 Mio. Verkaufserlös** generierte, hatte ein **Revenue, das um 26% einbrach**, eine Bruttomarge die von 51% auf 48% fiel, und Verluste, die trotz aggressivem Kostenschnitt bei $15 Mio. blieben. Der Buyer hat ein **schrumpfendes, verlustbringendes Geschäft** gekauft – was die Frage aufwirft, ob der Kaufpreis realistisch oder strategisch motiviert war (VeriSilicon-Umfeld, chinesisches Halbleiter-Ökosystem).
+
+Positiv interpretiert: Pixelworks hat den Verkauf **zum genau richtigen Zeitpunkt** abgeschlossen – ein Jahr später wäre der Erlös deutlich niedriger ausgefallen.
+
+---
+
+### 🔴 5. RNCI: $28,6 Mio. in Mezzanine Equity – Die versteckte Pflicht
+
+Das Redeemable Non-Controlling Interest (RNCI) von $28.600K per 31.12.2025  war ein **tickendes Zeitbomben-Konstrukt**:
+
+- Investoren hatten **Rücknahmerecht zum Kaufpreis** wenn kein IPO bis 30.06.2024 – IPO fand nie statt
+- Ursprünglich mit 3% Zinsen, nach Supplemental Agreement ohne Zinsen, aber mit **20% Change-of-Control-Premium** 
+- ESOP-Investoren hatten sogar **Rücknahmerecht + 5% Zinsen** und **10% Minimum Return** bei Change of Control 
+
+Die Lösung war der **Support Agreement**: Pixelworks transferierte **29% der PWSH-Aktien** an die Minority Shareholders im Tausch gegen den Verzicht auf diese Rechte . Das bedeutet:
+
+> Pixelworks hatte eine **~$51 Mio. Forderung** aus dem Verkauf, musste aber **~29% von PWSH** verschenken, um nicht $28,6 Mio. + $12,7 Mio. (Deposit Liability) + Prämien zurückzahlen zu müssen.
+
+Die Formulierung *"the modification did not result in a material change to the fair value"*  ist **aggressiv-optimistisch** – die faktische Wertübertragung von 29% der PWSH-Anteile an Minority Shareholders reduzierte den Pixelworks-effektiven Anteil von ~78% auf ~49% vor dem Verkauf.
+
+---
+
+### 🔴 6. Deposit Liability: $12,7 Mio. – ESOP als Fremdkapital
+
+Die $12.672K Deposit Liability in den Held-for-Sale Current Liabilities  repräsentiert die ESOP-Interessen, die unter ASC 718 als **monetäre Verbindlichkeit** klassifiziert werden – nicht als Eigenkapital. Die Akkretierung mit 5% Zinsen lief als **Compensation Expense** durch die GuV. Das ist ein Konstrukt, das aus der gescheiterten STAR-Market-IPO-Strategie stammt und Pixelworks über Jahre belastet hat.
+
+---
+
+### 🔴 7. Full Valuation Allowance: NOLs sind Buchhalterisch Wertlos
+
+Wie erwartet :
+
+| DTA-Position | Betrag |
+|---|---|
+| Gross Deferred Tax Assets | $44.582K |
+| **Valuation Allowance** | **$(44.382)K** |
+| Net DTA | **~$0** (tatsächlich Net DTL von $31K) |
+
+Die gesamten $157,9 Mio. Federal NOLs und $18,3 Mio. State NOLs sind **voll wertberichtigt** . Das Management sagt explizit: *"it is not more likely than not that we will realize a benefit from these assets"* . 
+
+Für die Turnaround-These ist das relevant: Die NOLs sind **nur theoretischer Wert**. In der Bilanz stehen sie bei Null. Ein Investor, der auf den "NOL-Wert" spekuliert, wettet gegen die Einschätzung des eigenen Managements.
+
+Zusätzlich: **$1.962K an Tax Credits sind 2024 bereits verfallen** (aus der Rate Reconciliation: "Expiration of tax attributes") . Der Verfallsprozess hat bereits begonnen.
+
+---
+
+### 🔴 8. Goodwill: $18,4 Mio. – Seit 2017 Ungetestet im Bestand
+
+Der gesamte Goodwill von $18.407K stammt aus der **ViXS-Akquisition 2017**  und wurde als Held-for-Sale reklassifiziert. Es gibt **keinen Hinweis auf einen Impairment-Test** trotz der massiven Wertminderung der zugrunde liegenden Geschäfte. Die Formulierung *"Our Goodwill balance is classified under held for sale assets"*  umgeht effektiv die Impairment-Diskussion, weil Held-for-Sale-Assets nach dem niedrigeren von Buchwert oder Fair Value less Costs to Sell bewertet werden.
+
+Die Frage ist: Wäre bei einem Stand-Alone-Impairment-Test der Goodwill vollständig wertgemindert worden? Bei einem Geschäft mit -$15 Mio. Verlust und sinkendem Revenue – **höchstwahrscheinlich ja.**
+
+---
+
+### 🟡 9. Stock Options: Vollständig Underwater – Kein Management-Alignment
+
+Alle 28.574 ausstehenden Optionen haben **$0 intrinsic value** :
+
+| Exercise Price Range | Stück | Kurs 06.03.2026 |
+|---|---|---|
+| $22,32 - $24,84 | 28.574 | $6,07 |
+
+Das sind **post-Reverse-Split-Preise**, was bedeutet, der pre-Split Exercise Price war ~$1,86-$2,07 – und selbst das wurde nie erreicht. Die Optionen laufen innerhalb von ~1 Jahr aus . Es gibt **null Alignment** zwischen Management und Aktionären über Optionen.
+
+Die RSUs (319.962 Stück, Avg Grant Price $13,95 vs. Kurs $6,07) vesten zwar unabhängig vom Kurs, aber sie repräsentieren **~5% der ausstehenden Aktien** als zusätzliche Dilution .
+
+---
+
+## II. Fairness-Update: Was Wird Durch Teil 2 Bestätigt/Verbessert?
+
+### ✅ Post-Sale Cash Position: Stark
+
+Continuing Operations Cash per 31.12.2025: ~$11,2 Mio. ($18,1 Mio. total minus $6,8 Mio. PWSH Cash) 
+Plus Sale-Proceeds (06.01.2026): +$51,0 Mio.
+Minus Transaction Costs: -$1,0 Mio.
+Minus Escrow: -$1,2 Mio.
+**Geschätztes Post-Sale-Cash: ~$60 Mio.**
+
+Bei geschätzten $6–9 Mio. Annual Burn Rate (23 Mitarbeiter, Public-Company-Kosten) ergibt das **7–10 Jahre Runway**. Going Concern ist kurz- bis mittelfristig **kein akutes Risiko**.
+
+### ✅ Clean Derecognition der Altlasten
+
+Mit dem Sale werden RNCI ($28,6 Mio.), NCI ($22,9 Mio.) und Deposit Liability ($12,7 Mio.) **in einem Schlag derecognized** . Die komplexe China-Investorenstruktur, die gescheiterte STAR-Market-IPO-Strategie, die Rücknahmerechte – alles weg. Die Bilanz wird ab Q1 2026 dramatisch vereinfacht.
+
+### ✅ Gain on Sale: Deutlicher Equity-Boost erwartet
+
+Der noch nicht realisierte Gain aus dem PWSH-Sale wird die Shareholders' Equity im Q1 2026 signifikant positiv beeinflussen. Grobe Schätzung:
+
+> Sale Proceeds ($51M) + Derecognition RNCI ($28,6M) + Derecognition NCI ($22,9M) + Derecognition Deposit Liability ($12,7M) – Net Assets Held-for-Sale ($20,4M) – Transaction Costs (~$2M) ≈ **Gain von ~$90+ Mio.**
+
+Das wird das negative attributable Equity auf einen Schlag ins stark Positive drehen und die Nasdaq-Compliance wiederherstellen.
+
+### ✅ IRS-Audit Ohne Beanstandung
+
+*"Our 2022 U.S. income tax return was selected for audit by the Internal Revenue Service and the audit was closed without adjustment."*  – Ein positives Signal für die steuerliche Integrität.
+
+### ✅ Minimal Debt Post-Sale
+
+Die $2,1 Mio. Line of Credit war eine PWSH-Verbindlichkeit (ICBC + China Merchants Bank)  und wird mit dem Sale eliminiert. Post-Sale ist Pixelworks **praktisch schuldenfrei** mit $60 Mio. Cash.
+
+### ✅ Lease-Verpflichtungen: Beherrschbar
+
+Nur $1.151K Future Lease Payments, davon $734K in 2026, auslaufend bis 2028 . Kein strukturelles Risiko.
+
+---
+
+## III. Die Gesamtbilanz der Leichen
+
+| # | Leiche | Schweregrad | Aus Teil |
+|---|---|---|---|
+| 1 | $693K Revenue, null Wachstum, OpEx/Rev Ratio 17,5x | 🔴 Kritisch | 1 |
+| 2 | 15 Jahre ununterbrochene Verluste, $528 Mio. Accumulated Deficit | 🔴 Kritisch | 1 |
+| 3 | Shareholders' Equity $1,8K – unter Nasdaq-Minimum | 🔴 Kritisch | 2 |
+| 4 | Operating Cash Burn verschlechtert auf -$20,6 Mio. | 🔴 Kritisch | 2 |
+| 5 | 27% Aktien-Dilution in einem Jahr | 🔴 Schwer | 2 |
+| 6 | 1:12 Reverse Split (Delisting-Vermeidung) | 🔴 Schwer | 1 |
+| 7 | PWSH-Revenue -26% – verkauftes Asset in Verfall | 🟠 Erheblich | 2 |
+| 8 | 29% PWSH-Anteile an Minority verschenkt | 🟠 Erheblich | 2 |
+| 9 | Full Valuation Allowance auf alle US-DTAs | 🟠 Erheblich | 2 |
+| 10 | $18,4 Mio. Goodwill nie impaired | 🟠 Erheblich | 2 |
+| 11 | 23 Mitarbeiter vs. Dolby/Adobe/Epic als Wettbewerber | 🟠 Erheblich | 1 |
+| 12 | Patent-Verkauf als Ergebnis-Kosmetik ($3 Mio. Einmaleffekt) | 🟡 Mittel | 1 |
+| 13 | Keine 404(b)-Attestation | 🟡 Mittel | 1 |
+| 14 | Nur 97 Record Holders | 🟡 Mittel | 1 |
+| 15 | Stock Options 100% underwater – kein Management-Alignment | 🟡 Mittel | 2 |
+
+---
+
+## IV. Endgültige Bewertung
+
+### A. Sum-of-the-Parts (Post-Sale, Q1 2026)
+
+| Asset | Wert | Kommentar |
+|---|---|---|
+| Cash | ~$60 Mio. | Harte Substanz |
+| TrueCut Business | $0–5 Mio. | $693K Rev, kein Wachstum, spekulative Optionalität |
+| IP-Portfolio (56 Patente) | $3–8 Mio. | Basierend auf $3 Mio. für 37 Patente – aber die besten sind vermutlich behalten worden |
+| NOL Tax Shield ($158 Mio.) | $0–15 Mio. | Nur werthaltig bei Profitabilität oder Reverse Merger; Section 382 limitiert; Full VA |
+| **Total Fair Value Range** | **$63–88 Mio.** | |
+| **Market Cap (06.03.2026)** | **~$38,5 Mio.** | |
+| **Upside zum Midpoint** | **~97%** | |
+
+### B. Risiko-Szenario-Matrix
+
+| Szenario | Wahrscheinlichkeit | Outcome |
+|---|---|---|
+| **Bull:** TrueCut gewinnt Traktion, strategischer Partner/Akquisition | 10–15% | $15–25/Aktie |
+| **Base:** Cash-Shell, langsamer Burn, ggf. Reverse Merger in 2–4 Jahren | 40–50% | $8–12/Aktie |
+| **Bear:** TrueCut scheitert, Cash wird verbrannt, eventuelle Liquidation | 30–40% | $5–9/Aktie (Cash-Floor) |
+| **Worst:** Delisting, Management-Fehlverhalten, Cash-Vernichtung | 5–10% | $0–4/Aktie |
+
+### C. Branchenspezifische Einordnung
+
+Im **Cinematic Post-Production / Motion Processing Markt** ist Pixelworks ein **Nischenanbieter ohne Marktmacht**. Die Branche wird dominiert von integrierten Plattformen:
+
+- **Dolby** (Dolby Vision, Dolby Cinema): End-to-end Ökosystem, Milliarden-Revenue
+- **Adobe** (Premiere, After Effects): De-facto-Standard in Post-Production
+- **Epic/Unreal Engine**: Zunehmend in Virtual Production
+
+TrueCut Motion adressiert ein **reales, aber nischiges Problem** (Motion Grading für High-Frame-Rate/Variable-Frame-Rate Content). Das Problem: Die Studios haben bisher nicht signalisiert, dass sie dafür zahlen wollen. $693K Revenue nach Jahren der Vermarktung ist die Antwort des Marktes.
+
+### D. Anleger-Profil: Finale Einschätzung
+
+**Der typische Pixelworks-Investor 2026 ist:**
+
+1. **Ein Value-Arbitrageur**, der sieht, dass $60 Mio. Cash in einer $38 Mio. Market Cap Firma steckt – ein „net-net" Benjamin Graham-Ansatz auf Mikro-Ebene
+2. **Ein Special-Situations-Spekulant**, der auf Katalysatoren wettet: Reverse Merger, Akquisition, aktivistischer Investor, der die Liquidation des Cash-Bestands erzwingt
+3. **Kein** langfristiger Buy-and-Hold-Investor – dafür fehlt das operative Geschäft
+4. **Kein** institutioneller Investor – Liquidität, Market Cap und Governance schließen das aus
+
+**Psychologisches Profil:** Jemand, der den intellektuellen Reiz einer komplexen Situation genießt, mit Small Positions spekuliert und einen asymmetrischen Payoff sucht. Risikotoleranz hoch, Zeithorizont 12–36 Monate, bereit, Totalverlust auf der Position zu akzeptieren.
+
+---
+
+## V. Bankdirektor-Urteil
+
+> **„Pixelworks ist nach dem PWSH-Sale eine Cash-Shell mit dekorativer Technologie. Die $60 Mio. Cash bei $38 Mio. Market Cap schaffen einen rechnerischen Floor, aber keine Wertschöpfung. Das Management hat mit dem Verkauf des Halbleitergeschäfts die richtige – wenn auch verspätete – Entscheidung getroffen. Was bleibt, ist eine Firma, die seit 15 Jahren keinen Dollar verdient hat, deren einziges Produkt nach Jahren nicht skaliert, und deren Existenzberechtigung als börsennotiertes Unternehmen fragwürdig ist.**
+
+> **Die Turnaround-These ist intellektuell nachvollziehbar, aber empirisch nicht gestützt. $693K Revenue ohne Wachstum nach mehrjähriger Vermarktung ist kein Zeichen eines kommenden Durchbruchs – es ist das Zeichen eines Produkts, das der Markt nicht will oder nicht braucht.**
+
+> **Für einen Kreditantrag: Abgelehnt.**
+> **Als Equity-Spekulation: Nur für risikotolerante Investoren mit Position Sizing ≤2% des Portfolios und klarer Exit-Strategie.**
+> **Fair Value: $9–10 per Share (Cash-basiert), aktueller Kurs ~$6 – Discount gerechtfertigt durch Burn Rate, Governance-Risiken und fehlende operative Substanz."**
+
+---
+
+*Analyse basiert auf dem vollständigen 10-K FY2025 Filing. Alle Zahlen in USD Thousands sofern nicht anders angegeben.*
+
