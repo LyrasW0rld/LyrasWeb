@@ -4,7 +4,7 @@
     "tagline": "Ein statisches Webarchiv für markdown-basierte Vorlagen.",
     "intro": "Das Archiv sammelt Inhalte aus lokalen Ordnern, gruppiert sie in Rubriken und öffnet jeden Eintrag in einem modernen Lesefenster."
   },
-  "generated_at": "2026-04-17T19:46:55.890225+00:00",
+  "generated_at": "2026-04-18T11:49:38.882172+00:00",
   "section_count": 2,
   "entry_count": 11,
   "ai_templates": {
@@ -45,7 +45,7 @@
         "entry_share_keys": [],
         "folder_count": 2,
         "entry_count": 0,
-        "modified_at": "2026-04-17T19:46:52.853723+00:00",
+        "modified_at": "2026-04-18T11:48:10.330774+00:00",
         "modified_ts": 0
       },
       {
@@ -65,8 +65,8 @@
         ],
         "folder_count": 0,
         "entry_count": 5,
-        "modified_at": "2026-04-17T19:46:52+00:00",
-        "modified_ts": 1776455212
+        "modified_at": "2026-04-18T11:48:10+00:00",
+        "modified_ts": 1776512890
       },
       {
         "id": "recherchen--vodafone",
@@ -81,8 +81,27 @@
         ],
         "folder_count": 0,
         "entry_count": 1,
-        "modified_at": "2026-04-17T19:46:52+00:00",
-        "modified_ts": 1776455212
+        "modified_at": "2026-04-18T11:48:10+00:00",
+        "modified_ts": 1776512890
+      }
+    ]
+  },
+  "lyras_projekte": {
+    "id": "lyras-projekte",
+    "label": "Lyras Projekte",
+    "group_label": "Projekte",
+    "description": "Projektübersicht",
+    "entry_count": 2,
+    "entries": [
+      {
+        "title": "Multi-Domain-Name-Expiry-Checker",
+        "description": "BULK checking, wann die wunschdomains auslaufen",
+        "link": "https://github.com/LyrasW0rld/Multi-Domain-Name-Expiry-Checker"
+      },
+      {
+        "title": "SEC Gov Fillings PDF Downloader",
+        "description": "Findet alle SEC Fillings der Firma / Ticker <14Monate und bietet sie zum download an als PDF richtig formatiert",
+        "link": "https://github.com/LyrasW0rld/SEC.GOV_Downloader-"
       }
     ]
   },
@@ -98,9 +117,9 @@
       "content_kind": "template",
       "category_path": "AI-Vorlagen",
       "node_id": null,
-      "updated_at": "2026-04-17T19:46:52.852894+00:00",
-      "modified_at": "2026-04-17T19:46:52.852894+00:00",
-      "modified_ts": 1776455212,
+      "updated_at": "2026-04-18T11:48:10.328774+00:00",
+      "modified_at": "2026-04-18T11:48:10.328774+00:00",
+      "modified_ts": 1776512890,
       "is_new_candidate": true,
       "audio": null,
       "has_audio": false,
@@ -122,9 +141,9 @@
       "content_kind": "template",
       "category_path": "AI-Vorlagen",
       "node_id": null,
-      "updated_at": "2026-04-17T19:46:52.853096+00:00",
-      "modified_at": "2026-04-17T19:46:52.853096+00:00",
-      "modified_ts": 1776455212,
+      "updated_at": "2026-04-18T11:48:10.328774+00:00",
+      "modified_at": "2026-04-18T11:48:10.328774+00:00",
+      "modified_ts": 1776512890,
       "is_new_candidate": true,
       "audio": null,
       "has_audio": false,
@@ -146,9 +165,9 @@
       "content_kind": "template",
       "category_path": "AI-Vorlagen",
       "node_id": null,
-      "updated_at": "2026-04-17T19:46:52.853096+00:00",
-      "modified_at": "2026-04-17T19:46:52.853096+00:00",
-      "modified_ts": 1776455212,
+      "updated_at": "2026-04-18T11:48:10.328774+00:00",
+      "modified_at": "2026-04-18T11:48:10.328774+00:00",
+      "modified_ts": 1776512890,
       "is_new_candidate": true,
       "audio": null,
       "has_audio": false,
@@ -170,9 +189,9 @@
       "content_kind": "template",
       "category_path": "AI-Vorlagen",
       "node_id": null,
-      "updated_at": "2026-04-17T19:46:52.853096+00:00",
-      "modified_at": "2026-04-17T19:46:52.853096+00:00",
-      "modified_ts": 1776455212,
+      "updated_at": "2026-04-18T11:48:10.328774+00:00",
+      "modified_at": "2026-04-18T11:48:10.328774+00:00",
+      "modified_ts": 1776512890,
       "is_new_candidate": true,
       "audio": null,
       "has_audio": false,
@@ -194,9 +213,9 @@
       "content_kind": "template",
       "category_path": "AI-Vorlagen",
       "node_id": null,
-      "updated_at": "2026-04-17T19:46:52.853096+00:00",
-      "modified_at": "2026-04-17T19:46:52.853096+00:00",
-      "modified_ts": 1776455212,
+      "updated_at": "2026-04-18T11:48:10.329774+00:00",
+      "modified_at": "2026-04-18T11:48:10.329774+00:00",
+      "modified_ts": 1776512890,
       "is_new_candidate": true,
       "audio": null,
       "has_audio": false,
@@ -218,16 +237,16 @@
       "content_kind": "article",
       "category_path": "10K",
       "node_id": "recherchen--10k",
-      "updated_at": "2026-04-17T19:46:52.853497+00:00",
-      "modified_at": "2026-04-17T19:46:52.853497+00:00",
-      "modified_ts": 1776455212,
+      "updated_at": "2026-04-18T11:48:10.329774+00:00",
+      "modified_at": "2026-04-18T11:48:10.329774+00:00",
+      "modified_ts": 1776512890,
       "is_new_candidate": true,
       "audio": {
         "filename": "Jack.mp3",
         "path": "Recherchen/tts/Jack.mp3",
         "url": "Recherchen/tts/Jack.mp3",
         "extension": ".mp3",
-        "updated_at": "2026-04-17T19:46:52.895541+00:00"
+        "updated_at": "2026-04-18T11:48:10.453774+00:00"
       },
       "has_audio": true,
       "preview_type": "markdown",
@@ -248,16 +267,16 @@
       "content_kind": "article",
       "category_path": "10K",
       "node_id": "recherchen--10k",
-      "updated_at": "2026-04-17T19:46:52.853723+00:00",
-      "modified_at": "2026-04-17T19:46:52.853723+00:00",
-      "modified_ts": 1776455212,
+      "updated_at": "2026-04-18T11:48:10.329774+00:00",
+      "modified_at": "2026-04-18T11:48:10.329774+00:00",
+      "modified_ts": 1776512890,
       "is_new_candidate": true,
       "audio": {
         "filename": "Pixelworks.mp3",
         "path": "Recherchen/tts/Pixelworks.mp3",
         "url": "Recherchen/tts/Pixelworks.mp3",
         "extension": ".mp3",
-        "updated_at": "2026-04-17T19:46:52.935541+00:00"
+        "updated_at": "2026-04-18T11:48:10.595774+00:00"
       },
       "has_audio": true,
       "preview_type": "markdown",
@@ -278,16 +297,16 @@
       "content_kind": "article",
       "category_path": "10K",
       "node_id": "recherchen--10k",
-      "updated_at": "2026-04-17T19:46:52.853723+00:00",
-      "modified_at": "2026-04-17T19:46:52.853723+00:00",
-      "modified_ts": 1776455212,
+      "updated_at": "2026-04-18T11:48:10.329774+00:00",
+      "modified_at": "2026-04-18T11:48:10.329774+00:00",
+      "modified_ts": 1776512890,
       "is_new_candidate": true,
       "audio": {
         "filename": "QUANTUM_COMPUTING_INC.mp3",
         "path": "Recherchen/tts/QUANTUM_COMPUTING_INC.mp3",
         "url": "Recherchen/tts/QUANTUM_COMPUTING_INC.mp3",
         "extension": ".mp3",
-        "updated_at": "2026-04-17T19:46:52.964541+00:00"
+        "updated_at": "2026-04-18T11:48:10.689774+00:00"
       },
       "has_audio": true,
       "preview_type": "markdown",
@@ -308,16 +327,16 @@
       "content_kind": "article",
       "category_path": "10K",
       "node_id": "recherchen--10k",
-      "updated_at": "2026-04-17T19:46:52.853723+00:00",
-      "modified_at": "2026-04-17T19:46:52.853723+00:00",
-      "modified_ts": 1776455212,
+      "updated_at": "2026-04-18T11:48:10.330774+00:00",
+      "modified_at": "2026-04-18T11:48:10.330774+00:00",
+      "modified_ts": 1776512890,
       "is_new_candidate": true,
       "audio": {
         "filename": "Wendys.mp3",
         "path": "Recherchen/tts/Wendys.mp3",
         "url": "Recherchen/tts/Wendys.mp3",
         "extension": ".mp3",
-        "updated_at": "2026-04-17T19:46:53.000541+00:00"
+        "updated_at": "2026-04-18T11:48:10.831774+00:00"
       },
       "has_audio": true,
       "preview_type": "markdown",
@@ -338,16 +357,16 @@
       "content_kind": "article",
       "category_path": "10K",
       "node_id": "recherchen--10k",
-      "updated_at": "2026-04-17T19:46:52.853723+00:00",
-      "modified_at": "2026-04-17T19:46:52.853723+00:00",
-      "modified_ts": 1776455212,
+      "updated_at": "2026-04-18T11:48:10.330774+00:00",
+      "modified_at": "2026-04-18T11:48:10.330774+00:00",
+      "modified_ts": 1776512890,
       "is_new_candidate": true,
       "audio": {
         "filename": "Wizz_Air.mp3",
         "path": "Recherchen/tts/Wizz_Air.mp3",
         "url": "Recherchen/tts/Wizz_Air.mp3",
         "extension": ".mp3",
-        "updated_at": "2026-04-17T19:46:53.025541+00:00"
+        "updated_at": "2026-04-18T11:48:10.990774+00:00"
       },
       "has_audio": true,
       "preview_type": "markdown",
@@ -368,16 +387,16 @@
       "content_kind": "article",
       "category_path": "Vodafone",
       "node_id": "recherchen--vodafone",
-      "updated_at": "2026-04-17T19:46:52.853723+00:00",
-      "modified_at": "2026-04-17T19:46:52.853723+00:00",
-      "modified_ts": 1776455212,
+      "updated_at": "2026-04-18T11:48:10.330774+00:00",
+      "modified_at": "2026-04-18T11:48:10.330774+00:00",
+      "modified_ts": 1776512890,
       "is_new_candidate": true,
       "audio": {
         "filename": "Geschäftsbericht.mp3",
         "path": "Recherchen/tts/Geschäftsbericht.mp3",
         "url": "Recherchen/tts/Gesch%C3%A4ftsbericht.mp3",
         "extension": ".mp3",
-        "updated_at": "2026-04-17T19:46:52.869541+00:00"
+        "updated_at": "2026-04-18T11:48:10.373774+00:00"
       },
       "has_audio": true,
       "preview_type": "markdown",
@@ -398,8 +417,8 @@
       "content_kind": "template",
       "preview_type": "markdown",
       "has_audio": false,
-      "modified_at": "2026-04-17T19:46:52.852894+00:00",
-      "modified_ts": 1776455212,
+      "modified_at": "2026-04-18T11:48:10.328774+00:00",
+      "modified_ts": 1776512890,
       "source_filename": "Bankdirektor.txt"
     },
     {
@@ -411,8 +430,8 @@
       "content_kind": "template",
       "preview_type": "markdown",
       "has_audio": false,
-      "modified_at": "2026-04-17T19:46:52.853096+00:00",
-      "modified_ts": 1776455212,
+      "modified_at": "2026-04-18T11:48:10.328774+00:00",
+      "modified_ts": 1776512890,
       "source_filename": "Finanzberater.txt"
     },
     {
@@ -424,8 +443,8 @@
       "content_kind": "template",
       "preview_type": "markdown",
       "has_audio": false,
-      "modified_at": "2026-04-17T19:46:52.853096+00:00",
-      "modified_ts": 1776455212,
+      "modified_at": "2026-04-18T11:48:10.328774+00:00",
+      "modified_ts": 1776512890,
       "source_filename": "Fondmanager.txt"
     },
     {
@@ -437,8 +456,8 @@
       "content_kind": "template",
       "preview_type": "markdown",
       "has_audio": false,
-      "modified_at": "2026-04-17T19:46:52.853096+00:00",
-      "modified_ts": 1776455212,
+      "modified_at": "2026-04-18T11:48:10.328774+00:00",
+      "modified_ts": 1776512890,
       "source_filename": "Stock Entrypoint Calc.txt"
     },
     {
@@ -450,8 +469,8 @@
       "content_kind": "template",
       "preview_type": "markdown",
       "has_audio": false,
-      "modified_at": "2026-04-17T19:46:52.853096+00:00",
-      "modified_ts": 1776455212,
+      "modified_at": "2026-04-18T11:48:10.329774+00:00",
+      "modified_ts": 1776512890,
       "source_filename": "Text zu Voice umschreiben.txt"
     },
     {
@@ -463,8 +482,8 @@
       "content_kind": "article",
       "preview_type": "markdown",
       "has_audio": true,
-      "modified_at": "2026-04-17T19:46:52.853497+00:00",
-      "modified_ts": 1776455212,
+      "modified_at": "2026-04-18T11:48:10.329774+00:00",
+      "modified_ts": 1776512890,
       "source_filename": "JACK.txt"
     },
     {
@@ -476,8 +495,8 @@
       "content_kind": "article",
       "preview_type": "markdown",
       "has_audio": true,
-      "modified_at": "2026-04-17T19:46:52.853723+00:00",
-      "modified_ts": 1776455212,
+      "modified_at": "2026-04-18T11:48:10.329774+00:00",
+      "modified_ts": 1776512890,
       "source_filename": "Pixelworks.txt"
     },
     {
@@ -489,23 +508,9 @@
       "content_kind": "article",
       "preview_type": "markdown",
       "has_audio": true,
-      "modified_at": "2026-04-17T19:46:52.853723+00:00",
-      "modified_ts": 1776455212,
+      "modified_at": "2026-04-18T11:48:10.329774+00:00",
+      "modified_ts": 1776512890,
       "source_filename": "QUANTUM_COMPUTING_INC.txt"
     }
-  ],
-  "lyras_projekte": {
-    "id": "lyras-projekte",
-    "label": "Lyras Projekte",
-    "group_label": "Projekte",
-    "description": "Text to Speech und Buch zu Audio Projekte.",
-    "entry_count": 1,
-    "entries": [
-      {
-        "title": "Lyras TTS",
-        "description": "text to speek und buch zu Audio",
-        "link": "github.com/...."
-      }
-    ]
-  }
+  ]
 }
