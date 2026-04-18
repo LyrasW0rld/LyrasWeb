@@ -493,5 +493,19 @@
       "modified_ts": 1776455212,
       "source_filename": "QUANTUM_COMPUTING_INC.txt"
     }
-  ]
+  ],
+  "lyras_projekte": {
+    "id": "lyras-projekte",
+    "label": "Lyras Projekte",
+    "group_label": "Projekte",
+    "description": "Text to Speech und Buch zu Audio Projekte.",
+    "entry_count": 1,
+    "entries": [
+      {
+        "title": "Lyras TTS",
+        "description": "text to speek und buch zu Audio",
+        "link": "github.com/...."
+      }
+    ]
+  }
 }

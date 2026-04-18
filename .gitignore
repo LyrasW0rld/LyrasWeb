@@ -1,7 +1,1 @@
-__pycache__/
-.pytest_cache/
-scripts/__pycache__/
-.github/desktop.ini
-.github/workflows/desktop.ini
-AI/desktop.ini
-*.ini
+Nothing needs to be added to .gitignore since the changes only include source files (.json, .js, .css, .html) and no build artifacts, dependencies, or temporary files that should be ignored.
