@@ -506,6 +506,12 @@ def build_archive() -> dict:
         collect_research_tree(research_config, renderer) if research_config else ({}, [])
     )
 
+    # Load projects from projekte.json
+    projekte_path = ROOT / "data" / "projekte.json"
+    lyras_projekte = {}
+    if projekte_path.exists():
+        lyras_projekte = json.loads(projekte_path.read_text(encoding="utf-8"))
+
     all_entries = [*ai_entries, *research_entries]
     latest_entries = build_latest_entries(all_entries)
 
@@ -516,6 +522,7 @@ def build_archive() -> dict:
         "entry_count": len(all_entries),
         "ai_templates": ai_section,
         "research": research_tree,
+        "lyras_projekte": lyras_projekte,
         "entries": all_entries,
         "latest_entries": latest_entries,
     }

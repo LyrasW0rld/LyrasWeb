@@ -9,16 +9,11 @@
       "title": "Multi-Domain-Name-Expiry-Checker",
       "description": "BULK checking, wann die wunschdomains auslaufen",
       "link": "https://github.com/LyrasW0rld/Multi-Domain-Name-Expiry-Checker"
-    }
-
-     {
-      "title": "SEC Gov Fillings PDF Downloader ",
+    },
+    {
+      "title": "SEC Gov Fillings PDF Downloader",
       "description": "Findet alle SEC Fillings der Firma / Ticker <14Monate und bietet sie zum download an als PDF richtig formatiert",
       "link": "https://github.com/LyrasW0rld/SEC.GOV_Downloader-"
     }
-
-
-
-    
   ]
 }
