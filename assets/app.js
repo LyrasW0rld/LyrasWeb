@@ -20,6 +20,7 @@ const elements = {
   aiSummary: document.querySelector("[data-ai-summary]"),
   latestGrid: document.querySelector("[data-latest-grid]"),
   aiGrid: document.querySelector("[data-ai-grid]"),
+  projectsGrid: document.querySelector("[data-projects-grid]"),
   folderGrid: document.querySelector("[data-folder-grid]"),
   researchArticleGrid: document.querySelector("[data-research-article-grid]"),
   breadcrumb: document.querySelector("[data-breadcrumb]"),
@@ -122,8 +123,8 @@ function bootstrapState() {
 }
 
 function renderHome() {
-  renderLatestSection();
   renderAiSection();
+  renderProjectsSection();
   renderResearchNode();
 }
 
@@ -169,6 +170,45 @@ function renderAiSection() {
     }
     elements.aiGrid.appendChild(createArticleCard(entry, { contextLabel: "AI-Vorlage" }));
   }
+}
+
+function renderProjectsSection() {
+  elements.projectsGrid.innerHTML = "";
+  const projects = appState.archive.lyras_projekte?.entries || [];
+
+  if (!projects.length) {
+    elements.projectsGrid.appendChild(createStateCard("Noch keine Projekte vorhanden."));
+    return;
+  }
+
+  for (const project of projects) {
+    elements.projectsGrid.appendChild(createProjectCard(project));
+  }
+}
+
+function createProjectCard(project) {
+  const card = document.createElement("article");
+  card.className = "news-card";
+  card.innerHTML = `
+    <p class="card-kicker">Projekt</p>
+    <h3>${escapeHtml(project.title)}</h3>
+    <p class="card-summary">${escapeHtml(project.description)}</p>
+  `;
+
+  const actionRow = document.createElement("div");
+  actionRow.className = "card-actions";
+
+  const openButton = document.createElement("button");
+  openButton.type = "button";
+  openButton.className = "card-open";
+  openButton.textContent = "Öffnen";
+  openButton.addEventListener("click", () => {
+    window.open(project.link, "_blank");
+  });
+  actionRow.appendChild(openButton);
+
+  card.appendChild(actionRow);
+  return card;
 }
 
 function renderResearchNode() {

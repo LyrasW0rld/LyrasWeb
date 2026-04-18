@@ -1,7 +1,71 @@
+# Dependencies
 __pycache__/
+
+# Compiled/Generated files
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Python virtual environments
+venv/
+.venv/
+.env/
+
+# Testing
 .pytest_cache/
-scripts/__pycache__/
-.github/desktop.ini
-.github/workflows/desktop.ini
-AI/desktop.ini
-*.ini
+.mypy_cache/
+
+# Editors
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
