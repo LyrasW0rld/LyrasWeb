@@ -1,0 +1,448 @@
+
+# Analyse des 10-K Annual Report — Electronic Arts Inc. (EA)
+## Geschäftsjahr zum 31. März 2025 (Teil 1 von 2)
+
+---
+
+## I. Unternehmensidentifikation & Eckdaten
+
+**Electronic Arts Inc.** (NASDAQ: EA), Large Accelerated Filer, Delaware-Inkorporation, Redwood City/CA. Market Cap Non-Affiliates per 27.09.2024: **$38,145 Mio.** Ausstehende Aktien per 08.05.2025: **250,8 Mio.** Prüfer: **KPMG LLP** (Firm ID 185). Keine Restatements, keine ungelösten SEC-Kommentare, Section 404(b)-Attestation positiv. 
+
+---
+
+## II. Was ist gut — und das muss man fairerweise anerkennen
+
+### 1. Bruttomarge von 79,3 % — Weltklasse
+Von 77,3 % (FY24) auf **79,3 %** gestiegen. Für ein Gaming-Unternehmen ist das exzellent und zeigt die Skalierbarkeit des digitalen Modells. Die Cost of Revenue sank um 10 % ($1,543M vs. $1,710M), getrieben durch niedrigere Royalty-Kosten (FC-Franchise), geringere Plattformgebühren und weniger Abschreibungen auf akquisitionsbedingte Intangibles. 
+
+### 2. Digitalisierungstransition schreitet konsequent voran
+**78 %** der Einheiten (Xbox/PlayStation) wurden digital verkauft — FY24: 73 %, FY23: 68 %. Digitale Full-Game-Downloads stiegen auf **$1,478M (+10 %)**, während Packaged Goods auf **$524M (-22 %)** fielen. Das ist ein struktureller Margentreiber, da digitaler Vertrieb signifikant günstiger ist als physischer Retail. 
+
+### 3. EA SPORTS College Football 25 — erfolgreicher Franchise-Relaunch
+Nach Jahren der Abwesenheit wurde College Football erfolgreich relauncht. Es wird als primärer Wachstumstreiber im American-Football-Segment durchgängig genannt und hat Rückgänge in anderen Bereichen teilweise kompensiert. Das zeigt, dass EA noch Franchise-Revitalisierungskompetenz besitzt. 
+
+### 4. Kapitalrückführung von $2,7 Mrd.
+**$2,500M** Aktienrückkäufe (17,6 Mio. Aktien) plus **$199M** Dividenden. Das Management zeigt Commitment gegenüber Aktionären. Die $5 Mrd. Buyback-Autorisierung (Mai 2024, läuft bis Mai 2027) ist substanziell. 
+
+### 5. Ungenutzte Kreditlinie
+Die **$500M unsecured revolving credit facility** (Fälligkeit März 2028) ist vollständig ungenutzt. Saubere Reserve-Position. 
+
+### 6. Auslandsrepatriierung ohne materielle Steuerkosten
+~$1,1 Mrd. Cash in ausländischen Jurisdiktionen, **vollständig repatriierbar ohne wesentliche Steuerbelastung**. Für ein Unternehmen mit Schweizer Holdingstruktur ist das ein relevanter Positivpunkt. 
+
+### 7. Diversifizierte Distribution
+EA ist nicht von einem einzelnen Distributor abhängig — Sony 39 %, Microsoft 17 %, plus Apple, Google, Steam, EA App. Breit gestreut, wenn auch die Sony-Konzentration bemerkenswert ist. 
+
+---
+
+## III. Die Leichen im Keller — Systematische Analyse
+
+### 🔴 1. Revenue-Stagnation bis Rückgang: Das Wachstum ist weg
+
+| Kennzahl | FY25 | FY24 | FY23 | Trend |
+|---|---|---|---|---|
+| Net Revenue | $7,463M | $7,562M | $7,426M | -1 % YoY |
+| Net Bookings | $7,355M | $7,430M | - | -1 % YoY |
+| Live Services | $5,461M | $5,547M | $5,489M | -2 % YoY |
+| Extra Content | $4,365M | $4,463M | $4,277M | -2 % YoY |
+
+Die **Net Revenue ist rückläufig** — und das bei einem Unternehmen, dessen gesamte Equity Story auf der These "Recurring Live Services Revenue" basiert. Live Services (73 % des Umsatzes) schrumpfen. Extra Content, der Kern des Modells, schrumpft. **Das ist kein Einmaleffekt, sondern ein Muster über mehrere Segmente.** 
+
+Besonders problematisch: Die Firma formuliert selbst, dass Wachstum in Live Services "may not be linear" — das ist das klassische Disclaimer-Deutsch für "es wird wahrscheinlich nicht wachsen." 
+
+### 🔴 2. Apex Legends — Der stille Verfall eines Kronjuwels
+
+Apex Legends wird **durchgängig als Negativtreiber** genannt:
+- Rückgang der Extra Content Sales
+- Rückgang im Marketing-Spend (weil man offenbar die Flinte ins Korn wirft?)
+- Mehrfach als Ursache für Net Bookings-Rückgang identifiziert
+
+Das ist kein Randprodukt — Apex war EAs Antwort auf Fortnite, die große Free-to-Play-Hoffnung außerhalb der Sportfranchises. **Wenn Apex schrumpft, hat EA kein diversifiziertes Live-Service-Wachstum mehr.** Die Abhängigkeit von Ultimate Team wird noch erdrückender. 
+
+### 🔴 3. EA SPORTS FC — Die FIFA-Nachfolge schwächelt
+
+Explizite Formulierung: **"softness in EA SPORTS FC 25 full game sales"** und **"decreased sales of extra content from Ultimate Team within our global football franchise"**. 
+
+Das ist das Kernfranchise. FC Ultimate Team ist die wichtigste Einzelprodukt-Erlösquelle des gesamten Unternehmens. Der FIFA→FC-Rebrand war riskant. Wenn der Markenname-Verlust sich nun in sinkenden Verkaufs- und Engagement-Zahlen materialisiert, ist das existenziell für die Bewertung. Die Firma schreibt selbst, dass negative Entwicklungen bei FC "negatively impacts our financial results to a disproportionate extent." 
+
+### 🔴 4. College Football 25 — Der One-Time-Boost, der alles maskiert
+
+EA SPORTS College Football 25 ist ein **Relaunch nach über einem Jahrzehnt Pause**. Die $690M Umsatzsteigerung aus dem American-Football-Segment kompensiert fast den $789M-Rückgang aus anderen Quellen. 
+
+**Das Problem:** Dieser "New Release"-Effekt ist ein Einmalereignis. Im FY26 gibt es keinen vergleichbaren "neuen Franchise aus dem Nichts"-Effekt. **Ohne College Football wäre der Revenue-Rückgang bei ~5-6 % gelegen**, nicht bei 1 %. Damit ist das tatsächliche Underlying-Business-Momentum deutlich schwächer als die Headline-Zahl suggeriert.
+
+### 🔴 5. Operativer Cashflow -10 % bei Revenue -1 %
+
+| | FY25 | FY24 | Δ |
+|---|---|---|---|
+| OCF | $2,079M | $2,315M | **-$236M (-10 %)** |
+| Revenue | $7,463M | $7,562M | -$99M (-1 %) |
+
+**Cash ist das Serum der Wahrheit.** Revenue sinkt 1 %, Cashflow sinkt 10 %. Ursachen lt. Filing: "lower cash collections from sales and higher cash payments for income taxes." 
+
+Niedrigere Cash-Einzüge bei nur marginal niedrigerem Revenue deuten auf **verschlechterte Collection-Qualität** hin. Und die höheren Steuerzahlungen sind nicht temporär — sie reflektieren die neue Steuerrealität (Pillar II, Swiss Adjustments).
+
+### 🔴 6. Receivables +20 % bei Revenue -1 % — Forderungsaufbau
+
+| | FY25 | FY24 | Δ |
+|---|---|---|---|
+| Receivables, net | $679M | $565M | **+$114M (+20 %)** |
+| Revenue | $7,463M | $7,562M | -1 % |
+
+Ein Forderungsanstieg von **20 % bei sinkendem Umsatz** ist ein klassisches Warnsignal. Mögliche Erklärungen:
+- Veränderte Zahlungsbedingungen mit Sony/Microsoft
+- Timing der Fiscal Year-End-Verkäufe
+- Oder: Channel Stuffing / verlängerte Zahlungsziele, um Umsatz zu halten
+
+Die DSO-Verschlechterung muss im zweiten Teil des Filings (Notes) genauer geprüft werden. **Hier setze ich einen Prüfvermerk.** 
+
+### 🔴 7. Steuerlast-Explosion: Effective Tax Rate von 19,9 % → 30,2 %
+
+Die effektive Steuerrate ist **um über 10 Prozentpunkte gestiegen**. 
+
+- FY25: $51M Valuation Allowance-Aufbau auf Schweizer DTA (wegen Geschäftsmix, Zinssatz-Änderung)
+- FY24 hatte $92M **Benefit** aus Schweizer Steuersatz-Erhöhung + US-Treasury R&D Guidance
+
+Bereinigt: FY25 ~27,0 %, FY24 ~26,7 % — also auf bereinigter Basis stabil. Aber:
+- Die **Schweizer Deferred Tax Assets ($2,420M netto, 19,6 % der Bilanzsumme!)** sind hochsensitiv gegenüber Schweizer Zinssätzen, Geschäftsmix und Gesetzesänderungen
+- Die Schweiz hat nur **7 Jahre Verlustvortrag, kein Carryback**
+- Die Firma gibt explizit zu: "significant changes to such interest rates could result in a material impact to the valuation allowance and to our Consolidated Financial Statements" 
+
+**Das ist eine der größten versteckten Zeitbomben in dieser Bilanz.** $2,4 Mrd. DTA sind fast 38 % des Eigenkapitals. Jede materielle Herabschreibung hätte devastierende Auswirkungen auf Buchkapital und EPS.
+
+### 🔴 8. R&D +6 %, G&A +8 % — bei Revenue -1 %
+
+| | FY25 | FY24 | Δ |
+|---|---|---|---|
+| R&D | $2,569M (34 %) | $2,420M (32 %) | +$149M (+6 %) |
+| G&A | $745M (10 %) | $691M (9 %) | +$54M (+8 %) |
+| **OpEx total** | **$4,400M** | **$4,310M** | **+$90M (+2 %)** |
+
+Die Kostenstruktur wächst **gegen den Umsatztrend**. R&D-Steigerung von $149M enthält $67M Personal + $39M Stock-Based Compensation + $11M Contracted Services. Wo ist der Output? 
+
+**Operating Income ist flat bei $1,520M**, nur weil die Bruttomarge die Kostenexpansion auffängt. Wenn die Margensteigerung der Digitaltransition irgendwann ausläuft (sie wird bei ~80-85 % ceiling haben), gibt es kein Polster mehr.
+
+### 🔴 9. Goodwill von $5,376M — 43 % der Bilanzsumme
+
+Goodwill ist mit **$5,376M** der größte Einzelposten der Bilanz. Solange keine Impairment-Diskussion im zweiten Filing-Teil auftaucht, ist das noch neutral. Aber: Bei schrumpfendem Revenue, rückläufigen Live Services und Franchise-Risiken steigt das Impairment-Risiko signifikant. **Prüfvermerk für Teil 2.** 
+
+### 🟡 10. Aggressive Buybacks bei Underperformance
+
+Die 5-Jahres-Aktienperformance ist ernüchternd:
+
+| | 5Y-Rendite (Total Return) |
+|---|---|
+| **EA** | **+48 %** |
+| S&P 500 | +135 % |
+| Nasdaq Composite | +133 % |
+| RDG Tech | +121 % |
+
+EA hat den Markt **massiv underperformt** — und kauft aggressiv eigene Aktien zurück. 
+
+Die $1 Mrd. ASR mit Goldman Sachs (durchschnittlich $135,05/Aktie) ist strukturell für die Bank vorteilhaft und bindet Kapital bei fraglicher Bewertungsdisziplin. Man fragt sich: Wäre das Geld nicht besser in einem transformativen Franchise-Zukauf oder organischem Wachstum angelegt?
+
+Die Liquiditätsposition schrumpft: Cash + Short-Term Investments fielen von **$3,262M auf $2,248M (-31 %)**. Mit der fälligen $400M Senior Note (2026, 4,97 %) und $1,484M langfristigen Notes wird die Bilanz dünner. 
+
+### 🟡 11. Plattformabhängigkeit und einseitige Vertragsgestaltung
+
+EA schreibt mehrfach und ungewöhnlich deutlich:
+
+> *"Many key commercial terms of our relationships with Sony and Microsoft — such as manufacturing terms, delivery times, policies and approval conditions — are determined **unilaterally**, and are subject to change by the console manufacturers."* 
+
+Sony allein = 39 % des Revenue. Bei einseitiger Vertragsmacht des Partners ist das ein erhebliches Klumpenrisiko, über das EA kaum Kontrolle hat.
+
+### 🟡 12. Stock-Based Compensation — Das stille Verwässerungsprogramm
+
+R&D: +$39M SBC. G&A: +$9M SBC. **Mindestens $48M mehr SBC** im Vergleich zum Vorjahr, während gleichzeitig $2,5 Mrd. für Buybacks ausgegeben werden. 
+
+Das ist das klassische Tech-Hamsterrad: Man kauft mit der einen Hand Aktien zurück und gibt sie mit der anderen Hand als Compensation wieder raus. Die Netto-Aktienreduktion ist geringer als die Buyback-Headline suggeriert. **Exakte Quantifizierung im Teil 2 prüfen (Equity Rollforward, SBC-Notes).**
+
+---
+
+## IV. Revenue Recognition — Die Judgment-Zone
+
+EA's Revenue Recognition ist **hochkomplex und urteilsabhängig**: 
+
+- **75/25-Split** bei Games with Services: 75 % sofort, 25 % ratierlich. Die Stand-alone Selling Prices sind geschätzt ("we do not sell the performance obligations on a stand-alone basis"). Das ist ein Bereich, wo Management Judgment den Umsatzausweis materiell beeinflusst.
+- **Estimated Offering Period**: 8 Monate (digital), 10 Monate (retail), 12 Monate (F2P). Diese Perioden bestimmen das Timing der ratierlichen Erlöserfassung. Jede Verlängerung schiebt Umsatz in die Zukunft, jede Verkürzung zieht ihn vor.
+- **Deferred Revenue Rückgang**: $1,814M → $1,700M (-$114M). Das ist ein **Leading Indicator** — weniger aufgeschobener Umsatz bedeutet weniger "gespeicherter" künftiger Revenue. 
+
+Für die Branche ist diese Komplexität üblich, aber die Subjektivität der Schätzungen bietet erheblichen Spielraum.
+
+---
+
+## V. Vorläufige Gesamtbewertung (vorbehaltlich Teil 2)
+
+### Die Firma:
+EA ist ein **reifes Cash-generierendes Unternehmen** in einer kreativen Hit-Driven-Industrie, das seine Wachstumsphase hinter sich hat. Das Live-Services-Modell stößt an natürliche Sättigungsgrenzen (Ultimate Team, Apex-Verfall). Die Margen sind exzellent, aber das Wachstum fehlt. Die Bilanz ist durch massive Goodwill-Positionen und sensible DTA-Positionen belastet. Das aggressive Buyback-Programm kaschiert die operative Stagnation auf EPS-Ebene.
+
+### Der Turnaround-Case:
+Der Turnaround-Investor setzt darauf, dass:
+1. College Football sich als nachhaltiges Franchise etabliert (nicht nur Einmal-Relaunch)
+2. Neue Titel die Pipeline füllen (Battlefield-Neustart?, neue IP?)
+3. AI die Entwicklungskosten senkt
+4. Die Digitaltransition weitere Margenpunkte liefert
+5. Das Management den Kostenapparat diszipliniert
+
+**Das Problem:** Es gibt wenig konkreten Beleg im Filing, dass einer dieser Punkte kurzfristig materialisiert. Das Filing liest sich defensiv, nicht offensiv.
+
+### Der typische Anleger:
+Das ist ein **Value-/Income-/Turnaround-Investor**, kein Growth-Investor. Jemand, der:
+- Eine 3-5 % Shareholder Yield (Buyback + Dividende) schätzt
+- Auf eine Franchise-Revitalisierung oder M&A-Katalysator spekuliert
+- Bereit ist, über mehrere Jahre den Markt zu underperformen
+- Eventuell ein Contrarian, der den Markt als zu pessimistisch einschätzt
+- **Oder ein passiver Index-Halter** (EA ist im S&P 500), der unfreiwillig exponiert ist
+
+**Kein Investor, der Alpha über organisches Wachstum sucht, geht hier primär rein.**
+
+
+# Analyse des 10-K Annual Report — Electronic Arts Inc. (EA)
+## Teil 2: Notes to Financial Statements — Deep Dive & Endbewertung
+
+---
+
+## VII. Neue Befunde aus Teil 2
+
+### 🔴 1. Die Schweizer Zeitbombe tickt jetzt LAUT — NOLs verfallen ab FY2027
+
+Das war im Teil 1 ein Prüfvermerk. Jetzt die Details, und sie sind **alarmierend** :
+
+| Position | FY25 | FY24 |
+|---|---|---|
+| Swiss Intra-Entity Tax Asset | $1,485M | $1,618M |
+| Swiss NOL Carryforwards | ~$2,900M | — |
+| Valuation Allowance (gesamt) | $534M | $464M |
+| VA-Aufbau im Jahr | +$70M | — |
+
+**Kernproblem:** Die Schweiz gewährt nur **7 Jahre Verlustvortrag, kein Carryback.** EA schreibt explizit:
+
+> *"Substantially all of these carryforwards, if not fully realized, will **begin to expire in fiscal year 2027**."* 
+
+**FY2027 beginnt am 1. April 2026 — das ist in weniger als 12 Monaten.** $2,9 Mrd. NOLs beginnen zu verfallen. Die Valuation Allowance wurde bereits um $70M erhöht ($464M → $534M). Das Swiss Intra-Entity Tax Asset ist um $133M geschrumpft ($1,618M → $1,485M).
+
+Die Firma gibt zu, dass:
+- Die Realisierbarkeit von **Schätzungen über künftiges Schweizer taxable income** abhängt
+- **Schweizer Zinssätze** die VA materiell beeinflussen können
+- **Geographical income mix shifts** (z.B. durch College Football, US-lastig) die Schweizer Profitabilität verringern können
+- **Akquisitionen** die Nutzung beeinflussen könnten
+
+**Meine Einschätzung:** Hier lauert eine **stille Bilanzverkürzung von potenziell $500M–$1,0B+** über die nächsten 2-3 Jahre, wenn die NOLs nicht schnell genug konsumiert werden. Jede VA-Erhöhung geht direkt in die Steueraufwand-Zeile und drückt den Nettogewinn. **Das ist die größte einzelne Zeitbombe in dieser Bilanz.**
+
+### 🔴 2. Unrecognized Tax Benefits: $688M + $127M Zinsen/Penalties — und wachsend
+
+| | FY25 | FY24 | FY23 |
+|---|---|---|---|
+| UTBs | $688M | $804M | $867M |
+| Davon EPS-relevant | $482M | — | — |
+| Zinsen & Penalties | **$127M** | **$91M** | — |
+| **Δ Zinsen/Penalties** | **+$36M (+40 %)** | | |
+
+Die UTB-Headline sinkt zwar ($804M → $688M), aber **das liegt an $214M Auflösung von Prior-Year-Positionen** — gleichzeitig wurden **$94M neue Current-Year UTBs aufgebaut** .
+
+Der wahre Stressindikator: Die **akkumulierten Zinsen und Penalties sind um 40 % gestiegen** ($91M → $127M). Das bedeutet: Die Streitfälle mit den Steuerbehörden altern, werden teurer und sind **nicht gelöst**.
+
+EA ist unter Prüfung in:
+- **USA:** FY2018–2021
+- **Kanada:** ab FY2014 (!)
+- **Deutschland:** ab FY2016
+- **Schweiz:** ab FY2014 (!)
+- **Südkorea:** ab FY2018
+
+Die $617M Netto-Liability (UTBs + Zinsen) in der Bilanz ist ein **stiller Druckfaktor**, der bei negativem Ausgang materiell zuschlagen kann. EA formuliert selbst:
+
+> *"The amounts ultimately paid, if any, upon resolution of the issues raised by the taxing authorities may differ **materially** from the amounts accrued."* 
+
+### 🔴 3. Stock-Based Compensation: $642M — Das Hamsterrad bestätigt
+
+| | FY25 | FY24 | FY23 | CAGR |
+|---|---|---|---|---|
+| SBC-Expense | **$642M** | $584M | $548M | +8,2 % |
+| Buybacks | $2,500M | $1,300M | $1,295M | |
+| Unrecognized SBC | **$766M** | — | — | |
+
+Die SBC ist auf **$642M gestiegen (+10 %)** und repräsentiert jetzt **8,6 % des Revenue** . Die noch nicht erfassten $766M (Weighted-Average 1,7 Jahre) bedeuten: Auch FY26 und FY27 werden ~$450M+ SBC sehen.
+
+**Das Netto-Aktien-Hamsterrad:**
+
+| Aktion | Aktien (ca.) |
+|---|---|
+| Buybacks | -17,6M |
+| RSU Vested | +4,2M |
+| Performance RSU Vested | +0,3M |
+| Market RSU Vested | +0,025M |
+| ESPP | +0,7M |
+| **Netto-Reduktion** | **~12,4M** |
+
+Von den $2,500M Buybacks werden also **~$700M+ allein durch SBC-Verwässerung wieder aufgefressen** (bei ~$135/Aktie × ~5,2M Shares). Das echte Buyback-Yield ist signifikant niedriger als die Headline suggeriert. Die Weighted-Average Outstanding sank von 270M auf 262M — nur **-3 %**, nicht die -6,5 %, die der Bruttobuykback suggeriert.
+
+### 🔴 4. Revenue Over Time sinkt — Der Todesstoß für die Equity Story
+
+| Revenue-Typ | FY25 | FY24 | FY23 | Δ FY25/24 |
+|---|---|---|---|---|
+| **At Point in Time** | $2,665M | $2,563M | $2,389M | **+4 %** |
+| **Over Time** | $4,798M | $4,999M | $5,037M | **-4 %** |
+
+Das ist **das Gegenteil** dessen, was ein "Live Services"-Unternehmen zeigen sollte . Die einmalige Revenue-Recognition steigt (College Football-Launch), die ratierliche sinkt. "Over Time" Revenue = das Recurring-Business. Es schrumpft. Um **$201M in einem Jahr.**
+
+### 🔴 5. Konzentration explodiert: Top 10 = 88 % des Revenue
+
+| | FY25 | FY24 | FY23 |
+|---|---|---|---|
+| Top 10 Kunden/Partner | **88 %** | 80 % | 81 % |
+| Sony+Microsoft Console | **62 %** | 59 % | 58 % |
+| Top 2 Receivables | 35 %+28 %=**63 %** | 32 %+27 %=59 % | |
+
+Die Konzentration ist **dramatisch gestiegen** — von 80 % auf 88 % innerhalb eines Jahres . Das bedeutet, dass die "Long Tail"-Diversifikation schrumpft. EA wird abhängiger von weniger Partnern, und diese Partner (Sony, Microsoft, Apple, Google) diktieren die Konditionen einseitig. Die Forderungskonzentration (63 % bei zwei Kunden) macht das Receivable-Risiko noch akuter.
+
+### 🔴 6. PC und Mobile schrumpfen — Nur Console rettet (dank College Football)
+
+| Plattform | FY25 | FY24 | Δ |
+|---|---|---|---|
+| Console | $4,776M | $4,632M | **+3 %** |
+| PC and other | $1,547M | $1,717M | **-10 %** |
+| Mobile | $1,140M | $1,213M | **-6 %** |
+
+PC **-10 %** und Mobile **-6 %** sind signifikante Rückgänge . Das Console-Wachstum kommt fast ausschließlich von College Football 25. **Ohne den Einmal-Relaunch wären alle drei Plattformen rückläufig gewesen.** Die Mobile-Erosion ist besonders besorgniserregend, da Mobile global der wachstumsstärkste Gaming-Markt ist — EA verliert hier Marktanteile.
+
+### 🔴 7. Net Income -12 %, EPS -9 % — trotz $2,5 Mrd. Buybacks
+
+| | FY25 | FY24 | Δ |
+|---|---|---|---|
+| Net Income | $1,121M | $1,273M | **-12 %** |
+| Diluted EPS | $4.25 | $4.68 | **-9 %** |
+| Diluted Shares | 264M | 272M | -3 % |
+
+Selbst mit der aggressivsten Buyback-Kampagne der Firmengeschichte ($2,5 Mrd.) sinkt der EPS um **9 %** . Der Nettogewinn fällt um **$152M (-12 %)**. Der Steuereffekt allein ($484M vs. $316M) erklärt $168M — aber das ist keine Entschuldigung, denn die Steuerbelastung wird auf diesem Niveau bleiben oder steigen (Pillar II, VA-Aufbau).
+
+### 🟡 8. Commitments: $6,0 Mrd. — Die Beleglast der Zukunft
+
+| Commitment-Typ | Total | FY26 | FY27 |
+|---|---|---|---|
+| Developer/Licensor | $1,509M | $353M | $404M |
+| Marketing | $1,248M | $298M | $315M |
+| Senior Notes P+I | $2,582M | $460M | $36M |
+| Leases + Other | $700M | $250M | $148M |
+| **Gesamt** | **$6,039M** | **$1,361M** | **$903M** |
+
+$1,361M fällig in FY26 ist erheblich . Davon $406M Senior Notes (2026 Notes Tilgung). Die Developer/Licensor-Commitments von $1,509M sind überwiegend **conditional on counterparty performance** und damit nicht bilanziert — aber sie sind ein Cash-Drain, der kommt.
+
+### 🟡 9. Lease-Kosten +38 % und Office Space Impairment
+
+| | FY25 | FY24 | Δ |
+|---|---|---|---|
+| Lease Expense gesamt | $153M | $111M | **+38 %** |
+| Davon Operating | $121M | $80M | +51 % |
+| ROU Impairment (Restructuring) | $52M | — | |
+
+Die Operating Lease Costs sind um **51 % gestiegen** — teilweise durch $52M Impairment auf ROU-Assets (aufgegebene Büroflächen) . Das Unternehmen schrumpft Büroflächen und bezahlt dafür teuer. Die neue Lease-Liability ($334M) und die $17M noch nicht begonnene Lease zeigen: Die Flächenoptimierung ist noch nicht abgeschlossen.
+
+### 🟢 10. Positiv: Einige Entwarnung
+
+**Goodwill:** Kein Impairment in FY25, keine neuen Akquisitionen, Goodwill stabil bei $5,376M. Die historische Impairment-Reserve von $368M zeigt, dass das Management in der Vergangenheit bereit war, abzuschreiben. Branchentypisch für ein Unternehmen mit Codemasters, Playdemic, Glu-Akquisitionshistorie. **Noch kein akutes Problem, aber Monitoring nötig.** 
+
+**Intangibles amortisieren sich sauber:** $293M verbleibend, kein FY25-Impairment, klar definierter Amortisationsplan bis FY29. Die wasting assets werden ordnungsgemäß abgebaut. 
+
+**Credit Facility:** $500M vollständig ungenutzt. Kein Covenant-Verstoß. Reserve intakt. 
+
+**Keine Level 3 Fair Values:** Alle Finanzinstrumente Level 1 oder Level 2. Saubere Bewertungshierarchie. Kein Spielraum für kreative Bewertungen. 
+
+**Kein materielles Litigation-Risiko:** "We do not believe that any liability from any reasonably foreseeable disposition of such claims and litigation...would have a material adverse effect." 
+
+**Hedging-Programm funktioniert:** FX-Transaktionsverluste ($29M) werden durch Forward-Gewinne ($45M) mehr als kompensiert. Das Treasury-Team arbeitet professionell.
+
+---
+
+## VIII. Zusammenfassung der Prüfvermerke aus Teil 1 — Status
+
+| Prüfpunkt | Ergebnis aus Teil 2 |
+|---|---|
+| Goodwill Impairment | ✅ Kein Impairment FY25, branchentypisch |
+| Receivables Detail | ⚠️ Konzentration verschärft (63 % bei 2 Kunden), kein Aging Detail im File (Context-Limit) |
+| SBC vs. Buybacks | 🔴 Bestätigt: ~30 % der Buybacks durch SBC neutralisiert |
+| Schweizer DTA | 🔴 Bestätigt: Verfall ab FY2027, VA steigt, $2,9B NOLs unter Druck |
+| Commitments | ⚠️ $6,0B gesamt, $1,4B in FY26 |
+| Senior Notes 2026 | ✅ $400M Tilgung FY26, kein Refinanzierungsrisiko bei gegebener Liquidität |
+| Dragon Age: Veilguard | ❓ Nicht separat erwähnt — im Context-Limit wahrscheinlich unter "other" subsumiert |
+| Equity Rollforward | ✅ Netto-Aktienreduktion ~12,4M (Brutto 17,6M - SBC-Dilution ~5,2M) |
+| Segment-Reporting | 🔴 **Ein einziges Segment** — keine Franchise-Profitabilität sichtbar |
+
+---
+
+## IX. Das Einzel-Segment-Problem: Die bewusste Intransparenz
+
+EA berichtet **ein einziges operatives Segment** . Der CODM (CEO) bewertet das Geschäft auf konsolidierter Basis. Es gibt:
+
+- **Keine Franchise-level-Profitabilität** (FC, Madden, Apex, The Sims, etc.)
+- **Keine regionalen Margen** (nur Revenue-Split nach Geographie, kein Profit-Split)
+- **Keine Segmentassets** ("Our CODM does not review any information regarding total assets on an operating segment basis")
+
+Für ein $7,5B-Revenue-Unternehmen mit 5+ Major Franchises ist das **maximale Intransparenz innerhalb des gesetzlich Zulässigen.** Der Anleger kann nicht beurteilen:
+- Ob Apex Legends Geld verbrennt
+- Wie profitabel Ultimate Team tatsächlich ist
+- Ob Mobile marginal profitabel oder defizitär ist
+- Welche Franchises Goodwill-Impairment-Risiken tragen
+
+Das ist **nicht unüblich** für Gaming-Unternehmen (Take-Two, Ubisoft ähnlich), aber es ist bewusst gewählt, um Schwächen zu verbergen.
+
+---
+
+## X. ENDBEWERTUNG
+
+### Die Firma: Electronic Arts — "Cash Cow mit verstecktem Knochenbruch"
+
+**Was EA ist:**
+Ein profitables, reifes Gaming-Unternehmen mit exzellenten Bruttomargen (~79 %), dominanter Position im Sportspiel-Segment und einem funktionierenden (aber stagnierenden) Live-Services-Modell. Die Bilanz ist solide genug, um die nächsten 2-3 Jahre zu überstehen, aber nicht robust genug, um externe Schocks aufzufangen.
+
+**Was EA nicht (mehr) ist:**
+Ein Wachstumsunternehmen. Die organische Wachstumsrate liegt bei **0 bis -2 %**. Ohne den einmaligen College Football-Relaunch wäre FY25 ein klares Schrumpfungsjahr gewesen. Die "Recurring Revenue"-Narrative ist durch die Daten widerlegt: Revenue Over Time sinkt, Deferred Revenue sinkt, Live Services sinken, Extra Content sinkt.
+
+### Bilanz-Scoring (1-10, 10 = makellos):
+
+| Dimension | Score | Begründung |
+|---|---|---|
+| **Bruttomarge & Margenprofil** | 9/10 | 79,3 % — Weltklasse, digitaler Shift liefert weiter |
+| **Umsatzwachstum** | 3/10 | Stagnation bis Rückgang, kein organischer Treiber sichtbar |
+| **Cash Flow Qualität** | 6/10 | Solide absolut, aber -10 % YoY bei -1 % Revenue ist Warnsignal |
+| **Bilanzrisiken (DTA/Goodwill)** | 4/10 | $5,4B Goodwill + $2,4B DTA mit Verfall ab 2027 |
+| **Steuerrisiken** | 3/10 | Swiss VA-Aufbau, $688M UTBs, $127M Penalties wachsend |
+| **Kapitalallokation** | 5/10 | Aggressiv pro-Aktionär, aber Buybacks bei Underperformance fragwürdig |
+| **Transparenz** | 4/10 | Ein Segment, keine Franchise-Profitabilität, Revenue Recognition hochsubjektiv |
+| **Wettbewerbsposition** | 6/10 | Sportlizenzen = Moat, aber Apex-Verfall, Mobile-Schwäche |
+| **Zukunftsfähigkeit** | 5/10 | Pipeline unklar, AI-Potenzial unbewiesen, keine transformative IP in Sicht |
+| **Gesamtbilanz-Note** | **5,0/10** | Solides Cashflow-Business mit verdeckten Strukturproblemen |
+
+### Der Turnaround-Case — Realistisch?
+
+Die Turnaround-These hat **drei Beine**, von denen **zwei wackeln**:
+
+1. **College Football als nachhaltiges Franchise** — Möglich, aber der FY25-Effekt war ein Einmal-Relaunch. FY26 muss Extra Content/Ultimate Team-Engagement zeigen, um nachhaltig zu sein. Noch nicht bewiesen.
+
+2. **Pipeline-Revitalisierung (Battlefield, neue IP)** — Kein konkreter Hinweis im Filing. R&D steigt um +6 %, aber der Output ist unsichtbar. Dragon Age: The Veilguard wurde in FY25 launched, wird aber auffällig wenig erwähnt — wahrscheinlich unter Erwartungen.
+
+3. **Kostenoptimierung durch AI und Digitalisierung** — Die Digital-Margin-Story ist bei ~80 % Bruttomarge fast ausgereizt. AI-Kostensenkung in der Entwicklung ist spekulativ und im Filing nicht quantifiziert.
+
+**Turnaround-Wahrscheinlichkeit:** 30-40 %. Nicht unmöglich, aber der Anleger braucht Geduld und Schmerztoleranz.
+
+### Der typische Anleger — Profil
+
+**Wer hier investiert:**
+- **Value-orientierter Contrarian** mit 3-5 Jahre Zeithorizont
+- **Income-Investor**, der die ~4-5 % Shareholder Yield (Buyback + Dividende) als Bond-Proxy schätzt
+- **Passiver Index-Investor** (S&P 500), der unfreiwillig exponiert ist
+- **Spekulativer Turnaround-Spieler**, der auf einen Franchise-Katalysator oder M&A-Event setzt
+- Eventuell ein **Private-Equity-Screening-Kandidat** bei weiterem Kursverfall (starker Cashflow, optimierbare Kostenstruktur)
+
+**Wer hier NICHT investieren sollte:**
+- Growth-Investoren, die organisches Wachstum erwarten
+- Momentum-Trader (5-Jahres-Underperformance vs. S&P 500 um ~90 Prozentpunkte)
+- Bilanzpuristen, die die Swiss DTA-Exposure und UTB-Risiken nicht tragen wollen
+- Investoren, die transparente Segment-Berichterstattung verlangen
+
+### Abschließendes Urteil als "Bankdirektor"
+
+> **Wenn mir diese Bilanz als Kreditvorlage auf den Tisch käme**, würde ich den Kredit bewilligen — die Cashflows sind stabil genug, die Verschuldung moderat ($1,9B Notes bei ~$2,1B OCF). **Aber die Auflagen wären streng:** Quarterly Reporting der Schweizer DTA-Nutzung, Covenant auf SBC-to-Revenue-Ratio, und keine weiteren ungesicherten Kreditlinienerhöhungen, bis die UTB-Fälle geklärt sind.
+>
+> **Als Eigenkapitalinvestment** ist EA ein "Show me"-Story. Die Headline-Zahlen sehen solider aus als die Substanz. Die Bruttomarge blendet, aber darunter stagniert das Business, die Steuerrisiken sind erheblich, und die Kapitalallokation (massive Buybacks bei Underperformance) wirft Fragen auf. Fair Value liegt wahrscheinlich im Bereich **$120-145** pro Aktie — das ist keine Katastrophe, aber auch kein Schnäppchen bei aktuellem Kurs.
+>
+> **Die größte Gefahr ist nicht ein plötzlicher Crash, sondern ein langsamer Verfall** — sinkende Live Services, steigende Steuerlast durch VA-Aufbau, und eine Pipeline, die nicht liefert. Der Anleger muss wissen: Er kauft hier **Cashflow von gestern** und hofft auf einen Katalysator von morgen.

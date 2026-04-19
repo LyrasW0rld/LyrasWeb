@@ -1,0 +1,482 @@
+# China Evergrande Group (3333.HK) – Interim Report H1 2023
+## Forensische Bilanzanalyse – Teil 1/2
+
+---
+
+## I. Kontextualisierung & Brancheneinordnung
+
+Wir reden hier über den ehemals größten Immobilienentwickler Chinas, dessen Geschäftsmodell — wie bei nahezu allen Tier-1 China-Developern — auf einem **hochgehebelten Präverkaufsmodell** basierte: Käufer zahlen vor Baubeginn, der Developer nutzt diese Mittel zur Finanzierung neuer Landkäufe und Projekte. Das funktioniert solange der Markt wächst. Mit Pekings „Three Red Lines"-Policy (August 2020) wurde dieses Karussell systematisch abgewürgt. Evergrande war dabei der am stärksten gehebelte unter den großen Developern — und der erste, der fiel.
+
+Fairerweise: **Die gesamte Branche** steht unter Druck (Country Garden, Kaisa, Sunac, etc.). Das ist kein Evergrande-Unikat. Was Evergrande zum Extremfall macht, ist die Dimension und die Diversifikation in branchenfremde Bereiche (EV, Gesundheit, Tourismus).
+
+---
+
+## II. Die Leichen im Keller — Systematisch
+
+### 1. **Disclaimer of Conclusion des Auditors – Das Allerschlimmste zuerst**
+
+Prism Hong Kong and Shanghai Limited gibt **keine Schlussfolgerung ab** . Das ist kein „qualified opinion", kein „adverse opinion" — es ist ein **kompletter Disclaimer**. Der Auditor sagt im Klartext:
+
+> *„We do not express a conclusion on the interim financial information."*
+
+Das bedeutet: Der Wirtschaftsprüfer kann weder bestätigen noch verneinen, dass die Zahlen ein den tatsächlichen Verhältnissen entsprechendes Bild vermitteln. Grund: Die multiplen Unsicherheiten und deren kumulative Wechselwirkungen machen eine Beurteilung **unmöglich** .
+
+Für jeden Bankdirektor ist das ein **sofortiger Stopp-Indikator**. Es gibt keine belastbare Bilanz.
+
+**Zusätzliches Red Flag innerhalb des Red Flags:** Der Auditor ist Prism HK — eine kleine Boutique-Prüfungsgesellschaft. PwC, der vorherige Auditor, hat Evergrande verlassen. Wenn eine Big-4-Gesellschaft einen Mandanten dieser Größe abgibt, ist das an sich schon ein Signal. Dass der Nachfolger dann einen Disclaimer ausspricht, verstärkt das.
+
+---
+
+### 2. **Die Cash-Illusion: Vier Ebenen der Verschleierung**
+
+Die Cash-Position ist der zentrale Punkt, an dem das Narrativ konstruiert wird. Lassen wir die Schichten abziehen:
+
+| Position | RMB Mrd | Verfügbarkeit |
+|---|---|---|
+| Cash & Cash Equivalents | 4,05 | Theoretisch frei, aber… |
+| Restricted Cash | 9,33 | **Gebunden** (Escrow, Projektkonten) |
+| Supervised Account Cash (in Other Receivables!) | 34,87 | **Nicht frei verfügbar** — von Lokalregierungen kontrolliert |
+| **Summe „Cash"** | **48,25** | |
+| Davon tatsächlich frei | **~4 Mrd** | |
+
+Dem gegenüber stehen:
+- Kurzfristige Borrowings: **RMB 581,8 Mrd** 
+- Trade & Other Payables: **RMB 1.056,6 Mrd** 
+- Contract Liabilities (vorausbezahlte, ungelieferte Wohnungen): **RMB 604,0 Mrd** 
+
+**Cash Coverage Ratio (frei verfügbar / kurzfristige Borrowings): 0,7%**
+
+Das ist nicht „angespannt". Das ist **technische Zahlungsunfähigkeit**, die nur durch den stillschweigenden Konsens aller Gläubiger, nicht gleichzeitig zu vollstrecken, aufrechterhalten wird.
+
+**Die Platzierung von RMB 34,87 Mrd in „Other Receivables"** ist klassisches Window-Dressing . Dieses Geld liegt auf behördlich überwachten Projektkonten (监管账户) und darf ausschließlich zur Fertigstellung der jeweiligen Projekte verwendet werden. Es ist ökonomisch kein Cash des Konzerns — es ist zweckgebundenes Treuhandgeld. Durch die Klassifikation als „Other Receivables" wird es aber formal in die Asset-Seite integriert, ohne dass ein uninformierter Leser die Restriktion erkennt.
+
+---
+
+### 3. **Properties under Development — Die 1-Billion-RMB-Blackbox**
+
+Der größte Einzelposten der Bilanz: **RMB 1.086 Mrd** .
+
+Hierauf wurden lediglich **RMB 2,16 Mrd** an Wertminderungen vorgenommen . Das sind **0,2%** des Buchwertes.
+
+**Branchenkontext:** Im H1 2023 fielen die durchschnittlichen Verkaufspreise für Neubauten in China auf breiter Front. In Tier-2 und Tier-3 Städten — wo ein signifikanter Teil von Evergrandes Landbank liegt — betrug der Preisrückgang teilweise 15–30% gegenüber den Peaks. Evergrandes eigene Daten bestätigen das indirekt: Die **Bruttomarge** liegt bei katastrophalen **7,64%** , verglichen mit historischen 25-35% in der Branche.
+
+Wenn die Bruttomarge beim **Verkauf** bereits nur 7,6% beträgt, dann sind die noch nicht verkauften Bestände mit hoher Wahrscheinlichkeit in vielen Märkten **unter Wasser** (Buchwert > Marktwert). Eine Wertberichtigung von 0,2% auf einen Billionen-RMB-Posten ist — diplomatisch formuliert — **nicht konservativ**.
+
+**Mein Verdacht:** Die tatsächliche Impairment-Notwendigkeit liegt im dreistelligen Milliarden-RMB-Bereich. Aber jede realistische Wertberichtigung würde das Eigenkapital noch tiefer ins Negative ziehen und die Going-Concern-Fiktion endgültig zerstören.
+
+---
+
+### 4. **Investment Properties: RMB 58,8 Mrd mit RMB 0,08 Mrd Fair Value Loss**
+
+Gewerbeimmobilien (Ladenflächen in Wohnanlagen, Büros, Parkplätze) mit ca. 4,3 Mio qm GFA und ~178.000 Parkplätzen .
+
+Fair-Value-Verlust: **RMB 80 Mio** — das sind **0,14%** des Portfoliowertes .
+
+In einem Markt, in dem der chinesische Gewerbeimmobiliensektor massiv unter Druck steht (Leerstand in vielen Tier-2-Städten >20%), Einzelhandel sich post-COVID nicht erholt hat und Evergrande-eigene Liegenschaften durch das Stigma der Marke zusätzlich belastet sind, ist eine nahezu stabile Bewertung **nicht glaubwürdig**. Die Bewertungsmodelle (DCF oder Comparable) dürften mit sehr aggressiven Annahmen arbeiten.
+
+---
+
+### 5. **Contingent Liabilities & Litigation — Die explodierende Zeitbombe**
+
+| | 31.12.2022 | 30.06.2023 | Δ |
+|---|---|---|---|
+| Contingent Liabilities | 46,78 Mrd | 73,85 Mrd | **+58%** in 6 Monaten |
+| Pending Cases ≥30 Mio RMB | — | 2.229 Fälle | |
+| Gesamtstreitwert | — | **534,99 Mrd** | |
+
+
+
+Die Contingent Liabilities wachsen mit ca. **RMB 4,5 Mrd pro Monat**. Der aggregierte Streitwert von **RMB 535 Mrd** entspricht **~31% der Bilanzsumme**. Das ist kein Risiko — das ist eine Lawine.
+
+**Branchenspezifisch:** Einige Klagen sind bei distressed Developern normal (Bauverzögerungen, Lieferantenstreitigkeiten). Aber das Volumen hier übersteigt alles Übliche um Größenordnungen.
+
+---
+
+### 6. **Die Xinjiang Guanghui-Transaktion — Implied Recovery Rate**
+
+Evergrande überträgt 30,99% an Xinjiang Guanghui an die Shengjing Bank zur **Verrechnung von RMB 32,6 Mrd Schulden** — zum Transferpreis von **RMB 9,75 Mrd** .
+
+Das bedeutet: Die Bank akzeptiert Assets im Wert von 9,75 Mrd als Tilgung von 32,6 Mrd → **Recovery Rate: ~30 Cent auf den RMB**.
+
+Das ist der implizite Marktwert, den eine Bank — die selbst unter Druck steht (Shengjing Bank ist quasi-staatlich und stark Evergrande-exponiert) — den Evergrande-Assets zuordnet. Diese Recovery Rate darf man als Proxy für den gesamten Konzern heranziehen.
+
+---
+
+### 7. **Foreign Exchange Exposure — Ungehedgt in die Katastrophe**
+
+| | Assets (FX) | Liabilities (FX) | Netto |
+|---|---|---|---|
+| RMB Mrd | 20,5 | 171,2 | **-150,7 Mrd** |
+
+
+
+**Kein einziges Hedge-Instrument** . Bei einer offenen FX-Position von ~150 Mrd RMB und einem schwächelnden RMB ist das Exposure enorm. Der Devisenverlust von RMB 4,14 Mrd im Halbjahr ist nur die Spitze. Jede weitere RMB-Schwäche schlägt direkt auf die Verbindlichkeiten durch.
+
+In der Branche ist es üblich, zumindest die kurzfälligen USD-Notes teilzuhedgen. Dass Evergrande das nicht tut, liegt schlicht daran, dass kein Counterpart mehr bereit wäre, mit ihnen einen Hedge einzugehen.
+
+---
+
+### 8. **Offshore Restructuring — Kreatives Schulden-Origami**
+
+Die Restrukturierungspläne (CEG Schemes, SJ Scheme, TJ Scheme) sind detailliert im Filing beschrieben . Die wesentlichen Punkte:
+
+- **Option 1**: Alte Schulden → Neue Notes mit 10-12 Jahren Laufzeit. Das ist ein purer **Extend & Pretend**.
+- **Option 2**: Konversion in Mandatory Exchangeable Bonds (in Evergrande Property Services und EV-Aktien). Das Problem: Diese Töchter sind selbst massiv unter Wasser. Die Umwandlung verschiebt das Problem nur.
+
+Die Verwendung von „Deficiency Claim Basis" für Class C und SJ/TJ-Gläubiger bedeutet, dass der **tatsächliche Recovery-Anspruch** erst nach Abzug bewerteter Sicherheiten ermittelt wird. Wer die Bewertung der Sicherheiten kontrolliert, kontrolliert den Recovery. Das ist eine klassische Stellschraube, die zugunsten der Senior-Gläubiger und zu Lasten der Nachrangigen gedreht wird.
+
+**Longstop Date: 15. Dezember 2023** — extrem knapp für die Komplexität der Restrukturierung.
+
+---
+
+## III. Die positiven Aspekte — Fairness
+
+1. **Operative Tätigkeit läuft noch:** RMB 5,4 Mrd operativer Cash Flow ist positiv . Das Unternehmen liefert noch Wohnungen aus — die Contract Liabilities sanken von 721 auf 604 Mrd, was bedeutet, dass ca. RMB 117 Mrd an Vorauszahlungen in Lieferungen umgewandelt wurden. Das ist in der Branche bei Distressed-Fällen keineswegs selbstverständlich.
+
+2. **Kostendisziplin ist real:** Administrative Expenses -32,8% auf RMB 3,76 Mrd . Das ist kein kosmetischer Schnitt, das ist signifikant.
+
+3. **Die Landbank hat theoretischen Wert:** 190 Mio qm Landreserven + 78 Urban Redevelopment Projekte (55 in der Greater Bay Area, 34 in Shenzhen) . Shenzhen-Landbank ist in China extrem wertvoll — selbst in der Krise. Das ist der eigentliche „Hidden Asset", auf den Turnaround-Spieler setzen.
+
+4. **Restrukturierung macht Fortschritte:** RSA mit AHG unterschrieben, gerichtliche Genehmigungen für Gläubigerversammlungen eingeholt, Winding-Up-Petition vertagt . Das zeigt zumindest prozeduralen Fortschritt.
+
+5. **Hui Ka Yan hält eigene Bonds ($650 Mio)**  — Skin in the Game. Ob das ein positives Signal ist oder eher zeigt, dass der Chairman keine Exit-Möglichkeit hatte, sei dahingestellt.
+
+---
+
+## IV. Turnaround-Bewertung
+
+Die Turnaround-These basiert auf drei Pfeilern:
+
+| Pfeiler | Realitätscheck |
+|---|---|
+| Shenzhen/GBA-Landbank als stille Reserve | **Plausibel**, aber: Evergrande hat nicht die Liquidität, diese Projekte zu entwickeln. Ohne Partner oder Verkauf kein Wert. |
+| Erfolgreiche Offshore-Restrukturierung | **Möglich**, aber der Longstop Date ist eng, und die Onshore-Schulden (der größere Teil!) sind noch völlig ungeklärt. |
+| Markterholung in China | **Außerhalb der Kontrolle des Unternehmens.** Pekings Stimuli kommen, aber langsam und selektiv. |
+
+**Meine Einschätzung:** Ein Turnaround im klassischen Sinne (Rückkehr zur Profitabilität, Equity positiv) ist **extrem unwahrscheinlich**. Was möglich wäre, ist eine geordnete Abwicklung mit Teilwerterhalt für bestimmte Gläubigerklassen. Das ist aber kein Turnaround — das ist Insolvenzverwaltung unter anderem Namen.
+
+---
+
+## V. Gesamtbewertung (auf Basis Teil 1)
+
+**Als Bankdirektor:**
+Dieses Filing zeigt ein Unternehmen, das **technisch insolvent** ist (Eigenkapital: -644 Mrd RMB), dessen Auditor **keine Schlussfolgerung** abgeben kann, dessen Assets mit hoher Wahrscheinlichkeit **massiv überbewertet** sind (Properties under Development, Investment Properties), das **keine freie Liquidität** hat (4 Mrd frei verfügbar bei 2,29 Billionen kurzfristigen Verbindlichkeiten), und das in **2.229 Klagen** mit einem aggregierten Streitwert von 535 Mrd RMB verwickelt ist.
+
+Die Going-Concern-Annahme wird vom Auditor explizit nicht bestätigt. Die Bilanz ist formal auf Going Concern erstellt, aber der Auditor distanziert sich vollständig davon.
+
+**Rating-Äquivalent:** Tief im D/SD-Bereich (Selective Default). Kein kreditwürdiges Unternehmen.
+
+---
+
+## VI. Der Anlegertyp
+
+Wer **bewusst** in Evergrande H1 2023 investiert, ist:
+
+- **Distressed Debt Spekulant / Vulture Investor** — wettet auf Recovery-Werte in der Restrukturierung, typischerweise mit Positionen in den Senior Notes, um Mitsprache in den Scheme Votes zu haben
+- **Event-Driven-Hedge-Fund** — spielt die Restrukturierungsmechanik (z.B. Spread zwischen verschiedenen Notes-Serien)
+- **Hochspekulativer Retail-Gambler** — der auf „100x wenn es klappt" wettet
+- **Politisch motivierter Investor** — der auf ein staatliches Bailout spekuliert
+
+Das ist **kein** Value-Investment. Das ist **kein** Growth-Investment. Das ist ein **binäres Bet** mit asymmetrischem Payoff: Entweder geordnete Restrukturierung mit Teilrecovery (20-30 Cents) oder Liquidation mit nahezu Totalverlust für Equity und Nachrang-Gläubiger.
+
+Ein konservativer Anleger hat hier nichts verloren. Ein institutioneller Investor (Pensionsfonds, Versicherung) dürfte aus regulatorischen Gründen gar nicht investieren.
+
+---
+
+# China Evergrande Group (3333.HK) – Interim Report H1 2023
+## Forensische Bilanzanalyse – Teil 2/2: Die Tiefen-Notes
+
+---
+
+## VIII. Neue Befunde aus Teil 2
+
+### 1. **Die Kapitalisierte-Zinsen-Bombe: RMB 147,8 Mrd in den Properties under Development**
+
+Hier liegt eine der größten Bilanzierungsgranaten des gesamten Filings verborgen:
+
+| Position | RMB Mrd | Anteil an PuD |
+|---|---|---|
+| Baukosten & aktivierte Aufwendungen | 491,3 | 45,2% |
+| Aktivierte Zinsen | **147,8** | **13,6%** |
+| Landnutzungsrechte | 446,9 | 41,2% |
+| **Gesamt PuD** | **1.086,0** | 100% |
+
+**Weighted Average Capitalisation Rate: 10,36%** 
+
+Das ist außergewöhnlich. Fast **14% des gesamten Inventarwertes bestehen aus kapitalisierten Finanzierungskosten**. Das bedeutet: Wenn ein Projekt stagniert oder verzögert wird, laufen die Zinsen weiter und werden nicht als Aufwand verbucht, sondern in die Bilanz „geparkt". Bei einem Unternehmen, dessen Projekte zu erheblichen Teilen stillstehen oder verlangsamt sind, führt das zu einer systematischen **Aufblähung der Assets bei gleichzeitiger Verschönerung der GuV**.
+
+**Der Beweis für die Manipulation findet sich im Periodenvergleich:**
+
+| | H1 2023 | H1 2022 | Veränderung |
+|---|---|---|---|
+| Zinsaufwand Borrowings | 35.843 | 44.610 | -19,6% |
+| Davon kapitalisiert | **22.369** | **10.185** | **+119,7%** |
+| In GuV durchgeschlagen | 13.474 | 34.425 | -60,9% |
+
+
+
+Die Zinslast ist nur moderat gesunken (-19,6%), aber der in der GuV ausgewiesene Zinsaufwand hat sich **um 61% reduziert** — ausschließlich weil die kapitalisierten Zinsen **mehr als verdoppelt** wurden. Das ist der älteste Trick im Immobilien-Accounting: Zinsen kapitalisieren statt aufwandswirksam buchen → niedrigerer Verlust → Going Concern sieht „besser" aus.
+
+Bei einem Portfoliowert von 1,086 Billionen RMB, wo ein signifikanter Teil der Projekte still steht, ist die IAS-23-Voraussetzung für Zinskapitalisierung (aktive Projektentwicklung) in vielen Fällen **höchst fragwürdig**.
+
+---
+
+### 2. **Trade Payables – 80,6% über ein Jahr überfällig: Der stille Aufschrei der Lieferkette**
+
+| Aging | RMB Mrd | Anteil |
+|---|---|---|
+| Innerhalb 1 Jahr | 116,9 | 19,4% |
+| **Über 1 Jahr** | **485,1** | **80,6%** |
+| **Gesamt** | **602,0** | 100% |
+
+
+
+**RMB 485 Milliarden an unbezahlten Rechnungen, die älter als ein Jahr sind.** Das sind Bauunternehmen, Materiallieferanten, Subunternehmer — die Lebensadern der Baustellen. Wenn 80% der Lieferanten seit über einem Jahr nicht bezahlt wurden, erklärt das unmittelbar:
+- Warum Baustellen stillstehen
+- Warum Lieferungen nicht erfolgen
+- Warum die Contingent Liabilities explodieren (Klagen der Subunternehmer)
+- Warum die Contract Liabilities (vorauszahlende Käufer) nur langsam abgebaut werden
+
+**Branchenkontext:** Selbst bei anderen distressed China-Developern (Country Garden, Sunac) liegt der Anteil der über 1 Jahr überfälligen Trade Payables typischerweise bei 40-60%. 80,6% ist selbst in diesem Kontext **extrem**.
+
+---
+
+### 3. **Accrued Expenses: Der unerklärte +320%-Sprung**
+
+| | 30.06.2023 | 31.12.2022 | Δ |
+|---|---|---|---|
+| Accrued Expenses | **147,9 Mrd** | 35,3 Mrd | **+112,6 Mrd (+319%)** |
+
+
+
+**RMB 112,6 Milliarden zusätzliche Accrued Expenses in sechs Monaten — ohne jede Erklärung in den Notes.**
+
+Das ist der verdächtigste Einzelposten im gesamten Filing. Mögliche Erklärungen:
+1. **Aufgelaufene Strafzinsen / Penalties** aus den Default-Borrowings, die jetzt erstmals bilanziert werden
+2. **Reklassifikation** aus „Other Payables – Third Parties" (dort fiel der Betrag von 165 auf 93 Mrd → Δ -72 Mrd — das erklärt aber nur einen Teil)
+3. **Nachträgliche Erfassung** von Verpflichtungen, die bisher off-balance waren
+
+Selbst wenn es teilweise Reklassifikation ist: Die Gesamtposition „Other Payables Third Parties" sank um 72 Mrd, während Accrued Expenses um 113 Mrd stieg → **Nettoanstieg von ca. 41 Mrd** in der Summe. Das ist substantielle neue Schuld, die ohne Erklärung materialisiert ist. Der Auditor kann dies mit seinem Disclaimer natürlich auch nicht bestätigen.
+
+---
+
+### 4. **Segmentanalyse: Ein einziges profitables Segment rettet das Narrativ**
+
+| Segment | Revenue (Mrd) | Result (Mrd) | Marge | Δ vs H1/22 |
+|---|---|---|---|---|
+| Property Development | 120,1 | **-6,0** | -5,0% | ↑ von -27,2 |
+| Property Investment | 0,2 | **-0,6** | n/a | ↓ von +2,0 |
+| Property Management | 6,1 | **+1,0** | +17,1% | ↑ von +0,9 |
+| Other (EV, Tourism, Health) | 1,8 | **-6,0** | -333% | ↑ von -6,9 |
+| **Gesamt** | **128,2** | **-11,5** | | ↑ von -31,2 |
+
+
+
+**Positiv (fair):** Die Property-Development-Verluste haben sich massiv von -27,2 auf -6,0 Mrd verbessert. Das ist ein realer operativer Fortschritt, auch wenn er teilweise durch höhere Zinskapitalisierung geschönt wird.
+
+**Negativ:**
+- **„Other Businesses" (=EV):** RMB 1,8 Mrd Umsatz bei RMB 6,0 Mrd Verlust. Das EV-Segment verbrennt **RMB 3,33 für jeden RMB 1 Umsatz**. Die Intangible-Impairments von RMB 2,81 Mrd  betreffen höchstwahrscheinlich primär EV-bezogene Technologierechte und Lizenzen. Evergrande Auto ist eine Kapitalvernichtungsmaschine ohne erkennbaren Pfad zur Profitabilität.
+- **Property Investment** dreht von +2,0 Mrd auf -0,6 Mrd — das bestätigt den Wertverfall im Gewerbeimmobilienportfolio.
+- **Property Management** ist das einzige profitable Segment — aber das steht bereits als börsennotierte Tochter (6666.HK) separat und ist das wertvollste veräußerbare Asset.
+
+---
+
+### 5. **Other Receivables – JV-Forderungen: Die verdeckte Kreditvergabe**
+
+| Gegenpartei | 30.06.2023 | 31.12.2022 | Δ |
+|---|---|---|---|
+| Joint Ventures | **62,6 Mrd** | 58,6 Mrd | **+4,0 Mrd** |
+| Associates | 1,2 Mrd | 4,1 Mrd | -2,9 Mrd |
+| NCI | 18,8 Mrd | 19,9 Mrd | -1,1 Mrd |
+| Third Parties | 178,8 Mrd | 182,1 Mrd | -3,3 Mrd |
+
+
+
+Die **JV-Forderungen steigen** auf 62,6 Mrd, während gleichzeitig die **JV-Verbindlichkeiten** auf 67,9 Mrd gestiegen sind (von 54,6 Mrd) .
+
+Das ist ein klassisches **Circular-Funding-Muster**: Geld fließt zwischen Evergrande und den JVs hin und her, wobei sowohl Forderungen als auch Verbindlichkeiten steigen. Netto ist Evergrande den JVs jetzt **4,1 Mrd schuldig** (67,9 – 63,8) — das hat sich gedreht gegenüber Jahresende 2022, wo Evergrande netto Gläubiger war.
+
+**Zusätzlich besorgniserregend:** Die JVs machen RMB 537 Mio Verlust (vs. nur -27 Mio im Vorjahr) , was zeigt, dass die JVs selbst in zunehmender Schieflage sind. Die 62,6 Mrd Forderungen gegenüber diesen JVs sind:
+- **Unsecured**
+- **Interest-free**
+- **Repayable on demand** 
+
+„Repayable on demand" bei zahlungsunfähigen JVs ist eine Forderung auf dem Papier, aber kein realisierbarer Wert.
+
+**Impairment auf Other Receivables: nur RMB 612 Mio in H1 2023 vs. RMB 12.095 Mio in FY 2022**  — eine **Reduktion um 95%** bei sich verschlechternder Kreditqualität der Gegenparteien. Das ist nicht konservativ.
+
+---
+
+### 6. **Financial Guarantees: RMB 506 Mrd Off-Balance-Sheet Zeitbombe**
+
+| Garantie-Typ | 30.06.2023 | 31.12.2022 |
+|---|---|---|
+| Hypothekengarantien für Käufer | **390,8 Mrd** | 491,5 Mrd |
+| Garantien für Kooperationspartner | 66,4 Mrd | 65,8 Mrd |
+| Garantien für JVs/Associates | 49,0 Mrd | 49,1 Mrd |
+| **Gesamt** | **506,1 Mrd** | 606,5 Mrd |
+
+
+
+Die **Hypothekengarantien von RMB 390,8 Mrd** bedeuten: Wenn Wohnungskäufer ihre Hypotheken nicht bedienen (Mortgage Boycotts 2022!), muss Evergrande die Banken entschädigen. Die Provision for Financial Guarantee Contracts beträgt aber nur RMB 50,9 Mrd  — das sind **13%** des Exposures. Angesichts:
+- steigender Ausfallraten bei Hauskäufern
+- Evergrandes eigener Unfähigkeit, Wohnungen fertigzustellen (Auslöser für Mortgage Boycotts)
+- der Tatsache, dass die Garantien erst mit Eigentumsübertragung enden
+
+…ist die Rückstellung wahrscheinlich **massiv unzureichend**.
+
+---
+
+### 7. **FVPL-Disposals: RMB 14,45 Mrd mit RMB 4 Mio Verlust — wirklich?**
+
+| | H1 2023 | H1 2022 |
+|---|---|---|
+| FVPL Opening | 21.093 | 23.487 |
+| Disposals | **(14.454)** | (306) |
+| Fair Value Loss | **(4)** | (1.156) |
+| FVPL Closing | 6.653 | 22.118 |
+
+
+
+Unlisted equity investments fielen von **17,45 Mrd auf 3,02 Mrd** . Das sind die „High Technology and Media Companies" — vermutlich die Beteiligungen, die Hui Ka Yan in seinen diversifizierteren Tagen aufgebaut hat.
+
+**RMB 14,45 Mrd an Disposals bei nur RMB 4 Mio Fair Value Loss** bedeutet: Entweder wurden diese Assets exakt zum Buchwert verkauft (statistisch extrem unwahrscheinlich bei illiquiden Unlisted Equity in einer Liquiditätskrise), oder die Fair Value Losses wurden **bereits in Vorperioden** eingebucht und die Disposal-Erlöse entsprachen dem bereits reduzierten Buchwert. Ohne detailliertere Disclosure bleibt das eine **Blackbox**.
+
+Die entscheidende Frage: **An wen** wurden diese Assets verkauft? In einer Distressed-Situation besteht die Gefahr von **Related Party Transactions zu günstigen Konditionen** (Asset Stripping durch Insider). Die Notes schweigen hierzu.
+
+---
+
+### 8. **Commitments: Warum steigen Verpflichtungen bei einem insolventen Unternehmen?**
+
+| | 30.06.2023 | 31.12.2022 | Δ |
+|---|---|---|---|
+| Property Development | **215,8 Mrd** | 176,7 Mrd | **+22,1%** |
+| Land Use Rights | 47,4 Mrd | 59,8 Mrd | -20,7% |
+| PP&E/Intangibles | 13,1 Mrd | 14,3 Mrd | -8,6% |
+| **Gesamt** | **276,6 Mrd** | **251,1 Mrd** | **+10,2%** |
+
+
+
+Property Development Commitments steigen um RMB 39 Mrd bei einem Unternehmen ohne freie Liquidität. Das dürfte primär auf die **behördliche Pflicht zur Fertigstellung** zurückgehen (保交楼 — „Deliver the Buildings"-Policy). Peking erzwingt die Weiterarbeit — Evergrande muss Verpflichtungen eingehen, die es nicht finanzieren kann. Das verstärkt das Cash-Problem.
+
+---
+
+### 9. **Subsequent Events: Die NWTN-Transaktion — Preisarbitrage zugunsten der Insider**
+
+Das Filing beschreibt zwei simultane Transaktionen bezüglich Evergrande Auto:
+
+| Transaktion | Preis/Aktie | Wer profitiert |
+|---|---|---|
+| NWTN-Subscription (externer Investor) | **HK$0,6297** | NWTN kauft günstig |
+| Loan Conversion (Hui Ka Yan, Ding Yu Mei) | **HK$3,84** | Insider konvertieren zu **6,1x höherem Preis** |
+
+
+
+Auf den ersten Blick sieht es aus, als würden die Insider benachteiligt (sie konvertieren zum höheren Preis). Aber die Logik ist umgekehrt: **Die Insider konvertieren uneinbringliche Forderungen** (Loans to Evergrande Auto) **in Equity zu einem fiktiven Preis**. Der reale Wert der Forderungen ist nahe Null — jede Konversion zu jeglichem Preis ist ein Gewinn. Gleichzeitig wird die Verwässerung für die Insider durch den höheren Konversionspreis (weniger Aktien pro RMB) optisch reduziert.
+
+Die Loan Conversion von **HK$20,9 Mrd** an Insider-Forderungen  ist in Wahrheit ein **Debt-for-Equity-Swap**, der uneinbringliche Related-Party-Loans in Eigenkapital umwandelt — das saubererweise vom Filing als „Conversion" und nicht als „Write-off" präsentiert wird.
+
+**Chapter 15 Filing (17. August 2023)**  — die US-Anerkennung der Offshore-Restrukturierung. Das ist prozedural notwendig, aber auch ein Signal an den Markt: Die Restrukturierung wird internationalisiert, was die Komplexität (und die Kosten) dramatisch erhöht.
+
+---
+
+### 10. **Related Party Transactions: Das Familien-Netzwerk**
+
+| Person | Borrowings to Group | Dividends Outstanding |
+|---|---|---|
+| Hui Ka Yan | 2,24 Mrd | 2,06 Mrd |
+| Ding Yu Mei (Ex-Frau) | 1,78 Mrd | 0,21 Mrd |
+| Xia Haijun (ehem. CEO) | 0,57 Mrd | — |
+| Mr. Lai | 0,03 Mrd | — |
+
+
+
+**Positiv (fair):** Hui Ka Yan und Familie haben tatsächlich Geld im Unternehmen — insgesamt ca. RMB 7,8 Mrd an Borrowings , plus die $650 Mio Notes. Das ist reales Skin in the Game.
+
+**Bemerkenswert:** Ding Yu Mei wird als „Ex-Frau" Hui Ka Yans gehandelt, fungiert aber weiterhin als Financier des Konzerns. Das Familienvermögen bleibt operativ verflochten.
+
+**Kritisch:** Es fallen RMB 32 Mio Zinsen pro Halbjahr an den Chairman und Ex-CEO an  — Senior Notes Zinsen werden an das eigene Management gezahlt, während Lieferanten seit über einem Jahr auf Zahlungen warten.
+
+---
+
+### 11. **Income Tax: RMB 6,8 Mrd Steuern bei RMB 39,2 Mrd Verlust**
+
+| Steuerart | H1 2023 |
+|---|---|
+| PRC Corporate Income Tax | 3,45 Mrd |
+| PRC Land Appreciation Tax | 4,31 Mrd |
+| Deferred Tax Credits | -0,91 Mrd |
+| **Gesamt** | **6,84 Mrd** |
+
+
+
+Das ist **kein Fehler** — es ist eine Besonderheit des chinesischen Immobilien-Steuersystems. Die Land Appreciation Tax (LAT, 30-60% progressiv auf Landwertsteigerung) und CIT werden **projektbezogen** erhoben. Einzelne profitable Projekte generieren Steuerlast, selbst wenn der Gesamtkonzern massiv Verlust macht. Diese Steuern sind **Cash-wirksam** und verschärfen die Liquiditätskrise.
+
+Effektiver Steuersatz auf den Verlust: negativ (Steuerzahlung trotz Verlust) → **Cash-Drain von 6,8 Mrd** in einem Unternehmen mit nur 4 Mrd freiem Cash.
+
+---
+
+## IX. Konsolidierte Bewertung — Gesamturteil
+
+### Die Bilanz in Zahlen:
+
+| Kennzahl | Wert | Bewertung |
+|---|---|---|
+| Eigenkapital | **-644 Mrd RMB** | Tiefst-insolvent |
+| Free Cash | **4,0 Mrd** | Auf 581 Mrd kfr. Schulden |
+| Kurzfr. Schulden / Free Cash | **145:1** | Katastrophal |
+| Trade Payables >1 Jahr | **80,6%** | Lieferkette kollabiert |
+| Kapitalisierte Zinsen / PuD | **13,6%** | Aggressives Accounting |
+| Impairment auf PuD | **0,2%** | Nicht glaubwürdig |
+| Contingent Liabilities Trend | **+58% in 6 Mon.** | Unkontrolliert |
+| Financial Guarantees (off-BS) | **506 Mrd** | Kaum provisioniert |
+| Auditor Opinion | **Disclaimer** | Keine belastbare Bilanz |
+| Klagen (Streitwert) | **535 Mrd** | 31% der Bilanzsumme |
+
+### Positiv-Faktoren (gewichtet):
+
+| Faktor | Gewicht | Kommentar |
+|---|---|---|
+| Operativer Cash Flow positiv | ★★★ | Real, aber fragil |
+| Shenzhen/GBA-Landbank | ★★★★ | Wertvollstes Asset, aber nicht monetarisierbar ohne Partner |
+| Segment-Improvement Property Dev. | ★★ | Teilweise durch Zinskapitalisierung verzerrt |
+| Kostendisziplin | ★★ | Real, aber bei 4 Mrd Free Cash irrelevant |
+| Property Management profitabel | ★★★ | Aber bereits börsennotiert, separater Wert |
+| Insider Skin in the Game | ★★ | ~10 Mrd von Hui Ka Yan und Familie |
+
+---
+
+## X. Endgültige Bewertung
+
+### Als Bankdirektor:
+
+**Credit Rating: D (Default)**
+
+Dieses Unternehmen ist nicht „distressed" — es ist **de facto in geordneter Abwicklung**, die nur nicht als solche benannt wird. Die Going-Concern-Annahme ist eine **juristische Fiktion**, aufrechterhalten durch:
+1. Die politische Notwendigkeit, Wohnungen fertigzustellen
+2. Das Interesse der Gläubiger, keine formelle Liquidation auszulösen (weil die Recovery dann noch niedriger wäre)
+3. Die implizite Toleranz der chinesischen Behörden
+
+**Die Bilanz ist kein Abbild der wirtschaftlichen Realität.** Die Assets sind mit hoher Wahrscheinlichkeit um **mehrere hundert Milliarden RMB überbewertet** (kapitalisierte Zinsen auf stehende Projekte, marginale Impairments auf Properties, aggressive Fair Values auf Investment Properties, insuffiziente Provisions auf Guarantees und Receivables). Eine realistische Bilanz würde ein negatives Eigenkapital von wahrscheinlich **-1.000 bis -1.200 Mrd RMB** zeigen — fast doppelt so viel wie ausgewiesen.
+
+### Was passiert wahrscheinlich:
+
+1. **Offshore-Restrukturierung** wird umgesetzt, aber mit Recovery Rates von **15-25 Cents** (nicht 30, wie die Xinjiang-Transaktion suggerierte — die war noch optimistisch)
+2. **Onshore** wird de facto vom Staat gesteuert: Projekte werden fertiggestellt, Evergrande wird dabei zur Hülle
+3. **Equity geht auf Null** — die Aktie wird entweder delisted oder zum Penny Stock
+4. **EV-Segment** wird abgestoßen oder eingestellt
+5. **Property Management** wird verkauft oder separat restrukturiert
+
+### Der Anleger:
+
+Wer nach Lektüre dieses Filings **bewusst** in Evergrande-Equity investiert, ist ausschließlich:
+
+**Ein Distressed-Spekulant / Gambler mit hoher Risikotoleranz und begrenztem Kapitaleinsatz.** Die Investmentthese kann nur lauten: „Ich wette darauf, dass der Markt die Recovery Rate falsch einpreist" oder „Ich wette auf ein politisches Event (Bailout), das fundamental nicht gerechtfertigt ist."
+
+Das ist **kein Investment — es ist eine Wette.** Und zwar eine, bei der das Haus (die fundamentale Analyse) massiv gegen den Spieler steht. Die einzigen, die hier rational agieren, sind **professionelle Distressed-Debt-Fonds**, die in den Senior Notes positioniert sind und über die Restrukturierungsmechanik (Scheme Votes, Steering Committees) Einfluss auf die Recovery-Verteilung nehmen können.
+
+Ein durchschnittlicher Retail-Anleger, der „den Turnaround kauft", kauft in Wahrheit ein **Lotterieticket mit negativem Erwartungswert**.
+
+---
+
+*Analyse abgeschlossen. Beide Teile des Filings wurden vollständig ausgewertet. Für eine tiefergehende Bewertung der Landbank-Qualität wäre das Annual Report 2022 (mit regionaler Aufschlüsselung) hilfreich, sowie die detaillierten Scheme-Dokumente der Offshore-Restrukturierung.*
