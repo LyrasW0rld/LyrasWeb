@@ -1,0 +1,403 @@
+
+# Compass Diversified Holdings (CODI) – Analyse Teil 1/2
+## Perspektive: Erfahrener Bankdirektor, kritische Bilanzlesung
+
+---
+
+## I. Sofortbefund: Die Elefanten im Raum
+
+### 1. Lugano – Der Kernschaden
+
+Das ist keine „kleine Unregelmäßigkeit". Das ist ein **Bilanzskandal klassischer Prägung** innerhalb einer Tochtergesellschaft :
+
+- **April 2025**: Audit Committee startet interne Untersuchung zu Finanzierungs-, Buchhaltungs- und Bestandspraktiken von Lugano
+- **Befund**: Nicht erfasste Finanzierungsvereinbarungen, Unregelmäßigkeiten bei **Sales, Cost of Sales, Inventory und Accounts Receivable** – das ist praktisch die gesamte operative GuV-Kette
+- **Reichweite**: Restatement für **drei volle Geschäftsjahre (2022, 2023, 2024)** – was bedeutet, dass die Manipulationen systematisch und nicht einmalig waren
+- **November 2025**: Lugano meldet Chapter 11 Insolvenz an, wird dekonsolidiert
+- Gordon Brothers (Liquidationsspezialist!) übernimmt den Inventarverkauf – das spricht Bände über den Restwert
+
+**Bewertung**: Bei einem Luxusjuwelier sind Inventory und Receivables die Kernbilanzpositionen. Wenn dort manipuliert wurde, war Lugano möglicherweise nie das, was es auf dem Papier darstellte. Die Akquisition zu welchem Preis auch immer – plus das Intercompany-Darlehen, das explizit als gefährdet erwähnt wird – stellt eine erhebliche Kapitalvernichtung dar. Dass CODI **drei Jahre** brauchte, um das zu entdecken, ist ein massives Versagen der Governance-Strukturen.
+
+### 2. Forbearance-Kaskade – Die Dominowirkung
+
+Der Lugano-Skandal hat eine **systemische Liquiditätskrise** auf Holdingeinheit ausgelöst :
+
+**Kreditfazilität:**
+- Revolving Credit von **$600 Mio auf $100 Mio** zusammengeschrumpft
+- Cash Disbursement Controls auferlegt (die Banken kontrollieren de facto den Geldfluss)
+- Delayed Draw Term Loan Commitments ($100 Mio) **terminiert**
+- Fünfte Amendment mit verschärften Covenants, Milestone Fees bei Nichterreichen von Leverage-Zielen
+- 100% der Net Cash Proceeds aus Veräußerungen müssen zur Schuldentilgung verwendet werden
+
+**Senior Notes ($1,3 Mrd!):**
+- Indenture Forbearance Agreement wegen verspäteter Finanzberichte
+- **PIK-Upfront-Fee: 1,75% auf $1,3 Mrd = ~$22,75 Mio**
+- **PIK-Zusatzzins: 5,00% p.a. für knapp 3 Monate = ~$15,4 Mio**
+- **Gesamt PIK: $38,2 Mio** – Geld, das die Schulden erhöht, ohne dass ein Cent geflossen ist
+
+**Bewertung**: Die Banken und Anleihegläubiger haben CODI an die kurze Leine genommen. Die PIK-Struktur ist Gift: Sie erhöht den Schuldenstand bei gleichzeitig eingeschränkter Cash-Generierung. Das ist ein klassisches Distressed-Szenario.
+
+### 3. Dividendenaussetzung
+
+Seit Mai 2025 keine Common Share Distribution mehr. Für ein Unternehmen, das sich historisch als **Yield Vehicle** positioniert hat, ist das ein fundamentaler Bruch des Investment Case . Die Preferred Shares (Series A-C) werden weiter bedient – müssen sie auch, sonst droht ein weiterer Default. Aber die Common-Holder stehen im Regen.
+
+---
+
+## II. Strukturelle Schwächen – Die dauerhaften Risiken
+
+### 4. Externer Manager (CGM) – Inhärenter Interessenkonflikt
+
+Das ist kein kosmetisches Problem, sondern ein **strukturelles Governance-Defizit** :
+
+- CEO und CFO sind **Mitarbeiter des Managers**, nicht der Firma – sie sind nur „seconded"
+- **Management Fee wird unabhängig von Performance gezahlt** – wörtlich so im Filing
+- Profit Allocation (Carried Interest) über Sostratus LLC an Manager-Beteiligte
+- Manager schwer abzusetzen bei schlechter Performance
+- Manager kann nach 180 Tagen Frist kündigen
+- Manager kann in konkurrierende Aktivitäten investieren
+- Manager hat „wide latitude" bei Akquisitionsentscheidungen
+
+**Bewertung**: In der BDC/Permanent-Capital-Vehicle-Branche sind externe Manager bekannt und üblich – aber in Kombination mit dem Lugano-Versagen stellt sich die Frage: Hat die Manager-Struktur die Aufsicht geschwächt? Der Manager wird bezahlt, egal was passiert. Das ist ein Moral-Hazard-Setup, das bei Lugano offenbar nicht funktioniert hat. Fair ist zu sagen: Viele Peers (z.B. Icahn Enterprises, bestimmte BDCs) haben ähnliche Strukturen. Aber nach einem Skandal dieser Größenordnung wird dieser Punkt vom Markt neu bepreist.
+
+### 5. Nicht als „Well-Known Seasoned Issuer" qualifiziert
+
+Trotz NYSE-Listing und ~$75 Mio Shares outstanding. Der **Aggregate Market Value der Non-Affiliate Shares lag bei nur ~$419 Mio** (30. Juni 2025) . Das ist für eine Holding mit angeblich starken Marken und $1,3 Mrd Senior Notes erschreckend niedrig und zeigt den Vertrauensverlust des Marktes. Zudem nur als **Accelerated Filer** (nicht Large Accelerated Filer) klassifiziert.
+
+### 6. Kapitalmarktzugang de facto abgeschnitten
+
+- ATM Common Share Programm: **Null Verkäufe in 2025**
+- ATM Preferred Share Programm: Ab April 2025 eingestellt
+- Vor dem Stopp wurden 2025 noch $59 Mio in Preferreds platziert und 2024 $115 Mio – zu Coupons von **7,25–7,875%** 
+
+**Bewertung**: Die Preferreds sind teures Eigenkapital. 7,875% in einer Welt, in der Investment-Grade-Firmen deutlich günstiger finanzieren, zeigt, dass der Markt CODI bereits vor Lugano als höheres Risiko eingestuft hat. Jetzt ist der Zugang komplett gesperrt.
+
+---
+
+## III. Positiv – Was funktioniert (Fairness-Gebot)
+
+### 7. Portfolioqualität – Echte Substanz vorhanden
+
+Nicht alles ist schlecht. CODI besitzt einige **genuinely starke Geschäftseinheiten** :
+
+**BOA (Fit System)** – Klarer Gewinner:
+- >90% Marktanteil im Premium-Dial-Fit-Segment
+- 300+ globale Markenpartner (Adidas, ASICS, New Balance, Shimano, etc.)
+- 335 erteilte/angemeldete Utility-Patente + 173 Design-Patente
+- Performance Fit Lab als echte F&E-Differenzierung
+- ~26 Mio verkaufte Systeme kumuliert
+- Keine signifikante Saisonalität – solides Cashflow-Profil
+- 49% des operativen Ergebnisses bei nur 10,2% der Revenues → **Exzellente Margen**
+
+**5.11 (Tactical Apparel)** – Solides Flaggschiff:
+- 29,5% des Konzernumsatzes, 50,3% des operativen Ergebnisses
+- 123 eigene Retail-Stores, starker DTC-Mix (42%)
+- Diversifizierter Kundenstamm (kein Einzelkunde >10%)
+- Authentische Markenpositionierung mit professioneller Validierung
+- Internationales Geschäft (~22% der Umsätze)
+
+**PrimaLoft** – Technologieführer mit Moat:
+- 40+ Jahre Markenaufbau, ursprünglich U.S. Army-Entwicklung
+- 900+ aktive Markenpartner
+- Asset-Light-Modell mit proprietärer Supply Chain
+- P.U.R.E.-Technologie (50%+ CO₂-Reduktion) als strategischer Vorteil
+- 70% der Produkte aus 100% Recycling-Material
+
+**The Honey Pot Co.** – Wachstumsstory:
+- In einem strukturell wachsenden „Better-for-you"-Segment
+- 33.000+ Retail-Stores Distribution
+- Menstrual-Anteil am Umsatz gestiegen von 49% (2023) auf 63% (2025) → Fokussierung auf Kernkategorie
+- eCommerce wächst (5% → 16% in 3 Jahren)
+- Operating Income Swing von -2,6% (2024) auf +15,0% (2025) des Segment Operating Income → **Turnaround-Signal**
+
+### 8. Permanent Capital Model
+
+Grundsätzlich ist das Modell – keine Fund-Laufzeit, kein erzwungener Exit – ein **strategischer Vorteil** gegenüber klassischen PE-Funds. Man kann über Zyklen hinweg halten und opportunistisch kaufen. Das hat Substanz, **wenn** die Governance funktioniert .
+
+### 9. Transparenz (wenn auch erzwungen)
+
+CODI hat den Restatement durchgeführt, die Insolvenz offengelegt, die Forbearance-Bedingungen detailliert dargestellt. Das Filing ist bemerkenswert offen über die eigenen Schwächen. In der Branche für Holdings dieser Art ist das **nicht selbstverständlich** und spricht für die jetzige Board-Haltung (ob aus Einsicht oder regulatorischem Zwang sei dahingestellt).
+
+---
+
+## IV. Branchenspezifische Einzelkritiken
+
+### 10. BOA: Klumpenrisiko Lieferant
+
+70% aller Einkäufe von **einem einzigen** Kunststoff-Spritzguss-Lieferanten (China-basiert, neues Werk in Vietnam) . Ja, der Lieferant ist Minderheitsaktionär und seit 2001 an Bord – aber ein Single-Source-Risiko dieser Größenordnung bei einem Unternehmen, das als Kronjuwel des Portfolios gelten darf, ist bemerkenswert. BOA besitzt die Spritzgussformen selbst (guter Risikomitigator), aber ein Brand-, Sanktions- oder Force-Majeure-Event könnte kritisch werden.
+
+### 11. Velocity Outdoor – Problemkind
+
+- **Negativer Operating Income** in 2025 (-1,4% des Segment-OI)
+- Umsatzanteil fällt: 10,2% (2023) → 5,4% (2024) → 4,1% (2025)
+- Crossbow- und Archery-Markt ist zyklisch und modeanfällig
+- Der Name „Velocity Outdoor" klingt dynamischer als die Performance
+
+### 12. Arnold Magnetics – Rückläufig
+
+- Umsatzanteil: 9,9% → 9,6% → 8,1% (fallend)
+- Operating Income-Anteil: 200,7% (2023) → 10,4% (2024) → 3,4% (2025) – **dramatischer Margenverfall**
+- Aerospace/Defense-Exposure kann zyklisch sein, aber dieser Rückgang ist steiler als branchenüblich
+
+---
+
+## V. Turnaround-Analyse – Für die „Turnaround-Schwörer"
+
+**Was für einen Turnaround spricht:**
+1. Die operativen Kerngeschäfte (BOA, 5.11, Sterno, PrimaLoft) generieren weiterhin positive Cashflows
+2. Lugano ist raus (dekonsolidiert) – der Problemherd ist abgetrennt
+3. Fifth Amendment gibt klare Rahmenbedingungen (wenn auch restriktiv)
+4. The Honey Pot Co. zeigt echte operative Verbesserung
+5. ~$96,8 Mio Revolving-Verfügbarkeit – knapp, aber vorhanden
+6. Sterno liefert stabil (41,7% des operativen Ergebnisses bei 16,3% Umsatzanteil)
+
+**Was dagegen spricht:**
+1. $1,3 Mrd Senior Notes + Term Loans bei einer Market Cap von ~$419 Mio → **massiver Leverage**
+2. PIK-Zinsen erhöhen den Schuldenstand automatisch
+3. Kein Zugang zu Kapitalmärkten absehbar
+4. 100% Net-Proceeds-Sweep bei Veräußerungen → kein Reinvestment möglich
+5. Milestone Fees drohen bei Nichterreichen der Leverage-Ziele
+6. Material Weakness in Internal Controls – Remediation dauert
+7. Ongoing Litigation und SEC-Risiken aus dem Lugano-Komplex
+
+---
+
+## VI. Vorläufige Gesamtbewertung (vorbehaltlich Teil 2)
+
+### Die Firma:
+CODI ist ein **grundsätzlich intaktes operatives Portfolio**, das durch einen **massiven Governance- und Kontrollversager** (Lugano) in eine existenzbedrohende Finanzierungskrise gestürzt wurde. Die operativen Assets sind real und werthaltig – insbesondere BOA, 5.11, Sterno und zunehmend The Honey Pot Co. Aber der Schuldenüberhang, der abgeschnittene Kapitalmarktzugang und die eingeschränkte Handlungsfähigkeit machen dies zu einem **Distressed-Turnaround-Case**, nicht zu einem stabilen Dividendenwert.
+
+### Der Anleger, der hier reingeht:
+Das ist **kein Dividendeninvestor** mehr (Dividende ausgesetzt). Das ist kein Quality-Compounder-Investor. Das ist ein **Special-Situation / Distressed-Value-Investor** mit:
+- Hoher Risikobereitschaft
+- Langer Haltedauer-Perspektive (2-4 Jahre)
+- Bereitschaft, durch weitere Volatilität und potenzielle Verwässerung zu sitzen
+- Verständnis für Restrukturierungsdynamiken
+- Der Überzeugung, dass die operativen Assets mehr wert sind als der aktuelle Enterprise Value impliziert
+
+**Risiko-Rendite-Profil**: Asymmetrisch – entweder funktioniert der Deleveraging-Pfad und die Common Shares vervielfachen sich, oder die Schuldenlast drückt die Equity auf Null. Ein klassischer „Binary Outcome mit Upside Skew" für den informierten Spekulanten.
+
+---
+
+# CODI – Finale Analyse Teil 2/2: Die harten Zahlen
+## Perspektive: Bankdirektor mit 20+ Jahren Bilanzerfahrung
+
+---
+
+## I. Neue Leichen aus Teil 2
+
+### 1. $50,4 Mio. überbezahlte Management Fees – Der eigentliche Skandal im Skandal
+
+Das ist für mich der **toxischste Einzelbefund** des gesamten Filings :
+
+- Durch die Lugano-Manipulation waren die Adjusted Net Assets über **vier Jahre** (2021–2024) aufgebläht
+- CGM hat dadurch $50,4 Mio. **zu viel** an Management Fees kassiert
+- Der MSA enthält **keinen Express-Clawback-Mechanismus** – man kann es nur über künftige Reduktionen zurückholen
+- Per 31.12.2025 stehen noch **$33,8 Mio** als „Due from CGM" – ein Asset, das davon abhängt, dass der Manager weiter Fees verdient und diese verrechnet werden können
+- Gleichzeitig erhielt CGM in 2024 noch **$74,8 Mio** Management Fees und **$48,9 Mio** Profit Allocation
+
+**Mein Befund als Bankdirektor**: Ein externer Manager, der sich selbst durch aufgeblähte Zahlen einer Tochter überbezahlt – und es über vier Jahre nicht bemerkt hat – hat entweder katastrophal versagt in der Kontrolle oder war zu nahe am Profitieren dran, um genau hinzuschauen. Die Tatsache, dass kein Clawback-Recht existiert, ist ein **struktureller Designfehler** des MSA, der sich jetzt rächt. Die $33,8 Mio Forderung gegen den eigenen Manager ist eine Forderung gegen die Hand, die einen füttert – kein hartes Asset.
+
+### 2. BOA Leveraged Recapitalization – Die Milchkuh wird gemolken
+
+Dezember 2023: BOA nimmt **$165,9 Mio. zusätzliche Intercompany-Schulden** auf, um eine Ausschüttung an die Gesellschafter zu finanzieren :
+
+- LLC (CODI) erhält $131,0 Mio.
+- Noncontrolling Shareholders erhalten $11,7 Mio.
+- Rest für Share-Rückkäufe und Phantom-Stock-Boni
+
+**Bewertung**: Das ist klassisches PE-Playbook – „Dividend Recap" beim besten Asset. In normalen Zeiten vertretbar. Aber: BOA ist das Kronjuwel mit $75,8 Mio Adjusted EBITDA. Diese Rekapitalisierung hat BOA's interne Verschuldung massiv erhöht (Intercompany Interest: $14,4 Mio/Jahr). Man extrahiert Cash aus dem stärksten Geschäft, um auf Holdingeinheit Löcher zu stopfen. Das schwächt die Substanz des wertvollsten Assets – und bei einem Verkauf von BOA fließt jetzt weniger Equity-Value raus, weil mehr Schulden draufliegen.
+
+### 3. Lugano CEO-Betrug – Expliziter Fraud, nicht nur „Unregelmäßigkeiten"
+
+Die Related Party-Sektion enthüllt **aktiven Betrug** :
+
+> *„The former CEO of Lugano misrepresented the purpose and explanation for the transaction. It was subsequently determined that neither the account receivable nor the purpose of the payment by the former CEO of Lugano were factually accurate, and that instead the payment was made by the former CEO of Lugano in furtherance of his previously described schemes."*
+
+Eine fiktive **$8,8 Mio Forderung**, bezahlt vom CEO selbst, um die Bücher zu manipulieren. Das ist kein Buchhaltungsfehler – das ist **Betrug nach Lehrbuch**. Und die Related-Party-Käufe über eine Vendor-Beziehung eines Lugano-Officers ($7,0 Mio in 2024) werfen weitere Fragen auf.
+
+### 4. PrimaLoft – Dünnes Eis beim Goodwill
+
+Der **Annual Impairment Test 2025** zeigt nur **12% Excess Fair Value** über dem Buchwert . Das ist nach branchenüblichen Standards ein **Warnsignal**:
+
+- 2023 bereits $57,8 Mio Goodwill-Impairment
+- Discount Rate: 11,3% – niedrig für ein Unternehmen in dieser Risikokategorie
+- Bei einer leichten Verschlechterung der operativen Performance oder einem Anstieg der Kapitalkosten fällt der nächste Impairment
+
+Zum Vergleich: Arnold wurde mit 14,2% diskontiert und bestand mit 77% Excess – das ist komfortabel. Velocity brauchte in 2023 sogar 17% und fiel trotzdem durch. **PrimaLoft ist der nächste Impairment-Kandidat.**
+
+### 5. Arnold – Seltene Erden als strategisches Risiko
+
+Arnold wurde vom Interim Impairment Test noch verschont (77% Excess), aber die **Ursachen des Triggering Events** sind strukturell besorgniserregend :
+
+- Produktionsverzögerungen durch Facility-Transitions
+- **Export Controls und Disruption im Rare-Earth-Minerals-Markt**
+- Operating Results unter Forecast und Vorjahr
+- Adjusted EBITDA: $16,9 Mio (2025) vs. $27,2 Mio (2024) → **-38%**
+
+In einer Welt zunehmender US-China-Spannungen und Rare-Earth-Exportbeschränkungen ist dies kein temporäres Problem, sondern ein **geopolitisches Strukturrisiko**. Arnold's Magnet-Geschäft (Aerospace/Defense) ist direkt betroffen.
+
+### 6. Serial Impairments – Das Muster
+
+Die kumulative Impairment-Bilanz über 3 Jahre zeichnet ein ernüchterndes Bild :
+
+| Einheit | 2023 | 2024 | 2025 | Gesamt |
+|---------|------|------|------|--------|
+| Lugano (Goodwill/Intangibles) | $1,2M | — | $31,5M + $111,9M Dekonsolidierung | ~$144,6M |
+| PrimaLoft | $57,8M | — | — (12% Puffer) | $57,8M |
+| Velocity | $31,6M | $8,2M | — | $39,8M |
+| **Gesamt** | **$90,6M** | **$8,2M** | **$143,4M** | **$242,2M** |
+
+Fast **eine Viertelmilliarde** in Impairments und Dekonsolidierungsverlusten in drei Jahren. Das ist bei einer Market Cap von ~$419 Mio **mehr als 50% des Marktwerts** an zerstörtem Buchwert.
+
+---
+
+## II. Die Zahlen – Konsolidierte Sicht
+
+### 7. Die Ergebnis-Brücke: Vom Nettoverlust zum Adjusted EBITDA
+
+Die Reconciliation offenbart, wie aggressiv die Non-GAAP-Darstellung ist :
+
+| Kennzahl | 2025 | 2024 | 2023 |
+|----------|------|------|------|
+| **Net Loss (continuing ops)** | **-$296,6M** | **-$327,8M** | **-$274,7M** |
+| + Steuern | -$0,9M | $18,6M | $8,2M |
+| + Zinsen | $175,3M | $122,8M | $109,9M |
+| + D&A | $142,5M | $148,0M | $133,6M |
+| + Lugano Dekonsolidierung | $111,9M | — | — |
+| + Impairments | $31,5M | $8,2M | $90,6M |
+| + Sonstige | $49,6M | $204,0M | $97,4M |
+| **= Adjusted EBITDA** | **$213,3M** | **$174,8M** | **$167,1M** |
+
+**Die Brücke von -$297 Mio Nettoverlust zu +$213 Mio Adjusted EBITDA überbrückt über eine halbe Milliarde Dollar an Adjustments.** Das ist selbst für Holdings dieser Art ein extremes Delta. Fair ist zu sagen: D&A, Zinsen und Steuern sind Standard-Adjustments. Aber die Lugano-Items, Impairments und „Other" sind **einmalige Schadensposten**, die der Adjusted-Zahl eine Normalität verleihen, die das GAAP-Ergebnis klar verneint.
+
+### 8. Adjusted Earnings – Die ehrlichere Non-GAAP-Zahl
+
+| | 2025 | 2024 | 2023 |
+|--|------|------|------|
+| **Adjusted Earnings** | **$1,8M** | **-$65,0M** | **-$41,3M** |
+
+Selbst nach allen erlaubten Add-backs bleibt für 2025 ein **hauchdünner Gewinn von $1,8 Mio** . Das ist bei einem Unternehmen mit $1,3 Mrd Senior Notes und ~$550M Term Loans eine **Rendite im Promillebereich auf das eingesetzte Kapital**. Der Trend ist positiv (von -$65M auf +$1,8M), aber der absolute Wert ist für die Risikoklasse inakzeptabel.
+
+### 9. Zinsbelastung – Die Würgeschlange
+
+| | 2025 | 2024 | 2023 |
+|--|------|------|------|
+| **Interest Expense** | **$175,3M** | **$122,8M** | **$109,9M** |
+
+**+60% in zwei Jahren** . Das sind die kombinierten Effekte aus:
+- Höherer Verschuldung
+- PIK-Zinsen aus dem Forbearance
+- Lugano-Intercompany ($56,6M, davon der Großteil jetzt als Verlust)
+- Steigende Spreads aufgrund des Risikoprofils
+
+Die Zinskosten fressen **82% des Adjusted EBITDA** ($175,3M / $213,3M). Das ist eine **Zinsdeckung von 1,22x** – unter dem üblichen Covenant-Minimum von 2,0x. Nur die Tatsache, dass die Forbearance-Agreements andere Kennzahlen definieren, verhindert einen sofortigen Technical Default.
+
+### 10. Corporate Overhead – Der Preis der Struktur
+
+Corporate Adjusted EBITDA: **-$91,1 Mio** (2025), -$87,8 Mio (2024) 
+
+Das ist die „Steuer", die die operativen Geschäfte für die Holdingstruktur, den externen Manager, Zinsen auf Holdingeinheit, und das Forbearance-Management zahlen. Bei einem Adjusted EBITDA der operativen Segmente (ohne Lugano) von ~$345M frisst der Corporate-Overhead **26%** der operativen Wertschöpfung.
+
+---
+
+## III. Steueranalyse – Die versteckte Botschaft
+
+### 11. Effektiver Steuersatz: 0,3% (2025) bei 21% statutory
+
+Der größte Einzelposten: **„Non-recognition of various carryforwards at subsidiaries": -69,0%** 
+
+Das bedeutet: Die Tochtergesellschaften generieren steuerliche Verluste, die CODI **nicht als Deferred Tax Asset ansetzen kann**, weil man nicht davon ausgeht, sie in absehbarer Zukunft nutzen zu können. In Klartext: **Das Management traut den eigenen Tochtergesellschaften nicht genug zukünftige Gewinne zu**, um die Verlustvorträge zu aktivieren. Das ist eine implizite negative Prognose, eingebettet in eine Steuerfußnote.
+
+Die Lugano-Dekonsolidierung schlägt mit 46,1% zu – ein einmaliger Effekt, der das Bild weiter verzerrt.
+
+---
+
+## IV. Positive Entwicklungen (Fairness – Teil 2)
+
+### 12. Operative Verbesserung – Die Zahlen bestätigen den Trend
+
+Die Segment-EBITDAs (ex-Lugano) zeigen **echte operative Verbesserung** :
+
+| Segment | 2023 | 2024 | 2025 | Trend |
+|---------|------|------|------|-------|
+| 5.11 | $73,6M | $63,4M | $75,6M | ✅ Comeback |
+| BOA | $56,0M | $73,6M | $75,8M | ✅ Stark |
+| Sterno | $46,7M | $51,0M | $58,4M | ✅ Solides Wachstum |
+| Altor | $52,0M | $46,5M | $50,9M | ✅ Erholung |
+| THP | n/a | $24,7M | $34,8M | ✅ **+41% – bester Turnaround** |
+| PrimaLoft | $25,3M | $27,4M | $27,9M | ➡️ Stabil |
+
+**Summe operative Segmente (ex-Lugano, ex-Velocity, ex-Arnold):** ~$323M (2025) vs. ~$286M (2024) → **+13% operatives Wachstum**
+
+### 13. MSA-Reform (Januar 2025) – Richtiger Schritt, spät
+
+Die Seventh Amendment zum MSA bringt tatsächlich Governance-Verbesserungen :
+- Base Fee + Incentive Fee-Struktur (statt flat)
+- Incentive nur bei **>12% IRR** über 3 Jahre
+- Integration Services Fees abgeschafft
+- Excess Cash aus Berechnung ausgeschlossen
+
+Das ist **die Art von Reform, die man nach einem Skandal erwartet** – und sie wurde auch genau deswegen implementiert. Die Frage bleibt: Hätte man das nicht vorher haben können?
+
+### 14. Adjusted EBITDA wächst trotz Krise
+
+$213,3M (2025) vs. $174,8M (2024) vs. $167,1M (2023) → **+28% über zwei Jahre** . Das zeigt, dass das operative Kernportfolio nicht nur überlebt, sondern wächst. Die operativen Manager in den Tochtergesellschaften liefern – das Problem sitzt in der Holdingstruktur und im Lugano-Erbe.
+
+### 15. Q4 2025 – Starker Quartals-Swing
+
+Adjusted Earnings Q4 2025: **+$64,4 Mio** vs. -$10,2 Mio in Q4 2024 . Das ist der stärkste Einzelquartal-Wert der letzten drei Jahre und zeigt einen möglichen **Normalisierungstrend** nach dem Lugano-Abschnitt.
+
+### 16. Gleichmäßige Saisonalität
+
+Die Umsatzverteilung 2025 ist fast perfekt gleichmäßig: 24,2% / 25,5% / 25,2% / 25,0% . Das ist besser als 2024 (23,0% / 23,9% / 25,5% / 27,6%) und deutet auf ein stabileres, weniger saison- und eventabhängiges Geschäft hin – ein Reifungszeichen des Portfolios nach dem Lugano-Exit.
+
+---
+
+## V. Endgültige Gesamtbewertung
+
+### Die Firma – Schlussnote
+
+| Dimension | Bewertung | Kommentar |
+|-----------|-----------|-----------|
+| **Operative Substanz** | **7/10** | BOA, 5.11, Sterno, Altor sind genuine Wertträger |
+| **Governance** | **3/10** | Lugano-Versagen, Material Weaknesses, Manager-Struktur |
+| **Bilanzqualität** | **3/10** | 3 Jahre Restatement, $242M kumulative Impairments |
+| **Finanzstruktur** | **2/10** | Zinsdeckung 1,2x, Forbearance, PIK, kein Kapitalmarktzugang |
+| **Turnaround-Potenzial** | **6/10** | Operative Trends positiv, Lugano amputiert, MSA reformiert |
+| **Management/Alignment** | **4/10** | $50M Overpayment, aber Reform eingeleitet, $33,8M Clawback läuft |
+
+### **Gesamtnote: 4,2 / 10 – „Distressed mit operativer Substanz"**
+
+CODI ist ein **operativ gesundes Unternehmen in einem finanziell kranken Mantel**. Die Parallele wäre ein Patient mit starkem Herzen, aber einer schweren Blutvergiftung – die Organe funktionieren, aber der systemische Schaden kann tödlich sein.
+
+**Der Kernkonflikt**: Die operativen Geschäfte generieren ~$345M EBITDA (ex-Corporate, ex-Lugano). Dem stehen ~$175M Zinsen, ~$91M Corporate-Kosten, ~$38M Preferred-Dividenden und ~$45M Capex/D&A gegenüber. Das lässt mathematisch wenig Free Cash Flow für Deleveraging – den einzigen Weg aus der Krise.
+
+**Der einzige realistische Pfad**: Verkauf eines oder mehrerer Assets (BOA? Sterno?) → 100% Net Proceeds gehen in Schuldentilgung → Reduzierung der Zinsbelastung → Wiederherstellung des Kapitalmarktzugangs → Refinanzierung der Senior Notes vor Fälligkeit. Scheitert dieser Pfad, droht eine Restrukturierung der Kapitalstruktur, bei der die Equity auf Null oder nahe Null geht.
+
+---
+
+### Der Anleger – Wer geht hier rein?
+
+**Profil: Distressed / Special Situations Investor**
+
+Das ist **kein** Anleger, der:
+- Stabile Dividenden sucht (ausgesetzt)
+- Buy-and-Hold ohne aktive Überwachung betreibt
+- Keine Bilanzlese-Kompetenz hat
+- Auf GAAP-Zahlen schaut (drei Jahre Verluste)
+
+Das **ist** ein Anleger, der:
+- **Binary Outcomes** akzeptiert (2-3x Upside oder 80%+ Downside)
+- Die **Sum-of-the-Parts-Bewertung** durchrechnet und glaubt, dass BOA + 5.11 + Sterno allein mehr wert sind als der EV
+- **Restrukturierungserfahrung** hat und die Forbearance-Dynamik lesen kann
+- Bereit ist, **2-4 Jahre** durch extreme Volatilität zu sitzen
+- Versteht, dass die **Preferred Shares** (Series A-C bei 7,25-7,875%) möglicherweise das bessere Risk/Reward bieten als die Common Shares, da sie vorrangig bedient werden
+- Möglicherweise **auf der Debt-Seite** spielt (Senior Notes mit PIK-Aufschlag könnten bei vollem Recovery einen attraktiven Yield bieten)
+
+**Typisches Anlegerprofil**: Hedgefonds mit Event-Driven/Distressed-Mandat, erfahrene Privatanleger mit hoher Risikotoleranz und eigener Analysefähigkeit, oder – auf der Debt-Seite – Credit-Opportunity-Fonds, die auf eine Refinanzierung oder Asset-Verkäufe wetten.
+
+---
+
+### Mein abschließendes Urteil als Bankdirektor:
+
+> *„Würde ich diesem Unternehmen heute einen Kredit geben? Nein – nicht auf Holdingeinheit. Die operativen Töchter einzeln? BOA, 5.11, Sterno – jederzeit, zu angemessenen Konditionen. Das Problem ist nicht das operative Geschäft. Das Problem ist die Holding, ihr Manager, und das Erbe eines Betrugs, den niemand drei Jahre lang gesehen hat – oder sehen wollte. Wer hier investiert, wettet darauf, dass die Chirurgen schneller arbeiten als die Blutvergiftung. Das kann funktionieren. Aber es ist eine Wette, kein Investment."*
