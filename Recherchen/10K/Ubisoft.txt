@@ -1,0 +1,178 @@
+# Forensische Analyse Ubisoft Entertainment SA – Teil 1
+**Erstellt aus Perspektive eines Bankdirektors mit Credit- und Equity-Research-Background (Gaming-Sektor)**
+
+Ich bewerte Ubisoft auf Basis der Keyfigures-Historie (H1 12-13 bis H1 25-26), der Strategic-Reset-Präsentation vom 21.01.2026 und der Q3 FY25-26 Pressemeldung vom 12.02.2026 .
+
+---
+
+## 1. Einordnung Gesamtbild
+
+Ubisoft befindet sich in einer **strukturellen Multi-Jahres-Kontraktion**, die durch die Strategic-Reset-Ankündigung vom Januar 2026 nun offiziell als solche anerkannt wird . Was hier als "Transformation" und "Creative Leadership Reset" verpackt wird, ist aus Bankenperspektive ein **klassisches Late-Stage-Turnaround-Szenario** mit deutlich erhöhtem Distressed-Risiko. Die Wortwahl "step-change", "reclaim", "rightsize" ist Sprache aus dem McKinsey-Playbook – ich sehe das immer dann, wenn ein Vorstand sich eingestehen muss, dass das alte Betriebsmodell final gescheitert ist.
+
+---
+
+## 2. Die versteckten Leichen im Keller
+
+### 2.1 Aktivierte Entwicklungskosten – das Kernthema dieser Bilanz
+
+Dies ist in der Gaming-Branche **das** zentrale Bilanzrisiko, und Ubisoft ist hier historisch am aggressivsten aktivierend unterwegs gewesen. Die Zahlen sprechen für sich :
+
+- Capitalized in-house software-related production FY22-23: **€971,9 Mio.**
+- FY23-24: €874,6 Mio.
+- FY24-25: €782,2 Mio.
+- H1 25-26: €331,1 Mio.
+
+Über die letzten fünf Jahre wurden kumuliert **mehr als €4,5 Mrd. an Entwicklungskosten aktiviert** statt sofort aufwandswirksam gebucht. Das ist gegenüber Peers (z.B. Take-Two, EA) zwar nicht völlig unüblich, Ubisoft liegt aber im Verhältnis zu Net Bookings am oberen Rand.
+
+**Der Knalleffekt kommt jetzt:** Der angekündigte **One-off-Accelerated-Depreciation von ca. €650 Mio.** in FY25-26  ist die bilanzielle Anerkennung, dass ein erheblicher Teil der aktivierten Pipeline **wertlos** ist (6 Spiele eingestellt, darunter das Prince-of-Persia-Remake, das seit 2020 in Entwicklung war, plus 3 neue IPs). Das ist ein impliziter Rückruf: "Wir haben in den letzten Jahren Kosten aktiviert, die hätten aufwandswirksam sein müssen." Wäre diese Abschreibung in den Jahren 2020-2024 verteilt erfolgt, wären die damals gemeldeten Non-IFRS-EBITs deutlich niedriger, teils negativ gewesen.
+
+**→ Interpretationshinweis:** Die historisch gemeldete Profitabilität ist rückwirkend deutlich zu relativieren. Die Spitzenmarge in FY21-22 (Non-IFRS Op. Income €407,6 Mio. bei 19,1 % Marge) ist aus heutiger Sicht teilweise "borrowed from the future".
+
+### 2.2 Die Nettoverschuldungs-Explosion
+
+Entwicklung der Non-IFRS Net Cash Position / (Net Debt) :
+
+| Periode | Wert (€ Mio.) |
+|---|---|
+| H1 21-22 | +79,2 (Nettokasse) |
+| H1 22-23 | -261,0 |
+| H1 23-24 | -662,0 |
+| H1 24-25 | -985,1 |
+| **H1 25-26** | **-1.148,8** |
+| FY25-26 Guidance | -150 bis -250 *(durch Tencent-Deal)* |
+
+In vier Jahren ist die Netto-Finanzposition um **rund €1,23 Mrd. erodiert**. Die aktuelle Guidance von "nur" -€150 bis -€250 Mio. Netto-Schulden zum Jahresende ist **ausschließlich** durch den Tencent-Cash-in (€1,16 Mrd.) getragen – siehe Punkt 2.3. Organisch hätte sich die Verschuldung auf rund **-€1,3 bis -€1,4 Mrd.** weiter verschlechtert.
+
+**Sprachliche Alarmglocke im Q3-PR** : *"The Group has sufficient liquidity to address the near-term maturity using cash on hand. In parallel, the Group is actively exploring several options to extend its debt maturity."*
+
+Übersetzt: Ubisoft kann die anstehende Fälligkeit gerade noch aus Kasse bedienen, **kann aber derzeit am Anleihemarkt nicht zu akzeptablen Konditionen refinanzieren**. Das ist ein klassisches Distressed-Signal. Die Formulierung "exploring several options" signalisiert, dass ein Exchange-Offer, eine Amend-&-Extend-Transaktion oder ein Private Placement zu deutlich schlechteren Konditionen in Vorbereitung ist.
+
+### 2.3 Der Tencent-Deal – Notverkauf der Kronjuwelen
+
+Im November 2025 flossen €1,16 Mrd. von Tencent in "Ubisoft Nova SAS" / Vantage Studios – die Entity, die **Assassin's Creed, Far Cry und Rainbow Six** enthält . Pre-Money-Bewertung: €3,8 Mrd. für diese drei IPs.
+
+**Meine kritische Lesart:**
+- Die drei Top-Franchises generieren geschätzt 60-70 % der Ubisoft Net Bookings
+- Die Gesamt-Marktkapitalisierung von Ubisoft liegt aktuell deutlich unter €3,8 Mrd.
+- Das bedeutet: Der Rest des Konzerns (Mobile, Anno, Division, Brawlhalla, For Honor, HQ-Overhead, Schulden) wird vom Markt mit **negativem Wert** bepreist
+- Tencent hat effektiv eine **Call-Option auf das beste Asset** bei strukturell geschwächter Gegenpartei erworben
+- Die Governance-Struktur dieser Carve-out-Entity (Verwässerungs-Schutzrechte, Drag-Along, Tag-Along, ROFR) ist hier absolut entscheidend – **das steht vermutlich im zweiten Teil des Filings**
+
+→ **Notiz für Teil 2:** Tencent-SHA-Konditionen, Change-of-Control-Klauseln, Put/Call-Mechaniken prüfen. Dies ist das bilanziell wichtigste Thema, das bisher nicht vollständig offengelegt ist.
+
+### 2.4 Die Verwässerung der Altaktionäre
+
+Diluted Average Shares (IFRS) :
+- FY12-13: 97,3 Mio.
+- FY18-19: 119,3 Mio.
+- FY23-24: 147,3 Mio. (!)
+- H1 25-26: 131,2 Mio.
+
+Parallel dazu ist die Stock-Based Compensation von <€10 Mio./Jahr auf **€54-62 Mio./Jahr** explodiert. Das sind ~3 % Verwässerung pro Jahr allein aus Mitarbeiter-Vergütung – in einer Branche mit strukturell sinkenden Margen ein echtes Problem.
+
+### 2.5 IFRS vs. Non-IFRS – die übliche Schönung
+
+Der Delta zwischen IFRS Net Income und Non-IFRS Net Income ist über die Jahre kontinuierlich größer geworden :
+
+| | IFRS Net Income | Non-IFRS Net Income | Gap |
+|---|---|---|---|
+| FY22-23 | +€496,5 Mio.* (kalkuliert) | +€401,4 Mio. | – |
+| FY23-24 | -€494,7 Mio. | -€400,6 Mio. | €94 Mio. |
+| FY24-25 restated | -€243,3 Mio. | -€70,5 Mio. | **€173 Mio.** |
+| H1 25-26 | -€161,4 Mio. | -€37,1 Mio. | **€124 Mio.** |
+
+Die Non-IFRS-Darstellung rechnet Stock-Based Comp, Restrukturierungsaufwand und "non-current operating expenses" heraus. In der Gaming-Branche sind Restrukturierungen aber seit 3 Jahren permanent – da sind sie **nicht mehr "non-recurring"**, sondern Teil des normalen Geschäftsbetriebs. Ehrlicher ist die IFRS-Zahl.
+
+### 2.6 Restatement FY24-25: "As published" vs. "restated"
+
+Das ist ein Punkt, den man nicht übersehen darf :
+
+| | As published | Restated | Delta |
+|---|---|---|---|
+| Net Bookings FY24-25 | 1.846,4 | 1.846,4 | 0 |
+| Gross Profit | 1.643,6 | 1.643,6 | 0 |
+| Non-IFRS Op. Income | -15,1 | -15,1 (Vorzeichen gedreht) | – |
+| **IFRS Net Income** | **-158,7** | **-243,3** | **-84,6** |
+| **Non-IFRS Net Income** | **-70,5** | **-70,5** | 0 |
+
+Das IFRS-Ergebnis wurde nachträglich um **€84,6 Mio. nach unten revidiert**, die Non-IFRS-Zahl aber nicht. Das ist bemerkenswert und deutet auf eine **Fehlklassifikation zwischen operativen und nicht-operativen Posten** hin – vermutlich im Zusammenhang mit der Goodwill/Intangible-Bewertung oder Steuerposten. → **Notiz für Teil 2:** Restatement-Erläuterung im Geschäftsbericht prüfen.
+
+### 2.7 Back-Catalog-Abhängigkeit = Pipeline-Schwäche
+
+In Q3 FY25-26 stammen **93,5 % der Net Bookings aus dem Back-Catalog** . Zum Vergleich: In Q3 FY24-25 waren es 80,8 %. 
+
+**Branchenkontext:** Bei EA und Take-Two liegt der Back-Catalog-Anteil typischerweise bei 65-75 %, wobei sie aber auch kontinuierlich Hits releasen (FIFA/EAFC, GTA Online, NBA 2K). Bei Ubisoft bedeutet 93,5 %, dass **neue Releases praktisch nichts beitragen**. Das ist gleichzeitig gut (IP-Stärke der Altmarken) und schlecht (keine neue Kuh im Stall).
+
+### 2.8 Headcount-Dynamik und operative Risiken
+
+Der Personalabbau ist bereits im Gange :
+- Peak FY21-22: 20.000 MA
+- FY24-25: 17.800 MA (-11 %)
+- Weitere 200 in Frankreich geplant 
+- Weitere Studio-Schließungen: Halifax, Stockholm; Restrukturierungen: Abu Dhabi, RedLynx, Massive 
+
+In Frankreich ist ein "Voluntary Departure Plan" angekündigt. Die französischen Arbeitsrechts-Kosten pro Kopf für solche Programme liegen typischerweise bei **€80-150k pro MA** – das sind weitere €16-30 Mio. Einmal-Cash-Out, die in FY26 oder FY27 anfallen werden.
+
+### 2.9 Das €500m-Kostensparprogramm – Realismus-Check
+
+Das Management kündigt an, die Fixkostenbasis von €1,75 Mrd. (FY23) auf **€1,25 Mrd. bis März 2028** zu reduzieren . Das wären kumuliert 29 % Fixkostenreduktion über 5 Jahre.
+
+**Skeptische Einordnung:** Gaming-Konzerne, die aggressiv Kosten schneiden, verlieren typischerweise genau die Talente, die für die kreative Erholung nötig sind. Die Behauptung im Q3-PR, dass *"numerous skilled former Ubisoft employees"* zurückkommen , ist eine Defensiv-Message – man weiß, dass der Markt Talent-Abwanderung befürchtet. Das Balancing zwischen Kostensenkung und kreativer Qualität ist in dieser Branche das schwierigste Manöver überhaupt (siehe Bungie, BioWare, CD Projekt nach Cyberpunk-Launch).
+
+---
+
+## 3. Die fairen Pro-Argumente (Turnaround-These)
+
+Ich will nicht einseitig sein – es gibt durchaus valide Punkte für die Bull-Case-Seite:
+
+1. **Q3 FY25-26 hat geliefert** : Net Bookings €337,7 Mio. vs. Guidance €330 Mio., 9M-Bookings +17,6 % YoY. Das ist operativ das erste Lebenszeichen seit Jahren.
+2. **Franchise-Stärke validiert**: AC Session Days +28 % YoY, Division-Engagement deutlich hoch, Avatar Session Days nahezu verdoppelt. Die IPs **funktionieren**, wenn Content geliefert wird.
+3. **Anno 117: Pax Romana** mit 84 Metacritic und Bookings über Anno 1800 auf vergleichbarer Timeline – das ist ein echter kreativer Erfolg .
+4. **Tencent-Kapital**: €1,16 Mrd. Cash lösen die akute Liquiditätsfrage. Zeit ist in Turnarounds das wertvollste Gut.
+5. **Kostenprogramm läuft vor Plan**: €100 Mio. Ziel ein Jahr früher erreicht . Das zeigt, dass das Management exekutieren kann – zumindest auf der Kostenseite.
+6. **Decentralisiertes Creative-House-Modell** ist industry-validiert: Embracer (vor deren Implosion), EA (Sports Label), Take-Two (Rockstar, 2K, Zynga) arbeiten mit ähnlichen Strukturen. Konzeptionell richtig.
+7. **130 Mio. aktive User**  ist ein realer, monetarisierbarer Asset-Wert – insbesondere wenn der GaaS-Pivot (March of Giants MOBA, Rainbow Six Mobile) funktioniert.
+8. **Rainbow Six Mobile** mit 18 Mio. Pre-Registrations  – signifikant, wenn auch Monetization nachziehen muss.
+
+---
+
+## 4. Branchenspezifische Bewertung (Gaming-AAA)
+
+Der AAA-Gaming-Sektor befindet sich in einer **strukturellen Krise**, nicht nur Ubisoft:
+- Dev-Zyklen 5-7 Jahre, Budgets €200-400 Mio. pro AAA-Titel
+- Winner-takes-most-Ökonomik (Fortnite, Roblox, GTA V binden Spielzeit)
+- Die Live-Service/GaaS-Erwartung hat 2023-2025 zu zahlreichen Flops geführt (Concord, Suicide Squad, Redfall, Skull & Bones – letzteres ist Ubisoft)
+- Konsolidierung: MS-ABK, Embracer-Zerschlagung, Sony-Studios-Layoffs
+
+**Ubisoft's spezifisches Problem:** Das Unternehmen sitzt zwischen den Stühlen – zu groß für Boutique-Qualität, zu klein, um mit MS/Sony/Tencent global zu konkurrieren. Skull & Bones (elf Jahre Entwicklung!) und XDefiant (11 Monate nach Launch geschlossen) sind Belege für systemisches Greenlight-Versagen.
+
+---
+
+## 5. Gesamt-Credit-Rating (meine Einschätzung)
+
+Auf Basis des bisher Gesehenen würde ich Ubisoft intern einordnen als:
+
+- **Credit Rating indikativ:** B- / CCC+ (High Yield, deep speculative)
+- **Ausblick:** Negativ mit Entwicklungspotenzial nach oben bei erfolgreicher Refinanzierung und Portfolio-Stabilisierung
+- **Distressed-Probability (12M):** signifikant erhöht, meiner Einschätzung nach im Bereich 20-30 %
+- **Recovery-Rate im Stressfall:** durch Tencent-Struktur und IP-Value mittel-hoch (55-70 %)
+
+---
+
+## 6. Anlegerprofil – Wer geht in diese Aktie?
+
+Das ist **keine Aktie für**:
+- Pensionsfonds / Versorgungskassen
+- Income-Investoren (keine Dividende in Sicht, Dividend-Resumption frühestens FY28-29)
+- Buy-and-Hold-Privatanleger
+- ESG-Mandate (hohe Reputationsrisiken durch Entlassungen, vergangene Harassment-Skandale)
+- Growth-Investoren (Top-Line kontrahiert)
+
+Das **ist** eine Aktie für:
+1. **Special-Situations-/Event-Driven-Hedgefonds** – typisches LBO-/Take-Private-Ziel. Die Guillemot-Familie hält ca. 15 %, Tencent ist strategisch positioniert. Ein gemeinsames Take-Private-Szenario ist der klassische Endspiel-Fall.
+2. **Deep-Value-Contrarians à la Michael Burry/AJ Investments** – Wette auf IP-Sum-of-the-Parts gegen aktuelle Marktkapitalisierung
+3. **Distressed-Debt-Investoren** – interessanter ist die Anleihe als die Aktie. Hier lohnt sich der Yield-to-Maturity-Blick
+4. **Optionshändler** – hohe implizite Vola, Event-Risiko (Tencent-Deal-Erweiterung, Take-Private-Gerüchte) machen Optionsstrategien attraktiv
+5. **Aktivistische Investoren** – AJ Investments hat bereits Druck ausgeübt; weitere Aktivisten wahrscheinlich
+
+**Profil-Zusammenfassung:** Der typische Ubisoft-Investor 2026 ist ein **institutioneller Special-Situations-Player mit Risikotoleranz für binäre Outcomes** (entweder Verdreifachung bei Take-Private/Spin-off/Turnaround-Success, oder Halbierung bei Refinanzierungsstress). Das Risk-Reward-Profil ist hochgradig asymmetrisch und **nicht für durchschnittliche Privatanleger geeignet**, trotz des prominenten Markenwerts, der viele emotional anzieht.
