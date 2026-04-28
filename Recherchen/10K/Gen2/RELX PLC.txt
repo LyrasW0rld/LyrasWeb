@@ -1,0 +1,337 @@
+ERMERK – RELX PLC Geschäftsbericht 2025 (Teil 1/3)
+
+
+---
+
+## 1. Unternehmen & Kurzfazit
+
+RELX PLC (LSE/AMS/NYSE) – globaler B2B-Anbieter von Analytics/Decision Tools in vier Segmenten: Risk (36%), STM (28%), Legal (19%), Exhibitions (13%) . 2025: Revenue £9.590m (+7% underlying), Adj. Operating Margin 34,8% (+90bps), Adj. EPS +10%, Cash Conversion 99%, ROIC 15,4% . **Erstklassiges Kreditprofil auf den ersten Blick, keine akuten Alarmsignale in Teil 1.** Fragiler sind die Bewertungsannahmen (Goodwill/intangibles – in Teil 2/3 zu prüfen) sowie regulatorische Exponiertheit im Risk-Segment. Für Kredit: investment-grade-würdig. Für Investment: Qualität hoch, aber Upside wird stark vom AI-Narrativ getragen.
+
+---
+
+## 2. Rote Flaggen – sortiert nach Schwere
+
+### 🟠 MITTEL
+
+**a) Adjusted vs. Reported – persistierende Delta auf Operating-Profit-Ebene**
+- Befund: Adj. Operating Profit £3.342m vs. Reported £3.027m = **£315m (~9,4%) Bereinigungen**, überwiegend Amortisation of acquired intangibles + M&A-Kosten . Delta auf EPS-Ebene: 128,5p adj. vs. 112,6p reported (~14%). Läuft seit Jahren strukturell.
+- Seitenangabe: S. 2 (Highlights), Reconciliations S. 198–206 (noch nicht in Teil 1 verfügbar)
+- Branchen-Einordnung: **üblich** für akquisitionsgetriebene Info-Services (Wolters Kluwer, Thomson Reuters, S&P Global ähnlich) – aber die **Gewöhnung an "Adjusted"** verdeckt, dass £315m echter P&L-Aufwand sind.
+- Rating: 🟠 – beobachten, in Teil 2 Reconciliation prüfen.
+
+**b) Net Debt steigt deutlich trotz starkem FCF – Finanzierung aggressiver Aktionärsausschüttungen**
+- Befund: Net Debt £7,2bn (Vj. £6,6bn), **Net Debt/EBITDA 2,0x vs. 1,8x** . Gleichzeitig £1,5bn Buyback 2025 + £2,25bn für 2026 angekündigt (davon £250m bereits gezahlt) + 7% Dividendenerhöhung . M&A nur £270m – d.h. Leverage-Anstieg kommt **nicht** aus Wachstumsinvestitionen, sondern aus Ausschüttungen.
+- Seitenangabe: S. 2, S. 3 (Chair's statement)
+- Branchen-Einordnung: **üblich** bei Info-Services-Peers (alle fahren Buybacks), aber Trend-Richtung beobachten: bei 2,0x noch komfortabel, bei 2,5x+ würden Rating-Agenturen sensibel.
+- Rating: 🟠 – Kapazität bei konstantem Ergebnis vorhanden, aber Puffer schrumpft.
+
+**c) Risk-Segment: 79% Nordamerika-Konzentration + regulatorische Abhängigkeit**
+- Befund: LexisNexis Risk Solutions (größtes Segment, 36% Gruppe) zieht 79% des Umsatzes aus NA . Government-Unterbereich (~5% Risk-Revenue) explizit abhängig von "US administration's priorities" und Funding . Datenbroker-Geschäft ist politisch sensibel (FTC, CFPB-Scrutiny in den USA historisch bekannt).
+- Seitenangabe: S. 10–12
+- Branchen-Einordnung: **branchenüblich** für US-Datenbroker, aber **erhöhtes regulatorisches Risiko** unter neuer US-Administration (Datenschutz, AI-Regulierung EU AI Act, KYC-Verwertung).
+- Rating: 🟠 – strukturell, nicht akut.
+
+### 🟡 BEOBACHTEN
+
+**d) Risk-Segment: 61% transaktional / nur 39% Subscription**
+- Befund: Innerhalb Risk ist der Subscription-Anteil mit 39% **deutlich niedriger als im Konzerndurchschnitt (54%)** . Transaktionsumsätze korrelieren mit Insurance-Quoting-Zyklen, Hypotheken- und Kreditaktivität.
+- Seitenangabe: S. 12
+- Branchen-Einordnung: **üblich** für Risk/Identity-Geschäft (Experian, Equifax ähnlich), aber konjunkturreagibler als der Rest von RELX.
+- Rating: 🟡 – in Rezessionsphasen Margen-Sensitivität.
+
+**e) Akquisitionshunger bei kleinem Ticket – Goodwill-Akkumulation**
+- Befund: Fünf Akquisitionen für £270m 2025 , darunter IDVerse (AI-Doc-Authentifizierung Q1/25). Kleinteilige Akquisitionen sind typisch für RELX, akkumulieren aber über Jahre Goodwill/intangibles – Impairment-Risiko in AI-Hype-Phase.
+- Seitenangabe: S. 2, S. 10
+- Branchen-Einordnung: **üblich**, aber IDVerse-Integration + Goodwill-Werthaltigkeit in Teil 2 (Bilanz) zwingend zu prüfen.
+- Rating: 🟡.
+
+**f) Umklassifizierung Healthcare STM → Risk + Print-Ausgliederung**
+- Befund: "A small commercial healthcare product portfolio, previously in STM, is now reported in Risk" + Print separat ausgewiesen; **2024-Zahlen restated** .
+- Seitenangabe: S. 8, S. 13 (Fn.), Details S. 144–145 (Teil 2)
+- Branchen-Einordnung: **üblich**, aber Segment-Rebasing macht YoY-Vergleiche unscharf; erlaubt Wachstumsraten freundlicher zu zeigen. STM underlying +5% ist der schwächste Wachstumspunkt der Gruppe – Restatement-Effekt in Teil 2 verifizieren.
+- Rating: 🟡 – nicht kritisch, aber auffällig, dass das schwächste Segment netto Umsatz abgibt.
+
+**g) CEO-Amtsdauer / Key-Person-Risiko**
+- Befund: Erik Engstrom ist seit 2009 CEO – **16+ Jahre**. Narrativ sehr stark an ihn gebunden ("shift to analytics"). Keine erkennbare Nachfolgeplanung kommuniziert.
+- Seitenangabe: S. 4
+- Branchen-Einordnung: **Best-in-Class-Abweichung nach oben** in Sachen Stabilität, aber auch Konzentrations-/Governance-Risiko.
+- Rating: 🟡 – Nominations Committee Report (S. 97) in Teil 2 prüfen.
+
+---
+
+## 3. Positive Faktoren / Stärken
+
+- **Cash Conversion 99%** – Best-in-Class, £3,3bn operativer Cashflow . Keine Anzeichen von Working-Capital-Manipulation auf aggregiertem Niveau.
+- **Margin Expansion seit 5 Jahren konsistent**: Adj. Op-Margin 30,5% (2021) → 34,8% (2025), EBITDA-Margin 37,2% → 40,1%  – belastbar, da parallel Revenue-Growth.
+- **ROIC 15,4%** (vs. 14,8%) – WACC deutlich übertroffen, wertschaffendes Wachstum .
+- **Diversifikation über 4 Segmente / 180+ Länder** – kein Klumpenrisiko Kunde/Vertikal.
+- **#1 oder #2-Position in allen Segmenten**  – Burggraben durch Daten/Netzwerk.
+- **Mischung Subscription/Transaktional** auf Konzern-Ebene 54/46 – planbar .
+- **Scope 1+2-Emissionen -34% YoY**  – glaubwürdiger Track Record (AAA MSCI seit 10 Jahren).
+- **AI-Story evidence-based**: 15+ Jahre extraktive AI, >12.000 Technologen, $2bn Tech-Spend p.a.  – **nicht** nachträglich aufgesetztes Narrativ wie bei vielen Peers.
+
+---
+
+## 4. Turnaround-Perspektive
+
+**Kein Turnaround-Case** – RELX ist ein Compounder, kein Restrukturierer. Relevanter: **Momentum-Beschleunigung**. Legal (vormals das zäheste Segment) zeigt "step up in growth" auf +9% underlying, Adj. OP +12% ; STM mit "improving momentum" bei +5%. Wenn Teil 2 Lexis+ AI / Protégé-Traktion bestätigt, wäre dies das wichtigste Re-Rating-Argument. Operativ und bilanziell keine Warnzeichen; strategisch konsistent (organisch + Bolt-on).
+
+---
+
+# VERMERK – RELX PLC Geschäftsbericht 2025 (Teil 2/3)
+*An: Vertretung | Von: [BD] | Fortsetzung vor Urlaub*
+
+---
+
+## 1. Kurzfazit Teil 2
+
+Teil 2 ist fast vollständig **Governance-Kapitel** (S. 82–91). Keine Bilanz, keine GuV, keine Notes, keine Reconciliations, keine Goodwill-Tests. Inhaltlich sauberer Governance-Bericht ohne gravierende Auffälligkeiten, aber **operative Zahlen fehlen komplett** – die in Teil 1 vorgemerkten kritischen Punkte (Goodwill, Impairment, Pension, Tax-Reconciliation, Debt Maturity, Litigation) bleiben offen und wandern in Teil 3. Für das Kreditvotum sind die Teil-2-Inhalte **zweitrangig, aber bestätigend positiv**.
+
+---
+
+## 2. Rote Flaggen aus Teil 2
+
+### 🟠 MITTEL
+
+**h) Nachfolgeplanung CEO bleibt opak – Key-Person-Risiko bestätigt sich**
+- Befund: Engstrom (CEO seit 2009) wird in der Attendance-Liste geführt, aber die Nominations-Committee-Ausführungen zur Nachfolgeplanung bleiben generisch ("ongoing leadership talent reviews") . Kein dedizierter CEO-Successor-Abschnitt, anders als bei mehreren FTSE-100-Peers üblich.
+- Seitenangabe: S. 84 (Chair), S. 89 (Board Activities)
+- Branchen-Einordnung: **üblich** in UK-Governance-Berichten (selten explizit), aber bei 16+ Jahren CEO-Amtsdauer wäre Best-in-Class mehr Transparenz.
+- Rating: 🟠 – Nominations Committee Report S. 97–99 prüfen (liegt noch nicht vor).
+
+**i) Segment-Rebasing 2024 vom Board formal beschlossen**
+- Befund: "The Board reviewed the proposed reporting changes related to print and print-related activities and determined that reporting these activities separately would improve the transparency..." . D.h. das Restatement ist Board-Entscheidung 2025 (nicht regulatorisch getrieben). Kombiniert mit Gesundheits-Umklassifizierung STM → Risk ergibt sich: 2024-Vergleichszahlen wurden gleich zweifach zurechtgerückt.
+- Seitenangabe: S. 89
+- Branchen-Einordnung: **üblich**, aber Häufung im gleichen Jahr ist auffällig. Effekt auf Growth-Rates in Teil 3 quantifizieren.
+- Rating: 🟠 – verstärkt Flag (f) aus Teil 1.
+
+### 🟡 BEOBACHTEN
+
+**j) Remuneration-Policy-Renewal 2026 AGM – Engagement mit nur 55% Kapital**
+- Befund: Neue Policy zur Abstimmung 2026 AGM; Engagement mit Aktionären, die **ca. 55% des Kapitals** repräsentieren . D.h. 45% wurden nicht aktiv konsultiert. Alte Policy (2023) erhielt "strong support" – kein Prozentsatz genannt.
+- Seitenangabe: S. 84
+- Branchen-Einordnung: **üblich** (FTSE-100-Durchschnitt ~50–70% Engagement vor Policy-Vote), nicht auffällig niedrig.
+- Rating: 🟡 – AGM-Ergebnis 2026 abwarten; Pay-for-Performance-Linkage in Teil 3 (Rem Report S. 100–120) prüfen.
+
+**k) Internal Controls – Provision-29-Compliance erst ab 2026**
+- Befund: Die UK-Code-Provision 29 (Board-Erklärung zur Effektivität der Internal Controls) greift erst für das Geschäftsjahr **ab 1. Januar 2026** . Für 2025 wird nur "reasonable assurance" durch Board & Audit Committee erklärt – also noch das alte Niveau.
+- Seitenangabe: S. 84, S. 90
+- Branchen-Einordnung: **üblich** (regulatorischer Übergang, alle UK-Listed im gleichen Boot), kein Red Flag. **Aber**: 2026er Bericht wird der erste echte Härtetest sein – Vergleich mit US SOX 404b zeigt, dass "Material Weakness"-Findings in Ersterklärungen vorkommen können (vgl. Kopin 10-K 2025 – warnendes Gegenbeispiel der Branche) .
+- Rating: 🟡 – strukturell beobachten, keine akute Implikation.
+
+**l) Failure-to-Prevent-Fraud-Regime (UK ECCTA 2023) seit 01.09.2025 in Kraft**
+- Befund: Neue Corporate-Criminal-Liability, RELX hat "Framework" upgedatet, Audit Committee sieht sich "satisfied" . Keine Offenlegung von Deep-Dive-Ergebnissen, Gap-Assessments oder konkreten Fällen.
+- Seitenangabe: S. 84
+- Branchen-Einordnung: **üblich** (alle UK-listed PLCs unter der gleichen neuen Pflicht), keine RELX-spezifische Auffälligkeit.
+- Rating: 🟡 – Audit Committee Report S. 121–124 (noch nicht vorhanden) und S. 72–76 (Principal Risks) in Teil 3 prüfen.
+
+**m) Attendance-Ausfälle June Felix**
+- Befund: June Felix versäumte je 1 von 4 Audit- und Remuneration-Committee-Meetings (Dezember) . Bianca Tetteroo 6/7 Board (September verpasst).
+- Seitenangabe: S. 90
+- Branchen-Einordnung: **üblich**, nicht signifikant.
+- Rating: 🟡 – nicht weiter verfolgen.
+
+---
+
+## 3. Positive Faktoren aus Teil 2
+
+- **Board-Balance** solide: 1 Chair + 2 Executives + 7 Non-Executives = 10 Personen, klare Rollentrennung Chair/CEO .
+- **Attendance-Quoten** in Board/Committees insgesamt sehr hoch (fast durchgängig 100%) .
+- **Board-Diversität & Refresh**: Andy Halford (Ex-CFO Standard Chartered) neu im Audit Committee – Finanzexpertise gezielt verstärkt . Alistair Cox als neuer Rem-Chair (erfahrener Ex-CEO Hays).
+- **Kontinuität im operativen Top-Management**: Mark Kelsey (Risk, seit 1983 im Konzern), Kumsal Bayazit (STM), Mike Walsh (Legal), Hugh Jones (Exhibitions) – alle mit > 10 Jahren Tenure, Kombination aus tiefer Branchenkenntnis und externer Strategie-Erfahrung (Bain, BCG, Harvard Law etc.) .
+- **Strategiesitzung September 2025**: 2-tägig, explizit 3-Jahres-Plan 2026–2028 beschlossen, inkl. Segment-Deep-Dives in Legal und Exhibitions . Kein Hinweis auf strategischen Bruch.
+- **Compliance-konforme Vorbereitung** auf Provision 29 läuft bereits 2025 – keine Last-Minute-Implementierung .
+- **£1,5bn Buyback 2025 vollständig ausgeführt** (55m Aktien aus Treasury gelöscht) – saubere Kapitalmaßnahme .
+- **Purpose-Statement** konkret und geschäftsnah formuliert (im Gegensatz zu generischen ESG-Floskeln vieler Peers).
+
+---
+
+## 4. Turnaround-Perspektive
+
+Teil 2 bestätigt: **kein Turnaround-Case**. Governance-seitig zeigt sich ein in den Grundzügen **unveränderter** Steuerungsansatz mit moderatem Refresh (neues Audit-Committee-Mitglied, neuer Rem-Chair, Segmentberichterstattung angepasst). Die strategische Kontinuität (organisches Wachstum + Bolt-ons) wurde vom Board im September 2025 formell für 2026–2028 bestätigt . Keine Signale für strategische Kehrtwende oder operative Restrukturierung – was zur Compounder-These aus Teil 1 passt.
+
+---
+
+
+# VERMERK – RELX PLC Geschäftsbericht 2025 (Teil 3/3 – FINALE)
+*An: Vertretung | Von: [BD] | Abschluss-Vermerk vor Urlaub*
+
+---
+
+## A) Weitere rote Flaggen aus Teil 3 + Antworten auf offene Punkte
+
+### Beantwortung offener Punkte aus Teil 1/2:
+
+**✅ Punkt 1 (Goodwill/Intangibles)** – Goodwill £7.930m (Vj. £8.216m), Rückgang primär FX-getrieben . **Aufteilung**: Risk £3.902m, STM £1.814m, Legal £1.543m, Exhibitions £631m, Print £40m . **Impairment-Tests**: Pre-tax Discount Rates 10,6%–12,3% für operative CGUs, Print & print-related 13,8% bei **Terminal Growth Rate -9% (!)** . Sensitivitätsanalyse: +1,5% Discount Rate oder -2% CAGR → kein Impairment in irgendeinem CGU . **Bewertung: robust**, aber siehe Flagge (n).
+
+**✅ Punkt 9 (Debt Maturity)**: Fixed Rate Borrowings £6.283m, Floating £887m, Leases £97m = **£7.267m Gross** . Fälligkeiten: £846m in <1J, £618m in 1–2J, £874m in 2–3J, £864m in 3–4J, £1.237m in 4–5J, £3.059m >5J . Weighted average maturity ~5 Jahre (Treasury-Policy) . **66% Fixed Rate nach Swaps** – solide gegen Zinsrisiko . **Revolver: $3,5bn committed, ungezogen, Fälligkeit Nov 2030**, ohne Financial Covenants. Auch Bonds **ohne Financial Covenants** . **Bewertung: Best-in-Class Treasury-Struktur.**
+
+### 🟠 MITTEL
+
+**n) Print & print-related CGU: Discount Rate 13,8% bei Terminal Growth -9% – strukturell in Abwicklung**
+- Befund: Neuer separat ausgewiesener CGU trägt £40m Goodwill mit bewusst negativer Long-Term-Growth-Annahme (-9%) . Die Segmentumgliederung (Flag (f)/(i) aus Teil 1/2) war also **teilweise motiviert, absteigende Print-Erlöse aus den Wachstumssegmenten zu isolieren** – das macht STM/Legal-Wachstumsraten sauberer, bestätigt aber auch, dass die Rebasing-Aktion kosmetische Nebenwirkung auf YoY-Growth hat.
+- Seitenangabe: S. 166
+- Branchen-Einordnung: **üblich** (Wolters Kluwer, Springer Nature haben Print separat ring-fenced), aber transparenzarm präsentiert. £40m Goodwill auf einem schrumpfenden CGU ist **Impairment-Kandidat** in den nächsten 2–3 Jahren.
+- Rating: 🟠 – strukturell vorgezeichnetes Impairment, überschaubare Größe.
+
+**o) Währungssensitivität: -10% FX hit Net Profit £170m (≈7% des Reported NP)**
+- Befund: 10% Sterling-Aufwertung würde Net Profit um £170m reduzieren (Vj. £156m) . Bei ~£2,35bn Reported Net Profit entspricht das ca. 7%. Sensitivität **steigt** YoY um 9%.
+- Seitenangabe: S. 172
+- Branchen-Einordnung: **üblich** für UK-gelistete Konzerne mit NA-Schwerpunkt (Burberry, Diageo ähnlich), aber GBP-Stärke unter anhaltender BoE-Hawkishness ist ein realer 2026-Risikofaktor.
+- Rating: 🟠 – nicht managebar, strukturell.
+
+### 🟡 BEOBACHTEN
+
+**p) Anteil Floating Rate auf 34% gestiegen (Vj. ~28%)**
+- Befund: 66% Fixed nach Swaps (Vj. höher implizit) . 100bp-Zinsänderung = £23m P&L-Effekt (Vj. £28m – Rückgang wegen höheren Cash-Balance-Zinsen offsetting) . Trend zu mehr Floating reduziert Cost of Debt in Fallzinsphasen, erhöht aber P&L-Volatilität.
+- Seitenangabe: S. 171
+- Branchen-Einordnung: **üblich**, aktuell günstig positioniert bei Zinswende-Erwartung 2026.
+- Rating: 🟡 – bewusste Treasury-Wahl.
+
+**q) Trade Receivables past due sinken – Kreditqualität der Kunden verbessert sich**
+- Befund: Total past due £413m (2025) vs. £428m (2024) vs. £480m (2023); besonders "greater than 6 months" von £35m → £19m halbiert . Positives Signal, aber in Flag aufgenommen, da es bei einem wachsenden Konzern trotzdem 6–7% der Revenue ausmacht – branchentypisch, aber überwachenswert.
+- Seitenangabe: S. 172
+- Branchen-Einordnung: **üblich**, hier Best-in-Class-Trend.
+- Rating: 🟡 – eher positiv.
+
+**r) Cash-Bestand nur £131m – sehr schlank**
+- Befund: Cash & equivalents £131m (Vj. £119m) bei £7,27bn Gross Debt . Explizite Treasury-Policy "minimising surplus cash balances" . Liquidität kommt komplett aus $3,5bn Revolver.
+- Seitenangabe: S. 171–172
+- Branchen-Einordnung: **Best-in-Class-Abweichung nach unten** – kapitaldiszipliniert, aber bei Kapitalmarkt-Stress-Szenario (Revolver-Bank-Ausfall) dünner Puffer.
+- Rating: 🟡 – bewusst schlank gefahren, Revolver 2030 mit A-/A3-Bankenkonsortium mitigates.
+
+**s) Bonds & Revolver ohne Financial Covenants – hohe operative Freiheit, aber Gläubigerschutz gering**
+- Befund: "The committed bank facility is not subject to a financial covenant and there are no financial covenants in any outstanding public bonds" . Revolver-Pricing jedoch an 3 Corporate-Responsibility-KPIs geknüpft, erstmals 2026 gemessen .
+- Seitenangabe: S. 171
+- Branchen-Einordnung: **üblich** für A-Rating-Emittenten (nur starke Namen bekommen covenant-lite), spiegelt Kreditwürdigkeit wider.
+- Rating: 🟡 – positiv aus Emittentensicht, neutral bis leicht negativ aus Gläubigersicht.
+
+### Nicht beantwortet (Teil 3 war auf Notes 14–17 limitiert):
+
+- Principal & Emerging Risks (S. 72)
+- Viability Statement (S. 77)
+- Audit Committee Report / Key Audit Matters
+- Remuneration Report Details
+- Pension Note
+- Tax Note (Pillar 2)
+- Litigation/Contingent Liabilities
+- Sustainability Statement / TCFD
+- Vollständige GuV / Cashflow Statement
+- Reconciliation Reported ↔ Adjusted
+
+---
+
+## B) Konsolidiertes Firmenbild (Teil 1 + 2 + 3)
+
+**Geschäftsmodell-Qualität:** Globaler B2B-Informations- und Analytics-Konzern mit #1/#2-Marktpositionen in vier komplementären, schwer replizierbaren Segmenten. 54% Subscription-Erlöse, hohe Switching Costs, Netzwerk- und Dateneffekte – ein echter Burggraben-Fall, kein zyklisches Datengeschäft. AI-Narrativ ist inhaltlich hinterlegt (15+ Jahre extraktive AI, $2bn Tech-Spend).
+
+**Bilanzielle Substanz:** Goodwill-lastig (£7,9bn bei ~£9,6bn Umsatz) – typisch für akquisitionsgetriebenes Info-Services-Geschäft, aber Impairment-Tests robust mit erheblichen Sensitivitätspuffern . Sach-Anlagevermögen vernachlässigbar (£72m) – Asset-light-Modell . Treasury-Struktur Best-in-Class: 5-Jahre-WAM, covenant-lite, $3,5bn ungezogener Revolver bis 2030, 66% Fixed Rate.
+
+**Ertragsqualität:** Cash Conversion 99%, ROIC 15,4%, Adj. Op-Margin 34,8% mit 4 Jahren Expansion. Reported-Adjusted-Gap von ~9,4% auf Operating-Level ist signifikant, aber konsistent und größtenteils PPA-getrieben – keine aggressive Bereinigungs-Kosmetik erkennbar. Trade-Receivables-Qualität verbessert sich .
+
+**Governance-Eindruck:** Stabil, erfahren, kontinuierlich – mit einem Key-Person-Risiko (Engstrom 16+ Jahre) und opaker Nachfolgeplanung. Board-Refresh punktuell (Halford/Cox), Provision-29- und ECCTA-Compliance vorbereitet. Compliance-solide, nicht pioneerhaft.
+
+---
+
+## C) Fair-Value-Einschätzung
+
+**Basis 2025 Adj. EPS ~128,5p, Net Debt/EBITDA 2,0x, FCF yield ~4%.**
+
+Peer-Multiples (Wolters Kluwer, Thomson Reuters, S&P Global, Moody's) handeln historisch bei 25–32x Forward EPS für Tier-1-Info-Services-Compounder.
+
+- **Bear Case**: 22x Adj. EPS × 135p (2026e, +5% EPS bei FX-Gegenwind) = ~2.970p / ~£29,70
+- **Base Case**: 27x × 140p (2026e, +9% EPS) = ~3.780p / ~£37,80
+- **Bull Case**: 30x × 145p (AI-Re-Rating, Margin-Expansion) = ~4.350p / ~£43,50
+
+**Fair Value Range: £36–40**, Mittelwert ~£38.
+
+**Risikoabschläge:**
+- Key-Person-Engstrom: −3% bis −5%
+- Regulatorik Risk-Segment (US Data Broker + EU AI Act): −3%
+- FX-Sensitivität GBP: −2%
+- Goodwill-Konzentration / Impairment-Tail-Risk: −1% bis −2%
+- **Summe: ~10% Abschlag → Risk-adjusted Fair Value ~£34–36**
+
+Aktuelle Bewertung am Markt (falls >£40) = **Qualitätsprämie eingepreist, kein Safety Margin**. Unter £32 = **attraktiver Einstieg**.
+
+---
+
+## D) Anlegerprofil – zwei Perspektiven
+
+### Wer kauft eine solche Aktie? (Typischer Investor)
+
+- **Quality-Growth-Fonds** (Fundsmith, Lindsell Train, Comgest-Stil): lieben die Kombination Burggraben + Margin Expansion + Cash Conversion 99%.
+- **Compounder-Sammler**: Privatanleger, die 20-Jahres-Holding anstreben.
+- **Dividenden-Growth-Investoren**: 7% Dividend Growth + Buybacks, yield aktuell ~2%.
+- **Passive Flows**: FTSE-100-, STOXX-50-, ESG-Leader-Indizes (MSCI AAA).
+- **ESG-Mandate**: wegen AAA-Rating und konsistenter Scope-1/2-Reduktion.
+
+### Für welchen Anlegertyp geeignet?
+
+✅ **Quality-Growth-Investor** – Kernposition
+✅ **Income-with-Growth** – moderater Yield, starkes DPS-Wachstum
+✅ **Konservatives Langfrist-Depot** – defensiv, low beta, globaler Exposure
+✅ **ESG-fokussierter Anleger** – mit Vorbehalt (Risk-Segment = Datenbroker-Exposure)
+
+### Für welchen Anlegertyp NICHT geeignet?
+
+❌ **Deep-Value-Investoren** – bei aktuellen Multiples nie günstig
+❌ **Turnaround-Spezialisten** – nichts zu reparieren
+❌ **Event-Driven / Special Sits** – keine Katalysatoren, keine Zerschlagungsfantasie
+❌ **Short-Seller / Leerverkäufer** – zu solide Cashflows, kein Katalyst für Zusammenbruch; Borrow-Kosten verschlingen jedes Alpha
+❌ **Hype-Erfolgsstoryreiter** – AI-Story ist inhaltlich gedeckt, kein Multi-Bagger-Potenzial
+❌ **Hochfrequenz-Trader** – niedrige Volatilität, enges Spread
+❌ **Anleger mit <3 Jahren Horizont** – Bewertung kann bei Zinssprüngen 15–20% korrigieren
+
+---
+
+## E) Gesamturteil und Szenarien
+
+**Kreditvotum**: ✅ **Investment Grade (A-/A3 bestätigt durch Treasury-Policy-Target)**. Kredit freigeben bis Net Debt/EBITDA 2,5x-Grenze. Covenants nicht nötig, Cross-Default und Negative Pledge reichen. Pricing am unteren Ende der Corporate-Spread-Kurve.
+
+**Investmentvotum**: ✅ **HOLD / Accumulate on weakness** (unter £35). Keine Kauf-Empfehlung bei aktuellen Multiples über £42, aber auch kein Sell – Qualität verkauft sich nicht leichtfertig.
+
+### Szenarien 2026–2028:
+
+| Szenario | Wahrscheinlichkeit | Trigger | Kursziel |
+|---|---|---|---|
+| **Bull**: AI-Monetarisierung Lexis+ / STM skaliert, Margin 36%+, Buyback £3bn/J | 25% | Protégé-Adoption, Pricing Power durchgesetzt | £45–50 |
+| **Base**: Organisch +6–8%, Margin +50–100bp/J, Buyback £2–2,5bn/J | 50% | Status quo trajectory | £37–42 |
+| **Bear**: US-Reg-Schlag Risk-Segment, GBP-Stärke, Engstrom-Abgang | 20% | FTC-Ruling, Pillar-2-Hit, CEO-Transition | £28–32 |
+| **Tail**: Datenpanne LexisNexis oder Research-Integrity-Skandal Elsevier | 5% | Cyber-Incident, Retraction-Welle | £22–26 |
+
+---
+
+## F) Zusammenfassung der Lage
+
+**Unternehmen:** RELX ist ein Prime-Quality-Compounder in B2B-Information-Services mit vier dominanten, cash-generativen Segmenten. Das Geschäftsmodell ist durch Daten-Burggräben, Switching Costs und einen echten AI-Vorsprung geschützt. Operative Kennzahlen (Margen, ROIC, FCF-Conversion) sind Best-in-Class, die Bilanz ist diszipliniert geführt (asset-light, covenant-lite, solide Fälligkeitenleiter). Hauptrisiken sind strukturell: Regulatorik im US-Risk-Segment, Goodwill-Konzentration, CEO-Key-Person-Risiko und FX-Translation.
+
+**Investor:** Wer jetzt kauft, bezahlt volle Qualitätsprämie ohne Safety Margin. Der typische Halter ist ein Quality-Growth- oder Income-Investor mit 5–10-Jahres-Horizont und Toleranz für 15–20% Multiple-Korrekturen in Zinswende-Szenarien. Kurzfristige Katalysatoren sind begrenzt – die These ist "boring compounding", nicht "outsized alpha". Wer Turnaround, tiefes Value oder schnelle Story-Multiplikation sucht, gehört nicht ins Aktionärsbuch.
+
+**Kernbotschaft für die Vertretung:** Wenig zu bewachen, nichts zu reparieren. Stresspunkte zu monitoren: (1) Net Debt/EBITDA Richtung 2,3x+, (2) Engstrom-Nachfolge, (3) US-Regulatorik LexisNexis, (4) AGM 2026 Rem-Policy-Vote, (5) erste Provision-29-Erklärung 2026.
+
+---
+
+## G) Vertrauens-Level der Analyse: **6/10**
+
+**Begründung:**
+
+**Positiv (Zuwachs an Konfidenz):**
+- Teil 1 (Highlights, MD&A, Segment-Performance) vollständig und konsistent
+- Teil 2 (Governance) sauber und aufschlussreich
+- Teil 3 (Notes 14–17: Goodwill, Investments, PP&E, Financial Instruments) liefert **die wichtigsten Bilanzrisiko-Antworten**: Goodwill-Sensitivität robust, Debt-Profil sauber, FX-Hedging professionell 
+- MD&A-Zahlen (Cash Conversion, Margin, ROIC) lassen sich mit Bilanz-Trends abgleichen – keine auffälligen Inkonsistenzen
+
+**Negativ (Abschlag auf Konfidenz):**
+- **Reconciliation Reported ↔ Adjusted** nie eingesehen – die £315m Bereinigung bleibt plausibel-begründet, aber ungeprüft
+- **Auditor-Bericht / Key Audit Matters** fehlen komplett – kein externes Prüfer-Signal verfügbar
+- **Pension-Note** nicht eingesehen – DB-Plan-Exposure, Diskontraten-Sensitivität unbekannt
+- **Tax-Note / Pillar 2** nicht eingesehen – OECD-Mindeststeuer-Effekt auf 22,5% ETR ungeprüft
+- **Principal Risks + Viability Statement** nicht eingesehen – Management-Selbst-Risikobild fehlt
+- **Contingent Liabilities / Litigation** nicht eingesehen – für ein Unternehmen mit LexisNexis (Datenbroker-Klagen historisch) und Elsevier (Research-Integrity-Exposures) eine **echte Informations-Lücke**
+- **Full GuV / Cashflow Statement / Segment-Note** nicht eingesehen – Cross-Check nur aus Highlights möglich
+
+**Fazit Konfidenz:** Die Analyse ist **robust für Richtung und Größenordnung**, aber nicht **vollständig validiert in den zwei kritischsten Detail-Bereichen: (1) Litigation/Contingencies und (2) Adjustments-Reconciliation**. Für ein finales Investment-Committee-Votum wäre ein Nachzug dieser zwei Pakete empfohlen. Für ein Kreditvotum reicht die Datenlage – Treasury-/Debt-/Goodwill-Information ist ausreichend eingesehen .
+
+---
+
