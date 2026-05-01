@@ -1,0 +1,85 @@
+## FormFactor, Inc. — forensischer 10-K-Blick
+
+**Mein Kurzurteil:** Das ist kein klassischer „Leichen-im-Keller“-Fall mit Bilanzbetrug-Geruch. FormFactor ist profitabel, netto-liquide, technologisch relevant und hat echte AI-/HBM-Exponierung. Die „Kellerleichen“ liegen eher in **Margenqualität, Working Capital, Kapazitäts-/Restrukturierungsrisiko, Kundenkonzentration und steuerlichen/Grant-Overhangs**. Der Turnaround ist realistisch, aber er ist **operativ**, nicht bilanziell: Texas-Ramp, California-Konsolidierung, HBM/SiPh/CPO-Wachstum und Margenrückkehr müssen liefern.
+
+### Was gut ist
+
+FormFactor meldet Rekordumsatz von rund **$785 Mio.** für FY2025, getragen durch DRAM/HBM-Nachfrage aus AI-Infrastruktur; gleichzeitig bleibt das Unternehmen profitabel mit **$54,4 Mio. Net Income** und **$115,4 Mio. Operating Cashflow**. Die Bilanz ist komfortabel: **$275,2 Mio. Cash + Marketable Securities**, nur rund **$12,3 Mio. Term Loan**, plus ungezogene **$150 Mio. Revolver**. Das ist keine Stressbilanz.   
+
+Auch strategisch ist die Story nicht aus der Luft gegriffen: Probe Cards für HBM, MEMS-/High-Frequency-Kompetenz, Lab-to-Fab-Positionierung, SiPh/co-packaged optics via Keystone und Substrat-/PCB-Supply-Sicherung über FICT passen zum Advanced-Packaging-/AI-Testbedarf. Die Firma hat in FY2025 zudem keine Restatement-Flag, KPMG testiert ICFR als wirksam, und es gibt keine spezifisch offengelegten materiellen Rechts- oder Cybervorfälle.   
+
+---
+
+## Die eigentlichen Kellerleichen
+
+### 1. Rekordumsatz, aber keine saubere Margenexpansion
+
+Der auffälligste Punkt: **Umsatz +2,8 %, Gross Margin runter von 40,3 % auf 39,3 %, Operating Margin runter von 8,5 % auf 7,2 %.** Das ist bei einem angeblichen AI/HBM-Wachstumsjahr nicht optimal. Management erklärt das mit Tarifen, höherem Manufacturing Spend und Mix. Besonders wichtig: DRAM/HBM wächst, aber DRAM-Probe-Cards haben laut Company im Schnitt niedrigere Margen als Foundry & Logic. Das heißt: **Die AI-Story ist nicht automatisch eine Gross-Margin-Story.**  
+
+Fairerweise: Ohne den FY2024-Gain aus China-Divestiture ist die operative Entwicklung besser als der GAAP-Vergleich aussieht. Aber strukturell bleibt die Frage: Kann HBM-Volumen die niedrigere Produktmarge und höhere Komplexität über Skaleneffekte kompensieren?
+
+### 2. Inventory ist der zentrale Audit-Risikopunkt
+
+KPMG nennt **„Evaluation of inventory excess and obsolescence“** als Critical Audit Matter. Das ist bei FormFactor nicht zufällig: Custom Probe Cards, kurze Lead Times, Minimum Order Quantities, niedrige Stückzahlen, unsichere Yields und zyklische Nachfrage sind ein perfekter Nährboden für Inventory-Risiko. FY2025: **$110,9 Mio. Inventories** und **$14,9 Mio. Inventory write-downs**. Das entspricht grob **13 % des Jahresendbestands** bzw. gut **3 % der COGS**. 
+
+Das ist branchenbedingt erklärbar, aber genau hier kann eine Bilanz „hübsch“ werden: Bewertung hängt stark an Forecasts, Backlog, Kundenprogrammen und qualitativen Annahmen. Ich würde das nicht als Manipulationssignal werten, aber als **größten Schätzungshebel** im Bericht.
+
+### 3. Working Capital frisst Cash: AR und Inventory wachsen schneller als Umsatz
+
+Umsatz wächst nur **2,8 %**, aber Accounts Receivable steigen von **$104,3 Mio. auf $125,4 Mio.** und Inventory von **$101,7 Mio. auf $110,9 Mio.** Gleichzeitig sinken Accounts Payable von **$62,3 Mio. auf $47,4 Mio.**. Das drückt Cash Conversion. Operating Cashflow ist zwar stark, aber nach **$103,7 Mio. Capex** bleiben nur etwa **$11,7 Mio. einfacher Free Cashflow**.  
+
+Das ist kein akuter Liquiditätsstress, aber für einen Turnaround-Kandidaten wichtig: Die Story wird kapitalintensiv, und der freie Cashflow ist 2025 bereits dünn, bevor der volle Texas-Ramp kommt.
+
+### 4. 2026 wird die echte Feuerprobe: Texas + Restrukturierung
+
+Die FY2025-Zahlen enthalten erst **$3,0 Mio. Factory start-up costs** für Farmers Branch. Für FY2026 erwartet das Unternehmen **$20–25 Mio. Start-up Costs** plus **$140–170 Mio. Capex** für den Texas-Ramp. Zusätzlich kommen nach Bilanzstichtag Restrukturierungskosten von **$30–40 Mio.**, davon **$10–15 Mio. Cash** und **$20–25 Mio. non-cash**, inklusive Facility Exits/Leasehold Impairments und Severance/Retention für ca. **200–300 Mitarbeiter**.  
+
+Das ist der Turnaround-Kern: Wenn Texas sauber hochfährt und die California-Konsolidierung Margen hebt, kann das sehr wertschaffend sein. Wenn nicht, sehen wir 2026/2027 niedrigere Margen, höhere Anlaufverluste, Inventory-Ausschuss und möglicherweise Customer-Qualification-Verzögerungen.
+
+### 5. Kundenkonzentration ist hoch — und diesmal SK hynix/HBM-getrieben
+
+SK hynix steht für **22,9 % des FY2025-Umsatzes**; in einzelnen Quartalen lag SK hynix sogar zwischen ca. **19 % und 25 %**. Zudem entfielen am Jahresende zwei Kunden auf **15,8 %** und **10,8 %** der Bruttoforderungen. In Semi-Equipment/Test ist Kundenkonzentration nicht ungewöhnlich, aber bei Custom Probe Cards gefährlicher als bei Standardware: Stornierungen, Verschiebungen oder Design-Losses können direkt zu Non-Recoverable Costs und Inventory-Impairments führen.  
+
+Die positive Lesart: SK hynix/HBM ist aktuell genau der richtige Kunde/Endmarkt. Die negative Lesart: Der „AI-Turnaround“ ist stärker kundenspezifisch, als die Headline suggeriert.
+
+### 6. China ist kleiner, aber nicht weg
+
+China-Umsatz fällt von **13,5 %** auf **7,4 %**, Management verweist auf Exportrestriktionen. Zugleich wurden 2024 China-Operations verkauft und eine exklusive Distribution-/Partnership-Struktur etabliert. Das ist nicht per se schlecht; es ist eher eine Anpassung an Geopolitik. Aber: China ist jetzt weniger Umsatztreiber, bleibt aber als Vertriebspartner-/Regulierungs-/Exportkontrollthema relevant. 
+
+### 7. FICT: strategisch sinnvoll, aber Governance-/Accounting-Overhang
+
+FormFactor investiert **$67,2 Mio.** in eine 20%-Struktur rund um FICT, einen Supplier für komplexe Substrate/PCBs. Das passt strategisch, denn Substrat-/PCB-Kompetenz ist bei Advanced Packaging und HBM ein Engpass. Aber: Die Beteiligung wird mit einem Quartal Lag bilanziert, trug 2025 bereits **$2,0 Mio. Verlust** bei, enthält **$7,5 Mio. Equity-method Goodwill**, und FICT ist zugleich Related-Party-Supplier mit **$10,3 Mio. Inventory Purchases**. 
+
+Das ist keine rote Fraud-Flag, aber ein klassischer Diligence-Punkt: Supply-Sicherung oder Kapitalbindung in einen schwächeren Zulieferer?
+
+### 8. Steuerliche „stille Bombe“: $52 Mio. unrecognized tax benefits
+
+Unrecognized tax benefits steigen auf **$52,0 Mio.**, davon würden **$27,2 Mio.** die Effective Tax Rate beeinflussen, falls erkannt. Zusätzlich gibt es eine **$50,4 Mio. Valuation Allowance** auf Deferred Tax Assets, primär California DTAs und Foreign Tax Credit Carryovers. Das ist materiell im Verhältnis zu **$54,4 Mio. Net Income**.  
+
+Nicht gleich Cash-Abfluss unterstellen. Aber: Tax Assets, Credits, AMIC/CHIPS und unrecognized tax benefits sind ein signifikanter Bereich, in dem die ausgewiesene Profitabilität und künftige Cash Taxes schwanken können.
+
+### 9. California Competes Grant: kleiner, aber relevant wegen Standortverschiebung
+
+Die **$18 Mio. California Competes Grant** sind vollständig deferred; noch nichts wurde als Expense Offset erkannt. Das Grant verlangt Jobs und Infrastrukturinvestitionen in California über fünf Jahre; bei Nichterfüllung kann Rückzahlung drohen. Gleichzeitig konsolidiert FormFactor California-Standorte und expandiert massiv in Texas. Das heißt nicht automatisch, dass der Grant gefährdet ist, aber es ist ein klarer Monitoring-Punkt. 
+
+### 10. Aktionärsrendite: Underperformance trotz besserer Story
+
+Die 5-Jahres-Cumulative-Return-Grafik zeigt: **FormFactor $100 → $136**, S&P 500 **$201**, S&P Semiconductor Select Industry Index **$201**. Das erklärt, warum einige auf Turnaround setzen: Die Aktie hat operativ/strategisch Nachholfantasie, aber der Markt hat sie über fünf Jahre klar nicht wie einen Semi-Gewinner bezahlt. 
+
+---
+
+## Turnaround-These: plausibel, aber eng geführt
+
+**Bull Case:** HBM/AI bleibt stark, SK hynix & weitere Memory-Kunden treiben Volumen, Texas senkt langfristig Kosten, Restrukturierung hebt Gross Margin, Keystone öffnet SiPh/CPO-Wachstum, FICT sichert kritische Substrate. Dann kann FormFactor aus einer „nischigen Semi-Test-Firma mit schwacher Margenwahrnehmung“ wieder in Richtung Qualitäts-Compounder drehen.
+
+**Bear Case:** HBM bleibt zwar stark, aber mixbedingt margenschwächer; Foundry & Logic bleibt weich; Texas kostet 2026/2027 mehr als geplant; Inventory-Writedowns bleiben hoch; SK hynix- oder HBM-Ramp normalisiert; export/tariff pressure frisst Margen. Dann ist es kein Turnaround, sondern eine teure Kapazitätserweiterung in einen zyklischen Peak.
+
+## Meine Bankdirektor-Note
+
+**Bilanzqualität:** solide, netto-cash, keine akute Insolvenz-/Covenant-Sorge.
+**Ergebnisqualität:** mittel; GAAP-Ergebnis durch Divestiture-Gains in Vorjahren verzerrt, SBC hoch, Inventory-Schätzungen zentral.
+**Operative Qualität:** technologisch stark, aber Margenbeweis fehlt.
+**Turnaround-Wahrscheinlichkeit:** real, aber abhängig von 2026 Execution.
+**Größtes Risiko:** nicht Fraud, sondern **Kapazität + Mix + Kundenkonzentration + Inventory**.
+
+Die wichtigste Notiz für das weitere Filing: **2026 wird nicht an Umsatzwachstum allein zu messen sein, sondern an Gross Margin ex-start-up, Inventory-Writedowns, Texas-Qualification, Customer Diversification und tatsächlichem Cashflow nach Capex.**
