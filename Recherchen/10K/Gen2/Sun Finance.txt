@@ -1,0 +1,292 @@
+# Forensische Analyse: Sun Finance Group AS – 6M 2024 (Teil 1)
+
+Sehr geehrter Kollege, ich habe mir den ersten Teil des Geschäftsberichts angesehen. Sun Finance ist ein **Online-Konsumkreditanbieter (High-Yield / Sub-Prime-Nische)** mit Schwerpunkt Emerging Markets – das ist für die Einordnung aller Kennzahlen zentral, denn branchenüblich sind hohe Zinsmargen, hohe Ausfallquoten und aktives NPL-Management. 
+
+---
+
+## 1. Was wirklich positiv auffällt (faire Würdigung)
+
+- **Profitabilität intakt:** EBITDA-Marge 36,3 % – für einen Non-Bank-Lender dieser Bonitätsklasse solide. Auch ein Vor-Steuer-Gewinn von €40,0 Mio. auf €133,6 Mio. Zinsertrag ist robust. 
+- **Kapitalisierung verbessert:** Capitalization Ratio von 43,4 % → 60,5 %. Ein Teil davon ist allerdings "optisch", weil der Nenner (Nettoportfolio) schrumpft. Trotzdem: Eigenkapital €92,7 Mio. vs. Finanzschulden €107,3 Mio. ist für einen Konsumkreditanbieter **überdurchschnittlich solide**. 
+- **Liquidität:** Kasse €31,9 Mio. (vs. €22,6 Mio. YE2023); operativer Cashflow €70,9 Mio. netto – das ist echtes Geld. 
+- **Refinanzierung 2024:** Die €20 Mio.-Anleihe (Juni 2024) wurde durch ein neues €40 Mio.-Placement (11 %, Laufzeit 11/2027) erfolgreich refinanziert. Kein akuter Liquiditätsengpass. 
+- **Diversifikation** über 9 Länder, inklusive wachsender Europa- und Skandinavien-Hubs. 
+- **Interest Coverage 5,9x** – ausreichender Puffer gegenüber Covenants (üblicherweise 1,25x–2,0x in solchen Bond-Dokumentationen). 
+- **Nasdaq First North Listing der Anleihen** → erhöhte Offenlegungsdisziplin.
+
+---
+
+## 2. Leichen im Keller – die kritischen Punkte
+
+### 2.1 Portfolioqualität verschlechtert sich massiv (größte Leiche)
+
+Das wird im Reporting geschickt kaschiert:
+
+| Kennzahl | YE 2023 | 30.06.2024 | Veränderung |
+|---|---|---|---|
+| Brutto-Forderungen | €253,6m | €245,3m | -3,3 % |
+| Wertberichtigungen | €71,9m | **€92,1m** | **+28,1 %** |
+| **Coverage Ratio** | **28,3 %** | **37,6 %** | **+928 bps** |
+
+Eine Zunahme des Abschreibungsbedarfs um **~930 Basispunkte in 6 Monaten** ist auch für einen Sub-Prime-Lender **nicht normal**. Das Management erwähnt das im Report **mit keiner Silbe** und verpackt es stattdessen unter der Überschrift "Strategic shift in geographical scope". Das ist die entscheidende Stelle für Nachfragen. 
+
+### 2.2 Cash-Flow-Struktur: Massive NPL-Abverkäufe
+
+Im Operating Cash-Flow steckt der Posten **"Sold portfolio write off: €69,5m"** (6M2023: €79,1m). Zusätzlich erhöhte Wertberichtigungen von €26,5m. Das heißt:
+
+- In 6 Monaten wurden faule Forderungen im Volumen von **~€96 Mio.** entweder abgeschrieben oder verkauft – bei einem Nettoportfolio von €153,2m. 
+- Die **€30,1m "Other receivables"** enthalten laut Fußnote 3 auch "receivables from sold portfolio" – d.h. **deferred consideration aus NPL-Verkäufen**. Die tatsächliche Werthaltigkeit dieses Bilanzpostens (13 % der Bilanzsumme!) ist eine **Black Box**. Hier sollte der Anhang genau geprüft werden. 
+
+### 2.3 Operative Kostenexplosion – negative Operating Leverage
+
+| Kostenart | 6M 2023 | 6M 2024 | Δ |
+|---|---|---|---|
+| Direct costs | €10,7m | €16,3m | **+52,3 %** |
+| Indirect costs | €7,8m | €11,0m | **+41,0 %** |
+| Personal | €10,1m | €11,0m | +8,9 % |
+| Marketing | €7,3m | €6,2m | -15,1 % |
+| **Total OpEx** | **€37,0m** | **€45,5m** | **+23,0 %** |
+
+Bei gleichzeitig **-7,4 % Zinsertrag** ist das klassisches negatives Operating Leverage. Cost/Income springt von 23,4 % auf 29,7 %. Das Management begründet das vage mit "scaling of new products and shift in geographic dispersion". **Was genau treibt "Direct costs" um 52 % nach oben?** → Notiz für Teil 2. 
+
+### 2.4 Trade and other payables mehr als verdoppelt
+
+€8,2m → €17,0m (+107 %). Bei einem schrumpfenden Geschäft ist das **sehr erklärungsbedürftig**. Mögliche Ursachen: verzögerte Lieferantenzahlungen, aufgelaufene Provisionen aus NPL-Verkäufen, oder strittige Verbindlichkeiten. → **Aufklärung im Anhang zwingend**. 
+
+### 2.5 Refinanzierungsstruktur – stille Verschiebung
+
+| Fremdfinanzierung | YE 2023 | 30.06.2024 |
+|---|---|---|
+| Unsecured Bonds | €81,8m | €67,0m |
+| P2P (Loan Marketplace) | €21,9m | **€4,4m** (-80 %) |
+| Other loans (Related parties) | €23,0m | **€35,9m** (+56 %) |
+
+Der **P2P-Kanal** (vermutlich Mintos o.ä.) **bricht faktisch weg** (-80 %), während gleichzeitig **Related-Party-Finanzierung** (Minderheitsgesellschafter, Management) **deutlich steigt**. 
+
+Das ist ein **Warnsignal**:
+- Entweder haben sich die P2P-Investoren zurückgezogen (Qualitätsbedenken?)
+- Oder die Gruppe substituiert bewusst – dann aber durch **Insider-Geld**, was in einer Schieflage ein Interessenkonflikt wäre (Insider stehen in der Kapitalstruktur oft vorne/hinten in fragwürdiger Weise).
+
+Für einen professionellen Anleiheinvestor: **Strukturelle Subordination prüfen** – wo stehen die "Other loans" vs. die gelisteten Senior Unsecured Notes? 
+
+### 2.6 Dividendenpolitik trotz Portfolioschrumpfung
+
+**"Return to Investors €28,5m"** bei Halbjahresgewinn von €26,8m → **Payout >100 %**. 2023 wurden bei €72,1m Gewinn bereits €43,5m ausgeschüttet (~60 %). 
+
+In einer Phase, in der das Portfolio schrumpft, die Coverage-Ratio explodiert und die P2P-Finanzierung wegbricht, werden **die Gewinne faktisch komplett aus dem Unternehmen gezogen**. Für einen Bondgläubiger ist das **strukturell bedenklich**, auch wenn die Covenants (noch) eingehalten werden. 
+
+### 2.7 Steuerzahlungen > Steueraufwand
+
+Cash CIT paid **€20,0m** vs. P&L-Aufwand **€13,3m**. Taxes payable sanken von €13,8m auf €7,9m. Nicht per se ein Problem (Nachzahlungen Vorjahr), aber die **effektive Steuerquote von 33,3 %** (vs. 25,7 % in 6M2023) ist erklärungsbedürftig – in einem Multi-Jurisdiktions-Setup mit Lettland-Holding (Lettland hat defekt 0 % auf thesaurierte Gewinne, 20 % auf Ausschüttung) deutet das auf **Quellensteuern auf Dividenden aus Tochtergesellschaften** hin. Checkpunkt für Teil 2. 
+
+### 2.8 Afrika-Akquisition Q3/2023 – Integration und PPA
+
+Der Afrika-Hub wurde Q3/2023 zugekauft. Brutto-Portfolio verdoppelte sich von €5,5m → €11,1m in 6 Monaten. Positiv, aber: **Goodwill? Earn-Outs? Welche Marke/Land?** – keine Information im ersten Teil. → Notiz für Teil 2. 
+
+### 2.9 Central Asia Exit – die "strategische" Begründung
+
+Das Central-Asia-Portfolio fiel von 40,8 % auf 13,9 % Anteil, brutto von €114m → €64m. Das Management verkauft es als "strategische Entscheidung". Plausible alternative Lesart:
+- Regulatorischer Druck (Kasachstan: Zinsdeckel 2022/2023),
+- Währungsrisiken (KZT/UZB),
+- Portfolioqualität.
+
+Das ist **nicht zwingend negativ** – disziplinierter Rückzug aus problematischen Märkten ist Qualitätsmerkmal. Aber die Bezeichnung "strategic" ohne Nennung der regulatorischen Realität ist **reputatives Schönreden**. 
+
+---
+
+## 3. Turnaround-Perspektive
+
+Aus Turnaround-Sicht **ist dies kein klassischer Turnaround-Fall** – die Gruppe ist profitabel, cashflow-positiv und bedient ihre Schulden. Es ist eher ein **Transformations-Case**:
+
+- **Bullen-Narrativ:** Fokussierung auf qualitativ bessere Märkte (Europa +36 %, Skandinavien +32 % Portfoliowachstum), Exit aus Central Asia, Diversifikation nach LatAm/Afrika. Bei erfolgreichem Abschluss der Transformation sollte Cost/Income wieder sinken und die Margen sich erholen.
+- **Bären-Narrativ:** Die Kerneinheit schrumpft, die P2P-Finanzierung verdunstet, Related Parties finanzieren nach, die Coverage Ratio zeigt versteckte Portfoliobelastung, OpEx läuft aus dem Ruder. Bei einer Rezession in den Wachstumsmärkten droht weitere Margenerosion.
+
+Der 11 %+EURIBOR-Kupon (~14,5 %) preist bereits Risiko ein – das ist **kein Investment-Grade-Paper**, sondern ein klares **High-Yield-Spekulationsinstrument**.
+
+---
+
+## Fazit Teil 1
+
+Sun Finance präsentiert sich als **professionell geführter Nischenlender mit solider Bilanz und robuster Profitabilität**, der aktuell eine Portfolioumschichtung durchläuft. Die "geschönten" Elemente des Reports sind:
+
+🚩 **Verschleierung der stark gestiegenen Coverage Ratio** (937 bps Anstieg in 6 Monaten),
+🚩 **Ausweichende Sprache** bei der Central-Asia-Reduktion,
+🚩 **Stille Verschiebung der Funding-Base** zu Insider-Geld,
+🚩 **100 %+ Payout Ratio** bei gleichzeitiger Portfolio-Schrumpfung,
+🚩 **Opake "Other receivables"** mit NPL-Sale-Bezug.
+
+# Forensische Analyse Sun Finance Group – Finaler Teil
+
+Kollege, der zweite Teil ist **Q1 2022-Reporting** – also keine Fortsetzung der 6M/2024-Zahlen, sondern ein **historischer Vergleichspunkt**. Das ist analytisch sogar wertvoller als ein zweiter Quartalsauszug, weil wir jetzt eine **2,5-Jahres-Trendanalyse** aufspannen können. Damit werden einige der "Leichen" aus Teil 1 im Licht der Historie **deutlich schärfer sichtbar** – und einige relativieren sich.
+
+---
+
+## 1. Der Time-Lapse-Vergleich: Q1 2022 vs. 6M 2024
+
+| Kennzahl | Q1 2022 | 6M 2024 (annualisiert) | Trend |
+|---|---|---|---|
+| Revenue (quartalisiert) | €52,8m | ~€66,8m | +27 % |
+| Revenue YoY-Dynamik | **+15 %** | **–7,4 %** | 🚩 Wachstumsumkehr |
+| Gross Portfolio | €154,7m | €245,3m | +59 % |
+| **Coverage Ratio** | **28,3 %** | **37,6 %** | 🚩 **+930 bps** |
+| EBITDA-Marge | 36,6 % | 36,3 % | stabil |
+| Cost/Income | 24,2 % | 29,7 % | 🚩 +550 bps |
+| Equity | €67,6m | €92,7m | +37 % |
+| Loans Payable | €71,6m | €107,3m | +50 % |
+| Capitalisation Ratio | 60,9 % | 60,5 % | stabil |
+| ROE | **75,4 %** | ~58 % (LTM-Schätzung) | deutlich rückläufig |
+| Central Asia-Anteil (Sales) | **36,9 %** | faktisch abgebaut | Komplettumbau |
+| Segmente | 5 Hubs | 6 Hubs (+Afrika) | Diversifikation |
+
+---
+
+## 2. Zusätzliche Erkenntnisse aus dem Q1 2022-Report
+
+### 2.1 Das ursprüngliche Wachstumsnarrativ ist **tot**
+
+Q1 2022 war geprägt von **"growth, growth, growth"**: +36 % Loan Issuance YoY, +15 % Revenue, BNPL-Launch, Installment-Produkte, Central-Asia-Offensive. ROE 75 %. Eine Wachstumsstory par excellence. 
+
+Im 6M 2024 ist von diesem Narrativ **nichts mehr übrig**: Das Portfolio schrumpft, Central Asia wird abgewickelt, neue Produkte werden nicht mehr euphorisch angepriesen, sondern die Kommunikation dreht sich um "geographic dispersion" und "strategic shift". **Das ist ein Narrativ-Wechsel, den das Management nicht offen kommuniziert.** 
+
+### 2.2 Central Asia – der "Growth Engine" wurde zum "Strategic Exit"
+
+Q1 2022 explizit: *"During Q1'22, the Central Asian HUB has achieved significant increase in loan sales and net portfolio, while also delivering solid revenues. Notwithstanding the growth dynamics, portfolio quality has not been compromised, driven by an improved scoring methodology."* 
+
+Der Hub machte **36,9 % aller Sales** und **37,9 % des Portfolios** – faktisch das wichtigste Standbein der Gruppe. Zwei Jahre später: abgebaut, Portfolioanteil 13,9 %. 
+
+Die Behauptung "portfolio quality has not been compromised" aus Q1 2022 wurde **de facto widerlegt** – sonst hätte man den Markt nicht verlassen müssen. Das ist für einen Investor ein **Erinnerungsposten bezüglich Management-Glaubwürdigkeit**: Wenn heute behauptet wird "portfolio quality is strong", ist historisch Skepsis angebracht. 
+
+### 2.3 Die Mintos-P2P-Abhängigkeit war schon 2022 da
+
+Q1 2022-Bilanz: *"Loans payable include the issued Bonds, loans placed on the Mintos P2P platform, shareholder loans and other loans payable"* 
+
+Der **Mintos-Kollaps** von 6M 2024 (P2P: €21,9m → €4,4m, -80 %) ist also tatsächlich das Wegbrechen eines **seit Gründungstagen etablierten Kanals**. Die Substitution durch **Shareholder-Loans** ist eine direkte Rückkehr zu Founder/Insider-Finanzierung – kein Ausbau des Kapitalmarktzugangs, sondern eine **regressive Finanzierungsstruktur**. 
+
+### 2.4 Aggressive Provisionierungs-Narrativ bereits 2022
+
+Q1 2022: *"EBITDA decrease […] justified by the increasing provisioning levels due to loan sales and portfolio growth […] which the Group perceives as an investment for future returns."* 
+
+Provisions-Ratio stieg von 32,1 % Q1 2021 auf **41,5 % Q1 2022** innerhalb von 12 Monaten. Das Management verkaufte das als **"Investment in die Zukunft"**. Schaut man auf 6M 2024, ist dieser "Return on Investment" offensichtlich ausgeblieben – das Portfolio brennt heute **noch schneller** (Coverage 37,6 %). Der 2022er "Investment-Spin" war also **rhetorisches Camouflage** für strukturell steigende Kreditrisikokosten. 
+
+### 2.5 Gescheiterte Produktdiversifikation?
+
+Q1 2022 kündigte BNPL und Ratenkredite als **Game-Changer** an. Im 6M 2024-Report finden sich zu BNPL **keine prominenten Erfolgsmeldungen**. Kombiniert mit +52 % Direct Costs könnte das bedeuten: **Produktentwicklung ging weiter, aber die Economics skalieren nicht**. → Eine entscheidende Frage für Teil 3/Folgendes. 
+
+### 2.6 FX-Exposition bereits 2022 offensichtlich
+
+Q1 2022 hatte einen FX-Loss von €1,5m (bei damals noch überschaubarer Präsenz in Weichwährungs-Jurisdiktionen). Heute mit LatAm- und Afrika-Expansion ist das FX-Risiko **strukturell höher** – die Gruppe offenbart dies aber nicht transparent (z.B. keine Hedge-Disclosure). 
+
+---
+
+## 3. Was der 10-K **als Firmenbild zeichnet** – die Erzählung vs. die Realität
+
+### Die vom Management gezeichnete Erzählung
+
+> **"Ein global diversifizierter, profitabler FinTech-Konsumkreditanbieter in der Transformation zu qualitativ hochwertigeren Märkten, mit solider Kapitalisierung, bewährter Bond-Refinanzierung und disziplinierter Portfoliosteuerung."**
+
+### Das tatsächliche Firmenbild nach forensischer Lesart
+
+> **Ein sub-prime Micro-Lender mit lettischer Holding, der nach dem Wegbruch seines zentralasiatischen Kernmarkts (vermutlich aufgrund regulatorischer Zinsdeckel) in einer kostspieligen Restrukturierungsphase steckt. Die Profitabilitätskennzahlen sind noch intakt, aber durch aggressive NPL-Verkäufe und steigende Provisionierungen gestützt. Die Finanzierungsstruktur regressiert zu Insider-Geld. Die Eigentümer ziehen Gewinne über 100 % Payout aus dem Unternehmen. Die Produktdiversifikation (BNPL, Installments) hat operativ nicht gezündet.**
+
+Die Lücke zwischen beiden Narrativen ist das, was ein erfahrener Analyst **"Spin Discount"** nennt.
+
+---
+
+## 4. Wer ist der Anleger, der hier investiert?
+
+Sun Finance ist keine Aktiengesellschaft im klassischen Sinne – die Gruppe ist **bondlistet auf Nasdaq First North Baltic**. Der Anleger ist also typischerweise:
+
+### Profil "Gläubiger"
+
+- **High-Yield-Bond-Investor** aus dem nordisch-baltischen Raum (typisch: DNB, Carnegie, SEB-Kunden), der **~11 %+EURIBOR** (real ~14–15 %) für ein unsecured Corporate Bond eines Non-Bank-Lenders akzeptiert.
+- **Yield-Chasing Retail-Investor** über Retail-Bond-Plattformen (Mintos war früher Investorenbasis, jetzt schrumpft).
+- **Family Office / Private Debt Fund** mit Emerging-Markets-Appetit, der die Struktur durchschaut und den Kupon als Prämie für Eigentümer-/Jurisdiktionsrisiko nimmt.
+
+### Was dieser Anleger akzeptieren muss
+
+1. **Letzte-Reihe-Position:** Unsecured, strukturell subordiniert hinter operativen Tochter-Darlehen und potenziell hinter Related-Party-Finanzierung.
+2. **Informationsasymmetrie:** Private Ownership, keine detaillierte Vintage-/Land-Disclosure, selektives Reporting.
+3. **Eigentümer-Extraktion:** >100 % Payout in schwierigen Phasen ist strukturell gläubigerfeindlich.
+4. **Hohe Refinanzierungsabhängigkeit:** Bond 2027, muss in einem möglicherweise schwierigen Umfeld refinanziert werden.
+
+**Fazit zum Anlegerprofil:** Wer hier zeichnet, muss den Bond als **kreditanaloge Spekulationsposition** sehen, nicht als klassischen Corporate Bond. Die richtige Benchmark ist nicht eine EUR-HY-Index-Performance, sondern eher ein **distressed emerging markets consumer finance loan** mit entsprechender Diversifikationsanforderung.
+
+---
+
+## 5. Turnaround-Bewertung
+
+**Klassifizierung:** Dies ist **kein echter Turnaround-Case**, sondern eher ein **"Phasen-Mid-Cycle-Restructuring"**. Der Unterschied ist wichtig:
+
+- **Echter Turnaround:** Unternehmen ist verlustträchtig, Cash-negativ, in Covenant-Bruch → Trades zu 40–70 % Par, massives Upside bei Gelingen.
+- **Sun Finance-Typ:** Unternehmen ist profitabel, Cash-positiv, Covenants intakt → Bond trades eher in der Range 90–100 % Par → begrenztes Upside, aber asymmetrisches Downside.
+
+Der 11 %+EURIBOR-Kupon **kompensiert das asymmetrische Risiko nicht ausreichend**, wenn man die versteckten Leichen ernst nimmt. Ein Turnaround-Spezialist findet hier **keine typische Turnaround-Prämie**, sondern eine **High-Yield-Position mit verdeckten Risiken**.
+
+---
+
+## 6. Meine persönliche Meinung
+
+Als Bankdirektor mit Schwerpunkt Turnaround-Analysen würde ich Ihnen Folgendes sagen:
+
+**Sun Finance ist kein schlechtes Unternehmen – aber ein schlecht kommuniziertes Unternehmen.** Das Management versucht mit exzellenter PR-Arbeit, einen strukturellen Markt-Exit (Central Asia) und eine Portfolio-Qualitätsverschlechterung als strategische Evolution zu verkaufen. Das ist nicht unüblich bei lettisch-estnischen FinTech-Holdings, die im nordisch-baltischen HY-Markt Bonds refinanzieren müssen.
+
+Die **operative Substanz** ist real: 36 % EBITDA-Marge, €31m Cash, 60 % Capitalisation, Interest Coverage 5,9x. Das sind keine Notlage-Kennzahlen.
+
+Aber die **qualitative Dynamik** ist beunruhigend: sinkende Revenues, steigende Coverage Ratios, Exit aus 37 % Kernmarkt, wegbrechende P2P-Finanzierung, Insider-Substitution, >100 % Dividenden-Payout in der Schrumpfungsphase. **Das ist ein Muster, das klassischerweise der Spätphase eines profitablen aber strukturell ausgelaugten Geschäftsmodells entspricht**.
+
+Die **Management-Glaubwürdigkeit** ist zudem beschädigt: Q1 2022 wurde Central Asia als Qualitäts-Portfolio beworben – zwei Jahre später musste man raus. Wenn heute Lateinamerika und Afrika als Wachstumshoffnungsträger positioniert werden, ist **historisch bedingte Skepsis angebracht**.
+
+---
+
+## 7. Fair Value & Risiko-Abschlag (Bond-Perspektive)
+
+Da Sun Finance über Unsecured Bonds zugänglich ist, bewerte ich den **Instrumentenwert**, nicht einen (nicht existenten) Aktienwert:
+
+### Fair-Value-Framework für die 2027er 11 %-Anleihe
+
+| Szenario | Wahrscheinlichkeit | Cash-Flow-Outcome | Recovery / Price |
+|---|---|---|---|
+| **Base Case** (erfolgreiche Transformation, Refi 2027) | 55 % | Full par + coupon | 100 % |
+| **Muddle-Through** (weitere Schrumpfung, Refi mit höherem Kupon) | 30 % | Par, aber Rating-Druck | 92 % |
+| **Stressed Case** (NPL-Escalation, Covenant-Druck, Distressed Exchange) | 12 % | 50–65 % Recovery | 57 % |
+| **Default** (regulatorischer Markt-Kollaps, strukturierte Insolvenz) | 3 % | 25–35 % Recovery | 30 % |
+
+**Erwarteter Fair Value (bond):** 
+55 % × 100 + 30 % × 92 + 12 % × 57 + 3 % × 30 = **~90,3 % Par**
+
+Bei aktuellem 11 %+EURIBOR-Kupon (Nominal ~14,5 % Yield) und angenommenem Handelspreis nahe Par:
+
+### **Fair Value: 88–92 % Par**
+### **Risiko-Abschlag vs. Par: 8–12 %**
+### **Implizite Yield-to-Maturity-Anforderung: ~16,5–18,5 %**
+
+Anders ausgedrückt: Der Bond ist **im besten Fall marginal fair bepreist, im realistischen Fall 8–12 % überbewertet**. Der Kupon reicht nicht, um das **fat-tail Downside-Risiko** aus verdeckter Portfolioqualität, regressiver Finanzierungsstruktur und Eigentümer-Extraktion zu kompensieren.
+
+---
+
+## 8. Handlungsempfehlung
+
+### Für konservative HY-Investoren
+**PASS.** Yield-Aufschlag rechtfertigt nicht das Informations- und Strukturrisiko. Bessere Baltic-HY-Alternativen verfügbar (z.B. gesicherte Produkte mit vergleichbarer Yield).
+
+### Für spezialisierte EM-Credit-Investoren
+**KLEINE POSITION / UNDERWEIGHT.** Kann als 1–2 % Satellite-Position in einem diversifizierten HY-EM-Portfolio funktionieren, aber nur mit Hedge-Overlay und aktivem Monitoring der quartalsweisen Coverage-Ratio-Entwicklung.
+
+### Für Distressed/Opportunistic-Investoren
+**WAITLIST.** Bei einem Kursrutsch unter 75 % Par (z.B. bei negativen Q3/Q4 2024-Überraschungen) wird das Instrument interessant als Distressed-Play mit ~30 %+ Yield.
+
+### Rote Linien für sofortigen Exit
+- Coverage Ratio > 45 %
+- Related Party Loans > €50m
+- Quartalsweise Nettoportfolio-Schrumpfung > 5 %
+- CEO/CFO-Wechsel **kombiniert mit** weiteren negativen Metriken (der CFO Elīna Zerne war 2022 noch die Signatarin – Teil 3 sollte klären, ob sie noch im Amt ist)
+
+
+
+### Schlusswort
+
+Sun Finance ist das klassische Beispiel eines **"gut aussehenden Bonds mit mittelmäßigem Credit"**. Die Zahlen sind nicht falsch, aber die Geschichte hinter den Zahlen ist systematisch beschönigt. Für einen professionellen Anleiheinvestor, der die baltische FinTech-Landschaft kennt, ist die korrekte Haltung **"respektvolle Skepsis"** – und eine Positionierung, die sich asymmetrisch vor negativen Überraschungen schützt, statt auf lineare Kupon-Ernte zu setzen.
+
+Ich wäre **kein Käufer zu aktuellen Kursen nahe Par**. Ich würde den Namen auf die Watchlist setzen und bei einem Pricing um **82–85 % Par** ernsthaft eine Position aufbauen – dann stimmt die Risikoprämie.
+
+*Hinweis: Alle Detailanalysen basieren auf den zur Verfügung gestellten Teildokumenten Q1 2022 und 6M 2024. Die 2,5-Jahres-Lücke dazwischen (insbesondere FY 2022, FY 2023 und 6M 2023) liegt mir nicht vor – entsprechende Zwischenentwicklungen (wann genau wurde Central Asia abgestoßen? Was war die operative Reaktion 2022/2023?) könnten das Bild verschieben. Die obige Bewertung ist entsprechend konditional auf den verfügbaren Informationsstand.* 
