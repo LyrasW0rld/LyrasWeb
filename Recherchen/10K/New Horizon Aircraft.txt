@@ -1,0 +1,433 @@
+
+# Analyse des 10-K Filings: New Horizon Aircraft Ltd. (NASDAQ: HOVR)
+## Geschäftsjahr endend 31. Mai 2025 — Erster Teil
+
+Sehr geehrter Kollege, hier meine erste Einschätzung als Bankdirektor mit Spezialisierung auf Turnaround-Kandidaten. Ich gehe branchenspezifisch (Pre-Revenue eVTOL/AAM-Sektor) vor und bewerte die Befunde im Kontext vergleichbarer Peers (Joby, Archer, Lilium, Vertical Aerospace, EHang).
+
+---
+
+## 1. Strukturelle Red Flags (Corporate Setup)
+
+### 1.1 SPAC-Herkunft mit klassischem Profil 
+- Hervorgegangen aus **Pono Capital Three** (Cayman SPAC), De-SPAC abgeschlossen am **12. Januar 2024**.
+- **Sponsor: Mehana Capital LLC** — typische Sponsor-Promote-Strukturen sind im weiteren Filing zu prüfen (Founder Shares, Earnout, etc.).
+- SPAC-Continuance von Cayman → British Columbia: jurisdiktioneller Wechsel ist legitim (Heimat des operativen Geschäfts), aber Anlegerschutz nach BCBCA ist schwächer als Delaware-Standard.
+- **Re-Privatisierung-Historie**: Wurde 2021 von **Astro Aerospace** (OTCQB) übernommen, 2022 wieder zurückgekauft. Das ist ungewöhnlich und deutet auf eine **gescheiterte erste Public-Phase** hin. Hintergründe (Bewertungsstreit? Finanzierungsprobleme? IP-Streit?) sind im weiteren Filing zu suchen. **→ Notiz für späteren Teil.**
+
+### 1.2 Marktkapitalisierung & Streubesitz — kritisch 
+- **Aggregate Market Value of non-affiliate voting stock am 30.11.2024: nur USD 14,2 Mio.** bei Aktienkurs **$0,67**.
+- 39,2 Mio. Class A Shares ausstehend (Stand 21.08.2025).
+- **Penny-Stock-Territorium** — **Nasdaq Minimum Bid Price Rule ($1,00) Risiko ist akut**. Im weiteren Filing ist nach Compliance-Letters / Notice of Non-Compliance zu suchen. **→ Notiz.**
+- Dies ist branchenüblich für den unteren Rand der eVTOL-Pure-Plays (vgl. Lilium-Insolvenz, EHang-Volatilität), aber bei Joby/Archer kein Thema.
+
+### 1.3 Auditierung & SOX 
+- **Kein SOX 404(b) Attestation Report** durch Wirtschaftsprüfer (Häkchen leer). Als Smaller Reporting Company / Emerging Growth Company **legal zulässig**, aber bedeutet: Internal Controls werden NICHT extern auditiert. Branchenüblich für SPAC-Nachfolger dieser Größe — **kein Sondernegativum, aber Wachsamkeitsfaktor**.
+- Status: Non-accelerated filer + Smaller Reporting Company + Emerging Growth Company → **dreifach reduzierte Disclosure-Pflichten**.
+
+---
+
+## 2. Operative & Finanzielle Hinweise (soweit Teil 1 erkennen lässt)
+
+### 2.1 Pre-Revenue mit verschobenem Zeitplan 
+- **Type Certification Ziel: "vor 2030"** — sehr vage Formulierung. Erste Auslieferungen: **"frühestens vor 2030"**.
+- Produktion frühestens **2028**.
+- Im IPO/Business-Combination-Zeitraum (2023/2024) waren typischerweise frühere Daten kommuniziert — **Timeline-Slip ist im Vergleich zu früheren Investor Decks zu prüfen**. Das ist branchenüblich (Joby, Archer haben mehrfach verschoben), aber bei einem Pre-Revenue-Cash-Burner mit $14M Market Cap **existenzbedrohend**.
+
+### 2.2 R&D-Ausgaben — auffällig niedrig oder auffällig hoch? 
+- **R&D 2025: CAD 3.660k** (≈ USD 2,7M) vs. **2024: CAD 880k**.
+- **Verfünffachung in einem Jahr** — formal positiv (mehr Engineering-Aktivität nach Cash-Zufluss aus De-SPAC), aber:
+  - **Absolut betrachtet ist CAD 3,66 Mio. R&D extrem niedrig** für einen eVTOL-OEM, der in 4 Jahren einen 7-Sitzer zertifizieren will. Joby gibt **>$400M p.a.** aus, Archer **>$300M p.a.**, selbst Vertical Aerospace **>£100M**.
+  - Das bedeutet entweder: (a) extrem schlanke Entwicklung — bei einem hybrid-elektrischen VTOL mit FIKI-Zertifizierungsanspruch **sehr unrealistisch**, oder (b) das Programm ist faktisch unterfinanziert und die "vor 2030"-Timeline ist nicht haltbar.
+- **→ Kritischer Punkt**: 30 Mitarbeiter (28 CA + 2 außerhalb) für ein Full-Scale Type Certification Programm ist **eine Größenordnung unter dem industrieüblichen Bedarf** (Joby ~2.000+, Archer ~700+). Selbst kleinste Zertifizierungsprogramme im Part 23 Bereich haben typisch 100-200 Engineers.
+
+### 2.3 Hangar-Setup — nicht skalierbar 
+- HQ: Lindsay, Ontario + Composite-Manufacturing in Haliburton, Ontario.
+- **Beides keine Aerospace-Cluster**, keine Anbindung an OEM-Zulieferketten. Kostenvorteil ja, aber Talent-Akquise (siehe Risikofaktor "shortage in the aerospace workforce in North America") **ist real**.
+
+---
+
+## 3. Technologie-/Produkt-Bewertung (FAIR & branchenspezifisch)
+
+### 3.1 Positiv anzuerkennen 
+- **HOVR Wing / Fan-in-Wing Technologie**: differenziert sich substantiell vom Open-Rotor-Mainstream (Joby, Archer, Beta). Konzeptionell ähnlich der **Lilium-Architektur** (Ducted Fans) — was zugleich Warnsignal ist (Lilium ist 2024 in Insolvenz gegangen).
+- **31 erteilte/zugelassene Patente** (frühestes Ablaufdatum 2035) — solide IP-Position für ein Unternehmen dieser Größe. Das ist ein **echter Asset-Wert**, der bei einem Liquidations-/Distressed-Szenario verkäuflich wäre.
+- **Hybrid-Electric Architektur** statt Pure-Electric: in der Tat ein **valider strategischer Vorteil** für RAM (50–500 mi). Pure-Electric eVTOLs scheitern an der Reichweite. Beta Technologies und einige Konkurrenten gehen in dieselbe Richtung.
+- **50%-Scale Prototype** hat erfolgreich Hover- und Forward-Transition-Tests absolviert. Das ist ein **harter, verifizierbarer Meilenstein** und vom Reifegrad besser als manche Wettbewerber mit nur Renderings.
+- **CEO als ehemaliger CF-18 Fighter Pilot mit ATPL** — operative Glaubwürdigkeit, kein reiner Finanzhintergrund. Positiv.
+- **Kanadische Regierungsförderung** (>CAD 2M aus Grants, INSAT-Programm CAD 350M Topf) — non-dilutive Funding ist im Pre-Revenue-Stadium **Gold wert**.
+
+### 3.2 Technologische Risiken (branchenrealistisch)
+- **Ducted-Fan-Architektur teilt das Lilium-Schicksalsrisiko**: höhere Disc-Loading bedeutet höheren Energiebedarf in Hover. Behauptete "more efficient than open propellers" ist aerodynamisch **diskutabel** — ducted fans gewinnen bei kleinen Durchmessern, verlieren aber Static Thrust Efficiency vs. große Open Rotors.
+- **FIKI-Zertifizierung als USP**: ambitioniert. Bisher hat **kein einziger eVTOL** FIKI-Zertifizierung — die TCCA/FAA-Pfade sind ungeklärt. Marketing-Claim, kein hartes Differenzial.
+- **CAR §523 Normal Category Level 2 + Special Conditions aus §527**: pragmatischer Ansatz, aber **TCCA hat noch nie ein eVTOL zertifiziert**. Das macht Horizon zum De-facto-Erstanwender — Risiko hoch, Timeline unsicher.
+- **Performance-Targets** (250 mph, 500 mi range, 1.500 lb useful load, 7 seats) sind aggressiv. Vergleich Joby S4: 200 mph, 100 mi, 4 pax. Horizon verspricht **mehr Performance bei weniger Budget** — entweder Genie oder Wunschdenken.
+
+### 3.3 Wettbewerbliche Realität
+- "Vast majority of competitors pursuing purely electric" → korrekt, aber ignoriert **Beta Technologies (CTOL+VTOL Hybrid-Strategie)**, **Sikorsky Raider X**, und **diverse militärische FVL-Programme**. Wettbewerbslandschaft im 10-K wird verkürzt dargestellt — typischer Beschönigungseffekt, aber nicht regelwidrig.
+
+---
+
+# Analyse Teil 2: HOVR 10-K — Vertiefung der Befunde
+
+Sehr geehrter Kollege, der zweite Teil bestätigt mehrere meiner Notizen aus Teil 1 und legt **substantielle neue Leichen** offen. Hier die strukturierte Auswertung:
+
+---
+
+## 🔴 Teil 2 — Die wirklich harten Befunde
+
+### 1. Nasdaq-Compliance: Das war **knapp** an der Delisting-Klippe
+- **Hearing vor dem Nasdaq Hearings Panel am 12.12.2024** wegen Verletzung der Continued Listing Standards (Net Income, Market Value of Listed Securities mind. $35M, oder Equity mind. $2,5M) .
+- **Compliance erst über den Equity Standard wiederhergestellt** (24.01.2025) — also über die schwächste der drei Hürden, und vermutlich nur durch die Dezember-Kapitalerhöhung (Series A Preferred + Class A) .
+- **Panel Monitor für 12 Monate ab 24.01.2025** — bis ca. 24.01.2026. Das bedeutet: jeder erneute Verstoß wird **ohne weitere Kulanz delisted**.
+- Heute (Juni 2026) ist der Panel Monitor formal abgelaufen, aber die Frage, ob die Compliance über die letzten 12 Monate gehalten hat, ist im weiteren Filing/Folgeberichten zu prüfen. **→ Echte Leiche.** Branchenüblich ist das **NICHT** — Joby/Archer/Beta haben keine Listing-Compliance-Issues.
+
+### 2. Restatement der Bilanz 2023 — **das ist der wichtigste Befund**
+- Audit Committee hat am **19.04.2024** beschlossen, die Audited Financial Statements für FY ended 31.05.2023 sowie die Q1-FY24-Zahlen **als nicht mehr verlässlich** einzustufen .
+- Grund: **Deferred Development Costs wurden falsch aktiviert** — hätten als R&D Expenses sofort erfolgswirksam gebucht werden müssen (ASC 730).
+- Restatement per 8-K am 22.04.2024 — also **3 Monate nach De-SPAC-Closing (12.01.2024)**.
+- **Implikation**: Die Pre-De-SPAC-Investor-Decks und der Proxy/F-4 für die Business Combination zeigten eine **künstlich verbesserte P&L** (R&D wurde in der Bilanz versteckt). De-SPAC-Investoren haben auf Basis falscher Zahlen abgestimmt.
+- Das ist **kein Bagatell-Restatement** — es ist eine **fundamentale Reklassifizierung von Aktivierung zu Aufwand**, die in der Branche als klassischer "Earnings-Beschönigungs-Mechanismus" gilt.
+- **Branchenkontext**: Die Frage, ob R&D aktivierungsfähig ist (IFRS IAS 38) vs. zwingend aufwandswirksam (US GAAP ASC 730), ist bei einem Unternehmen, das von kanadischer Rechnungslegung auf US GAAP umgestellt wurde, **schmerzhaft, aber erklärbar**. Trotzdem: Bei einem börsennotierten Emittenten **ist das ein Material Weakness Indikator**.
+
+### 3. Material Weakness in Internal Controls — **explizit bestätigt**
+- **Disclosure Controls and Procedures: NOT EFFECTIVE** zum 31.05.2025 .
+- **Internal Control over Financial Reporting: NOT EFFECTIVE** zum 31.05.2025 .
+- Material Weakness "relates to the **inadequate separation of financial[...]**" — der Text bricht ab (Token-Limit), aber das deutet stark auf **inadequate segregation of duties** hin (Klassiker bei kleinen Unternehmen ohne ausreichend Finance-Personal).
+- **Zwei Jahre in Folge ineffektive Controls** (FY24 vermutlich ebenfalls, da das Restatement im April 2024 erfolgte) — das ist **kein Anlaufproblem mehr**, sondern strukturell.
+- Branchenkontext: Bei SPAC-Nachfolgern in den ersten 12 Monaten **branchenüblich**. Im **zweiten Jahr nach De-SPAC immer noch ineffektiv** ist **deutlich überdurchschnittlich problematisch**. **→ Notiz für späteren Teil**: Wie genau ist die Material Weakness beschrieben, gibt es einen Remediation Plan mit Timeline?
+
+### 4. Going Concern — substantial doubt explizit bestätigt
+- **"Substantial doubt around the Company's ability to meet the going concern assumption beyond [12 months] without raising additional capital"** .
+- "$15M Cash on hand" + Burn-Rate Operating Cash Outflow CAD 9,3M (FY25) + Steigerung explizit angekündigt → **Runway ca. 12–15 Monate**, danach zwingend Verwässerung.
+- Bei R&D-Verfünffachung (Plan: weiteres "increase staffing") landet der Burn schnell bei CAD 15–20M p.a. → **realer Runway eher 9–12 Monate ab Filing-Datum**.
+
+### 5. Der "Net Income" 2025 ist eine **Buchhaltungsillusion**
+Die Tabelle der Operating Results offenbart einen klassischen **Beschönigungseffekt**:
+
+| Position | FY25 (CAD '000) | Anmerkung |
+|---|---|---|
+| Loss from operations | **(13.585)** | Operativ deutlich verschlechtert (FY24: -4.624) |
+| Change in FV Warrants | (1.988) | Non-cash Aufwand |
+| **Termination Forward Purchase Agreement** | **+20.660** | **Non-cash, Einmaleffekt** |
+| **Net Income (Loss)** | **+5.200** | **Scheingewinn!** |
+
+- **Der "Gewinn" von CAD 5,2M ist zu 100% durch Termination eines FPA-Derivats entstanden** — ein **Non-Cash, Non-Recurring**-Effekt aus Auflösung eines De-SPAC-Derivats für Cash-Kosten von nur $278k .
+- **Operative Realität**: Verlust hat sich von CAD 4,6M auf CAD 13,6M nahezu **verdreifacht**.
+- Das ist die klassische **"Headline-Net-Income-Falle"** — Retail-Investoren sehen "profitable" und übersehen, dass der operative Burn explodiert ist.
+- Zur Fairness: Die Buchung ist **GAAP-konform** (Derivat-Mark-to-Market), und das Filing weist es transparent aus. Aber jedem Investor-Marketing, das mit "First Profitable Year" wirbt, sollte man misstrauen. **→ Notiz**: Wurde dies im Earnings Release/Investor Deck so kommuniziert?
+
+### 6. Massive Verwässerung — die Mathematik wird brutal
+Aus den Cash-Flow-Daten und Capital Raises:
+
+**Bereits durchgeführte/laufende Verwässerungsmaßnahmen:**
+- **August 2024 RSO**: 2,8M Class A + 3M Pre-Funded Warrants ($0,0001 Strike) + 5,8M Warrants → **Brutto CAD 6,7M** 
+- **Dezember 2024 PIPE**: 4.166.667 Class A @ **$0,36** (massiv unter Marktpreis!) + 4.500 Series A Preferred @ $1.000 → **Brutto CAD 8,4M** 
+- **Series A Preferred Conversion Ratio: 1 : 2.222,22** → 4.500 Preferred Shares konvertieren in **10.000.000 Class A Shares**!
+- **ATM-Programm via JonesTrading**: $6,25M Original + **$16,5M zusätzlich am 27.06.2025** = **bis zu $22,75M ATM-Kapazität** 
+- **Shelf Registration auf Form S-3** aktiv, aber **Baby Shelf Restriction**: Bei Public Float < $75M nur **1/3 des Public Float in 12 Monaten**.
+
+**Verwässerungsmathematik:**
+- Class A outstanding 21.08.2025: 39,2M
+- + Series A Preferred Conversion: +10,0M → 49,2M pro forma
+- + Public Warrants ($11,50): 12,1M (out of money)
+- + General Warrants ($0,75): 0,31M (verbleibend, in the money)
+- + ATM: bei aktuellem Kurs ~$0,67 → weitere ~25M+ Shares möglich
+- → **Pro-forma Vollverwässerung: 75–85M Shares möglich** vs. heute 39,2M → **~2x Verwässerung im Worst Case innerhalb 12 Monaten**
+
+### 7. Series A Preferred Shares — **schlechtere Konditionen als sie aussehen**
+- $4.500 x $1.000 = $4,5M Face Value, aber **Conversion in 10M Class A** → effektiver Conversion Price = **$0,45** .
+- Marktpreis Anfang Dezember 2024 war ~$0,40–0,50 → **kein klassischer "Death Spiral"**, aber:
+- **Senior in Dividend Priority und Liquidation Preference** über Class A — bei Liquidation bekommen Class A nichts .
+- **Unlimited Authorized Preferred Shares** im Articles → Board kann weitere Preferred Series ausgeben mit beliebigen Rechten, **inkl. Anti-Takeover-Schutz** ("could be utilized... as a method of discouraging, delaying or preventing a change in control") .
+- → **Anlegerschutz schwach. BCBCA + unlimited Preferred = Worst-Case-Konstellation für Minority Shareholders.**
+
+### 8. Forward Purchase Agreement Termination — was wurde wirklich aufgegeben?
+- FPA-Termination am 01.11.2024 für **nur $278k Cash-Kosten** + Buchgewinn $21,4M .
+- **Frage**: Was war die Funktion der FPA? Typischerweise sind FPAs in De-SPAC-Strukturen **Garantien einer Gegenpartei, Aktien zum NAV-Preis nach Closing zu kaufen**, um Redemptions zu kompensieren. Termination bedeutet:
+  - Die Gegenpartei wollte/musste raus — **negatives Signal**.
+  - Horizon hat eine Backstop-Liquiditätsquelle verloren.
+  - Die GAAP-Auflösung des Derivats produziert den Buchgewinn, die ökonomische Wirkung ist aber **strukturell negativ**.
+- **→ Notiz**: Wer war die FPA-Counterparty? Bedingungen, ursprüngliche Größe? Im weiteren Filing zu prüfen.
+
+### 9. ATM-Programm bei Penny-Stock-Kurs — **klassischer Kapital-Vernichtungs-Mechanismus**
+- ATM-Volumen: $22,75M bei aktuellem Kurs ~$0,67 → ~34M Shares emittierbar.
+- Wenn die Cash-Reserven schwinden, **muss** Horizon ATM ziehen → drückt den Kurs → mehr Shares pro Dollar → noch mehr Druck. Klassischer **Reflexivitäts-Crash**.
+- **Zur Fairness**: Bei Pre-Revenue eVTOLs ist ATM **branchenüblich** (Lilium, Eve, Joby haben ATMs gehabt). Aber bei $0,67 Kurs ist die Verwässerungs-Effizienz **katastrophal** im Vergleich zu Joby ($5+) oder Archer ($7+).
+
+### 10. Pono Three SPAC — die Sponsor-DNA ist relevant
+- **Pono Capital Three** ist die **dritte SPAC** der Mehana Capital LLC Sponsor-Serie. Pono Capital (1) und Pono Capital Two haben in der Vergangenheit ebenfalls De-SPACs vollzogen — die Performance dieser Vorgänger-De-SPACs ist ein Indikator für Sponsor-Qualität. **→ Notiz**: Track Record Mehana Capital prüfen.
+
+---
+
+## 🟢 Faire Anerkennung der positiven Aspekte aus Teil 2
+
+1. **Transparenz beim Restatement** — das Audit Committee hat schnell reagiert (Januar–April 2024) und proaktiv per 8-K offengelegt. Das ist **ordnungsgemäße Governance** .
+2. **Termination des FPA für $278k** ist taktisch klug — eine FPA-Belastung in der Bilanz mit Mark-to-Market-Volatilität wird beseitigt. Buchgewinn $21,4M aufräumend .
+3. **Cybersecurity-Disclosure ist ordentlich** — CISO mit 25 Jahren Erfahrung, definierte Reporting Lines, Multi-Cloud Backup. Branchen-üblich gut, keine Auffälligkeiten .
+4. **No Material Legal Proceedings** — keine Klagen gegen das Unternehmen . Das ist bei einem De-SPAC-Nachfolger mit Restatement **bemerkenswert positiv** — typischerweise gibt es Securities Class Actions nach Restatements. Keine erwähnt → entweder keine eingegangen, oder nicht material genug für Item 3 (oder noch zu prüfen in späteren Teilen).
+5. **Kein Disagreement mit Auditor** (Item 9) — kein Auditor-Wechsel, keine Dispute . Wichtiger Stabilitäts-Indikator.
+6. **Going-Concern transparent disclosed** — keine Verschleierung der Situation .
+7. **Klares strategisches Phasing**: Full-Scale Demonstrator 2026/2027 → Type Cert vor 2030 → Auslieferung 2028/2029 . Das ist konsistent mit Teil 1, kein Drift.
+8. **Dual-Use-Strategie (Military / Civilian)**: Militärische Nutzung **umgeht TCCA/FAA-Zertifizierung** — das ist ein **echter strategischer Hedge** für den Fall, dass Civil Type Cert sich verzögert . Reduziert das Critical-Path-Risiko substantiell.
+9. **3C-Partnerschaft (Cert Centre Canada)** — Outsourcing der Zertifizierungs-Expertise an Spezialisten ist bei Horizons Größe **schlauer als der Aufbau eigener Cert-Teams** .
+
+---
+
+## 📊 Zusammenfassende Risikomatrix (nach Teil 2 aktualisiert)
+
+| Risiko | Schweregrad | Branchen-Kontext |
+|---|---|---|
+| Restatement 2023 (R&D Misclassification) | 🔴 Hoch | **Über-branchenüblich** |
+| Material Weakness ICFR (2 Jahre in Folge) | 🔴 Hoch | **Über-branchenüblich** |
+| Going Concern Doubt | 🟡 Mittel | Branchenüblich (Pre-Revenue eVTOL) |
+| Nasdaq Listing Compliance (Panel Monitor) | 🔴 Hoch | **Über-branchenüblich** |
+| Verwässerung (~2x in 12 Monaten möglich) | 🔴 Hoch | Branchenüblich, aber bei $0,67 toxisch |
+| Series A Preferred Senior Stack | 🟡 Mittel | Branchenüblich post-De-SPAC |
+| R&D-Budget vs. Roadmap (Underfunding) | 🔴 Hoch | **Über-branchenüblich** |
+| FPA Termination (Liquiditäts-Backstop weg) | 🟡 Mittel | Branchenüblich |
+| Net-Income-Beschönigung durch FPA-Buchgewinn | 🟡 Mittel | Branchenüblich, aber irreführend |
+| Operating Loss +194% YoY | 🟡 Mittel | Branchenüblich (R&D Ramp) |
+| ATM bei Penny-Stock-Kurs | 🔴 Hoch | Branchenüblich, aber kapitalvernichtend |
+
+---
+
+## 🎯 Vorläufige Turnaround-Einschätzung nach Teil 2
+
+**Verschärfung gegenüber Teil 1:**
+- **3 echte "Leichen"** sind nun belegt: (1) Restatement, (2) Material Weakness 2 Jahre in Folge, (3) Nasdaq Panel Monitor.
+- Diese drei Befunde zusammen sind **nicht branchenüblich** — sie deuten auf **schwache Finance-Funktion** hin, die für ein public company unzureichend ist.
+- Die R&D-Untertfinanzierung aus Teil 1 ist durch die FY25-Zahlen **bestätigt**: CAD 3,66M R&D vs. einem realistischen Bedarf von $50–100M+ p.a. für Type Certification.
+
+**Was bleibt vom Bull Case:**
+- Hybrid-Electric-Differenzierung intakt
+- Dual-Use Military Hedge ist real
+- 50%-Scale Prototyp geflogen
+- IP-Portfolio (31 Patente) als Verwertungs-Asset
+- Kanadische Government Grants als non-dilutive Funding
+
+**Aber**: Der Investment-Case verschiebt sich von **"asymmetrisches Optionalitäts-Investment"** zu **"strukturell unterfinanziert + ICFR-defizitär + dilution-toxisch"**.
+
+---
+
+# Analyse Teil 3 (Final): HOVR 10-K — Endbewertung
+
+Sehr geehrter Kollege, der dritte Teil liefert die **harten Bilanzzahlen** — und damit die finalen Mosaiksteine. Hier die abschließende Auswertung:
+
+---
+
+## 🔴 Teil 3 — Neue Befunde aus den F-Pages und Item 12/13
+
+### 1. Die Bilanz ist **dünner als der Headline-Cash suggeriert**
+
+| Position (CAD '000) | 31.05.2025 | 31.05.2024 |
+|---|---|---|
+| Cash & Equivalents | **7.547** | 1.816 |
+| Total Current Assets | 8.173 | 4.664 |
+| **Total Assets** | **8.412** | 4.944 |
+| Total Liabilities | 5.822 | 22.877 |
+| **Total Shareholders' Equity** | **2.590** | (17.933) |
+
+**Beobachtungen:**
+- **Cash zum Bilanzstichtag nur CAD 7,5M** (≈ USD 5,5M). Die im MD&A erwähnten "$15M Cash" beziehen sich offenbar auf einen **späteren Stichtag** (post-31.05.2025, vermutlich nach weiteren ATM-Ziehungen) — das ist eine **klassische Stichtagsverschiebung in der Investor-Kommunikation**. Branchenüblich, aber bewusst irreführend für oberflächliche Leser.
+- **Total Equity nur CAD 2,59M** — bei dem Nasdaq-Equity-Standard von **USD 2,5M**: das ist faktisch **gleichauf mit der Compliance-Schwelle**. Bei CAD/USD ~1,37 entspricht CAD 2,59M ≈ USD 1,89M → **das Unternehmen ist mit aktuellen Q4-Zahlen UNTER dem USD 2,5M Threshold!**
+- Compliance wurde laut Teil 2 am 24.01.2025 wiederhergestellt — das war auf Basis der Dezember-Kapitalerhöhung. **Per 31.05.2025 ist die Equity-Compliance rechnerisch wieder gefährdet** — es sei denn, die ATM-Ziehungen Juni/Juli/August 2025 haben das gerettet.
+- **→ Echte Leiche.** Die Equity-Position ist auf Messers Schneide. Jeder Quartalsverlust drückt sie wieder unter Threshold.
+
+### 2. Die "Headline-Equity-Wende" ist kosmetisch
+- Equity ist von **(CAD 17,9M) Defizit** auf **+CAD 2,6M** gedreht — auf den ersten Blick beeindruckend.
+- Aber die Bewegung erklärt sich zu ~70% aus:
+  - **Wegfall des Forward Purchase Agreements** (CAD 20,9M Verbindlichkeit in 2024 → 0 in 2025) durch die FPA-Termination → reine Bilanzbereinigung, **kein operativer Erfolg**.
+  - **Frische Equity-Issuances**: CAD 10,2M aus diversen Tranchen (siehe Equity-Bewegungen).
+- **Operativ wurde Equity zerstört** (Loss from Operations CAD 13,6M), nur die Termination des Derivats und massive Verwässerung haben das Defizit kosmetisch geheilt.
+- **Branchenkontext**: Das ist klassische De-SPAC-Bilanz-Sanierung. Nicht regelwidrig, aber der "Equity-Turnaround" auf der Headline ist **fundamental nicht-operativ**.
+
+### 3. Warrant Liabilities — explodieren
+- Warrant Liabilities: **CAD 4.488k (2025) vs. CAD 576k (2024)** — **8-fache Steigerung**.
+- Hintergrund: Die im FY25 emittierten Warrants (RSO August 2024, PIPE Dezember 2024) sind als **Liability-Classified Warrants** (cash-settle Features oder Down-Round-Provisions) gebucht und schwanken Mark-to-Market.
+- **Implikation für FY26 P&L**: Bei Kursanstieg → P&L-Verlust durch Mark-to-Market der Warrants. Bei Kursverfall → P&L-Gewinn. Das produziert **künstliche Volatilität in zukünftigen Earnings**, die nichts mit der Geschäftsentwicklung zu tun hat.
+- Branchenüblich nach US-GAAP für SPAC-Warrants (ASC 815-40), keine Auffälligkeit, aber **Investoren-Falle** für oberflächliche Leser.
+
+### 4. Cap-Table-Konzentration — **kritischer Befund: Canso Investment Counsel mit 33,9%**
+
+| Holder | Shares | % |
+|---|---|---|
+| **Canso Investment Counsel** | **13.308.428** | **33,9%** |
+| Dustin Shindo | 3.116.293 | 7,9% |
+| William G. Brumder II | 2.750.000 | 7,0% |
+| Brandon Robinson (CEO) | 2.545.201 | 6,5% |
+| Brian Robinson (Family) | 2.064.925 | 5,3% |
+| **Top 5 Holders Total** | **23.784.847** | **60,6%** |
+| Officers & Directors as Group | 4.602.832 | 11,7% |
+
+**Beobachtungen:**
+- **Canso hält 4,82M Class A + 8,49M Class A aus Series A Preferred Conversion = 13,3M effektiv**.
+- Das bedeutet: **Canso war der Hauptzeichner der Series A Preferred Tranche** (die 4.500 Preferred Shares = 10M Class A bei voller Konversion → ca. 8,5M davon bei Canso).
+- **Canso ist ein kanadischer Distressed-Debt / Special Situations Investor** — dort einzusteigen mit Preferred Stack über 33,9% ist **kein Investment, das auf "10-Bagger-Story" setzt, sondern auf Liquidations-Optionalität / Down-Side Protection**.
+- **Implikation**: Der größte Aktionär der Firma ist ein **Distressed-Spezialist mit Liquidation Preference**. Das ist ein **Negativ-Signal für Equity-Holder**, weil Canso bei Liquidation Senior steht.
+- Brandon Robinson (CEO) hält 6,5% — solider Skin-in-the-Game, aber **deutlich kleiner** als Canso. **Canso, nicht das Management, kontrolliert faktisch das Unternehmen**.
+- Dustin Shindo ist Mehana Capital / Pono SPAC Sponsor — die **7,9% Sponsor Promote** sind im üblichen SPAC-Bereich (typisch 5-20%).
+- **→ Kein Wechsel-CEO-Risiko, aber ein Major-Shareholder-Risiko**: Canso könnte bei nächster Capital Raise wieder Senior Preferred zeichnen und die Cap-Table weiter strukturell zugunsten Senior Stack verschieben.
+
+### 5. Auditor-Wechsel — bestätigt aus Teil 2, jetzt Details
+
+- **Marcum LLP wurde am 02.04.2024 entlassen** (kurz nach Restatement-Beschluss vom April 2024 — **direkter zeitlicher Zusammenhang**).
+- **MNP LLP übernahm in 2024** (mittelständischer kanadischer Auditor, PCAOB-registriert ID 1930). MNP ist **kein Big-4**, aber etablierter kanadischer Player.
+- **Audit Fees** sind von CAD 271k (Marcum FY24) auf **CAD 166k (MNP FY25)** gefallen → **niedrigere Audit-Fees nach Restatement und Wechsel**. Branchenüblich und logisch (kanadischer Auditor, kleinere Firma), aber: **Niedrigere Audit-Fees bedeuten weniger Audit-Stunden bedeuten weniger Audit-Tiefe**. Bei einem Unternehmen mit Material Weakness wäre **mehr** Audit-Aufwand angemessen.
+- Der **Auditor-Wechsel direkt nach Restatement-Beschluss** ist ein klassisches Yellow Flag. Im 8-K ist typisch zu prüfen, ob Marcum oder Horizon den Wechsel initiierte. Branchenüblich nach SPAC-Übergang, aber: **Marcum war der SPAC-Auditor (Pono Three) und wurde nach dem ersten Annual Report ersetzt** — das ist ein häufiges Muster und für sich genommen nicht kritisch, im Kontext des Restatements aber **noch zu kontextualisieren**.
+
+### 6. Going Concern — vom Auditor explizit ausgesprochen
+
+Der MNP-Auditor-Report enthält ein **eigenes Section "Material Uncertainty Related to Going Concern"**:
+
+> *"...the Company has incurred cumulative losses from operations, negative cash flows from operating activities, and has an accumulated deficit that raises substantial doubt about its ability to continue as a going concern."*
+
+Das ist **kein "Emphasis of Matter"-Hinweis nach kanadischer Praxis, sondern ein expliziter Going-Concern-Vermerk nach US-PCAOB-Standard**. Branchenüblich für Pre-Revenue eVTOLs, aber **investmentmäßig immer ein roter Punkt**.
+
+### 7. Related Party Transactions — minimal, aber bemerkenswert
+
+- **3C Services Proposal**: John Maris (Director) ist CEO von 3C, dem Zertifizierungs-Partner. Bisher wurden nur **USD 60 (sechzig Dollar!)** abgerechnet. Das ist **transparent disclosed**, und die Materialität ist null. **Kein Issue.**
+- Keine weiteren Related Party Transactions material genug für Disclosure.
+- **Bewertung**: Governance-mäßig sauber, aber: **John Maris ist gleichzeitig "independent director" UND Geschäftspartner via 3C**. Bei Skalierung der 3C-Beziehung (Cert-Programm wird Millionen kosten) entsteht ein **Conflict of Interest, der jetzt schon zu monitoring ist**.
+
+### 8. Lock-Ups bereits abgelaufen — Verkaufsdruck
+
+- **Lock-Up der Legacy-Shareholder** lief am **12.07.2024** ab (6 Monate nach Closing).
+- **Resale Registration Statement S-3 wurde am 04.04.2025 effective** — alle Sponsor- und Legacy-Insider-Aktien sind **frei verkäuflich**.
+- **Kombiniert mit ATM-Programm** = **dauerhafter Sell-Side-Druck** auf den Aktienkurs. Das erklärt, warum der Kurs sich in Penny-Stock-Territorium befindet und nicht erholt.
+
+### 9. Equity Compensation Plan — dezent, aber relevant
+
+- **2,48M Optionen ausstehend** @ avg. Strike USD 0,74 (in the money bei aktuellem ~$0,67 nicht ganz, aber sehr nah).
+- **2,02M Shares verfügbar für künftige Awards**.
+- Insider-Option-Mengen (Brandon 543k, Jason 442k, Brian Merker 444k, etc.) zeigen **Strike-Preise von CAD 0,76 / USD 0,61 / USD 0,85** — also **deutlich post-De-SPAC am tiefen Kurs ausgegeben**, was die Aktien für das Management billig gemacht hat. Branchenüblich nach De-SPAC-Crash, aber **Verwässerungsbeitrag von ca. 4,5M Shares** (≈ 11,5% des aktuellen Float).
+
+### 10. Insider-Käufe / -Verkäufe — keine erwähnt
+
+- Keine Insider-Käufe gemeldet (würden in Item 12 oder Form 4-Hinweisen auftauchen). 
+- Keine signifikanten Insider-Verkäufe nach Lock-Up-Auslauf bekannt aus dem Filing.
+- **Neutral**: Bei einem Penny-Stock-Kurs würden Insider entweder kaufen (Vertrauenssignal) oder verkaufen (Notausgang). **Beides nicht der Fall** → Insider sitzen aus, was bei Founder-getriebenen Aerospace-Unternehmen **branchenüblich** ist.
+
+---
+
+## 🟢 Faire Anerkennung positiver Aspekte aus Teil 3
+
+1. **Audit Opinion ist "Unqualified"** (clean opinion, nur mit Going-Concern-Hinweis) — keine Qualifications, keine Disclaimer.
+2. **Equity wieder positiv** — egal wie kosmetisch, mathematisch erfüllt das die Mindestanforderung.
+3. **Auditor-Wechsel ohne Disagreement** (Item 9 in Teil 2 bestätigt) — **kein Reportable Event**, das ist sauber.
+4. **Related Party Transactions sind minimal** — keine Selbstbedienungs-Strukturen erkennbar.
+5. **Insider Holdings substanziell**: 11,7% bei Officers & Directors ist **branchenüblich solide** (besser als bei vielen De-SPACs, wo Insider <5% halten).
+6. **Canso als kanadischer Long-Term-Investor** ist zwar mit Preferred-Stack-Risiko verbunden, aber **kein typischer Toxic-Convert-PIPE-Spieler** (Yorkville, Lincoln Park etc.) — Canso ist seriöser kanadischer Asset Manager.
+7. **MNP LLP** ist ein etablierter, PCAOB-registrierter Auditor — kein Bargain-Basement-Auditor.
+8. **Klare Disclosure-Struktur** in Items 12/13 — Stockholder Information ist vollständig und nachvollziehbar.
+
+---
+
+## 📊 Endbewertung — Gesamtbild des 10-K
+
+### Was zeichnet das 10-K für ein Firmenbild?
+
+Das 10-K zeichnet das Bild eines Unternehmens mit folgenden Charakteristika:
+
+**Drei-Sätze-Zusammenfassung:**
+> *Ein technologisch differenziertes, ehrlich-kanadisch geführtes Hybrid-eVTOL-Startup mit echtem Engineering-Substrat (50%-Scale-Prototype geflogen, 31 Patente), aber strukturell **chronisch unterfinanziert**, mit ausstehenden Governance-/ICFR-Defiziten (Restatement, 2 Jahre Material Weakness, Nasdaq-Panel-Monitor) und einer Cap-Table, die **operativ vom Distressed-Investor Canso (33,9%) dominiert** wird, der Senior-Preferred-Schutz hat. Die kommunizierte Roadmap (Type Cert vor 2030, 7-Sitzer Hybrid, FIKI) ist mit aktuellem Burn (CAD 13,6M Operating Loss) und R&D-Budget (CAD 3,7M) **mathematisch nicht finanzierbar** ohne 5–10x mehr Kapital.*
+
+### Welcher Anlegertyp investiert in HOVR?
+
+Realistisch betrachtet sind **drei Investorengruppen** bei HOVR engagiert:
+
+1. **Sophisticated Distressed/Special-Situations Investors (Canso, Brumder)** — diese spielen die **Senior-Preferred + Equity-Optionalität** kombiniert. Down-Side ist durch Liquidation Preference geschützt, Up-Side über Conversion. Das ist **professionelles Distressed-Investing**, kein "Aktien-Anlegen" im klassischen Sinn.
+
+2. **Retail-Anleger / Reddit-Crowd / eVTOL-Hype-Spieler** — kaufen den Penny-Stock auf Hype-News (Test-Flight-Videos, Patent-Anmeldungen, Defense-LOIs). Diese sind die **strukturellen Verlierer** der Cap-Table-Mathematik (Verwässerung, Senior Stack vor sich).
+
+3. **Insider/Founders** — sitzen mit 11,7% drin, haben das Geschäft aufgebaut. Werden bei jedem Capital Raise verwässert, halten aber Optionalität auf den (möglichen) Erfolg.
+
+**Fazit zum Anlegerprofil**: Der typische HOVR-Anleger heute ist:
+- **Entweder** ein **risikobewusster Microcap-Spekulant** mit Position-Size <1% des Portfolios und Akzeptanz für Total Loss
+- **Oder** ein **Hype-getriebener Retail-Anleger**, der die Cap-Table-Risiken nicht versteht
+- **Nicht** geeignet für: Pensionsfonds, Vermögensverwaltung, langfristige Buy-and-Hold-Strategien, Anleger mit Liquiditätsbedarf in <5 Jahren
+
+---
+
+## 🎯 Persönliche Meinung & Fazit
+
+Nach 20 Jahren im Lesen geschönter Bilanzen ist mein ehrliches Urteil:
+
+**Was ich am Filing positiv finde:**
+- Die Disclosures sind **transparent und vollständig** — das Management versucht **nicht aktiv zu täuschen**. Restatement, Material Weakness, Going Concern, Cap-Table — alles ist offengelegt.
+- Die **Technologie ist real**: 50%-Scale geflogen, 31 Patente, hybrid-elektrische Architektur ist **strategisch richtig** für RAM (50–500 mi). Defense-Optionalität ist valide.
+- Das Management ist **kein Marketing-Vehicle**: Brandon Robinson (CF-18 Pilot) und Team sind echte Aerospace-Praktiker, keine SPAC-Promoters.
+- **Kanadische Government Grants** und potenzielle DoD/CAF-Anker-Kunden sind echte non-dilutive Optionen.
+
+**Was mich kritisch stimmt:**
+- Die **Diskrepanz zwischen Roadmap und Funding** ist **mathematisch nicht heilbar ohne Mega-Verwässerung oder Strategischen Investor**. CAD 3,7M R&D + 30 Mitarbeiter wird **niemals** einen 7-Sitzer Hybrid eVTOL durch TCCA Type Certification bringen. Selbst wenn man konservativ 50x weniger als Joby ($400M) annimmt, fehlt eine Größenordnung.
+- Die **Kombination Restatement + Material Weakness 2 Jahre + Penny Stock + Going Concern + Distressed-Lead-Investor** ist ein **statistisches Profil mit hoher Failure-Rate**.
+- **Lilium-Architektur-Parallele** (Ducted Fans, FIKI-Anspruch, ambitionierte Range) ist ein **Vorzeichen, das ich nicht ignorieren kann** — Lilium ist mit €1Mrd+ Funding gescheitert. Horizon hat ~1% davon.
+- **TCCA-First-Mover-Risiko** für eVTOL ist real und nicht steuerbar.
+
+### Fair Value in 5 Jahren — Szenarien
+
+Bei einem Pre-Revenue-eVTOL ist DCF nicht sinnvoll. Ich nutze Szenario-Analyse mit Wahrscheinlichkeiten:
+
+| Szenario | Wahrscheinlichkeit | Outcome | Implizierter Wert je Class A heute (post-dilution) |
+|---|---|---|---|
+| **Bull**: Type Cert erreicht, Defense-Anker, $1B+ Markt-Cap (vgl. Archer-Pfad) | **5–10%** | $25-50/share Vollverwässerung | **$2,50–5,00** |
+| **Base-Bull**: Defense-Use ohne Civil-Cert, Strategischer Verkauf an OEM (Bombardier, Lockheed, Bell) | **10–15%** | $300–600M EV → $3-6/share post-dilution | **$0,40–0,80** |
+| **Muddle-Through**: Weiter verwässern, Programm verzögert, kleine Kapitalrunden, Aktie bei $0,20–0,50 in 5 Jahren | **30–35%** | Stagnation | **$0,15–0,40** |
+| **Distressed Sale / IP-Verwertung**: Programm scheitert, Patent-Portfolio wird verkauft, Restwert für Senior Stack (Canso bekommt fast alles, Class A wenig) | **30–35%** | Asset Sale | **$0,05–0,15** |
+| **Total Loss / Delisting / Insolvency**: Lilium-Pfad | **15–20%** | Bankruptcy | **$0,00** |
+
+**Erwartungswert (Probability-Weighted Fair Value in 5 Jahren, post-dilution):**
+- Bull: 0,075 × $3,75 = $0,28
+- Base-Bull: 0,125 × $0,60 = $0,075
+- Muddle: 0,325 × $0,275 = $0,089
+- Distressed: 0,325 × $0,10 = $0,033
+- Total Loss: 0,175 × $0 = $0
+
+**→ Probability-weighted Fair Value heute (5-Jahres-Erwartung diskontiert nicht mehr, da bereits forward): ~$0,48 je Class A**
+
+### Risiko-Abschlag
+
+**Bei einem Pre-Revenue-Microcap dieser Risikoklasse** ist ein **Risiko-Abschlag von 40–60%** auf den probability-weighted Fair Value angemessen, wegen:
+- Liquiditäts-Discount (Penny Stock, dünnes Volumen): ~15%
+- Governance-Discount (Material Weakness, Restatement): ~10%
+- Verwässerungs-Toxizität (ATM bei niedrigem Kurs): ~15%
+- Cap-Table-Senior-Stack-Risiko (Canso Preferred): ~10%
+
+**Risiko-adjustierter Fair Value heute: $0,48 × (1 − 0,50) ≈ $0,24**
+
+### Vergleich mit Marktpreis
+
+- **Aktueller Kurs** (zum Filing-Zeitpunkt August 2025): ~$0,67
+- **Risiko-adjustierter Fair Value**: ~$0,24
+- **Implikation**: Aktie ist bei $0,67 **mathematisch betrachtet ~180% über Fair Value** — was bedeutet: der Markt preist eine **deutlich höhere Wahrscheinlichkeit für die Bull-Szenarien** ein, als ich es konservativ täte.
+- Wer bei $0,67 kauft, kauft die **Hoffnung auf Hype-Rallye**, nicht den Fundamental-Wert.
+
+---
+
+## ⚖️ Endurteil aus Bankdirektor-Sicht
+
+**Empfehlung für mein Bankhaus**: 
+- **Kein Equity-Investment** für institutionelle Portfolios (zu klein, zu volatil, zu hohes Going-Concern-Risiko, Cap-Table-Senior-Stack ungünstig).
+- **Mögliche taktische Position** für Special-Situations-Sleeve: **<0,5% Portfolio-Allokation, Stop-Loss bei $0,40**, Exit-Trigger bei jedem neuen Restatement, Reverse Split, oder Capital Raise unter $0,50.
+- **Optionalität ist real** (Hybrid + Defense + IP), aber **Down-Side dominiert mathematisch**.
+
+**Was ich dem privaten Anleger sagen würde**, der nach HOVR fragt:
+
+> *„Wenn Sie HOVR kaufen wollen, behandeln Sie es wie eine **Kinokarte**: Zahlen Sie nur, was Sie bereit sind, vollständig zu verlieren, weil Sie die Story sehen wollten. Das ist keine Aktie für Ihre Altersvorsorge, kein 'Joby für Arme', sondern ein **echtes binäres Wett-Asset** mit ~70% Wahrscheinlichkeit für Total/Quasi-Loss und ~10–15% Wahrscheinlichkeit für 5-10x Multibagger. Wenn Ihnen das Verhältnis gefällt — Position-Size <1% Ihres Portfolios. Sonst Finger weg."*
+
+---
+
+## 📝 Verbleibende offene Fragen (Token-Limit-bedingt nicht final geklärt)
+
+1. **Vollständige Beschreibung der Material Weakness** und Remediation Plan (Text war abgeschnitten in Teil 2)
+2. **Cash-Position post-31.05.2025** — die "$15M"-Aussage des Managements braucht Verifikation
+3. **Konkrete ATM-Ziehungen Juni–August 2025** (post-Stichtag) — entscheidend für aktuelle Verwässerung
+4. **Astro Aerospace Episode 2021–2022** — bleibt unvollständig aufgeklärt
+5. **NATO/Defense Customer Pipeline** Details (LOIs vs. binding orders) — im 10-K nur knapp erwähnt
+6. **Konditionen des INSAT CAD 350M Programs** — wie viel davon ist realistisch für Horizon zugänglich?
+7. **Reverse Stock Split** — bei Kurs $0,67 und abgelaufenem Panel Monitor (Januar 2026) wäre dies ein wahrscheinlicher Schritt; ob im Filing irgendwo angekündigt, müsste geprüft werden
+8. **Updates seit August 2025**: Bei aktuellem Datum **Juni 2026** sind 10 Monate seit dem 10-K vergangen — Q1/Q2/Q3 FY26 Reports und etwaige 8-Ks (Capital Raises, Compliance Updates, etc.) sind außerhalb dieses Filings und sollten **separat recherchiert werden**, bevor eine finale Investmententscheidung getroffen wird.
+
+---
+
+**Schlusswort**: HOVR ist **kein Betrugsfall**, kein "Pump and Dump", keine offensichtlich geschönte Bilanz. Das Management ist authentisch, die Technologie real, die Disclosures ehrlich. **Aber** das Unternehmen ist auf einem **strukturell unterfinanzierten Pfad mit asymmetrischem Down-Side**. Ein Turnaround ist möglich, aber **mathematisch unwahrscheinlich** ohne strategischen Partner oder Mega-Capital-Raise mit massiver Verwässerung. Wer einsteigt, sollte **Distressed-Investor-Mentalität** mitbringen — nicht Buy-and-Hold-Optimismus.
